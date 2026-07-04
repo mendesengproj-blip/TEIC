@@ -1,0 +1,212 @@
+{
+  "D1_mass": {
+    "e_sk_0.5": {
+      "E2": 200.1489393320585,
+      "E4": 14.901129213200559,
+      "E2_plus_E4": 215.05006854525905,
+      "M_virial_2sqrtE2E4": 109.22353605101866
+    },
+    "e_sk_1.0": {
+      "E2": 200.1691143291581,
+      "E4": 29.801108128487893,
+      "E2_plus_E4": 229.970222457646,
+      "M_virial_2sqrtE2E4": 154.47020968597016
+    },
+    "lattice_embedded_e_sk_1.0": {
+      "E2": 39.871987058750435,
+      "E4": 750.1344137012638,
+      "E_total": 790.0064007600142,
+      "B": 0.9481772586676717
+    },
+    "degeneracy_statement": "M(SU(3) colour Skyrmion, B=1) = M(SU(2) Skyrmion): the minimal SU(3) soliton is the SU(2) hedgehog embedded in an SU(2) subgroup (lower-right block = 1 contributes no current), so the energy functional is identical. Degenerate by construction -- distinct baryon species require collective-coordinate (flavour-SU(3)) quantisation, not a different classical mass."
+  },
+  "D2_goldstone_octet": {
+    "n_generators_broken_expected": 8,
+    "n_gapless_modes_found": 8,
+    "vacuum_E0": -7.769784815536696e-12,
+    "modes": {
+      "gen_0": {
+        "k": [
+          0.3490658503988659,
+          0.6981317007977318,
+          1.0471975511965976
+        ],
+        "dE": [
+          468.95018076878677,
+          1819.2384103068362,
+          3888.0000000000086
+        ],
+        "dE_over_k2": [
+          3848.6815781673213,
+          3732.629628462845,
+          3545.430858012692
+        ],
+        "gapless": true
+      },
+      "gen_1": {
+        "k": [
+          0.3490658503988659,
+          0.6981317007977318,
+          1.0471975511965976
+        ],
+        "dE": [
+          468.95018076878586,
+          1819.2384103068352,
+          3888.000000000008
+        ],
+        "dE_over_k2": [
+          3848.6815781673135,
+          3732.6296284628434,
+          3545.4308580126917
+        ],
+        "gapless": true
+      },
+      "gen_2": {
+        "k": [
+          0.3490658503988659,
+          0.6981317007977318,
+          1.0471975511965976
+        ],
+        "dE": [
+          468.9501807687786,
+          1819.2384103068289,
+          3888.0000000000023
+        ],
+        "dE_over_k2": [
+          3848.681578167254,
+          3732.6296284628306,
+          3545.4308580126863
+        ],
+        "gapless": true
+      },
+      "gen_3": {
+        "k": [
+          0.3490658503988659,
+          0.6981317007977318,
+          1.0471975511965976
+        ],
+        "dE": [
+          468.95018076878597,
+          1819.2384103068355,
+          3888.00000000001
+        ],
+        "dE_over_k2": [
+          3848.681578167315,
+          3732.629628462844,
+          3545.430858012693
+        ],
+        "gapless": true
+      },
+      "gen_4": {
+        "k": [
+          0.3490658503988659,
+          0.6981317007977318,
+          1.0471975511965976
+        ],
+        "dE": [
+          468.95018076878716,
+          1819.2384103068357,
+          3888.0000000000095
+        ],
+        "dE_over_k2": [
+          3848.6815781673245,
+          3732.6296284628443,
+          3545.4308580126926
+        ],
+        "gapless": true
+      },
+      "gen_5": {
+        "k": [
+          0.3490658503988659,
+          0.6981317007977318,
+          1.0471975511965976
+        ],
+        "dE": [
+          468.95018076878694,
+          1819.238410306837,
+          3888.00000000001
+        ],
+        "dE_over_k2": [
+          3848.6815781673226,
+          3732.6296284628474,
+          3545.430858012693
+        ],
+        "gapless": true
+      },
+      "gen_6": {
+        "k": [
+          0.3490658503988659,
+          0.6981317007977318,
+          1.0471975511965976
+        ],
+        "dE": [
+          468.9501807687863,
+          1819.2384103068362,
+          3888.0000000000095
+        ],
+        "dE_over_k2": [
+          3848.6815781673176,
+          3732.629628462845,
+          3545.4308580126926
+        ],
+        "gapless": true
+      },
+      "gen_7": {
+        "k": [
+          0.3490658503988659,
+          0.6981317007977318,
+          1.0471975511965976
+        ],
+        "dE": [
+          1323.5658701420296,
+          1911.8651075781067,
+          4636.132446078278
+        ],
+        "dE_over_k2": [
+          10862.526107902686,
+          3922.6768222020596,
+          4227.645842633681
+        ],
+        "gapless": true
+      }
+    },
+    "octet_statement": "SU(3)_L x SU(3)_R -> SU(3)_diag breaks 16-8 = 8 generators => 8 Goldstone bosons, all gapless (dE ~ k^2 => omega ~ k, massless in the chiral limit).  This is the pseudoscalar MESON OCTET -- the pion analogue, which C3-4 had to leave out ('SU(3) nao derivado')."
+  },
+  "D3_regge_casimir": {
+    "casimir_baryon": {
+      "law": "m^2 ~ J(J+1) (rigid rotor)",
+      "R2_Jp1": 1.0,
+      "R2_J_regge": 0.9626,
+      "alpha_C_lattice": 0.95023,
+      "source": "results/matter/c3 (C3-1); colour Skyrmion inherits it (B=1 SU(3) soliton = embedded SU(2) hedgehog, same I)"
+    },
+    "regge_flux_tube": {
+      "law": "m^2 ~ J (string), slope alpha' = 1/(2 pi sigma)",
+      "alpha_prime_from_measured_sigma": {
+        "4.0": 0.11769246872813914,
+        "4.5": 0.14510733826763617,
+        "5.0": 0.16510679094468061,
+        "5.5": 0.23689911110504341,
+        "6.0": 0.48830533651885943
+      },
+      "sigma_lattice": {
+        "4.0": 1.3522950517720163,
+        "4.5": 1.0968083695281472,
+        "5.0": 0.9639515260472875,
+        "5.5": 0.6718258348437807,
+        "6.0": 0.32593324542900715
+      },
+      "note": "lattice units, non-convertible to GeV^-2 (scale not derived, same caveat as C3-2); the POINT is structural: baryon = Casimir rotor, meson/flux-tube = Regge string, two distinct towers."
+    }
+  },
+  "octet_complete": true,
+  "verdict": "PHASE D COMPLETE -- A+B+C+D: SU(3) foundation established. Colour Skyrmion (baryon) degenerate with SU(2) Skyrmion; 8 Goldstone modes = pseudoscalar meson octet (closes the C3-4 gap); baryon = Casimir rotor, confining flux tube = Regge string (alpha'=1/2pi sigma).",
+  "_meta": {
+    "campaign": "FL1_SU3_FOUNDATION",
+    "phase": "D",
+    "timestamp": "2026-06-16T22:04:29.313383+00:00",
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

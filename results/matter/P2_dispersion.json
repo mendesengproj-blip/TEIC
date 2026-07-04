@@ -1,0 +1,56 @@
+{
+  "params": {
+    "rho": 20.0,
+    "T": 10.0,
+    "X": 18.0,
+    "eps": 0.2,
+    "ks": [
+      0.3,
+      0.45,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "n_seeds": 20
+  },
+  "lambda_space_mean": [
+    -0.041992214715250845,
+    -0.09919502596462096,
+    -0.07185058518573714,
+    -0.03936065274428691,
+    -0.07142925982067469
+  ],
+  "lambda_space_sem": [
+    0.06208414991934743,
+    0.053836483979323946,
+    0.0621886701187906,
+    0.08497652421002856,
+    0.06695782682525495
+  ],
+  "lambda_time_mean": [
+    0.04004779854212483,
+    -0.024821816216012427,
+    0.018470712397712502,
+    0.1997771539414747,
+    0.17435546540441244
+  ],
+  "lambda_time_sem": [
+    0.1305792835600828,
+    0.05290580419112616,
+    0.059508572498052054,
+    0.0712535153794127,
+    0.04132103861660292
+  ],
+  "fit_slope": 0.003950963326770679,
+  "fit_intercept": -0.06657706437143844,
+  "effective_m2": {
+    "mean": -0.06657706437143843,
+    "std": 0.26610862056988566,
+    "sem": 0.059503696499296314,
+    "n": 20
+  },
+  "lorentzian": false,
+  "massless": true,
+  "verdict": "C",
+  "statement": "Dispersion NOT resolved (honest negative).  The smeared-operator eigenvalue is dominated by the discreteness bias (the same const-annihilation offset ~-0.07 that e10 documents) and by the Benincasa-Dowker rho^(3/4) variance, so the k^2-dependent signal does not emerge: the fitted slope is 0.004 (~0) and lambda_space/lambda_time do not separate by sign at this size.  The effective m^2 intercept = -0.067 +/- 0.060 is formally consistent with 0 (no positive mass^2 appears) but is uninformative -- there is no resolvable dispersion to read a mass from.  This reproduces e10's known difficulty (BD validate via the SUMMED action, not pointwise <B phi>); omega^2=k^2 is neither confirmed nor refuted here."
+}

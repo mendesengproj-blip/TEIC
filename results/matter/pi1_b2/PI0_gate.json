@@ -1,0 +1,227 @@
+{
+  "g1_constant": {
+    "classes": [
+      0,
+      0,
+      0
+    ],
+    "stable": true,
+    "value": 0,
+    "details": [
+      {
+        "class": 0,
+        "n_segments": 48,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9999999999514623,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 48,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9999999999250648,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 48,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9999999999529541,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "g1b_translation": {
+    "classes": [
+      0,
+      0,
+      0
+    ],
+    "stable": true,
+    "value": 0,
+    "details": [
+      {
+        "class": 0,
+        "n_segments": 190,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9739997188740892,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 184,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9827318939890548,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 186,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9894835192296044,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "g4_rotation_N33": {
+    "classes": [
+      1,
+      1,
+      1
+    ],
+    "stable": true,
+    "value": 1,
+    "details": [
+      {
+        "class": 1,
+        "n_segments": 202,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9681252716306736,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 182,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9745310342869375,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 198,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9810606064150331,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "g4_rotation_N41": {
+    "classes": [
+      1,
+      1,
+      1
+    ],
+    "stable": true,
+    "value": 1,
+    "details": [
+      {
+        "class": 1,
+        "n_segments": 218,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9805597224013565,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 198,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9837329771646292,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 210,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9872336212430068,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "gate": {
+    "g1_zero": true,
+    "g1b_zero": true,
+    "g2_stability_all": true,
+    "g3_engineering_all": true,
+    "g4_refinement_stable": true,
+    "MACHINERY_VALID": true
+  },
+  "_meta": {
+    "campaign": "MATTER_PI1_B2",
+    "timestamp": "2026-06-11T23:27:46.242240+00:00",
+    "numpy": "2.4.4"
+  }
+}

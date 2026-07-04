@@ -1,0 +1,72 @@
+{
+  "n_seeds": 20,
+  "grid": [
+    29,
+    20,
+    20
+  ],
+  "rows": [
+    {
+      "rho_sprinkle": 2.0,
+      "mean_events_per_cell_<N>": 16.038189655172413,
+      "frac_empty_cells_mean": 0.0,
+      "frac_empty_cells_std": 0.0,
+      "rho_mean": 1.0,
+      "rho_mean_std": 5.695323946259567e-17,
+      "rho_std_mean": 0.2495307348645897,
+      "rho_std_expected_1_over_sqrtN": 0.249702176359085,
+      "deg_min": 5.0,
+      "deg_max": 6.0,
+      "argPhi_chi2_reduced_vs_uniform_mean": 1.1385314009661838,
+      "argPhi_chi2_reduced_std": 0.3457079950867545,
+      "max_abs_|Phi|_minus_rho": 4.440892098500626e-16
+    },
+    {
+      "rho_sprinkle": 4.0,
+      "mean_events_per_cell_<N>": 31.99655172413793,
+      "frac_empty_cells_mean": 0.0,
+      "frac_empty_cells_std": 0.0,
+      "rho_mean": 1.0,
+      "rho_mean_std": 0.0,
+      "rho_std_mean": 0.17687424848423108,
+      "rho_std_expected_1_over_sqrtN": 0.17678622067290248,
+      "deg_min": 5.0,
+      "deg_max": 6.0,
+      "argPhi_chi2_reduced_vs_uniform_mean": 1.1288792270531398,
+      "argPhi_chi2_reduced_std": 0.36894779645042436,
+      "max_abs_|Phi|_minus_rho": 2.220446049250313e-16
+    },
+    {
+      "rho_sprinkle": 8.0,
+      "mean_events_per_cell_<N>": 64.04094827586206,
+      "frac_empty_cells_mean": 0.0,
+      "frac_empty_cells_std": 0.0,
+      "rho_mean": 1.0,
+      "rho_mean_std": 7.204078273071459e-17,
+      "rho_std_mean": 0.1248443923513515,
+      "rho_std_expected_1_over_sqrtN": 0.12496003062813818,
+      "deg_min": 5.0,
+      "deg_max": 6.0,
+      "argPhi_chi2_reduced_vs_uniform_mean": 1.3213623188405799,
+      "argPhi_chi2_reduced_std": 0.42720855013915066,
+      "max_abs_|Phi|_minus_rho": 2.220446049250313e-16
+    },
+    {
+      "rho_sprinkle": 16.0,
+      "mean_events_per_cell_<N>": 127.94163793103448,
+      "frac_empty_cells_mean": 0.0,
+      "frac_empty_cells_std": 0.0,
+      "rho_mean": 1.0,
+      "rho_mean_std": 7.641078898631252e-17,
+      "rho_std_mean": 0.08855150138782282,
+      "rho_std_expected_1_over_sqrtN": 0.08840850503718033,
+      "deg_min": 5.0,
+      "deg_max": 6.0,
+      "argPhi_chi2_reduced_vs_uniform_mean": 1.2084830917874396,
+      "argPhi_chi2_reduced_std": 0.32185021793966034,
+      "max_abs_|Phi|_minus_rho": 2.220446049250313e-16
+    }
+  ],
+  "phi_well_defined": true,
+  "timestamp_utc": "2026-06-09T21:34:30Z"
+}

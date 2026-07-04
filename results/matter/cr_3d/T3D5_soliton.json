@@ -1,0 +1,78 @@
+{
+  "mass": {
+    "rest_mass": 7.995563833154227,
+    "m2": 63.92904101004392,
+    "dispersion": [
+      {
+        "v": 0.0,
+        "E": 7.995557608139262,
+        "P": 1.7347234759768317e-18,
+        "E2_minus_P2": 63.92894146507364
+      },
+      {
+        "v": 0.2,
+        "E": 8.155166679282878,
+        "P": -1.5981620350095824,
+        "E2_minus_P2": 63.95262167673976
+      },
+      {
+        "v": 0.4,
+        "E": 8.633825397733176,
+        "P": -3.1959095162329634,
+        "E2_minus_P2": 64.32910336259403
+      },
+      {
+        "v": 0.6,
+        "E": 9.431145761500423,
+        "P": -4.792689896729339,
+        "E2_minus_P2": 65.9766339284559
+      }
+    ],
+    "E2_minus_P2_constant": true,
+    "rel_spread": 0.03203070828264953,
+    "sine_gordon_comparison": 8.0,
+    "mass_err": 0.0005545208557216075
+  },
+  "gravitational_field": {
+    "amplitude_A": 7.829751018374596,
+    "tail_exponent": -0.9904185745776201,
+    "is_one_over_r": true
+  },
+  "topology_stability": {
+    "winding_core_initial": 1.0,
+    "winding_core_after": 0.3785725610147373,
+    "T_ticks": 8.0,
+    "survived": false,
+    "topology": "vortex (S^1, pi_1(U(1))=Z)",
+    "monopole_points_on_line": 0.0,
+    "hedgehog_S2": false,
+    "skyrmion": false
+  },
+  "lorentz": {
+    "per_axis": {
+      "y": {
+        "E": 200.1878183736461,
+        "P": -24.95023990531816,
+        "E2_minus_P2": 39452.648153867
+      },
+      "z": {
+        "E": 200.1878183736461,
+        "P": -24.950239905318163,
+        "E2_minus_P2": 39452.648153867
+      }
+    },
+    "isotropy_spread": 0.0,
+    "isotropic": true
+  },
+  "five_fold": {
+    "rest_mass_sineGordon": true,
+    "E2_pc2_mc2": true,
+    "theta_M_over_r": true,
+    "stability_T_ticks": false,
+    "lorentz_isotropy": true
+  },
+  "n_consistencies": 4,
+  "consistency": "PARCIAL",
+  "t3d4_grade": "n/a",
+  "topology_final": "vortex (S^1, pi_1(U(1))=Z)"
+}

@@ -1,0 +1,21 @@
+{
+  "betas": [
+    0.7,
+    0.85,
+    1.0,
+    1.1,
+    1.25,
+    1.5
+  ],
+  "peak_per_plaq_4D_small_3^4": 0.0013608840463655704,
+  "peak_per_plaq_4D_large_4^4": 0.0006528004556466323,
+  "peak_beta_4D_small": 0.85,
+  "peak_beta_4D_large": 1.0,
+  "growth_4D": 0.47968852114184635,
+  "peak_per_plaq_3D_small_4^3": 0.006725898368836361,
+  "peak_per_plaq_3D_large_6^3": 0.0012564312847953656,
+  "growth_3D": 0.1868049762120832,
+  "G3_status": "INCONCLUSIVE",
+  "G3_corrected_pass": false,
+  "runtime_s": 100.75498294830322
+}

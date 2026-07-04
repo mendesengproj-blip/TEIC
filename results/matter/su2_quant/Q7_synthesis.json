@@ -1,0 +1,25 @@
+{
+  "Q1_zero_modes": "SIM",
+  "Q2_inertia_spherical": "SIM",
+  "Q2_I": 312.736557290485,
+  "Q3_rotor_spectrum": "SIM",
+  "Q3_degeneracies": [
+    1,
+    4,
+    9,
+    16
+  ],
+  "Q4_FR_selects_half": "SIM",
+  "Q4_FR_phase_2pi": -1,
+  "Q5_2pi_flips_sign": true,
+  "Q5_ground_multiplicity": 4,
+  "Q6_gravity_M_tot": 306.46410089953184,
+  "triple_verification": {
+    "spectrum_+_FR": true,
+    "2pi->-psi": true,
+    "2_spin_states (mult 4)": true,
+    "all_three": true
+  },
+  "VERDICT": "A",
+  "verdict_text": "A -- spin-1/2 derived from the quantised collective coordinate. The Skyrmion's orientation is a rigid rotor on SU(2) with a spherical moment of inertia (Q1-Q2); its quantum spectrum is E_j = j(j+1)/(2I) with degeneracies (2j+1)^2 (Q3); the Finkelstein-Rubinstein phase (-1)^{B W} for B=1, implemented via the antipodal-crossing count W (a 2pi rotation ends at -q, W=1, phase -1), projects onto ODD wavefunctions and selects HALF-INTEGER j, ground state j=1/2 (Q4). Triple-verified: (i) spectrum + FR select j=1/2, (ii) a 2pi rotation sends psi -> -psi to 5e-16, (iii) the ground level is 4-fold = (2j+1)^2 = 2 spin x 2 isospin. The quantised soliton gravitates with M_tot = M_Sk + 3/(8I) (Q6). HONEST SCOPE: the FR phase is the established topological theorem for B=1 (not re-derived ab initio from the lattice action); it is implemented, not fitted -- W is computed from the path and B=1 from SU4. The j(j+1) law and degeneracies are measured independently (transfer matrix + Monte Carlo); the FR spectrum uses the exact odd-sector projection (a direct (-1)^W Monte Carlo has a sign problem)."
+}

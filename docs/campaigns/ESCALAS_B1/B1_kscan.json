@@ -1,0 +1,156 @@
+{
+  "K_definition": "global action rescaling S -> K*S",
+  "K_list": [
+    0.3,
+    0.5381884571241646,
+    0.9654893846056296,
+    1.7320508075688767,
+    3.107232505953858,
+    5.574255561017864,
+    10.0
+  ],
+  "e_sk": 0.5,
+  "beta0": 5.0,
+  "M_Sk_at_K1": {
+    "E2": 164.33837818716555,
+    "E4": 17.88359227815341,
+    "M0_energy": 173.28017432624225,
+    "M0_bogomolny": 108.42436167489755
+  },
+  "G_net_scan": [
+    {
+      "K": 0.3,
+      "A": 3.270701059669562,
+      "G_net": 3.270701059669562,
+      "exterior_exponent": -0.9917425402038839
+    },
+    {
+      "K": 0.5381884571241646,
+      "A": 1.8231723570289033,
+      "G_net": 1.8231723570289033,
+      "exterior_exponent": -0.9917425402038735
+    },
+    {
+      "K": 0.9654893846056296,
+      "A": 1.0162828649861928,
+      "G_net": 1.0162828649861928,
+      "exterior_exponent": -0.9917425402038949
+    },
+    {
+      "K": 1.7320508075688767,
+      "A": 0.5665020411716272,
+      "G_net": 0.5665020411716272,
+      "exterior_exponent": -0.9917425402038906
+    },
+    {
+      "K": 3.107232505953858,
+      "A": 0.31578271533293,
+      "G_net": 0.31578271533293,
+      "exterior_exponent": -0.9917425402039007
+    },
+    {
+      "K": 5.574255561017864,
+      "A": 0.17602535570177075,
+      "G_net": 0.17602535570177075,
+      "exterior_exponent": -0.9917425402038881
+    },
+    {
+      "K": 10.0,
+      "A": 0.09812103179007318,
+      "G_net": 0.09812103179007318,
+      "exterior_exponent": -0.9917425402038889
+    }
+  ],
+  "sigma_curve_beta": {
+    "4.0": 1.3522950517720163,
+    "4.5": 1.0968083695281472,
+    "5.0": 0.9639515260472875,
+    "5.5": 0.6718258348437807,
+    "6.0": 0.32593324542900715
+  },
+  "sigma_window_analysis": {
+    "beta": [
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0
+    ],
+    "K_window": [
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2
+    ],
+    "sigma": [
+      1.3522950517720163,
+      1.0968083695281472,
+      0.9639515260472875,
+      0.6718258348437807,
+      0.32593324542900715
+    ],
+    "sigma_runs_exponent_in_K": -3.224892567135872,
+    "combos": {
+      "sigma * G_net": {
+        "values": [
+          1.6586073220561013,
+          1.1957774321566188,
+          0.9458391833138076,
+          0.5992749463463886,
+          0.26650755280152605
+        ],
+        "cv": 0.5142037966947176,
+        "max_over_min": 6.223490871537521,
+        "invariant_lt5pct": false
+      },
+      "M_Sk / sqrt(sigma)": {
+        "values": [
+          119.20737747568661,
+          148.9107351676955,
+          176.49047769821718,
+          232.54832253436845,
+          364.22167870089913
+        ],
+        "cv": 0.41511900443144917,
+        "max_over_min": 3.0553618946544256,
+        "invariant_lt5pct": false
+      }
+    }
+  },
+  "fitted_exponents": {
+    "M_Sk": 0.9999999999999991,
+    "G_net": -1.0000000000000282,
+    "sigma(window)": NaN
+  },
+  "individuals_scale_with_K": true,
+  "combinations": {
+    "M_Sk * G_net  (= Poisson amplitude A; definitional)": {
+      "exponent_in_K": -2.879773400846309e-14,
+      "cv": 5.45229216683211e-14,
+      "invariant_lt5pct": true
+    },
+    "M_Sk * sqrt(G_net)  (= M_Sk / M_Pl, THE hierarchy)": {
+      "exponent_in_K": 0.49999999999998423,
+      "cv": 0.563195605933114,
+      "invariant_lt5pct": false
+    },
+    "M_Sk^2 * G_net": {
+      "exponent_in_K": 0.9999999999999685,
+      "cv": 1.0280344485404498,
+      "invariant_lt5pct": false
+    },
+    "sigma * G_net": {
+      "exponent_in_K": NaN,
+      "cv": NaN,
+      "invariant_lt5pct": false
+    },
+    "M_Sk / sqrt(sigma)": {
+      "exponent_in_K": NaN,
+      "cv": NaN,
+      "invariant_lt5pct": false
+    }
+  },
+  "verdict": "DEATH (well-understood): the only <5%-flat combination is the definitional M_Sk*G_net (= Poisson amplitude A, G_net:=A/M); the hierarchy combination M_Sk*sqrt(G_net) (= M_Sk/M_Pl) SCALES as K^0.50; sigma RUNS (not a power of K). The overall action normalisation does NOT fix a mass ratio between domains -> hierarchy stays [EXTERNO-B]; feeds B5.",
+  "death_criterion": "(a)+(b): non-trivial combos scale; the invariant one is definitional"
+}

@@ -1,0 +1,306 @@
+{
+  "verdict": "CRITERIO C: REDSHIFT CAUSAL DETECTADO. Cadeia cresce monotonicamente com rho_k, seguindo sqrt(rho_k/rho_0) em 88% dos pontos (dz < 0.06). Mecanismo: mais eventos no diamante causal = mais ticks de tempo proprio = pulsos mais espacados. E uma APLICACAO da escala chain~sqrt(rho) de R2, nao um resultado novo. Sem constante de Hubble, energia escura, ou fator de escala.",
+  "depends_on": "R2 (chain ~ sqrt(N) ~ sqrt(rho), Myrheim-Meyer); not independent",
+  "cosmology_comparison": "future work, NOT a result",
+  "params": {
+    "rho_0": 2.0,
+    "tau": 30.0,
+    "alphas": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.8
+    ],
+    "n_pulses": 6,
+    "n_trials": 10,
+    "seed": 42
+  },
+  "results_by_alpha": {
+    "0.1": [
+      {
+        "k": 0,
+        "rho_k": 2.0,
+        "chain_mean": 56.0,
+        "chain_std": 1.7888543819998317,
+        "z_measured": 0.02564102564102555,
+        "z_predicted": 0.0,
+        "delta_z": 0.02564102564102555
+      },
+      {
+        "k": 1,
+        "rho_k": 2.2,
+        "chain_mean": 56.7,
+        "chain_std": 2.051828452868319,
+        "z_measured": 0.03846153846153855,
+        "z_predicted": 0.04880884817015163,
+        "delta_z": 0.010347309708613084
+      },
+      {
+        "k": 2,
+        "rho_k": 2.4,
+        "chain_mean": 59.6,
+        "chain_std": 2.244994432064365,
+        "z_measured": 0.09157509157509147,
+        "z_predicted": 0.09544511501033215,
+        "delta_z": 0.003870023435240677
+      },
+      {
+        "k": 3,
+        "rho_k": 2.6,
+        "chain_mean": 62.3,
+        "chain_std": 3.579106033634656,
+        "z_measured": 0.14102564102564097,
+        "z_predicted": 0.14017542509913805,
+        "delta_z": 0.0008502159265029174
+      },
+      {
+        "k": 4,
+        "rho_k": 2.8,
+        "chain_mean": 65.4,
+        "chain_std": 3.2924155266308657,
+        "z_measured": 0.19780219780219777,
+        "z_predicted": 0.18321595661992318,
+        "delta_z": 0.014586241182274584
+      },
+      {
+        "k": 5,
+        "rho_k": 3.0,
+        "chain_mean": 66.5,
+        "chain_std": 1.857417562100671,
+        "z_measured": 0.21794871794871784,
+        "z_predicted": 0.22474487139158894,
+        "delta_z": 0.0067961534428711
+      }
+    ],
+    "0.2": [
+      {
+        "k": 0,
+        "rho_k": 2.0,
+        "chain_mean": 56.0,
+        "chain_std": 1.7888543819998317,
+        "z_measured": 0.02564102564102555,
+        "z_predicted": 0.0,
+        "delta_z": 0.02564102564102555
+      },
+      {
+        "k": 1,
+        "rho_k": 2.4,
+        "chain_mean": 58.3,
+        "chain_std": 2.8301943396169813,
+        "z_measured": 0.06776556776556775,
+        "z_predicted": 0.09544511501033215,
+        "delta_z": 0.027679547244764402
+      },
+      {
+        "k": 2,
+        "rho_k": 2.8,
+        "chain_mean": 65.6,
+        "chain_std": 3.4409301068170506,
+        "z_measured": 0.20146520146520142,
+        "z_predicted": 0.18321595661992318,
+        "delta_z": 0.018249244845278234
+      },
+      {
+        "k": 3,
+        "rho_k": 3.2,
+        "chain_mean": 71.5,
+        "chain_std": 2.9068883707497264,
+        "z_measured": 0.30952380952380953,
+        "z_predicted": 0.26491106406735176,
+        "delta_z": 0.04461274545645777
+      },
+      {
+        "k": 4,
+        "rho_k": 3.6,
+        "chain_mean": 72.9,
+        "chain_std": 2.1656407827707715,
+        "z_measured": 0.3351648351648353,
+        "z_predicted": 0.34164078649987384,
+        "delta_z": 0.006475951335038532
+      },
+      {
+        "k": 5,
+        "rho_k": 4.0,
+        "chain_mean": 79.3,
+        "chain_std": 2.0999999999999996,
+        "z_measured": 0.45238095238095233,
+        "z_predicted": 0.41421356237309515,
+        "delta_z": 0.03816739000785718
+      }
+    ],
+    "0.3": [
+      {
+        "k": 0,
+        "rho_k": 2.0,
+        "chain_mean": 56.0,
+        "chain_std": 1.7888543819998317,
+        "z_measured": 0.02564102564102555,
+        "z_predicted": 0.0,
+        "delta_z": 0.02564102564102555
+      },
+      {
+        "k": 1,
+        "rho_k": 2.6,
+        "chain_mean": 62.4,
+        "chain_std": 2.2891046284519194,
+        "z_measured": 0.1428571428571428,
+        "z_predicted": 0.14017542509913805,
+        "delta_z": 0.0026817177580047424
+      },
+      {
+        "k": 2,
+        "rho_k": 3.2,
+        "chain_mean": 69.2,
+        "chain_std": 1.8867962264113207,
+        "z_measured": 0.26739926739926734,
+        "z_predicted": 0.26491106406735176,
+        "delta_z": 0.0024882033319155727
+      },
+      {
+        "k": 3,
+        "rho_k": 3.8,
+        "chain_mean": 76.5,
+        "chain_std": 3.138470965295043,
+        "z_measured": 0.401098901098901,
+        "z_predicted": 0.3784048752090221,
+        "delta_z": 0.0226940258898789
+      },
+      {
+        "k": 4,
+        "rho_k": 4.4,
+        "chain_mean": 81.5,
+        "chain_std": 2.7658633371878665,
+        "z_measured": 0.4926739926739927,
+        "z_predicted": 0.48323969741913264,
+        "delta_z": 0.009434295254860059
+      },
+      {
+        "k": 5,
+        "rho_k": 5.0,
+        "chain_mean": 86.6,
+        "chain_std": 2.33238075793812,
+        "z_measured": 0.586080586080586,
+        "z_predicted": 0.5811388300841898,
+        "delta_z": 0.004941755996396235
+      }
+    ],
+    "0.5": [
+      {
+        "k": 0,
+        "rho_k": 2.0,
+        "chain_mean": 56.0,
+        "chain_std": 1.7888543819998317,
+        "z_measured": 0.02564102564102555,
+        "z_predicted": 0.0,
+        "delta_z": 0.02564102564102555
+      },
+      {
+        "k": 1,
+        "rho_k": 3.0,
+        "chain_mean": 66.4,
+        "chain_std": 3.0724582991474434,
+        "z_measured": 0.21611721611721624,
+        "z_predicted": 0.22474487139158894,
+        "delta_z": 0.008627655274372703
+      },
+      {
+        "k": 2,
+        "rho_k": 4.0,
+        "chain_mean": 77.4,
+        "chain_std": 2.90516780926679,
+        "z_measured": 0.41758241758241765,
+        "z_predicted": 0.41421356237309515,
+        "delta_z": 0.0033688552093225077
+      },
+      {
+        "k": 3,
+        "rho_k": 5.0,
+        "chain_mean": 87.9,
+        "chain_std": 3.047950130825634,
+        "z_measured": 0.6098901098901099,
+        "z_predicted": 0.5811388300841898,
+        "delta_z": 0.028751279805920182
+      },
+      {
+        "k": 4,
+        "rho_k": 6.0,
+        "chain_mean": 96.7,
+        "chain_std": 3.348133808556641,
+        "z_measured": 0.771062271062271,
+        "z_predicted": 0.7320508075688772,
+        "delta_z": 0.039011463493393794
+      },
+      {
+        "k": 5,
+        "rho_k": 7.0,
+        "chain_mean": 108.4,
+        "chain_std": 3.8262252939417984,
+        "z_measured": 0.9853479853479854,
+        "z_predicted": 0.8708286933869707,
+        "delta_z": 0.11451929196101474
+      }
+    ],
+    "0.8": [
+      {
+        "k": 0,
+        "rho_k": 2.0,
+        "chain_mean": 56.0,
+        "chain_std": 1.7888543819998317,
+        "z_measured": 0.02564102564102555,
+        "z_predicted": 0.0,
+        "delta_z": 0.02564102564102555
+      },
+      {
+        "k": 1,
+        "rho_k": 3.6,
+        "chain_mean": 72.9,
+        "chain_std": 1.972308292331602,
+        "z_measured": 0.3351648351648353,
+        "z_predicted": 0.34164078649987384,
+        "delta_z": 0.006475951335038532
+      },
+      {
+        "k": 2,
+        "rho_k": 5.2,
+        "chain_mean": 90.5,
+        "chain_std": 3.52845575287547,
+        "z_measured": 0.6575091575091574,
+        "z_predicted": 0.61245154965971,
+        "delta_z": 0.045057607849447345
+      },
+      {
+        "k": 3,
+        "rho_k": 6.800000000000001,
+        "chain_mean": 102.8,
+        "chain_std": 3.655133376499413,
+        "z_measured": 0.8827838827838828,
+        "z_predicted": 0.8439088914585775,
+        "delta_z": 0.03887499132530525
+      },
+      {
+        "k": 4,
+        "rho_k": 8.4,
+        "chain_mean": 115.7,
+        "chain_std": 3.4655446902326914,
+        "z_measured": 1.119047619047619,
+        "z_predicted": 1.0493901531919199,
+        "delta_z": 0.06965746585569921
+      },
+      {
+        "k": 5,
+        "rho_k": 10.0,
+        "chain_mean": 126.3,
+        "chain_std": 3.3481338085566414,
+        "z_measured": 1.313186813186813,
+        "z_predicted": 1.2360679774997898,
+        "delta_z": 0.07711883568702316
+      }
+    ]
+  },
+  "isotropy": {
+    "z_frame1": 0.4165890027958994,
+    "note": "Isotropia garantida por construcao: tau e invariante de Lorentz e o sprinkling de Poisson e covariante."
+  },
+  "mean_match_pct": 87.99999999999999
+}

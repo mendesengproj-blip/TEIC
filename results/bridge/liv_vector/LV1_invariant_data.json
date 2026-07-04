@@ -1,0 +1,20 @@
+{
+  "config": {
+    "rho": 12.0,
+    "extent": 4.0,
+    "n_seeds": 20,
+    "seed0": 200,
+    "n_bases": 1500,
+    "margin": 0.25
+  },
+  "n_plaquettes": 12941,
+  "pfaffian_rel_max": 7.625725231934913e-16,
+  "frac_I_nonneg": 0.0,
+  "I_max": -0.00010617582531867879,
+  "dominance_r_median": 0.3920009121929443,
+  "dominance_r_q05": 0.09343302323086031,
+  "dominance_r_q95": 0.8887092743184454,
+  "EB_ratio_mean": 2.9866797060941677,
+  "EB_ratio_sem": 0.02814837983031411,
+  "timestamp_utc": "2026-06-11T11:48:09Z"
+}

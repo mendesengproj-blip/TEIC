@@ -1,0 +1,74 @@
+{
+  "task": "HQ2-4",
+  "Om": 0.315,
+  "sigma8_LCDM": 0.811,
+  "sigma8_KiDS": 0.7475394558785764,
+  "KiDS_S8": 0.766,
+  "J0_over_Jc_fiducial": 352792.9718186911,
+  "sigma8_HQ2_fiducial": 0.810999868736423,
+  "growth_ratio_fiducial": 0.9999998381460209,
+  "scan": [
+    {
+      "J0_over_Jc": 1.05,
+      "ratio": 0.9465765715436056,
+      "sigma8": 0.7676735995218642,
+      "closer_to_kids": true
+    },
+    {
+      "J0_over_Jc": 1.2,
+      "ratio": 0.9531504779530828,
+      "sigma8": 0.7730050376199503,
+      "closer_to_kids": true
+    },
+    {
+      "J0_over_Jc": 1.5,
+      "ratio": 0.9624035691746021,
+      "sigma8": 0.7805092946006024,
+      "closer_to_kids": true
+    },
+    {
+      "J0_over_Jc": 2.0,
+      "ratio": 0.9717147968648061,
+      "sigma8": 0.7880607002573579,
+      "closer_to_kids": true
+    },
+    {
+      "J0_over_Jc": 3.0,
+      "ratio": 0.9810844301775302,
+      "sigma8": 0.795659472873977,
+      "closer_to_kids": true
+    },
+    {
+      "J0_over_Jc": 5.0,
+      "ratio": 0.9886223712912025,
+      "sigma8": 0.8017727431171653,
+      "closer_to_kids": true
+    },
+    {
+      "J0_over_Jc": 10.0,
+      "ratio": 0.9943005551994172,
+      "sigma8": 0.8063777502667274,
+      "closer_to_kids": true
+    },
+    {
+      "J0_over_Jc": 100.0,
+      "ratio": 0.9994290970992037,
+      "sigma8": 0.8105369977474542,
+      "closer_to_kids": true
+    },
+    {
+      "J0_over_Jc": 1000.0,
+      "ratio": 0.9999429001169465,
+      "sigma8": 0.8109536919948438,
+      "closer_to_kids": true
+    },
+    {
+      "J0_over_Jc": 352792.9718186911,
+      "ratio": 0.9999998381460209,
+      "sigma8": 0.810999868736423,
+      "closer_to_kids": true
+    }
+  ],
+  "success": false,
+  "verdict": "DEATH -- sigma8(HQ2) ~ sigma8(LCDM); the suppression that could lower sigma8 lives only in the c-forbidden near-critical regime."
+}

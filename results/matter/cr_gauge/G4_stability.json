@@ -1,0 +1,50 @@
+{
+  "single_kink": {
+    "E_rest": 7.995563833154227,
+    "E_after": 7.995612150516739,
+    "W_initial": 0.9999999999999996,
+    "W_after": 1.0000000000000009,
+    "count_initial": 1,
+    "count_after": 1,
+    "stable": true,
+    "sine_gordon_theory_mass_comparison": 8.0
+  },
+  "pair": {
+    "W_initial_net": -1.4135798584282297e-16,
+    "count_trajectory": [
+      2,
+      0,
+      0,
+      2,
+      2,
+      0,
+      2,
+      0
+    ],
+    "winding_traj": [
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      -0.0,
+      -0.0,
+      0.0
+    ],
+    "final_count": 0,
+    "max_count": 2,
+    "E_total_drift": 3.746095176135495e-05,
+    "transient": true
+  },
+  "phase_energy": {
+    "before": 4245.68639220383,
+    "after": 4245.188522164967,
+    "drift": 0.00011726491145862161,
+    "conserved": true
+  },
+  "cc_quantitative_transfer": false,
+  "cc_qualitative": true,
+  "scenario": "2 (pares virtuais / transientes)",
+  "verdict": "PAR TRANSIENTE + KINK ISOLADO ESTAVEL",
+  "statement": "Single charged gauge kink (W=1) is STABLE under the coupled engine with rest mass 7.996 (sine-Gordon theory 8) and exact winding conservation. A kink-antikink PAIR nucleated from a strong gauge collision (net W=0) is TRANSIENT (count [2, 0, 0, 2, 2, 0, 2, 0] -> annihilates), releasing its rest energy as radiation -- the dynamical analogue of QFT virtual pair production (Scenario 2). A net-charged kink cannot be created from W=0 data (winding conserved) -- a topological selection rule (G5). Phase-energy is conserved across the collision (drift 1e-04). The conserved winding is the dynamical analogue of CC's N_interno; CC2's tau(N)=aN does not transfer numerically (continuum soliton vs diamonds), only qualitatively. NB: in the FULL coupled collision (G3) such pairs appear only marginally and in the ill-posed regime -- no stable charged matter is created."
+}

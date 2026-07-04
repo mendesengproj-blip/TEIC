@@ -1,0 +1,15 @@
+{
+  "chi16": 21.238616701742984,
+  "chi32": 270.8988682843817,
+  "x_pt_2pt": 3.672992656762166,
+  "OT_x_5pt": 3.633801645877652,
+  "u4_16": 0.562941693514477,
+  "u4_32": 0.5156560823553842,
+  "OT_U4_L24": 0.485,
+  "Jc32": 2.7205263157894737,
+  "dip32": 0.602605863192182,
+  "min_swap": 0.1176,
+  "round_trips": 0,
+  "pt_dead": true,
+  "verdict": "D (FRONTEIRA TECNICA): PT health insufficient at L=32 (min_swap=0.12, round-trips=0). The barrier, if present, is not crossed with desktop statistics. Requires L>=48 with multicanonical/Wang-Landau on a cluster."
+}

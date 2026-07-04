@@ -1,0 +1,15 @@
+{
+  "n_seeds": 20,
+  "grid": [
+    49,
+    16,
+    16
+  ],
+  "V": 0.0,
+  "status": "N/A for Veredito A (PE4 showed no pinning); collision CONFIRMS no core",
+  "max_core_dip_mean": 0.0010623125009940892,
+  "max_core_dip_std": 0.0016764530062661417,
+  "frac_seeds_core_forms": 0.0,
+  "stable_matter_without_extra_ingredient": false,
+  "timestamp_utc": "2026-06-09T22:07:28Z"
+}

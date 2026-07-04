@@ -1,0 +1,93 @@
+{
+  "campaign": "FOTON_B3B4",
+  "experiment": "B3_future_cone",
+  "rho": 2.0,
+  "low_curvature": "flat Minkowski (R_hat=inf)",
+  "rows": {
+    "spacelike": [
+      {
+        "N": 400,
+        "P_tot": 18000,
+        "nB_tot": 14943,
+        "frac_B": 0.8301666666666667,
+        "wilson_lo": 0.8246108785429301,
+        "wilson_hi": 0.8355815550541307
+      },
+      {
+        "N": 800,
+        "P_tot": 18000,
+        "nB_tot": 14927,
+        "frac_B": 0.8292777777777778,
+        "wilson_lo": 0.8237107926705315,
+        "wilson_hi": 0.8347042424850766
+      },
+      {
+        "N": 1500,
+        "P_tot": 18000,
+        "nB_tot": 15043,
+        "frac_B": 0.8357222222222223,
+        "wilson_lo": 0.8302376633005757,
+        "wilson_hi": 0.841063510555564
+      }
+    ],
+    "timelike_gate": [
+      {
+        "N": 400,
+        "P_tot": 6392,
+        "nB_tot": 0,
+        "frac_B": 0.0,
+        "wilson_lo": 0.0,
+        "wilson_hi": 0.0006006402660128418
+      },
+      {
+        "N": 800,
+        "P_tot": 18000,
+        "nB_tot": 0,
+        "frac_B": 0.0,
+        "wilson_lo": -1.354963536277938e-20,
+        "wilson_hi": 0.00021337668289638805
+      },
+      {
+        "N": 1500,
+        "P_tot": 18000,
+        "nB_tot": 0,
+        "frac_B": 0.0,
+        "wilson_lo": -1.354963536277938e-20,
+        "wilson_hi": 0.00021337668289638805
+      }
+    ],
+    "spacelike_null": [
+      {
+        "N": 400,
+        "P_tot": 18000,
+        "nB_tot": 10918,
+        "frac_B": 0.6065555555555555,
+        "wilson_lo": 0.5993968545125105,
+        "wilson_hi": 0.6136687836566233
+      },
+      {
+        "N": 800,
+        "P_tot": 18000,
+        "nB_tot": 10916,
+        "frac_B": 0.6064444444444445,
+        "wilson_lo": 0.5992854133587132,
+        "wilson_hi": 0.6135580500052391
+      },
+      {
+        "N": 1500,
+        "P_tot": 18000,
+        "nB_tot": 11053,
+        "frac_B": 0.6140555555555556,
+        "wilson_lo": 0.6069200292525531,
+        "wilson_hi": 0.6211424082663374
+      }
+    ]
+  },
+  "gate_timelike_electric": true,
+  "spacelike_N_stable": true,
+  "tautology_null_gap": 0.22166666666666668,
+  "is_tautology": false,
+  "verdict": "SUCCESS (candidate, needs gauge-invariance follow-up): future-cone cells carry frac_B=0.836 (Wilson-lo 0.830) at LOW curvature, N-stable, AND the causal common-future MATTERS (null with random apices gives frac_B=0.614, gap 0.222 > 0.05 -- not a kinematic tautology). This is a real candidate for a magnetic sector on the bare flat causet. BEFORE any paper: must verify (i) the cells form a connected gauge 2-complex and (ii) a gauge-invariant action -- not done here. Promising, not yet the photon.",
+  "verdict_tag": "SUCCESS_B3_CANDIDATE",
+  "runtime_s": 7.211053371429443
+}

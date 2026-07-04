@@ -1,11 +1,10 @@
 # RESEARCH_MAP — Mapa Completo de Pesquisa TEIC + DEV
 
-> **Archive note (EN).** The complete research map — what is solid, what is weak,
+> **Language note (EN).** The complete research map — what is solid, what is weak,
 > what was postulated by hand, what was never tried — kept in Portuguese as the
-> working language of the research record. It is included here as evidence of
-> method (pre-registered kill criteria, negatives reported as negatives). File
-> references to `docs/…` and `results/…` point into the full research archive,
-> available from the author on request.
+> working language of the research record. It is included as evidence of method
+> (pre-registered kill criteria, negatives reported as negatives). The `docs/…`
+> and `results/…` files it references ship in this repository.
 
 > **O que este documento é.** Um mapa honesto e completo de todo o programa
 > TEIC+DEV: o que está sólido, o que é fraco, o que foi postulado à mão, o que

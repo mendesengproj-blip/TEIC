@@ -1,0 +1,82 @@
+{
+  "rows": [
+    {
+      "rho": 16.0,
+      "n_bulk_events": 819,
+      "trunc_fraction": 0.003663003663003663,
+      "trunc_expected": 0.004984423132468589,
+      "ks_distance_exp1": 0.0288314730955736,
+      "median_u_over_ln2": 1.042812409396184,
+      "tau_med_pooled": 0.16599237916793985,
+      "pure_const_leading": 2.7951598676368254,
+      "exact_median_check_rhoV_over_ln2": 1.0428122953924828
+    },
+    {
+      "rho": 27.0,
+      "n_bulk_events": 1413,
+      "trunc_fraction": 0.0007077140835102619,
+      "trunc_expected": 0.00013023423059490178,
+      "ks_distance_exp1": 0.01679323163897617,
+      "median_u_over_ln2": 1.0256838193765407,
+      "tau_med_pooled": 0.12490000705698556,
+      "pure_const_leading": 2.925595263935993,
+      "exact_median_check_rhoV_over_ln2": 1.0256836752385508
+    },
+    {
+      "rho": 45.0,
+      "n_bulk_events": 2454,
+      "trunc_fraction": 0.0,
+      "trunc_expected": 3.346123102090484e-07,
+      "ks_distance_exp1": 0.02470578567244891,
+      "median_u_over_ln2": 0.9792270963123993,
+      "tau_med_pooled": 0.09368324179737464,
+      "pure_const_leading": 3.120086248263778,
+      "exact_median_check_rhoV_over_ln2": 0.9792270675768574
+    },
+    {
+      "rho": 75.0,
+      "n_bulk_events": 3876,
+      "trunc_fraction": 0.0,
+      "trunc_expected": 1.612760422844881e-11,
+      "ks_distance_exp1": 0.011476663670619378,
+      "median_u_over_ln2": 0.9795873778134393,
+      "tau_med_pooled": 0.07221189477275208,
+      "pure_const_leading": 3.1508243247549776,
+      "exact_median_check_rhoV_over_ln2": 0.9795873650634035
+    }
+  ],
+  "exponent_q": {
+    "measured": -0.53374998389331,
+    "sem": 0.01700582471886337,
+    "predicted": -0.5,
+    "per_seed": [
+      -0.47739649532802153,
+      -0.5306574811515471,
+      -0.5953915606224988,
+      -0.567654818118959,
+      -0.5012170283778123,
+      -0.5473582884326815,
+      -0.4674147684906175,
+      -0.5829094306243412
+    ]
+  },
+  "pure_constant": {
+    "predicted_pi_over_ln2": 4.532360141827194,
+    "note": "X0*Dtheta_max^-2 = pi rho H^2/ln2 (leading); exact check is rho*V(tau_med,H)/ln2 = 1"
+  },
+  "death": {
+    "any": false,
+    "ks": false,
+    "median": false,
+    "exponent": false
+  },
+  "_meta": {
+    "timestamp": "2026-06-11T20:35:30.116528+00:00",
+    "numpy": "2.4.4",
+    "n_seeds": 8,
+    "H": 0.75,
+    "extent": 3.2,
+    "margin_frac": 0.25,
+    "seed_base": 31000
+  }
+}

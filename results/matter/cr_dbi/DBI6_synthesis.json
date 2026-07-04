@@ -1,0 +1,26 @@
+{
+  "DBI1": {
+    "passed": true
+  },
+  "DBI2": {
+    "rho_pi": 17.993684971937466,
+    "pi_reached": true
+  },
+  "DBI3": {
+    "scenario": "3 + 4",
+    "grade": "D",
+    "creation_subcritical": false,
+    "winding_any": false,
+    "compact_creates_kinks": true
+  },
+  "DBI4": {
+    "scenario": "2 (pares virtuais / transientes)",
+    "single_kink_stable": true,
+    "pair_transient": true,
+    "kink_rest_mass": 7.995563833154227
+  },
+  "DBI5": {
+    "verdict": "NAO / ABERTO",
+    "rho_DBI_equals_rho_a0": false
+  }
+}

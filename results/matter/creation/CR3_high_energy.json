@@ -1,0 +1,153 @@
+{
+  "rho_ladder": [
+    2.0,
+    5.0,
+    10.0,
+    50.0,
+    100.0
+  ],
+  "n_seeds": 20,
+  "rows": [
+    {
+      "rho": 2.0,
+      "residual": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "cross_mid": {
+        "mean": 4.8,
+        "std": 2.5047323630532494,
+        "sem": 0.5600751829230748,
+        "n": 20
+      },
+      "cross_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "central_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      }
+    },
+    {
+      "rho": 5.0,
+      "residual": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "cross_mid": {
+        "mean": 11.15,
+        "std": 3.3289005613518134,
+        "sem": 0.7443647945519863,
+        "n": 20
+      },
+      "cross_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "central_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      }
+    },
+    {
+      "rho": 10.0,
+      "residual": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "cross_mid": {
+        "mean": 27.65,
+        "std": 6.643358377079758,
+        "sem": 1.4855000930043019,
+        "n": 20
+      },
+      "cross_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "central_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      }
+    },
+    {
+      "rho": 50.0,
+      "residual": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "cross_mid": {
+        "mean": 160.8,
+        "std": 23.304844763990257,
+        "sem": 5.211121709736226,
+        "n": 20
+      },
+      "cross_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "central_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      }
+    },
+    {
+      "rho": 100.0,
+      "residual": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "cross_mid": {
+        "mean": 349.3,
+        "std": 33.031245176268136,
+        "sem": 7.386010959559758,
+        "n": 20
+      },
+      "cross_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "central_late_excess": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      }
+    }
+  ],
+  "rho_star": null,
+  "interaction_grows": true,
+  "max_residual": 0.0,
+  "verdict": "SEM LIMIAR (sem criacao)",
+  "grade": "D",
+  "statement": "No creation threshold exists under the linear BD dynamics. The transient interaction grows strongly with density (cross-links 5 -> 349 from rho=2 to 100), so the chains DO interact; yet the persistent late-time bound order parameters stay at zero within error at every density (cross-link excess and central over-density ~ 0). The field is an exact linear superposition at all energies (max residual 0.0e+00). The chains pass through: box theta = J cannot create loops. Matter creation requires non-linearity beyond the BD action -- this LOCATES the missing quantum interaction sector (consistent with e11 / M1-S1)."
+}

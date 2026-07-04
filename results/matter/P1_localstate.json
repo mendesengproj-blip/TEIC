@@ -1,0 +1,57 @@
+{
+  "params": {
+    "rho": 22.0,
+    "T": 10.0,
+    "X": 16.0,
+    "sigma0": 1.6,
+    "n_seeds": 20
+  },
+  "times": [
+    2.5357142857142856,
+    3.6071428571428568,
+    4.678571428571429,
+    5.75,
+    6.821428571428571,
+    7.892857142857142,
+    8.964285714285715
+  ],
+  "sigma_mean": [
+    2.00140853959065,
+    2.376444031212813,
+    2.8801261760790693,
+    3.396923243267815,
+    3.9660751374490544,
+    4.53371603491652,
+    5.106780756289835
+  ],
+  "sigma_sem": [
+    0.014160830132735636,
+    0.012627351510696822,
+    0.024215754539635048,
+    0.0245103503201501,
+    0.021424858463516622,
+    0.020111950200700186,
+    0.025958023224665144
+  ],
+  "growth_exponent": {
+    "mean": 0.7563982902966051,
+    "std": 0.028449020405084076,
+    "sem": 0.006361394351904659,
+    "n": 20
+  },
+  "flatness_early": {
+    "mean": 5.3232366710378125,
+    "std": 0.3875056229430677,
+    "sem": 0.08664889145641014,
+    "n": 20
+  },
+  "flatness_late": {
+    "mean": 1.9173268479490253,
+    "std": 0.07198225102091532,
+    "sem": 0.01609572064562203,
+    "n": 20
+  },
+  "stable": false,
+  "verdict": "C",
+  "statement": "No localized stable rest-state (death criterion met).  A sourced lump delocalizes with growth exponent p=0.76 -- ballistic light-cone spreading (p~1) -- and its profile flattens toward a light-cone plateau (central/mean 5.32 -> 1.92).  This is the 2D massless retarded Green's function (1/2 inside the cone): the free network scalar has no localized particle-like rest-state, consistent with a massless field (no rest frame) and with M1's null inertia.  A genuine non-dispersing wavepacket would need Cauchy (initial-data) evolution with theta-dot, which the retarded kernel alone does not provide (limitation noted)."
+}

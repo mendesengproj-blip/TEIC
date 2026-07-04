@@ -1,0 +1,52 @@
+{
+  "note": "W3 created no stable kink; characterising the SUPPORTED kink",
+  "mass": {
+    "rest_mass": 7.995563833154227,
+    "m2": 63.92904101004392,
+    "dispersion": [
+      {
+        "v": 0.0,
+        "E": 7.995557608139262,
+        "P": 1.7347234759768317e-18,
+        "E2_minus_P2": 63.92894146507364
+      },
+      {
+        "v": 0.2,
+        "E": 8.155166679282878,
+        "P": -1.5981620350095824,
+        "E2_minus_P2": 63.95262167673976
+      },
+      {
+        "v": 0.4,
+        "E": 8.633825397733176,
+        "P": -3.1959095162329634,
+        "E2_minus_P2": 64.32910336259403
+      },
+      {
+        "v": 0.6,
+        "E": 9.431145761500423,
+        "P": -4.792689896729339,
+        "E2_minus_P2": 65.9766339284559
+      }
+    ],
+    "E2_minus_P2_constant": true,
+    "dispersion_rel_spread": 0.03203070828264953,
+    "sine_gordon_theory_mass_comparison": 8.0,
+    "mass_err": 0.0005545208557216075
+  },
+  "gravitational_field": {
+    "amplitude_A": 7.829751018374596,
+    "tail_exponent": -0.9904185745776201,
+    "is_one_over_r": true
+  },
+  "five_fold_consistency": {
+    "M_equals_8": true,
+    "E2_pc2_mc2": true,
+    "theta_M_over_r": true,
+    "tau_propto_M_CC2": "qualitative",
+    "Q_conserved": "CR_GAUGE G5 / W3 (W_phi~0)"
+  },
+  "consistent": true,
+  "verdict": "OBJETO SUPORTADO CONSISTENTE (mas nao criado por colisao)",
+  "statement": "W3 created no stable kink, so the campaign's matter is the SUPPORTED kink. That object is fully consistent: rest mass 7.996 (sine-Gordon 8, err 0.1%); the relativistic dispersion E^2=(pc)^2+(mc^2)^2 holds (E^2-P^2 constant to 3.2% as the kink is kicked to v up to 0.6, the 1/sqrt(1-v^2) emerging dynamically); and its mass sources the D3 field theta(r)~M/r (tail exponent -0.99). With charge conservation (CR_GAUGE G5, and W3's W_phi~0) and CC2's qualitative tau~M, the supported kink is bona-fide relativistic, gravitating matter -- but the full coupled+Wilson action does NOT create it from a collision in the tested regime (W3), so the five-fold consistency characterises a potential, not realised, particle."
+}

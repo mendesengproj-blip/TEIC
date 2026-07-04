@@ -1,0 +1,15 @@
+{
+  "scenario": "B",
+  "count_cancels": false,
+  "count_ratio_min_max": 0.8484349036572499,
+  "dL_zero_at_center": 0.03158060967767895,
+  "dL_slope_measured": 0.6342136498384328,
+  "dL_slope_geometric_ref": 0.628970902033151,
+  "dL_geometry_rel_err": 0.00833543775766824,
+  "dL_geometry_correct": true,
+  "missing_ingredients": [
+    "oscillating sign (analog of i/cos)",
+    "scale k mapping steps->angle"
+  ],
+  "interpretation": "QM ~ TEIC(geometry) + phase-rule(k, oscillation)"
+}

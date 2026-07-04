@@ -1,0 +1,109 @@
+{
+  "params": {
+    "rho": 20.0,
+    "T": 12.0,
+    "X": 30.0,
+    "eps": 0.2,
+    "n_real": 30
+  },
+  "T1a_sharp_variance": {
+    "const": {
+      "mean": 34.0,
+      "std": 490.51401610963165,
+      "sem": 27.420567098439083
+    },
+    "t2": {
+      "mean": 1427.7036211810182,
+      "std": 11415.563876483402,
+      "sem": 638.1494207326974
+    }
+  },
+  "T1_results": {
+    "const": {
+      "B_mean": -0.014096574308703121,
+      "B_sem": 0.020426885797140734,
+      "expected": 0.0,
+      "n_samples": 3600
+    },
+    "lin": {
+      "B_mean": -0.45691069745319696,
+      "B_sem": 0.16985497166558247,
+      "expected": 0.0,
+      "n_samples": 3600
+    },
+    "t2": {
+      "B_mean": -0.7966266157193621,
+      "B_sem": 0.43915762323767316,
+      "expected": 2.0,
+      "n_samples": 3600
+    },
+    "x2": {
+      "B_mean": -0.3129743991437637,
+      "B_sem": 1.5671586934656818,
+      "expected": -2.0,
+      "n_samples": 3600
+    }
+  },
+  "T1_verdict": {
+    "const_annihilates": true,
+    "const_value": -0.014096574308703121,
+    "lin_bias_magnitude": 0.45691069745319696,
+    "t2_value": -0.7966266157193621,
+    "t2_sem": 0.43915762323767316,
+    "x2_value": -0.3129743991437637,
+    "x2_sem": 1.5671586934656818,
+    "note": "box magnitude (t2=+2,x2=-2) NOT recoverable pointwise: B=2*eps*rho*bracket, so signal in bracket-units is box/(2*eps*rho) -> buried under O(0.3) variance at every regime. Low eps*rho -> bias; high eps*rho -> vanishing SNR. This is why BD validate via the SUMMED action."
+  },
+  "T1_convergence": {
+    "points": [
+      {
+        "rho": 20.0,
+        "eff_density": 4.0,
+        "lin_bias": 1.0064658271430609,
+        "sem": 0.266739837619677
+      },
+      {
+        "rho": 60.0,
+        "eff_density": 12.0,
+        "lin_bias": 0.21037407823095636,
+        "sem": 0.14945741216877506
+      }
+    ],
+    "bias_shrinks_with_eff_density": true
+  },
+  "T1_status": "T1 (honesto): CONST ANIQUILA (-0.014 +/- 0.020) -- prova a ESTRUTURA e normalizacao do operador (teste prefactor-independente). O vies de discretude (campo linear) ENCOLHE com a densidade efetiva eps*rho (SIM) -- evidencia de que <B> -> box. PORE'M a MAGNITUDE box ponto-a-ponto (t2=+2, x2=-2) NAO e recuperavel a custo acessivel: como B=2*eps*rho*bracket, o sinal vale box/(2*eps*rho) e fica afogado na variancia O(0.3) em todos os regimes (eps*rho baixo -> vies; alto -> SNR -> 0). E exatamente por isto que Benincasa-Dowker validam pela ACAO somada, nao pelo <B phi> pontual. Reproduz a dificuldade conhecida; nao se reivindica recuperacao quantitativa de box.",
+  "T1_const_annihilation": true,
+  "T1_bias_shrinks": true,
+  "T1_pointwise_box_recovered": false,
+  "T2_verdict": {
+    "lambda_space": {
+      "0.4": -0.08272073038342634,
+      "0.6": -0.06319905296596376,
+      "0.8": -0.06243249802122845
+    },
+    "lambda_time": {
+      "0.4": -0.027800629236846626,
+      "0.6": 0.020983476015352897,
+      "0.8": 0.12545505067513182
+    },
+    "space_all_positive": false,
+    "time_all_negative": false,
+    "lorentzian_signature": false,
+    "note": "qualitative (sign-based); magnitude inherits T1 noise"
+  },
+  "T3_verdict": {
+    "weight_alternates_sign": true,
+    "first_sign_change_at_m": 2,
+    "ingredient_i_supplied_by_B": true,
+    "e6_available": true,
+    "fringe_demo": {
+      "k_phase_postulated": 0.7,
+      "intensity_ratio_min_max": 9.241248997977219e-05,
+      "real_cancellation": true
+    },
+    "ingredient_ii_still_postulated": true,
+    "quantum_amplitude_present": false,
+    "honest_verdict": "OWN CONTENT (modest): the smeared Sorkin weight w(m) alternates sign by construction (positive near m=0, negative at intermediate m); this is the SAME sign-oscillation that e6 flagged as missing ingredient (i), now DERIVED from the network operator rather than postulated. It is the mechanism behind constant-annihilation. BUT: (a) the scale k mapping path-steps to phase (ingredient ii) is still imported (from e6, not from B); (b) the resulting two-slit cancellation is CLASSICAL real-wave interference (Young also cancels). The quantum content -- complex amplitude, |psi|^2, Born rule -- is NOT supplied by B. The TEIC<->QM boundary is now NARROWER (i) is solved, (ii)+Born remain) but not crossed."
+  },
+  "note": "Reproduz Sorkin/Benincasa-Dowker. Naive synchronous update rule is DEAD. Sharp operator unusable (~rho^(3/4) noise). Smeared operator: const-annihilation confirms structure; the discreteness bias shrinks with eps*rho (convergence toward box), but pointwise box MAGNITUDE is unrecoverable (signal box/(2*eps*rho) buried under variance -- the reason BD use the summed action). Only T3 (B's sign-alternating weight = e6's missing ingredient i, DERIVED not postulated) is potentially own content -- and it stays honest: classical real-wave cancellation; quantum |psi|^2 still missing."
+}

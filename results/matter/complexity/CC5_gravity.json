@@ -1,0 +1,35 @@
+{
+  "L": 60.0,
+  "n_bins": 40,
+  "r_core": 4.0,
+  "K": 1.0,
+  "N": [
+    1,
+    3,
+    10,
+    30,
+    100
+  ],
+  "amplitude_A": [
+    0.9792618984427245,
+    2.9377856953281767,
+    9.792618984427248,
+    29.37785695328174,
+    97.9261898442726
+  ],
+  "tail_exponent": [
+    -0.9904185745776202,
+    -0.9904185745776201,
+    -0.9904185745776203,
+    -0.9904185745776195,
+    -0.9904185745776198
+  ],
+  "A_eq_kN": 0.9792618984427258,
+  "r2_proportional": 1.0,
+  "ratio_A_over_N_cv": 6.230384425049489e-16,
+  "mean_tail_exponent": -0.99041857457762,
+  "tau_per_loop_from_CC2": 10.366,
+  "verdict": "CONFIRMADO",
+  "grade": "B",
+  "statement": "theta(r) keeps the 1/r Newtonian shape (mean tail exponent -0.990) for every N, and its amplitude A(N) is STRICTLY proportional to N (R^2=1.00000, A/N constant to 6e-16). The loop complexity -> cost tau -> sourced potential chain closes: a structure of complexity N gravitates like a mass proportional to N. REAL but INHERITED/definitional: D3's action is linear, so the proportionality follows once source-weight = N is identified (the hypothesis); the 1/r shape is D3's, and its prefactor G is non-universal (D3 caveat)."
+}

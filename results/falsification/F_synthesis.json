@@ -1,0 +1,25 @@
+{
+  "EHT": {
+    "verdict": "CONSISTENTE",
+    "discriminating": false,
+    "max_shadow_shift_uas": 4.578618682759543e-12
+  },
+  "JWST_BTFR": {
+    "verdict": "TENSAO (tentativa, limitada por dados)",
+    "pred_z2_dex": 0.12041443892326392,
+    "tension_sigma": 1.6055258523101856,
+    "discriminating": true
+  },
+  "CMB_monopoles": {
+    "verdict": "CONSISTENTE",
+    "type": "Polyakov (compact-U(1) monopole-instantons; vacuum/condensate)",
+    "discriminating": false
+  },
+  "LENSING_slip": {
+    "verdict": "CONSISTENTE (mas nao testado)",
+    "distinguishable_now": false,
+    "discriminating": false
+  },
+  "OVERALL": "NAO FALSIFICADA (consistente com dados atuais)",
+  "honest_caveat": "Of the four tests, THREE are NON-DISCRIMINATING with present data: EHT (TEIC->GR in strong field; deviation 10^-12..10^-95 uas), LENSING (a 2-7% slip is inside current ~20% bars; Euclid is the test), and CMB monopoles (consistent only under the Polyakov/vacuum reading, i.e. T3D2 does not predict physical relic monopoles). The ONLY genuinely discriminating test is the JWST BTFR evolution, where the DEV predicts +0.12 dex at z=2 against an observed ~non-evolving relation -- a tentative ~1.6 sigma TENSION that is data-limited and needs the primary tabulated offsets (Ubler+2023). Conclusion: the theory is NOT falsified, but it is also largely UNTESTED by three of these probes; the decisive confrontations are the JWST/ALMA BTFR (primary data) and Euclid (directional slip)."
+}

@@ -1,0 +1,13 @@
+{
+  "faithful_to_CR3D": true,
+  "baseline_core_flux": 0.27522553779013514,
+  "deep_core_flux": 0.33575377840952475,
+  "rel_change_core_flux": 0.21992232663214406,
+  "enclosed_retained_baseline": 0.0,
+  "enclosed_retained_deep": 0.0,
+  "weak_slowing": true,
+  "any_blowup": false,
+  "grade": "B",
+  "scenario": "deplecao NAO pina o enrolamento: o canal de rho (cossenos) nao alcanca o setor topologico - residuo irredutivel (ha um arrasto sub-quantum fraco no core_flux, mas SEM retencao topologica - nao e pinamento)",
+  "timestamp_utc": "2026-06-10T01:03:56Z"
+}

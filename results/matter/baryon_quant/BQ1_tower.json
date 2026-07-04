@@ -1,0 +1,68 @@
+{
+  "full_tower_degeneracies": [
+    1,
+    4,
+    9,
+    16
+  ],
+  "full_tower_expected": [
+    1,
+    4,
+    9,
+    16
+  ],
+  "full_degeneracies_ok": true,
+  "full_E_l": [
+    -0.0,
+    0.13635,
+    0.35439,
+    0.65885
+  ],
+  "l_times_l_plus_2": [
+    0,
+    3,
+    8,
+    15
+  ],
+  "R2_full_l_l_plus_2": 0.9998981156676213,
+  "FR_tower_j": [
+    0.5,
+    1.5,
+    2.5
+  ],
+  "FR_tower_degeneracies": [
+    4,
+    16,
+    36
+  ],
+  "FR_tower_expected": [
+    4,
+    16,
+    36
+  ],
+  "FR_intra_block_spread": [
+    0.0635,
+    0.2076,
+    0.352
+  ],
+  "FR_assignment": "j=1/2 -> N (nucleon doublet); j=3/2 -> Delta (quartet); j=5/2",
+  "spin_isospin_locking": "(2j+1)^2 = (2I+1)(2J+1) with I=J=j (hedgehog grand-spin)",
+  "FR_level_energies": [
+    -0.0,
+    0.5177,
+    1.36599
+  ],
+  "j_j_plus_1": [
+    0.75,
+    3.75,
+    8.75
+  ],
+  "R2_fr_j_j_plus_1": 0.9821120577267366,
+  "ratio_E52_E12_over_E32_E12": 2.6385853919977182,
+  "ratio_theory_8_3": 2.6666666666666665,
+  "ratio_rel_err": 0.010530478000855603,
+  "degeneracies_ok": true,
+  "ratio_ok": true,
+  "fit_ok": true,
+  "verdict": "PASS"
+}

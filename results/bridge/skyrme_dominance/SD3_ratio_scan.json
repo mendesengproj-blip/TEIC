@@ -1,0 +1,188 @@
+{
+  "dimension_scan": {
+    "1": {
+      "kappa_mean": 0.0,
+      "kappa_sem": 0.0,
+      "predicted": 0.0,
+      "field_bound_K_over_S": 0.0,
+      "net_quartic_gap_factor": 3.0
+    },
+    "2": {
+      "kappa_mean": 0.24998880297783443,
+      "kappa_sem": 0.00027971452124471517,
+      "predicted": 0.25,
+      "field_bound_K_over_S": 0.5,
+      "net_quartic_gap_factor": 2.0
+    },
+    "3": {
+      "kappa_mean": 0.40029499693761733,
+      "kappa_sem": 0.0002757229816672903,
+      "predicted": 0.4,
+      "field_bound_K_over_S": 0.6666666666666667,
+      "net_quartic_gap_factor": 1.6666666666666665
+    },
+    "4": {
+      "kappa_mean": 0.500362502498926,
+      "kappa_sem": 0.00024963574938203923,
+      "predicted": 0.5,
+      "field_bound_K_over_S": 0.75,
+      "net_quartic_gap_factor": 1.5
+    },
+    "5": {
+      "kappa_mean": 0.5711168635386183,
+      "kappa_sem": 0.00022278128693607963,
+      "predicted": 0.5714285714285714,
+      "field_bound_K_over_S": 0.8,
+      "net_quartic_gap_factor": 1.4
+    },
+    "6": {
+      "kappa_mean": 0.6250393578888779,
+      "kappa_sem": 0.00019775111081798535,
+      "predicted": 0.625,
+      "field_bound_K_over_S": 0.8333333333333334,
+      "net_quartic_gap_factor": 1.3333333333333333
+    },
+    "7": {
+      "kappa_mean": 0.6665492483276891,
+      "kappa_sem": 0.00017623492793569315,
+      "predicted": 0.6666666666666667,
+      "field_bound_K_over_S": 0.8571428571428572,
+      "net_quartic_gap_factor": 1.2857142857142856
+    },
+    "8": {
+      "kappa_mean": 0.6999375745331895,
+      "kappa_sem": 0.00015808565876556668,
+      "predicted": 0.7,
+      "field_bound_K_over_S": 0.875,
+      "net_quartic_gap_factor": 1.25
+    }
+  },
+  "density_scan": {
+    "10": {
+      "n_links_mean": 25.0,
+      "kappa3_causal": {
+        "mean": 0.4149014779187836,
+        "sem": 0.00862645758633398,
+        "n_seeds": 20
+      },
+      "kappa3_spacelike": {
+        "mean": 0.39992775772448014,
+        "sem": 0.005951829495944317,
+        "n_seeds": 20
+      },
+      "kappa4_causal": {
+        "mean": 0.4686197995155843,
+        "sem": 0.00808208643236661,
+        "n_seeds": 20
+      },
+      "ratio_B_over_A": {
+        "mean": 0.6320136149568728,
+        "sem": 0.057053554647450024,
+        "n_seeds": 20
+      },
+      "predicted": {
+        "kappa3": 0.4,
+        "kappa4_isotropic_ref": 0.5,
+        "ratio": 0.5555555555555556
+      }
+    },
+    "50": {
+      "n_links_mean": 376.0,
+      "kappa3_causal": {
+        "mean": 0.3975274533007449,
+        "sem": 0.002151599461434226,
+        "n_seeds": 20
+      },
+      "kappa3_spacelike": {
+        "mean": 0.3989750291113163,
+        "sem": 0.001363188454765787,
+        "n_seeds": 20
+      },
+      "kappa4_causal": {
+        "mean": 0.5016127918117108,
+        "sem": 0.0014690614515559025,
+        "n_seeds": 20
+      },
+      "ratio_B_over_A": {
+        "mean": 0.552051118165678,
+        "sem": 0.007375587647028723,
+        "n_seeds": 20
+      },
+      "predicted": {
+        "kappa3": 0.4,
+        "kappa4_isotropic_ref": 0.5,
+        "ratio": 0.5555555555555556
+      }
+    },
+    "200": {
+      "n_links_mean": 4112.25,
+      "kappa3_causal": {
+        "mean": 0.39964056925832986,
+        "sem": 0.000450724722763542,
+        "n_seeds": 20
+      },
+      "kappa3_spacelike": {
+        "mean": 0.39961850809831845,
+        "sem": 0.0005277618364617569,
+        "n_seeds": 20
+      },
+      "kappa4_causal": {
+        "mean": 0.5286315176198082,
+        "sem": 0.0007025695725405746,
+        "n_seeds": 20
+      },
+      "ratio_B_over_A": {
+        "mean": 0.5603477528856008,
+        "sem": 0.003233253041624822,
+        "n_seeds": 20
+      },
+      "predicted": {
+        "kappa3": 0.4,
+        "kappa4_isotropic_ref": 0.5,
+        "ratio": 0.5555555555555556
+      }
+    },
+    "1000": {
+      "n_links_mean": 60380.5,
+      "kappa3_causal": {
+        "mean": 0.4000255366490001,
+        "sem": 0.0001345996093183661,
+        "n_seeds": 20
+      },
+      "kappa3_spacelike": {
+        "mean": 0.40033080198961607,
+        "sem": 0.00017655082844092405,
+        "n_seeds": 20
+      },
+      "kappa4_causal": {
+        "mean": 0.5543402905793748,
+        "sem": 0.00017155986467869207,
+        "n_seeds": 20
+      },
+      "ratio_B_over_A": {
+        "mean": 0.5549627183062386,
+        "sem": 0.001121291933191836,
+        "n_seeds": 20
+      },
+      "predicted": {
+        "kappa3": 0.4,
+        "kappa4_isotropic_ref": 0.5,
+        "ratio": 0.5555555555555556
+      }
+    }
+  },
+  "verdict": {
+    "kappa_d_formula_confirmed": true,
+    "kappa_rho_constant_2_5": true,
+    "residual_ratio_5_9_all_rho": true,
+    "any_regime_above_2_3": false,
+    "note": "kappa grows with d but the field bound (1-1/d) and the net gap (1+2/d)S grow/shrink in step: no dimension and no density reaches dominance; rho does not move the ratio at all (isotropy is exact at every rho)."
+  },
+  "_meta": {
+    "campaign": "SKYRME_DOMINANCE",
+    "timestamp": "2026-06-12T22:31:31.535157+00:00",
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

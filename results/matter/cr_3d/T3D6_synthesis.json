@@ -1,0 +1,10 @@
+{
+  "verdict_letter": "B",
+  "verdict": "B \u2014 Estrutura criada, semi-est\u00e1vel (vida finita)",
+  "T3D1": "SIM (d_MM=4.00, controle 2D ok, causalidade estrita)",
+  "T3D2": "SIM (\u03c1_M at\u00e9 0.41; plasma blindado; janela \u03bb_p\u22641.5)",
+  "T3D3": "SIM (E(d)\u221dd, \u03bb_c\u22481.5)",
+  "T3D4_grade": "B",
+  "T3D5_consistencies": 4,
+  "topology": "vortex (S^1, pi_1(U(1))=Z)"
+}

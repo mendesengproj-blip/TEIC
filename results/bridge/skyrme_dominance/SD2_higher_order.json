@@ -1,0 +1,43 @@
+{
+  "moment_checks": {
+    "sextic_symbolic": true,
+    "octic_symbolic": true,
+    "sextic_MC_ratio": 0.9997392468276834,
+    "octic_MC_ratio": 0.999853141123363
+  },
+  "c6": {
+    "per_link_times_M6": 2.066798941798942e-07,
+    "sign": "positive (stabilising)",
+    "normalised_energy_coeff_C6": 4.96031746031746e-06,
+    "consistency": true
+  },
+  "hedgehog_integrals": {
+    "E2": 61.63873243253386,
+    "I_3S_minus_2K": 457.70587532066435,
+    "I_M6": 11126.104412263461,
+    "I_M8": 477936.7762863149
+  },
+  "truncated_sextic_minimum": {
+    "lambda_star": 0.19651212019449904,
+    "always_exists_formally": true,
+    "u_at_minimum": 7.993381401819855,
+    "u_validity_threshold": 1.0,
+    "octic_over_sextic_at_min": 0.5517700308021464,
+    "truncation_error_vs_full_cosine_at_min": 0.4161467848330715
+  },
+  "full_cosine": {
+    "monotonic_increasing": true,
+    "interior_minimum": false
+  },
+  "verdict": {
+    "sextic_rescue_real": false,
+    "note": "c6 > 0 as predicted, and the truncated quartic+sextic ALWAYS has a formal minimum in d=3; but the minimum sits at link phase u >> 1 where the alternating series fails (octic term comparable), and the resummed bounded cosine is monotonic: the minimum is a truncation artifact."
+  },
+  "_meta": {
+    "campaign": "SKYRME_DOMINANCE",
+    "timestamp": "2026-06-12T22:28:15.911287+00:00",
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

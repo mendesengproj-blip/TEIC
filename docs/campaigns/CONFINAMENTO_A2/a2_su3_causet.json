@@ -1,0 +1,64 @@
+{
+  "campaign": "CONFINAMENTO_A2",
+  "stage_A_regular_lattice": {
+    "L": 6,
+    "betas": [
+      4.0,
+      5.0,
+      6.0
+    ],
+    "by_beta": {
+      "4.0": {
+        "creutz_chi22": 1.3928785031410433,
+        "plaquette": 0.2394709792469662
+      },
+      "5.0": {
+        "creutz_chi22": 0.9603476750956549,
+        "plaquette": 0.34550519229130433
+      },
+      "6.0": {
+        "creutz_chi22": 0.37619636400769463,
+        "plaquette": 0.5523573183698631
+      }
+    },
+    "confines": true,
+    "asympt_free_decreasing": true
+  },
+  "stage_B_causal_set": {
+    "L_box": 4.4,
+    "rho": 0.5,
+    "seeds": [
+      1,
+      2
+    ],
+    "geometry": {
+      "n_events": 188,
+      "n_links": 1613,
+      "n_plaquettes": 1016,
+      "plaq_areas": {
+        "min_links": 4,
+        "max_links": 4,
+        "all_fundamental_area1": true
+      }
+    },
+    "scan": [
+      {
+        "beta": 4.0,
+        "W1_mean": 0.31057078041661124,
+        "W1_std": 0.001974983904678318,
+        "neglog_W1_plaquette_freeE": 1.1693434473335063
+      },
+      {
+        "beta": 6.0,
+        "W1_mean": 0.462313824917046,
+        "W1_std": 0.0026488126868606243,
+        "neglog_W1_plaquette_freeE": 0.7715113437908223
+      }
+    ],
+    "controlled_RxT_rectangles_R_T_ge2": 0,
+    "nonabelian_patch_holonomy_constructible": false
+  },
+  "verdict": "FRONTIER (death-trigger 2): Stage A reproduces SU(3) confinement on the cubic lattice (Creutz chi(2,2)>0, decreasing with weaker coupling = asymptotic freedom). Stage B: the SU(3) gauge sector thermalises on the causal set and the fundamental plaquette <W_1>(beta) is well-defined and rises with beta -- but the STRING TENSION (the area-law k>=2 log-slope) has NO controlled estimator on the non-local causet: every causal-diamond plaquette is a height-2 fundamental loop (area 1), there are ZERO controlled R x T rectangles, and the non-Abelian ordered-product holonomy admits no clean patch boundary word (E7's Abelian cancellation surrogate does not extend to SU(3)). Confinement on the causet stays [FRONTIER], as for U(1) in E5/E7. The Paper SU3's cubic-only confinement scope is CORRECT and stands (no downgrade; frontier documented).",
+  "verdict_tag": "FRONTIER_CONFIRMS_CUBIC_SCOPE",
+  "runtime_s": 126.0740110874176
+}

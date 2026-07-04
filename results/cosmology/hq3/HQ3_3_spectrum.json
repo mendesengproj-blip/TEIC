@@ -1,0 +1,19 @@
+{
+  "nanograv": {
+    "gamma": 4.333333333333333,
+    "h_c_index_alpha": -0.6666666666666665,
+    "shape": "broadband power law (SMBH binaries)"
+  },
+  "m_A": {
+    "shape": "monochromatic line",
+    "f_GW_Hz_at_1e-23eV": 4.8359784852501355e-09,
+    "fractional_width_dff": 1e-06,
+    "abs_width_Hz": 4.8359784852501356e-15,
+    "effective_gamma": "infinity (line, not a continuum)"
+  },
+  "comparison": {
+    "compatible_as_broadband_SGWB": false,
+    "reason": "a velocity-broadened line (df/f~1e-6) cannot mimic a gamma=13/3 power law spanning a decade in frequency"
+  },
+  "note": "m_A is a LINE; NANOGrav 2023 detected a CONTINUUM. Different observables."
+}

@@ -1,0 +1,66 @@
+{
+  "n_seeds": 20,
+  "BD3": {
+    "rho": 30.0,
+    "eps": 0.4,
+    "n_seeds_used": 20,
+    "sharp_a_t": 18453.43065739467,
+    "sharp_a_t_sem": 284.9704343580287,
+    "sharp_a_x": 4575.914239778164,
+    "sharp_a_x_sem": 73.45667598070139,
+    "sharp_at_over_ax": 4.03360323337783,
+    "sharp_at_over_ax_sem": 0.01011837543381967,
+    "sharp_positive_definite_frac": 1.0,
+    "smeared_a_t": 0.2627053056172068,
+    "smeared_a_t_sem": 0.26922843427521437,
+    "smeared_a_x": 0.42055684227811563,
+    "smeared_a_x_sem": 0.26803526076412043,
+    "smeared_anisotropy_|a_t|+|a_x|": 0.6832621478953225,
+    "smeared_a_t_consistent_with_0": true,
+    "smeared_a_x_consistent_with_0": true
+  },
+  "BD5_snr": [
+    {
+      "eps": 0.2,
+      "lambda_space": -0.027199798462561868,
+      "lambda_space_sem": 0.015086583593396301,
+      "lambda_time": 0.009061860724365338,
+      "lambda_time_sem": 0.01722979583759378,
+      "SNR_space": 1.8029130514656586,
+      "SNR_time": 0.5259412711434002,
+      "lorentz_signature_resolved": false
+    },
+    {
+      "eps": 0.3,
+      "lambda_space": -0.0319323275827652,
+      "lambda_space_sem": 0.024734410452687858,
+      "lambda_time": -0.007895605983206457,
+      "lambda_time_sem": 0.025128873755394607,
+      "SNR_space": 1.291008235019208,
+      "SNR_time": 0.31420453061536224,
+      "lorentz_signature_resolved": false
+    },
+    {
+      "eps": 0.4,
+      "lambda_space": -0.0446757312272149,
+      "lambda_space_sem": 0.035259269870618316,
+      "lambda_time": -0.01859003047012321,
+      "lambda_time_sem": 0.03228182916188684,
+      "SNR_space": 1.2670634244880765,
+      "SNR_time": 0.5758667012608849,
+      "lorentz_signature_resolved": false
+    },
+    {
+      "eps": 0.6,
+      "lambda_space": -0.06843378065851825,
+      "lambda_space_sem": 0.060350675101598965,
+      "lambda_time": -0.03347731461690535,
+      "lambda_time_sem": 0.047618794448422125,
+      "SNR_space": 1.1339356277839736,
+      "SNR_time": 0.7030273446583366,
+      "lorentz_signature_resolved": false
+    }
+  ],
+  "BD5_smaller_eps_does_not_help": true,
+  "timestamp_utc": "2026-06-09T22:01:38Z"
+}

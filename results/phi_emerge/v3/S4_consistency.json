@@ -1,0 +1,99 @@
+{
+  "mass": {
+    "rest_mass": 7.995563833154227,
+    "m2": 63.92904101004392,
+    "dispersion": [
+      {
+        "v": 0.0,
+        "E": 7.995557608139262,
+        "P": 1.7347234759768317e-18,
+        "E2_minus_P2": 63.92894146507364
+      },
+      {
+        "v": 0.2,
+        "E": 8.155166679282878,
+        "P": -1.5981620350095824,
+        "E2_minus_P2": 63.95262167673976
+      },
+      {
+        "v": 0.4,
+        "E": 8.633825397733176,
+        "P": -3.1959095162329634,
+        "E2_minus_P2": 64.32910336259403
+      },
+      {
+        "v": 0.6,
+        "E": 9.431145761500423,
+        "P": -4.792689896729339,
+        "E2_minus_P2": 65.9766339284559
+      }
+    ],
+    "E2_minus_P2_constant": true,
+    "rel_spread": 0.03203070828264953,
+    "sine_gordon_comparison": 8.0,
+    "mass_err": 0.0005545208557216075
+  },
+  "theta_field": {
+    "centers": [
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5,
+      6.5,
+      7.5
+    ],
+    "abs_drho": [
+      1.998966856743863,
+      0.9983180892937962,
+      0.5921995544046813,
+      0.3775290138044684,
+      0.2448991045214773,
+      0.16040644975224153,
+      0.0994776710873654
+    ],
+    "inv_r_fit_A": 3.5990471721107133,
+    "inv_r_fit_r2": 0.9992130078328204,
+    "is_one_over_r": true
+  },
+  "isotropy": {
+    "per_axis": {
+      "y": {
+        "E": 200.1878183736461,
+        "P": -24.95023990531816,
+        "E2_minus_P2": 39452.648153867
+      },
+      "z": {
+        "E": 200.1878183736461,
+        "P": -24.950239905318163,
+        "E2_minus_P2": 39452.648153867
+      }
+    },
+    "isotropy_spread": 0.0,
+    "isotropic": true
+  },
+  "sigma_core_dynamical": {
+    "sigma_core_mean": 3.7202162530151006,
+    "sigma_core_std": 0.09400864431605863,
+    "sigma_core_defined_frac": 1.0,
+    "dip_mean": 1.0577027556818148,
+    "n_seeds": 20
+  },
+  "non_interference": {
+    "winding_core_initial": 1.0,
+    "winding_core_after": 0.3785725610147373,
+    "T_ticks": 8.0,
+    "survived": false,
+    "one_way_coupling": true
+  },
+  "five_fold": {
+    "rest_mass_sineGordon_8": true,
+    "E2_pc2_mc2": true,
+    "theta_M_over_r_dynamical_rho": true,
+    "transverse_isotropy": true,
+    "sigma_core_constant_dynamical_rho": true
+  },
+  "n_consistencies": 5,
+  "consistency": "SIM",
+  "timestamp_utc": "2026-06-09T23:44:41Z"
+}

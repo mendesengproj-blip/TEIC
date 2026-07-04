@@ -1,0 +1,119 @@
+{
+  "campaign": "PROPAGACAO_A4",
+  "eps": 0.25,
+  "stage1_gate_sharp": {
+    "label": "sharp nearest-neighbour",
+    "lam_max": 3.986155966028946,
+    "dt": 0.2003470018417296,
+    "rows": [
+      {
+        "k": 0.1,
+        "omega": 0.09998357285953968,
+        "c_phase": 0.9998357285953968,
+        "stable": true
+      },
+      {
+        "k": 0.2,
+        "omega": 0.19996714571907936,
+        "c_phase": 0.9998357285953968,
+        "stable": true
+      },
+      {
+        "k": 0.3,
+        "omega": 0.29987105039307355,
+        "c_phase": 0.9995701679769119,
+        "stable": true
+      },
+      {
+        "k": 0.4,
+        "omega": 0.39993429143815873,
+        "c_phase": 0.9998357285953968,
+        "stable": true
+      },
+      {
+        "k": 0.5,
+        "omega": 0.499785083988456,
+        "c_phase": 0.999570167976912,
+        "stable": true
+      }
+    ],
+    "c_fit_slope": 0.999570167976912,
+    "c_mean_phase": 0.999729504348003,
+    "c_spread": 0.00013013280257031772,
+    "stable": true,
+    "dispersion_linear_omega_ck": true
+  },
+  "stage2_smeared_lattice": {
+    "label": "smeared BD (dmax=8)",
+    "lam_max": -2.3351163627196674,
+    "dt": 0.26176147415354606,
+    "rows": [
+      {
+        "k": 0.1,
+        "omega": NaN,
+        "c_phase": NaN,
+        "stable": false
+      },
+      {
+        "k": 0.2,
+        "omega": NaN,
+        "c_phase": NaN,
+        "stable": false
+      },
+      {
+        "k": 0.3,
+        "omega": NaN,
+        "c_phase": NaN,
+        "stable": false
+      },
+      {
+        "k": 0.4,
+        "omega": NaN,
+        "c_phase": NaN,
+        "stable": false
+      },
+      {
+        "k": 0.5,
+        "omega": NaN,
+        "c_phase": NaN,
+        "stable": false
+      }
+    ],
+    "c_fit_slope": NaN,
+    "c_mean_phase": NaN,
+    "c_spread": NaN,
+    "stable": false,
+    "dispersion_linear_omega_ck": false,
+    "small_k_stiffness_c2": -20.0948486328125,
+    "predicted_c": NaN
+  },
+  "stage3_causet_spectrum": [
+    {
+      "N": 235,
+      "neg_eig_frac": 0.825531914893617,
+      "lambda_min": -15.215841613154677,
+      "lambda_max": 5.895819127660081,
+      "leapfrog_maxabs_ratio": 2.8354063654571216e+83,
+      "indefinite": true,
+      "evolution_blows_up": true
+    },
+    {
+      "N": 381,
+      "neg_eig_frac": 0.7585301837270341,
+      "lambda_min": -15.966732277804807,
+      "lambda_max": 6.6148467147495715,
+      "leapfrog_maxabs_ratio": 7.267196997580643e+83,
+      "indefinite": true,
+      "evolution_blows_up": true
+    }
+  ],
+  "stage3_retarded_march": {
+    "n_events": 7,
+    "maxabs_ratio": 0.0,
+    "fails_to_propagate": true,
+    "mode": "SIGNAL LOST/damped"
+  },
+  "verdict": "MORTE: even the smeared operator fails to give stable omega=ck (lattice stable=False, linear=False, c^2=-20.09). The propagating Goldstone stays SYMBOLIC; E2 [FRACO] permanent, ressalva STANDS (submit with it explicit).",
+  "verdict_tag": "MORTE",
+  "runtime_s": 2.194308280944824
+}

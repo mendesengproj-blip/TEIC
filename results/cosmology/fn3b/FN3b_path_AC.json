@@ -1,0 +1,42 @@
+{
+  "theta0_natural_lattice": 0.5832255092842212,
+  "lattice_rows": [
+    {
+      "J": 0.0,
+      "order_param": 0.01304768277929531,
+      "rms_component": 0.5841319596913062,
+      "theta0_angle_over_pi": 0.5493251023843259
+    },
+    {
+      "J": 0.04,
+      "order_param": 0.009463639030579389,
+      "rms_component": 0.583562564875219,
+      "theta0_angle_over_pi": 0.5494132749737678
+    },
+    {
+      "J": 0.08,
+      "order_param": 0.011639724028747715,
+      "rms_component": 0.5819820032861386,
+      "theta0_angle_over_pi": 0.5493273728233271
+    }
+  ],
+  "min_tuning_point": {
+    "m_eV": 2e-21,
+    "theta0_required": 0.0038731012482622626,
+    "finetune_req_over_natural": 0.006640829638977258,
+    "above_death_line_1e-3": true,
+    "cold_by_rec": true,
+    "lya_safe": true
+  },
+  "dev_theta_slip_mediator": {
+    "m_eV": 6.4e-30,
+    "theta0_required_Omega012": 0.5149574619271426,
+    "z_osc": 190.41465942349475,
+    "cold_by_rec": false,
+    "overclosure_at_theta0_1": 83761617.79061276,
+    "theta0_max_no_overclose": 0.00010926409465295471,
+    "dead": true
+  },
+  "any_viable_window": true,
+  "note": "viable = Omega=0.12 reachable below natural theta0, cold by recomb, and Lyman-alpha-safe as 100% DM; min-tuning at the Lyman-alpha floor."
+}

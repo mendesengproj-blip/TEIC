@@ -1,0 +1,44 @@
+{
+  "symbolic_perfect_square_ratios": {
+    "C1_(dtheta)^2": "kappa*n/2",
+    "C2_A^2": "kappa*n/2",
+    "C3_A.dtheta": "kappa*n",
+    "C2_over_C1": "1",
+    "C3_over_C1": "2"
+  },
+  "numeric_1plus1D": {
+    "kappa": -0.233360589824698,
+    "lambda": 0.4734520497535626,
+    "n_links": 463.97599999999994,
+    "C1": -54.13685651225204,
+    "C2": -54.13685651225204,
+    "C3": -108.27371302450408,
+    "C2_over_C1": 1.0,
+    "C3_over_C1": 2.0,
+    "lambda_over_abskappa_LV": 2.028843216882606
+  },
+  "numeric_3plus1D": {
+    "kappa": -0.9937660166283672,
+    "lambda": 4.354363846606388,
+    "n_links": 1756.3229166666667,
+    "C1": -872.6870144044746,
+    "C2": -872.6870144044746,
+    "C3": -1745.374028808949,
+    "C2_over_C1": 1.0,
+    "C3_over_C1": 2.0,
+    "lambda_over_abskappa_LV": 4.381679161639881
+  },
+  "ratios_geometry_invariant": true,
+  "decisive_finding": "C2/C1 = 1 and C3/C1 = 2 EXACTLY, identical in 1+1D and 3+1D despite kappa changing by ~4x. The ratios are FIXED -- but fixed ALGEBRAICALLY by the single-cosine (perfect-square / Stuckelberg) form, NOT by the Poisson geometry, which only sets the scale kappa and the order-1 Lorentz-violating part lambda.",
+  "COMPARISON_DEV": {
+    "C1_(dtheta)^2_coeff": "F1 (k-essence kinetic, FREE)",
+    "C2_A^2_coeff": "-mA^2/2 (mass, FREE)",
+    "C3_A.dtheta_coeff": "gamma (Stuckelberg coupling, FREE)",
+    "C2_over_C1": "(-mA^2/2)/F1  -- FREE PARAMETER",
+    "C3_over_C1": "gamma/F1  -- FREE PARAMETER",
+    "note": "minimal-action ratios (1, 2) = the gauge-invariant Stuckelberg/Proca point; the DEV does NOT sit there in general (mA^2, gamma independent)."
+  },
+  "matches_DEV": false,
+  "verdict": "CLEAN RATIOS (1, 2), but != generic DEV (whose mA^2, gamma are free). The minimal action = the gauge-invariant Proca/Stuckelberg SPECIAL CASE of the DEV's scalar-vector sector: a sister theory, not the full DEV. Honesty: the cleanness is structural-by-construction (one cosine), not a geometric derivation; the genuine geometric output is kappa (scale) and lambda (an order-1 Lorentz violation -- a tension flagged in C1).",
+  "timestamp_utc": "2026-06-09T22:23:22Z"
+}

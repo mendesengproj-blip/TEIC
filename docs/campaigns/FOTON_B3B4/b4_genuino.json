@@ -1,0 +1,108 @@
+{
+  "campaign": "FOTON_B3B4",
+  "experiment": "B4_genuino",
+  "rho": 2.0,
+  "height": 3,
+  "aniso_grid": [
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "N": 1500,
+  "stages_run": "0+1 (blocking; 2/3 not run)",
+  "stage0_a1_identical_to_isotropic": true,
+  "stage0_partial_order_ok": true,
+  "rows": [
+    {
+      "aniso": 1.0,
+      "P_tot": 24000,
+      "frac_B": 0.0028333333333333335,
+      "wilson_lo": 0.0022357772397705055,
+      "wilson_hi": 0.003590023577045417,
+      "frac_B_iso_null": 0.0028333333333333335,
+      "null_lo": 0.0022357772397705055,
+      "null_hi": 0.003590023577045417,
+      "b_plane_12_13_23": [
+        0.27888449906257756,
+        0.278224449069896,
+        0.26819527076309413
+      ],
+      "b_plane_iso_12_13_23": [
+        0.27888449906257756,
+        0.278224449069896,
+        0.26819527076309413
+      ]
+    },
+    {
+      "aniso": 2.0,
+      "P_tot": 24000,
+      "frac_B": 0.0012083333333333334,
+      "wilson_lo": 0.0008414820267348505,
+      "wilson_hi": 0.001734838923491717,
+      "frac_B_iso_null": 0.0020416666666666665,
+      "null_lo": 0.0015447891460808531,
+      "null_hi": 0.002697931735729998,
+      "b_plane_12_13_23": [
+        0.09851222759055744,
+        0.1036139223296167,
+        0.36798991298955613
+      ],
+      "b_plane_iso_12_13_23": [
+        0.2761257839594533,
+        0.27265601129346845,
+        0.2679610811860938
+      ]
+    },
+    {
+      "aniso": 4.0,
+      "P_tot": 24000,
+      "frac_B": 0.0027083333333333334,
+      "wilson_lo": 0.002125648037552244,
+      "wilson_hi": 0.003450192789526036,
+      "frac_B_iso_null": 0.002,
+      "null_lo": 0.0015089166874036114,
+      "null_hi": 0.0026504841978280264,
+      "b_plane_12_13_23": [
+        0.035521687397349344,
+        0.03410667820164861,
+        0.4892194719328207
+      ],
+      "b_plane_iso_12_13_23": [
+        0.29612911580965856,
+        0.3028355101057428,
+        0.2891330128461374
+      ]
+    },
+    {
+      "aniso": 8.0,
+      "P_tot": 9451,
+      "frac_B": 0.0023277960004232357,
+      "wilson_lo": 0.001537788360903395,
+      "wilson_hi": 0.003522222374760331,
+      "frac_B_iso_null": 0.0019166666666666666,
+      "null_lo": 0.0014373529844717737,
+      "null_hi": 0.002555407907601435,
+      "b_plane_12_13_23": [
+        0.010947610074313422,
+        0.01074497684716117,
+        0.6290476674805534
+      ],
+      "b_plane_iso_12_13_23": [
+        0.2834260413649854,
+        0.29177068541240775,
+        0.2932551203671346
+      ]
+    }
+  ],
+  "verdict_tag": "DEATH_B4_GENUINE",
+  "verdict": "DEATH (genuine): anisotropy in the causal ORDER does NOT open the magnetic sector at low curvature -- frac_B stays 0.0028->0.0028 (best Wilson-lo 0.0022), and the gap over the isotropic-order null is +0.0000 (<=0.005). Direction-dependent light cones (true Bianchi-I) do not furnish a magnetic photon. Combined with E6c (isotropic curvature) and B3b (future cones), the THREE low-curvature levers are exhausted: the magnetic photon stays [FRONTEIRA], now a stronger statement. Stages 2/3 NOT run.",
+  "gate_isotropic_subthreshold": true,
+  "stretched_plane_blowup": 1.0,
+  "unstretched_plane_ratio": 1.0,
+  "is_coordinate_artifact": false,
+  "best_aniso": 1.0,
+  "best_frac_B": 0.0028333333333333335,
+  "best_gap_over_null": 0.0,
+  "runtime_s": 17.8615562915802
+}

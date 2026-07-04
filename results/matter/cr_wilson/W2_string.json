@@ -1,0 +1,174 @@
+{
+  "lams": [
+    0.01,
+    0.1,
+    0.5,
+    1.0,
+    5.0
+  ],
+  "ds": [
+    4.0,
+    8.0,
+    12.0,
+    16.0,
+    20.0
+  ],
+  "kink_mass_scale": 8.0,
+  "rows": [
+    {
+      "lam": 0.01,
+      "E": [
+        2023.8254719834154,
+        2023.159881394076,
+        2024.258654435732,
+        2026.1698582207039,
+        2029.2977099555346
+      ],
+      "E_wilson": [
+        0.11171216984466836,
+        0.11298086365523015,
+        0.11300879898955538,
+        0.11302005497159853,
+        0.11304155976760207
+      ],
+      "fit_total": {
+        "slope_linear": 0.3488613192716968,
+        "r2_linear": 0.7925991126762764,
+        "coef_log": 2.9773707395381424,
+        "r2_log": 0.5829050195778802
+      },
+      "fit_wilson": {
+        "slope_linear": 6.74492790558948e-05,
+        "r2_linear": 0.5370933118598943,
+        "coef_log": 0.0007892901660440933,
+        "r2_log": 0.7425958590731966
+      },
+      "wilson_selfenergy": 0.11275268944573089
+    },
+    {
+      "lam": 0.1,
+      "E": [
+        2024.8282377953722,
+        2024.1739158170412,
+        2025.272935862261,
+        2027.1842408765099,
+        2030.3122861685288
+      ],
+      "E_wilson": [
+        1.1112608135277364,
+        1.123617265553927,
+        1.1238868919258833,
+        1.1239992902777316,
+        1.1242143691677282
+      ],
+      "fit_total": {
+        "slope_linear": 0.3494605451445598,
+        "r2_linear": 0.7940760543941812,
+        "coef_log": 2.9843822805496427,
+        "r2_log": 0.584734507950595
+      },
+      "fit_wilson": {
+        "slope_linear": 0.0006572284000947037,
+        "r2_linear": 0.5374971794966282,
+        "coef_log": 0.007689570586394516,
+        "r2_log": 0.7429023647381063
+      },
+      "wilson_selfenergy": 1.1213957260906011
+    },
+    {
+      "lam": 0.5,
+      "E": [
+        2029.2226239717463,
+        2028.6149933496217,
+        2029.7150135776837,
+        2031.6267671495293,
+        2034.7556730063664
+      ],
+      "E_wilson": [
+        5.430959714144774,
+        5.486083606028631,
+        5.487242896870743,
+        5.48780262507907,
+        5.488878617754058
+      ],
+      "fit_total": {
+        "slope_linear": 0.3519467967286778,
+        "r2_linear": 0.800119343414259,
+        "coef_log": 3.0134600261526567,
+        "r2_log": 0.5922643950864239
+      },
+      "fit_wilson": {
+        "slope_linear": 0.002938920656725399,
+        "r2_linear": 0.5394738052139065,
+        "coef_log": 0.034357346432897916,
+        "r2_log": 0.7444197488836466
+      },
+      "wilson_selfenergy": 5.476193491975455
+    },
+    {
+      "lam": 1.0,
+      "E": [
+        2034.5794987702893,
+        2034.023390138434,
+        2035.1244729622758,
+        2037.0367857840831,
+        2040.1667679195637
+      ],
+      "E_wilson": [
+        10.569190520348945,
+        10.665477377007024,
+        10.667425507104047,
+        10.668543693801148,
+        10.670696741726486
+      ],
+      "fit_total": {
+        "slope_linear": 0.3546983486049437,
+        "r2_linear": 0.8066445237725716,
+        "coef_log": 3.045609191585461,
+        "r2_log": 0.6004767891374954
+      },
+      "fit_wilson": {
+        "slope_linear": 0.005151968988730267,
+        "r2_linear": 0.542341621741292,
+        "coef_log": 0.060159462621327535,
+        "r2_log": 0.7466522368863071
+      },
+      "wilson_selfenergy": 10.64826676799753
+    },
+    {
+      "lam": 5.0,
+      "E": [
+        2073.0430034636283,
+        2072.7379729609115,
+        2073.843866313068,
+        2075.7607135796065,
+        2078.8993032751678
+      ],
+      "E_wilson": [
+        44.02386282632588,
+        44.227812908516924,
+        44.23177055685524,
+        44.23753536148917,
+        44.24827085185042
+      ],
+      "fit_total": {
+        "slope_linear": 0.36838350604437536,
+        "r2_linear": 0.8362674152326273,
+        "coef_log": 3.204568356572343,
+        "r2_log": 0.6389515384267129
+      },
+      "fit_wilson": {
+        "slope_linear": 0.011463462600533252,
+        "r2_linear": 0.5783118124506155,
+        "coef_log": 0.13206319552926477,
+        "r2_log": 0.7749577908871577
+      },
+      "wilson_selfenergy": 44.193850501007525
+    }
+  ],
+  "wilson_string": false,
+  "lam_controls": false,
+  "lam_c": 1.0,
+  "verdict": "NAO (sem corda linear controlada por lambda_p neste regime estatico)",
+  "statement": "No lambda-controlled linear string. The vortex-antivortex interaction is dominated by the inherited gauge STIFFNESS (the spin-wave / Coulomb energy, slope ~0.35, essentially lambda-INDEPENDENT), while the genuine Wilson contribution E_wilson(d) is core SELF-energy: it grows with lambda_p (0.1 -> 44.2 over the range) but is ~d-INDEPENDENT (slope ~0.004), i.e. NOT a flux string. This is the honest 2D physics: static compact-U(1) winding-+/-1 charges are COULOMB (BKT) bound, not linearly confined -- a full 2pi flux quantum is nearly invisible to the compact cos term (cos 2pi=1), and linear confinement (Polyakov) is a DYNAMICAL monopole effect not seen in a static relaxation. No sharp lambda_c exists in {0.01, 0.1, 0.5, 1.0, 5.0}; for W3 we use the operational scale lambda~1.0 where the Wilson energy first reaches the kink mass 8 (so Wilson could plausibly act dynamically)."
+}

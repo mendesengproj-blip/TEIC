@@ -1,0 +1,13 @@
+{
+  "SU1_motor": "SIM",
+  "SU2_vacuum_confines": "SIM",
+  "SU3_hedgehog_stable": "SIM",
+  "SU4_baryon_B1_conserved": "SIM",
+  "SU5_derrick_stable": "SIM",
+  "SU5_skyrme_from_C4": "NAO (antisymmetric, non-Abelian; not the C4 quartic)",
+  "SU6_created_by_collision": "NAO",
+  "SU7_spin_half": "NAO",
+  "SU8_consistencies": "3/5",
+  "VERDICT": "B",
+  "verdict_text": "B -- stable point Skyrmion with B=1 (mass, self-gravity proportional to mass, isotropy; topological charge quantised and conserved), stabilised by the genuinely non-Abelian Skyrme term. NOT created by collision (C for the creation question) and spin-1/2 not classically verifiable (a quantum FR phase), so NOT verdict A. The frontier moved from the U(1) diffuse vortex (1D) to a stable SU(2) point soliton (0D); the remaining ingredients are collective-coordinate quantisation (spin) and a topological creation mechanism (dynamical birth)."
+}

@@ -1,0 +1,53 @@
+{
+  "E2_1": 61.63873243253387,
+  "E4K_1": 89.37797593411948,
+  "I_3S_minus_2K": 457.70587532066446,
+  "manual_skyrme_control": {
+    "lambda_star": 1.2022023022994799,
+    "lambda_star_predicted": 1.2041716771448154,
+    "interior_minimum": true
+  },
+  "cosine_minima": {
+    "0.1": {
+      "argmin_lambda": 0.02,
+      "interior": false,
+      "monotonic_increasing": true,
+      "E_at_argmin": 0.7111537467293956,
+      "E_smallest_lambda": 0.7111537467293956,
+      "E_largest_lambda": 246.55016204613315
+    },
+    "0.5": {
+      "argmin_lambda": 0.02,
+      "interior": false,
+      "monotonic_increasing": true,
+      "E_at_argmin": 0.1420414536933861,
+      "E_smallest_lambda": 0.1420414536933861,
+      "E_largest_lambda": 246.43578936935353
+    },
+    "1.0": {
+      "argmin_lambda": 0.02,
+      "interior": false,
+      "monotonic_increasing": true,
+      "E_at_argmin": 0.05928624712666821,
+      "E_smallest_lambda": 0.05928624712666821,
+      "E_largest_lambda": 246.07901395769335
+    },
+    "2.0": {
+      "argmin_lambda": 0.02,
+      "interior": false,
+      "monotonic_increasing": true,
+      "E_at_argmin": 0.02307594450141826,
+      "E_smallest_lambda": 0.02307594450141826,
+      "E_largest_lambda": 244.6615459587746
+    }
+  },
+  "small_field_consistency_ratio": 0.9999806627918267,
+  "verdict_note": "pre-registered expectation: no interior minimum from the cosine alone (net quartic negative); manual Skyrme control reproduces the interior minimum.",
+  "_meta": {
+    "campaign": "BRIDGE_SU2_COEFF",
+    "timestamp": "2026-06-10T22:06:27.969411+00:00",
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

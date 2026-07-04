@@ -1,0 +1,191 @@
+{
+  "description": "m_A KR line across the PTA band (signal model only).",
+  "model": "Khmelnitsky-Rubakov 2014 (arXiv:1309.5888), Eqs 12/21/22.",
+  "rho_local_GeVcm3": 0.4,
+  "m_A_window_eV": [
+    4.1e-24,
+    1.2e-22
+  ],
+  "m_A_sparc_lower_eV": 3.7e-25,
+  "pta_band_Hz": [
+    2e-09,
+    6e-08
+  ],
+  "rows": [
+    {
+      "m_eV": 4.1e-24,
+      "f_Hz": 1.9827511786629803e-09,
+      "in_pta_band": false,
+      "h_c_frac1": 1.5863573269879046e-14,
+      "timing_residual_ns_frac1": 367.5888340757732
+    },
+    {
+      "m_eV": 4.719366962184622e-24,
+      "f_Hz": 2.282275708979192e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 1.1972951861715498e-14,
+      "timing_residual_ns_frac1": 241.0253027598486
+    },
+    {
+      "m_eV": 5.432298664331614e-24,
+      "f_Hz": 2.6270479462324e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 9.036524989936949e-15,
+      "timing_residual_ns_frac1": 158.0385234403021
+    },
+    {
+      "m_eV": 6.252929474430722e-24,
+      "f_Hz": 3.023903240371708e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 6.820271628658843e-15,
+      "timing_residual_ns_frac1": 103.62470083100415
+    },
+    {
+      "m_eV": 7.197528970365532e-24,
+      "f_Hz": 3.480709524256879e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 5.147565589702703e-15,
+      "timing_residual_ns_frac1": 67.94595639442991
+    },
+    {
+      "m_eV": 8.284824495636502e-24,
+      "f_Hz": 4.006523300912001e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 3.885099148976543e-15,
+      "timing_residual_ns_frac1": 44.55166532044146
+    },
+    {
+      "m_eV": 9.536372442001049e-24,
+      "f_Hz": 4.6117691950114005e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 2.9322589745282405e-15,
+      "timing_residual_ns_frac1": 29.212200227229268
+    },
+    {
+      "m_eV": 1.0976985619967672e-23,
+      "f_Hz": 5.3084466283310935e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 2.213107661863994e-15,
+      "timing_residual_ns_frac1": 19.154225458866804
+    },
+    {
+      "m_eV": 1.2635225190061196e-23,
+      "f_Hz": 6.110367716650247e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 1.6703318381996286e-15,
+      "timing_residual_ns_frac1": 12.559285164255476
+    },
+    {
+      "m_eV": 1.454396690774085e-23,
+      "f_Hz": 7.033431104575256e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 1.2606745246878136e-15,
+      "timing_residual_ns_frac1": 8.235031177628187
+    },
+    {
+      "m_eV": 1.6741052908170324e-23,
+      "f_Hz": 8.0959371672522e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 9.514877348622399e-16,
+      "timing_residual_ns_frac1": 5.3996495508770055
+    },
+    {
+      "m_eV": 1.9270041952927526e-23,
+      "f_Hz": 9.318950828061495e-09,
+      "in_pta_band": true,
+      "h_c_frac1": 7.181305657124155e-16,
+      "timing_residual_ns_frac1": 3.540510611725987
+    },
+    {
+      "m_eV": 2.2181073012818886e-23,
+      "f_Hz": 1.0726719185408846e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 5.420054200541982e-16,
+      "timing_residual_ns_frac1": 2.3214868434763636
+    },
+    {
+      "m_eV": 2.5531859307927304e-23,
+      "f_Hz": 1.2347152228353718e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 4.090758552752809e-16,
+      "timing_residual_ns_frac1": 1.5221818984484219
+    },
+    {
+      "m_eV": 2.938883251243331e-23,
+      "f_Hz": 1.4212376171599039e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 3.0874793715618515e-16,
+      "timing_residual_ns_frac1": 0.9980835077636702
+    },
+    {
+      "m_eV": 3.382845980886695e-23,
+      "f_Hz": 1.6359370380093707e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 2.330259473125113e-16,
+      "timing_residual_ns_frac1": 0.6544360365112845
+    },
+    {
+      "m_eV": 3.893875990330643e-23,
+      "f_Hz": 1.883070051072088e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 1.758751576481763e-16,
+      "timing_residual_ns_frac1": 0.4291089097787303
+    },
+    {
+      "m_eV": 4.482104805758607e-23,
+      "f_Hz": 2.1675362406119234e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 1.3274088759003235e-16,
+      "timing_residual_ns_frac1": 0.2813635652356307
+    },
+    {
+      "m_eV": 5.1591944734990263e-23,
+      "f_Hz": 2.4949753471418846e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 1.0018551496304693e-16,
+      "timing_residual_ns_frac1": 0.18448802632163164
+    },
+    {
+      "m_eV": 5.938568768223536e-23,
+      "f_Hz": 2.8718790792113118e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 7.561451178035337e-17,
+      "timing_residual_ns_frac1": 0.12096744590063829
+    },
+    {
+      "m_eV": 6.835679328637918e-23,
+      "f_Hz": 3.305719816053415e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 5.706967113848752e-17,
+      "timing_residual_ns_frac1": 0.07931746715210936
+    },
+    {
+      "m_eV": 7.868311996990737e-23,
+      "f_Hz": 3.805098752712549e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 4.3073046260167113e-17,
+      "timing_residual_ns_frac1": 0.05200788153032125
+    },
+    {
+      "m_eV": 9.056939435794765e-23,
+      "f_Hz": 4.3799164247320233e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 3.25091642744605e-17,
+      "timing_residual_ns_frac1": 0.034101186515258855
+    },
+    {
+      "m_eV": 1.0425127012633335e-22,
+      "f_Hz": 5.041568993173175e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 2.4536127661840948e-17,
+      "timing_residual_ns_frac1": 0.022359897914135625
+    },
+    {
+      "m_eV": 1.2e-22,
+      "f_Hz": 5.8031741814526245e-08,
+      "in_pta_band": true,
+      "h_c_frac1": 1.8518518518518522e-17,
+      "timing_residual_ns_frac1": 0.014661221084106696
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "verdict": "P1-confirmed",
+  "why": "a relic network forms with Zurek scaling: n_def ~ tau^-0.42, xi_dom ~ tau^0.15 (O(3) model-A expectation ~0.29). The early-universe ordering transition leaves a defect/texture relic.",
+  "relic_forms": true,
+  "zurek_mu_ndef": 0.41984987394587625,
+  "zurek_sigma_xi": 0.15109476097483077,
+  "sigma_O3_expectation": 0.29,
+  "rows": [
+    {
+      "tau_Q": 2,
+      "n_def": 39.65,
+      "n_def_sem": 1.23748737367296,
+      "density": 0.004956250000000001,
+      "xi_dom": 5.8916697120564985
+    },
+    {
+      "tau_Q": 4,
+      "n_def": 34.4,
+      "n_def_sem": 1.6084153692376855,
+      "density": 0.004300000000000001,
+      "xi_dom": 6.223536561853335
+    },
+    {
+      "tau_Q": 8,
+      "n_def": 32.65,
+      "n_def_sem": 1.190115540609398,
+      "density": 0.004081250000000001,
+      "xi_dom": 6.296352660246065
+    },
+    {
+      "tau_Q": 16,
+      "n_def": 23.15,
+      "n_def_sem": 1.42876695090557,
+      "density": 0.0028937500000000005,
+      "xi_dom": 7.147980607504908
+    },
+    {
+      "tau_Q": 32,
+      "n_def": 14.9,
+      "n_def_sem": 0.7934103604062654,
+      "density": 0.0018625,
+      "xi_dom": 8.235581600477145
+    },
+    {
+      "tau_Q": 64,
+      "n_def": 9.15,
+      "n_def_sem": 0.9307926729406502,
+      "density": 0.0011437500000000002,
+      "xi_dom": 10.106800593078235
+    }
+  ],
+  "L": 20,
+  "seeds": 20,
+  "runtime_s": 9.960898637771606,
+  "timestamp_utc": "2026-06-14T13:46:47Z"
+}

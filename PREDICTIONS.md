@@ -1,9 +1,8 @@
 # PREDICTIONS — o setor falsificável da TEIC (Ataques 3+4 do roadmap)
 
-> **Archive note (EN).** The falsifiable-predictions ledger, kept in Portuguese as
-> the working language of the research record. References to `docs/…` and
-> `results/…` point into the full research archive (available from the author on
-> request); this repository carries the reproducible core and the manuscripts.
+> **Language note (EN).** The falsifiable-predictions ledger, kept in Portuguese as
+> the working language of the research record. The `docs/…` and `results/…` files
+> it references ship in this repository.
 
 > Executa os dois primeiros ataques do roadmap interno: (3) o mapa
 > operadores-proibidos ↔ exclusões observacionais e (4) a promoção da previsão

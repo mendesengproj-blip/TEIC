@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "name": "sigma=6 esparso (z claramente < z denso)",
+      "ok": true,
+      "detail": "z(sig6)=11.08  z(sig0.5)=28.35  ratio=0.391"
+    },
+    {
+      "name": "sigma=0.5 conecta a MAIORIA dos pares causais (extremo denso/MF)",
+      "ok": true,
+      "detail": "frac arestas/pares-causais = 0.796  z=28.4"
+    },
+    {
+      "name": "cross-check <z> = 2*E/N (estimador VERBATIM)",
+      "ok": true,
+      "detail": "clustering_metrics=11.081690141 vs 2E/N=11.081690141"
+    },
+    {
+      "name": "C4 nao-trivial: familia difere do controle de mesma densidade",
+      "ok": true,
+      "detail": "C4_fam(sig3)=0.0615  C4_rnd=0.0876"
+    },
+    {
+      "name": "invariancia de Lorentz: arestas BIT-identicas sob boost",
+      "ok": true,
+      "detail": "|E0|=5119 |Eb|=5119 simdif=0"
+    },
+    {
+      "name": "invariancia de Lorentz: <z> e C4 identicos sob boost",
+      "ok": true,
+      "detail": "z 14.419718/14.419718 C4 0.061476/0.061476"
+    }
+  ],
+  "passed": true,
+  "aux": {
+    "c4_family_sig3": 0.0615443970706582,
+    "c4_random_control_sig3": 0.08762600512925131,
+    "z_sig6": 11.08169014084507,
+    "z_sig0.5": 28.354929577464787,
+    "frac_dense": 0.7958570524984188,
+    "N_test": 710
+  }
+}

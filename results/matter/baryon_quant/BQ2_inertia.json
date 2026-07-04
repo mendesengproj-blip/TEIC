@@ -1,0 +1,20 @@
+{
+  "I_sigma_lattice_3d_zeromode": 312.736557290485,
+  "I_sigma_radial_integral": 320.254350984077,
+  "G0_sigma_crosscheck_rel": 0.023474446703038845,
+  "G0_ok": true,
+  "Lhat_total": 48.24473292896377,
+  "Lhat_sigma": 27.392147783872332,
+  "Lhat_skyrme": 20.85258514509144,
+  "skyrme_inertia_fraction": 0.43222511306664463,
+  "skyrme_over_sigma": 0.7612614136584357,
+  "I_full_over_I_sigma": 1.7612614136584357,
+  "I_full_lattice": 550.8108309961119,
+  "E_half_sigma_only_Q2": 0.0011990923071129216,
+  "E_half_full_corrected": 0.0006808144990936953,
+  "E_half_correction_factor": 0.5677748869333553,
+  "NDelta_split_sigma_only": 0.004796369228451686,
+  "NDelta_split_full": 0.002723257996374781,
+  "note": "Q2's inertia was sigma-only; the Skyrme term adds 76% -> full inertia is 1.761x larger, so the rotor energies (and N-Delta splitting in lattice units) are 0.568x smaller than Q2.",
+  "verdict": "PASS"
+}

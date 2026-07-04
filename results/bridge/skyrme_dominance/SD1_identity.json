@@ -1,0 +1,98 @@
+{
+  "a_K_le_S": "K = S - Tr(G^2), Tr(G^2)>=0 (G PSD): exact, equality iff G=0",
+  "b_pointwise_bound_symbolic": {
+    "2": {
+      "cauchy_schwarz_identity": true,
+      "hedgehog_saturates_1_minus_1_over_d": true,
+      "bound_K_over_S": 0.5
+    },
+    "3": {
+      "cauchy_schwarz_identity": true,
+      "hedgehog_saturates_1_minus_1_over_d": true,
+      "bound_K_over_S": 0.6666666666666667
+    },
+    "4": {
+      "cauchy_schwarz_identity": true,
+      "hedgehog_saturates_1_minus_1_over_d": true,
+      "bound_K_over_S": 0.75
+    },
+    "5": {
+      "cauchy_schwarz_identity": true,
+      "hedgehog_saturates_1_minus_1_over_d": true,
+      "bound_K_over_S": 0.8
+    },
+    "6": {
+      "cauchy_schwarz_identity": true,
+      "hedgehog_saturates_1_minus_1_over_d": true,
+      "bound_K_over_S": 0.8333333333333334
+    }
+  },
+  "c_ratio_lock_d_independent_symbolic": true,
+  "c_net_quartic_gap_S_plus_2TrG2_symbolic": true,
+  "c_pairing_MC_lhs_over_rhs": {
+    "2": 0.9983032100860154,
+    "3": 1.001709892313378,
+    "4": 0.9993711631715471,
+    "5": 0.9983907320373491
+  },
+  "adversarial_max_K_over_S": {
+    "2": {
+      "max_random": 0.4999993490241449,
+      "max_hill_climb": 0.4999999998762129,
+      "bound_1_minus_1_over_d": 0.5,
+      "violated": false
+    },
+    "3": {
+      "max_random": 0.6640414031540363,
+      "max_hill_climb": 0.6666666664332477,
+      "bound_1_minus_1_over_d": 0.6666666666666667,
+      "violated": false
+    },
+    "4": {
+      "max_random": 0.7416041230718715,
+      "max_hill_climb": 0.7428027711281324,
+      "bound_1_minus_1_over_d": 0.75,
+      "violated": false
+    },
+    "5": {
+      "max_random": 0.7776629296417314,
+      "max_hill_climb": 0.7997565031793545,
+      "bound_1_minus_1_over_d": 0.8,
+      "violated": false
+    },
+    "6": {
+      "max_random": 0.7983108247122017,
+      "max_hill_climb": 0.8264802352872448,
+      "bound_1_minus_1_over_d": 0.8333333333333334,
+      "violated": false
+    }
+  },
+  "cross_channel_fraction_formula_ok": true,
+  "d_four_numbers": {
+    "SC2_residual_ratio_B_over_A": {
+      "value": 0.5555555555555556,
+      "exact": "5/9"
+    },
+    "hedgehog_pointwise_K_over_S": {
+      "value": 0.6666666666666666,
+      "exact": "2/3",
+      "note": "saturates the bound"
+    },
+    "link_cross_channel_fraction_d3": {
+      "value": 0.4,
+      "exact": "2/5"
+    },
+    "link_cross_channel_fraction_d4": {
+      "value": 0.5,
+      "exact": "1/2"
+    }
+  },
+  "conclusion": "K <= (1-1/d)S is an exact POINTWISE identity (Cauchy-Schwarz on the PSD Gram eigenvalues), saturated by the hedgehog; in d=3 the bound is 2/3 and there is no configuration above it. The -3:+2 coefficient ratio is d-independent, so 3S-2K >= (1+2/d)S > 0 in every dimension: dominance via the quartic channel is impossible, not merely unobserved.",
+  "_meta": {
+    "campaign": "SKYRME_DOMINANCE",
+    "timestamp": "2026-06-12T22:24:49.732232+00:00",
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cosmology": {
+    "Om": 0.315,
+    "OL": 0.685
+  },
+  "prediction_Delta_log_v_dex": {
+    "z=0.5": 0.03032156046445031,
+    "z=1.0": 0.06322850423185454,
+    "z=2.0": 0.12041443892326392,
+    "z=3.0": 0.1648752374327895
+  },
+  "prediction_z2_dex": 0.12041443892326392,
+  "observed_offset_dex": 0.0,
+  "observed_sigma_dex": 0.075,
+  "observed_is_literature_consensus_not_our_measurement": true,
+  "observed_refs": [
+    "Ubler et al. 2017, ApJ 842 121 (KMOS3D): baryonic TFR ~ non-evolving",
+    "Ubler et al. 2023, arXiv:2302.06647",
+    "Nestor Shachar et al. 2023, arXiv:2304.05339"
+  ],
+  "tension_sigma_at_z2": 1.6055258523101856,
+  "verdict": "TENSAO (tentativa, limitada por dados)",
+  "caveat": "Observed offset is a literature-consensus band (BTFR ~ non-evolving), NOT a value we measured; systematics (pressure support, beam smearing, sample selection) dominate. A definitive verdict requires the primary tabulated BTFR offsets of Ubler+2023. This is the only GENUINELY DISCRIMINATING test of the four (EHT/lensing are in the GR/untested regime).",
+  "note_LCDM": "LCDM predicts zero BTFR evolution; DEV predicts the dex shifts above."
+}

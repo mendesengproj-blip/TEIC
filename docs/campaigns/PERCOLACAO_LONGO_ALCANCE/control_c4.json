@@ -1,0 +1,107 @@
+{
+  "observable": "C4 family vs random-density control at top N per sigma",
+  "n_seeds": 3,
+  "rows": [
+    {
+      "sigma": 0.5,
+      "N": 1500,
+      "z": 52.816491354985715,
+      "C4_family": 0.13863040909473104,
+      "C4_random_control": 0.16843404876813284,
+      "ratio_fam_over_rnd": 0.8230545433576222,
+      "above_control": false
+    },
+    {
+      "sigma": 1.0,
+      "N": 1500,
+      "z": 40.18572304191485,
+      "C4_family": 0.09082560733709245,
+      "C4_random_control": 0.1231474629935853,
+      "ratio_fam_over_rnd": 0.7375353509460729,
+      "above_control": false
+    },
+    {
+      "sigma": 1.5,
+      "N": 2200,
+      "z": 41.28315829180249,
+      "C4_family": 0.059528522908808106,
+      "C4_random_control": 0.08473603651911032,
+      "ratio_fam_over_rnd": 0.7025171975725201,
+      "above_control": false
+    },
+    {
+      "sigma": 2.0,
+      "N": 2200,
+      "z": 33.8437479394258,
+      "C4_family": 0.04853278565232435,
+      "C4_random_control": 0.06853749686784408,
+      "ratio_fam_over_rnd": 0.7081201950795872,
+      "above_control": false
+    },
+    {
+      "sigma": 2.5,
+      "N": 3000,
+      "z": 34.293150038995975,
+      "C4_family": 0.03679488173913898,
+      "C4_random_control": 0.04953208929353584,
+      "ratio_fam_over_rnd": 0.7428493783310061,
+      "above_control": false
+    },
+    {
+      "sigma": 3.0,
+      "N": 3000,
+      "z": 30.095103966345835,
+      "C4_family": 0.033438459128984806,
+      "C4_random_control": 0.04319648365184229,
+      "ratio_fam_over_rnd": 0.7741014152562552,
+      "above_control": false
+    },
+    {
+      "sigma": 3.5,
+      "N": 3000,
+      "z": 27.191185388271034,
+      "C4_family": 0.03130259016943158,
+      "C4_random_control": 0.03888399516112494,
+      "ratio_fam_over_rnd": 0.8050250505309953,
+      "above_control": false
+    },
+    {
+      "sigma": 4.0,
+      "N": 3000,
+      "z": 25.11272618670635,
+      "C4_family": 0.029825945743950838,
+      "C4_random_control": 0.03581882191580207,
+      "ratio_fam_over_rnd": 0.8326891882167857,
+      "above_control": false
+    },
+    {
+      "sigma": 5.0,
+      "N": 3000,
+      "z": 22.465464499151448,
+      "C4_family": 0.027966304179433455,
+      "C4_random_control": 0.03195429126853657,
+      "ratio_fam_over_rnd": 0.8751971353209188,
+      "above_control": false
+    },
+    {
+      "sigma": 6.0,
+      "N": 3000,
+      "z": 20.8789847310886,
+      "C4_family": 0.02673976594997551,
+      "C4_random_control": 0.02965342192651497,
+      "ratio_fam_over_rnd": 0.9017430101740069,
+      "above_control": false
+    },
+    {
+      "sigma": 8.0,
+      "N": 3000,
+      "z": 19.08949335795618,
+      "C4_family": 0.025203984040427105,
+      "C4_random_control": 0.027114086532777946,
+      "ratio_fam_over_rnd": 0.9295531313569522,
+      "above_control": false
+    }
+  ],
+  "n_sigma_above_control": 0,
+  "any_above_control": false
+}

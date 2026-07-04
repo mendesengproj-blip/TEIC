@@ -1,0 +1,315 @@
+{
+  "observable": "global transitivity C=3*tri/2paths on undirected covering graph",
+  "generator": "transitive percolation (CSG), rs_trigger VERBATIM",
+  "ladder": [
+    500,
+    1000,
+    2000,
+    3300,
+    3888
+  ],
+  "poisson_ladder": [
+    500,
+    1000,
+    2000
+  ],
+  "n_seeds": 5,
+  "regimes": {
+    "sparse": {
+      "regime": {
+        "label": "sparse",
+        "kind": "fixed",
+        "p": 0.02
+      },
+      "rows": [
+        {
+          "N": 500,
+          "p": 0.02,
+          "n_seeds": 5,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.6916,
+          "frac_on_square_sem": 0.016252015259653176,
+          "squares_per_node": 1.6544,
+          "C_local_square": 0.005595465359041409,
+          "runtime_s": 0.18465919999289326
+        },
+        {
+          "N": 1000,
+          "p": 0.02,
+          "n_seeds": 5,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.7522,
+          "frac_on_square_sem": 0.007758350340117422,
+          "squares_per_node": 2.1767999999999996,
+          "C_local_square": 0.004626577137087749,
+          "runtime_s": 0.7661923999985447
+        },
+        {
+          "N": 2000,
+          "p": 0.02,
+          "n_seeds": 5,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.8049,
+          "frac_on_square_sem": 0.00872628214075159,
+          "squares_per_node": 2.5752,
+          "C_local_square": 0.0045127293448698185,
+          "runtime_s": 3.4105558000010205
+        },
+        {
+          "N": 3300,
+          "p": 0.02,
+          "n_seeds": 3,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.8368686868686869,
+          "frac_on_square_sem": 0.0015670136401643138,
+          "squares_per_node": 2.7292929292929293,
+          "C_local_square": 0.004313842680377469,
+          "runtime_s": 6.1676685999991605
+        },
+        {
+          "N": 3888,
+          "p": 0.02,
+          "n_seeds": 3,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.8372770919067216,
+          "frac_on_square_sem": 0.005871779993764432,
+          "squares_per_node": 2.786694101508916,
+          "C_local_square": 0.0043006886419410814,
+          "runtime_s": 9.880707900010748
+        }
+      ],
+      "C4_dlnN": [
+        -0.00139781023298827,
+        -0.00016424764524896528,
+        -0.00039715750615694365,
+        -8.022104318970868e-05
+      ],
+      "slope_top": -8.022104318970868e-05
+    },
+    "intermediate": {
+      "regime": {
+        "label": "intermediate",
+        "kind": "fixed",
+        "p": 0.1
+      },
+      "rows": [
+        {
+          "N": 500,
+          "p": 0.1,
+          "n_seeds": 5,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.8348000000000001,
+          "frac_on_square_sem": 0.005233736714814766,
+          "squares_per_node": 3.3472,
+          "C_local_square": 0.020047047202796785,
+          "runtime_s": 0.2846709000004921
+        },
+        {
+          "N": 1000,
+          "p": 0.1,
+          "n_seeds": 5,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.8475999999999999,
+          "frac_on_square_sem": 0.006708800190794184,
+          "squares_per_node": 3.4143999999999997,
+          "C_local_square": 0.01953517497258258,
+          "runtime_s": 0.983016400001361
+        },
+        {
+          "N": 2000,
+          "p": 0.1,
+          "n_seeds": 5,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.8654,
+          "frac_on_square_sem": 0.0011865917579352984,
+          "squares_per_node": 3.646,
+          "C_local_square": 0.019662856725118437,
+          "runtime_s": 3.9341496999986703
+        },
+        {
+          "N": 3300,
+          "p": 0.1,
+          "n_seeds": 3,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.8694949494949494,
+          "frac_on_square_sem": 0.003865753914554268,
+          "squares_per_node": 3.6484848484848484,
+          "C_local_square": 0.019199942297225683,
+          "runtime_s": 7.72071289998712
+        },
+        {
+          "N": 3888,
+          "p": 0.1,
+          "n_seeds": 3,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.8656550068587107,
+          "frac_on_square_sem": 0.0029107463137885816,
+          "squares_per_node": 3.504458161865569,
+          "C_local_square": 0.018965962098369336,
+          "runtime_s": 10.965916400004062
+        }
+      ],
+      "C4_dlnN": [
+        -0.0007384755280988078,
+        0.0001842058311954935,
+        -0.0009243955104542792,
+        -0.0014269485168956707
+      ],
+      "slope_top": -0.0014269485168956707
+    },
+    "manifold": {
+      "regime": {
+        "label": "manifold",
+        "kind": "scaled",
+        "lam": 4.0
+      },
+      "rows": [
+        {
+          "N": 500,
+          "p": 0.008,
+          "n_seeds": 5,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.1476,
+          "frac_on_square_sem": 0.005970594610254492,
+          "squares_per_node": 0.176,
+          "C_local_square": 0.00294229250780049,
+          "runtime_s": 0.09160720001091249
+        },
+        {
+          "N": 1000,
+          "p": 0.004,
+          "n_seeds": 5,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.085,
+          "frac_on_square_sem": 0.008217055433669655,
+          "squares_per_node": 0.09359999999999999,
+          "C_local_square": 0.0013405327830529744,
+          "runtime_s": 0.19950649999373127
+        },
+        {
+          "N": 2000,
+          "p": 0.002,
+          "n_seeds": 5,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.036500000000000005,
+          "frac_on_square_sem": 0.0017146428199482236,
+          "squares_per_node": 0.03760000000000001,
+          "C_local_square": 0.0006580956761604557,
+          "runtime_s": 0.49815090000629425
+        },
+        {
+          "N": 3300,
+          "p": 0.0012121212121212121,
+          "n_seeds": 3,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.021717171717171718,
+          "frac_on_square_sem": 0.0005016722028872505,
+          "squares_per_node": 0.02181818181818182,
+          "C_local_square": 0.00035492738695985093,
+          "runtime_s": 0.517648699998972
+        },
+        {
+          "N": 3888,
+          "p": 0.00102880658436214,
+          "n_seeds": 3,
+          "C_trans": 0.0,
+          "n_tri": 0.0,
+          "frac_on_square": 0.021776406035665292,
+          "frac_on_square_sem": 0.001244372488401762,
+          "squares_per_node": 0.022633744855967076,
+          "C_local_square": 0.00032409460245157824,
+          "runtime_s": 0.6497725000081118
+        }
+      ],
+      "C4_dlnN": [
+        -0.0023108508115889117,
+        -0.0009845486298324482,
+        -0.000605397863110177,
+        -0.00018803640795628037
+      ],
+      "slope_top": -0.00018803640795628037
+    }
+  },
+  "poisson": [
+    {
+      "N": 500,
+      "C_trans": 0.0,
+      "frac_on_square": 0.9933333333333333,
+      "C_local_square": 0.054469449293421325,
+      "deg_mean": 21.78933333333333,
+      "runtime_s": 0.5772143000067445
+    },
+    {
+      "N": 1000,
+      "C_trans": 0.0,
+      "frac_on_square": 0.999,
+      "C_local_square": 0.04008733173731229,
+      "deg_mean": 29.379333333333335,
+      "runtime_s": 2.397104500007117
+    },
+    {
+      "N": 2000,
+      "C_trans": 0.0,
+      "frac_on_square": 0.9996666666666667,
+      "C_local_square": 0.029094305518177526,
+      "deg_mean": 40.89833333333333,
+      "runtime_s": 11.004528299992671
+    }
+  ],
+  "verdict": {
+    "discriminator": "C4 = mean local square (4-cycle) clustering, coordination-normalised; transitivity structurally 0 (Hasse theorem); frac_on_square confounded by coordination",
+    "poisson_C4_top": 0.029094305518177526,
+    "per_regime": {
+      "sparse": {
+        "C4_first": 0.005595465359041409,
+        "C4_top": 0.0043006886419410814,
+        "slope_top": -8.022104318970868e-05,
+        "C_trans_top": 0.0,
+        "frac_sq_top": 0.8372770919067216,
+        "sq_per_node_top": 2.786694101508916,
+        "decaying_to_zero": false,
+        "above_bethe_control": false,
+        "saturates_positive": false
+      },
+      "intermediate": {
+        "C4_first": 0.020047047202796785,
+        "C4_top": 0.018965962098369336,
+        "slope_top": -0.0014269485168956707,
+        "C_trans_top": 0.0,
+        "frac_sq_top": 0.8656550068587107,
+        "sq_per_node_top": 3.504458161865569,
+        "decaying_to_zero": false,
+        "above_bethe_control": false,
+        "saturates_positive": false
+      },
+      "manifold": {
+        "C4_first": 0.00294229250780049,
+        "C4_top": 0.00032409460245157824,
+        "slope_top": -0.00018803640795628037,
+        "C_trans_top": 0.0,
+        "frac_sq_top": 0.021776406035665292,
+        "sq_per_node_top": 0.022633744855967076,
+        "decaying_to_zero": true,
+        "above_bethe_control": false,
+        "saturates_positive": false
+      }
+    },
+    "armed": false,
+    "armed_regime": null,
+    "verdict": "NAO_ARMADO"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "rhos": [
+    1,
+    5,
+    10,
+    18,
+    50,
+    100
+  ],
+  "n_seeds": 20,
+  "t_end": 18.0,
+  "rows": [
+    {
+      "rho": 1,
+      "W_phi": {
+        "mean": -1.0601848938211711e-17,
+        "std": 5.30042845296656e-16,
+        "sem": 1.1852118330707273e-16,
+        "n": 20
+      },
+      "n_kink": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "peak_phi": {
+        "mean": 0.12032136783167782,
+        "std": 0.0005821066237316813,
+        "sem": 0.00013016299808169316,
+        "n": 20
+      },
+      "frac_phi": {
+        "mean": 0.43334613907979,
+        "std": 0.0056162426953036285,
+        "sem": 0.0012558300444835552,
+        "n": 20
+      },
+      "frac_pair": 0.0,
+      "frac_ill_posed": 0.0
+    },
+    {
+      "rho": 5,
+      "W_phi": {
+        "mean": -2.473764752249402e-17,
+        "std": 3.44179539606831e-16,
+        "sem": 7.696088470254554e-17,
+        "n": 20
+      },
+      "n_kink": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "peak_phi": {
+        "mean": 0.5891326527544386,
+        "std": 0.0025677339625582063,
+        "sem": 0.0005741627688415049,
+        "n": 20
+      },
+      "frac_phi": {
+        "mean": 0.41264371702299496,
+        "std": 0.005566920679896783,
+        "sem": 0.0012448013065598554,
+        "n": 20
+      },
+      "frac_pair": 0.0,
+      "frac_ill_posed": 0.0
+    },
+    {
+      "rho": 10,
+      "W_phi": {
+        "mean": 4.2407395752846886e-17,
+        "std": 3.9345716009554995e-16,
+        "sem": 8.797969562076673e-17,
+        "n": 20
+      },
+      "n_kink": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "peak_phi": {
+        "mean": 1.1036666451549038,
+        "std": 0.003934108437095966,
+        "sem": 0.0008796933896202035,
+        "n": 20
+      },
+      "frac_phi": {
+        "mean": 0.40536965695841565,
+        "std": 0.004128087595498625,
+        "sem": 0.000923068448060858,
+        "n": 20
+      },
+      "frac_pair": 0.0,
+      "frac_ill_posed": 0.0
+    },
+    {
+      "rho": 18,
+      "W_phi": {
+        "mean": 6.361109362927034e-17,
+        "std": 2.9357429519971525e-16,
+        "sem": 6.564520805131534e-17,
+        "n": 20
+      },
+      "n_kink": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "peak_phi": {
+        "mean": 2.16376887352113,
+        "std": 0.09131556238052614,
+        "sem": 0.020418780488647897,
+        "n": 20
+      },
+      "frac_phi": {
+        "mean": 0.37339782124089,
+        "std": 0.01900845293141321,
+        "sem": 0.004250419290174508,
+        "n": 20
+      },
+      "frac_pair": 0.0,
+      "frac_ill_posed": 0.0
+    },
+    {
+      "rho": 50,
+      "W_phi": {
+        "mean": 1.41357985842823e-17,
+        "std": 4.125084094924056e-16,
+        "sem": 9.223968449153384e-17,
+        "n": 20
+      },
+      "n_kink": {
+        "mean": 0.55,
+        "std": 0.887041208323017,
+        "sem": 0.19834844406538182,
+        "n": 20
+      },
+      "peak_phi": {
+        "mean": 3.1035620235985055,
+        "std": 0.5822225712633693,
+        "sem": 0.13018892473796093,
+        "n": 20
+      },
+      "frac_phi": {
+        "mean": 0.17405573132171112,
+        "std": 0.01697998694681138,
+        "sem": 0.003796840507012935,
+        "n": 20
+      },
+      "frac_pair": 0.15,
+      "frac_ill_posed": 1.0
+    },
+    {
+      "rho": 100,
+      "W_phi": {
+        "mean": 1.0601848938211712e-17,
+        "std": 3.0010659420611305e-16,
+        "sem": 6.710587451408133e-17,
+        "n": 20
+      },
+      "n_kink": {
+        "mean": 0.6,
+        "std": 1.231174022502185,
+        "sem": 0.2752988806446741,
+        "n": 20
+      },
+      "peak_phi": {
+        "mean": 3.120713235706616,
+        "std": 0.9670048941778054,
+        "sem": 0.21622886779565634,
+        "n": 20
+      },
+      "frac_phi": {
+        "mean": 0.08171779656774535,
+        "std": 0.007274114344885396,
+        "sem": 0.0016265414151270094,
+        "n": 20
+      },
+      "frac_pair": 0.15,
+      "frac_ill_posed": 1.0
+    }
+  ],
+  "rho_gauge": null,
+  "creates_pair": false,
+  "any_pair": true,
+  "pairs_only_illposed": true,
+  "peak_reaches_pi_controlled": false,
+  "winding_any": false,
+  "energy_ratio_sweep": {
+    "inf": 0.0,
+    "10": 0.0,
+    "1": 0.0,
+    "0.1": 0.0
+  },
+  "angle": {
+    "head_on": 0.0,
+    "oblique": 0.0
+  },
+  "phi0_sweep": {
+    "0": 0.0,
+    "pi/4": 0.0,
+    "pi/2": 0.0
+  },
+  "scenario": "2/3 (nuclea\u00e7\u00e3o MARGINAL s\u00f3 no regime mal-posto)",
+  "grade": "C",
+  "statement": "Marginal creation only. Energy DOES flow scalar->gauge (G2), and the gauge phase climbs monotonically with rho (peak_phi 0.1 -> ~pi), but it reaches pi ONLY at rho >= 50 -- the SAME densities where the scalar sector itself runs away (peak_theta >> amp, the DBI3 cos''<0 ill-posedness above rho_pi=18). There a kink-antikink pair nucleates in ~15% of seeds (net W_phi~0, charge conserved), but in the UNCONTROLLED regime, so it is not clean creation. In the controlled regime (rho <= 18) the gauge phase stays below pi and NOTHING is created. The Stueckelberg drag transfers energy but it ends as gauge RADIATION, not a trapped kink, until the scalar breaks down -- Scenario 3 refined: transfer is real (Scenario 4 excluded), yet stable matter still needs more structure (plaquette/Wilson dynamics or an external field)."
+}

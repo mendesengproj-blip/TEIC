@@ -1,0 +1,111 @@
+{
+  "seeds": 20,
+  "lam": 1.0,
+  "lamp": 0.8,
+  "vs": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "grid": {
+    "Nx": 49,
+    "Ny": 20,
+    "Nz": 8
+  },
+  "rows": [
+    {
+      "v": 0.0,
+      "n_vortex_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "winding_late": {
+        "mean": 49.0257517660779,
+        "std": 3.0411624831917603,
+        "sem": 0.6800246043038838,
+        "n": 20
+      },
+      "core_flux_late": {
+        "mean": 0.05333094494683448,
+        "std": 0.007981661880259035,
+        "sem": 0.001784753853767799,
+        "n": 20
+      },
+      "flux_survive": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_created": 0.0
+    },
+    {
+      "v": 0.5,
+      "n_vortex_late": {
+        "mean": 6.35,
+        "std": 5.1938729084830015,
+        "sem": 1.1613852889862535,
+        "n": 20
+      },
+      "winding_late": {
+        "mean": 221.32978721345089,
+        "std": 27.89602337480283,
+        "sem": 6.237740456798222,
+        "n": 20
+      },
+      "core_flux_late": {
+        "mean": 0.46957634068152015,
+        "std": 0.03372150011013957,
+        "sem": 0.007540356654953872,
+        "n": 20
+      },
+      "flux_survive": {
+        "mean": 0.4583333333333333,
+        "std": 0.10644439560975084,
+        "sem": 0.023801690440728305,
+        "n": 20
+      },
+      "frac_created": 1.0
+    },
+    {
+      "v": 1.0,
+      "n_vortex_late": {
+        "mean": 47.9,
+        "std": 8.290133641231225,
+        "sem": 1.8537302364350872,
+        "n": 20
+      },
+      "winding_late": {
+        "mean": 480.5648173412845,
+        "std": 15.341648218402824,
+        "sem": 3.430496830323725,
+        "n": 20
+      },
+      "core_flux_late": {
+        "mean": 0.4984655160418299,
+        "std": 0.0012704892958194536,
+        "sem": 0.0002840900430138138,
+        "n": 20
+      },
+      "flux_survive": {
+        "mean": 1.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_created": 1.0
+    }
+  ],
+  "object_created": true,
+  "core_pinned_in_collision": true,
+  "five_fold": {
+    "rest_mass_sineGordon": true,
+    "E2_pc2_mc2": true,
+    "theta_M_over_r": true,
+    "transverse_isotropy": true,
+    "core_pinned": true
+  },
+  "n_consistencies": 5
+}

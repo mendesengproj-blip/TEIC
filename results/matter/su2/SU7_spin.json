@@ -1,0 +1,42 @@
+{
+  "alphas": [
+    0.0,
+    0.5235987755982988,
+    1.0471975511965976,
+    1.5707963267948966,
+    2.0943951023931953,
+    2.617993877991494,
+    3.141592653589793,
+    3.665191429188092,
+    4.1887902047863905,
+    4.71238898038469,
+    5.235987755982988,
+    5.759586531581287,
+    6.283185307179586
+  ],
+  "field_overlaps": [
+    1.0,
+    0.9969551091667254,
+    0.9886614673022784,
+    0.9772705541207684,
+    0.9659689881492809,
+    0.9576753462848338,
+    0.9545411082415366,
+    0.957675346284834,
+    0.9659689881492807,
+    0.9772705541207684,
+    0.9886614673022784,
+    0.9969551091667251,
+    1.0
+  ],
+  "overlap_at_2pi": 1.0,
+  "classical_field_returns_+state": true,
+  "pi4_SU2": "Z_2 (a 2pi rotation is the non-trivial class -> half-integer spin ALLOWED)",
+  "su2_double_cover_2pi_rotation": {
+    "half_trace": -1.0,
+    "is_minus_identity": true
+  },
+  "spin_half_verified": false,
+  "honest_note": "The SU(2) double cover gives -1 for a 2pi rotation (the topological prerequisite for spin-1/2 is present: pi_4(SU(2))=Z_2). But the classical field configuration returns to +itself under a 2pi spatial rotation (overlap +1): the |psi> -> -|psi> sign is a QUANTUM Finkelstein-Rubinstein phase on the quantised collective coordinate, which a classical lattice field theory cannot produce. Spin-1/2 is ALLOWED and topologically natural, but NOT verified here.",
+  "verdict": "NAO"
+}

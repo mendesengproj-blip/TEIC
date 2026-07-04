@@ -1,0 +1,15 @@
+{
+  "AH1_setup_pass": true,
+  "AH2_m_A_linear": true,
+  "AH2_slope_e": 1.1970454383325504,
+  "AH3_normal_core": true,
+  "AH3_kappa": 0.7303013475134679,
+  "AH3_regime": "TIPO II (kappa>1/sqrt2)",
+  "AH4_pinning": true,
+  "AH5_n_consistencies": 5,
+  "AH5_core_pinned": true,
+  "AH6_annihilation": true,
+  "AH6_E_pair_over_M": 1.5357133266581742,
+  "verdict": "A",
+  "verdict_text": "cinco consist\u00eancias + cria\u00e7\u00e3o est\u00e1vel + aniquila\u00e7\u00e3o \u2014 mat\u00e9ria est\u00e1vel com o campo complexo"
+}

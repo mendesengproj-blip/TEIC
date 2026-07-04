@@ -1,0 +1,469 @@
+{
+  "verdict": {
+    "T1": "SURVIVED - Bell OK ate N=6",
+    "T2": "SURVIVED - new GENERAL-RS member, parametrized by n_components (outside the simplified t_k=f(|past|) subfamily)",
+    "T3": "SURVIVED - observable difference detected",
+    "final": "Desfecho 3: dinamica de crescimento covariante, NOVO membro da familia RS-geral (parametrizada por n_components, fora da subfamilia simplificada t_k=f(|past|)), com consequencia observavel -- a regra de peso-de-encontro produz causets mais ESPARSAS (ordering fraction menor). O efeito e real mas decresce com N (parcialmente definicional). AUDITAR antes de reivindicar."
+  },
+  "params": {
+    "n_max_t1": 6,
+    "w_meet_values": [
+      "1/3",
+      "1/2",
+      "2",
+      "3",
+      "5"
+    ],
+    "t3_w_meet": "1/3",
+    "t3_sizes": [
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "t3_samples": 3000,
+    "t3_seed": 42
+  },
+  "T1": {
+    "1/3": {
+      "passed": true,
+      "total_tests": 26738,
+      "meeting_tests": 18607,
+      "violations": []
+    },
+    "1/2": {
+      "passed": true,
+      "total_tests": 26738,
+      "meeting_tests": 18607,
+      "violations": []
+    },
+    "2": {
+      "passed": true,
+      "total_tests": 26738,
+      "meeting_tests": 18607,
+      "violations": []
+    },
+    "3": {
+      "passed": true,
+      "total_tests": 26738,
+      "meeting_tests": 18607,
+      "violations": []
+    },
+    "5": {
+      "passed": true,
+      "total_tests": 26738,
+      "meeting_tests": 18607,
+      "violations": []
+    }
+  },
+  "T2": {
+    "1/3": {
+      "in_simplified_rs_subfamily": false,
+      "in_general_rs_family": true,
+      "reason": "Same past-size maps to different TEIC weights because the weight depends on n_components, not on |past|. Outside the simplified RS subfamily (t_k = f(|past|)). Still a valid member of the GENERAL Rideout-Sorkin / CSG family, reparametrized by n_components.",
+      "conflicts": [
+        {
+          "past_size": 2,
+          "distinct_weights": [
+            "1/3",
+            "1"
+          ]
+        },
+        {
+          "past_size": 3,
+          "distinct_weights": [
+            "1/3",
+            "1"
+          ]
+        },
+        {
+          "past_size": 4,
+          "distinct_weights": [
+            "1/3",
+            "1"
+          ]
+        },
+        {
+          "past_size": 5,
+          "distinct_weights": [
+            "1/3",
+            "1"
+          ]
+        }
+      ],
+      "ncomponents_parametrization": {
+        "|past|=0,ncomp=0": "1",
+        "|past|=1,ncomp=1": "1",
+        "|past|=2,ncomp=1": "1",
+        "|past|=2,ncomp=2": "1/3",
+        "|past|=3,ncomp=1": "1",
+        "|past|=3,ncomp=2": "1/3",
+        "|past|=3,ncomp=3": "1/3",
+        "|past|=4,ncomp=1": "1",
+        "|past|=4,ncomp=2": "1/3",
+        "|past|=4,ncomp=3": "1/3",
+        "|past|=4,ncomp=4": "1/3",
+        "|past|=5,ncomp=1": "1",
+        "|past|=5,ncomp=2": "1/3",
+        "|past|=5,ncomp=3": "1/3",
+        "|past|=5,ncomp=4": "1/3",
+        "|past|=5,ncomp=5": "1/3"
+      }
+    },
+    "1/2": {
+      "in_simplified_rs_subfamily": false,
+      "in_general_rs_family": true,
+      "reason": "Same past-size maps to different TEIC weights because the weight depends on n_components, not on |past|. Outside the simplified RS subfamily (t_k = f(|past|)). Still a valid member of the GENERAL Rideout-Sorkin / CSG family, reparametrized by n_components.",
+      "conflicts": [
+        {
+          "past_size": 2,
+          "distinct_weights": [
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "past_size": 3,
+          "distinct_weights": [
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "past_size": 4,
+          "distinct_weights": [
+            "1/2",
+            "1"
+          ]
+        },
+        {
+          "past_size": 5,
+          "distinct_weights": [
+            "1/2",
+            "1"
+          ]
+        }
+      ],
+      "ncomponents_parametrization": {
+        "|past|=0,ncomp=0": "1",
+        "|past|=1,ncomp=1": "1",
+        "|past|=2,ncomp=1": "1",
+        "|past|=2,ncomp=2": "1/2",
+        "|past|=3,ncomp=1": "1",
+        "|past|=3,ncomp=2": "1/2",
+        "|past|=3,ncomp=3": "1/2",
+        "|past|=4,ncomp=1": "1",
+        "|past|=4,ncomp=2": "1/2",
+        "|past|=4,ncomp=3": "1/2",
+        "|past|=4,ncomp=4": "1/2",
+        "|past|=5,ncomp=1": "1",
+        "|past|=5,ncomp=2": "1/2",
+        "|past|=5,ncomp=3": "1/2",
+        "|past|=5,ncomp=4": "1/2",
+        "|past|=5,ncomp=5": "1/2"
+      }
+    },
+    "2": {
+      "in_simplified_rs_subfamily": false,
+      "in_general_rs_family": true,
+      "reason": "Same past-size maps to different TEIC weights because the weight depends on n_components, not on |past|. Outside the simplified RS subfamily (t_k = f(|past|)). Still a valid member of the GENERAL Rideout-Sorkin / CSG family, reparametrized by n_components.",
+      "conflicts": [
+        {
+          "past_size": 2,
+          "distinct_weights": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "past_size": 3,
+          "distinct_weights": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "past_size": 4,
+          "distinct_weights": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "past_size": 5,
+          "distinct_weights": [
+            "1",
+            "2"
+          ]
+        }
+      ],
+      "ncomponents_parametrization": {
+        "|past|=0,ncomp=0": "1",
+        "|past|=1,ncomp=1": "1",
+        "|past|=2,ncomp=1": "1",
+        "|past|=2,ncomp=2": "2",
+        "|past|=3,ncomp=1": "1",
+        "|past|=3,ncomp=2": "2",
+        "|past|=3,ncomp=3": "2",
+        "|past|=4,ncomp=1": "1",
+        "|past|=4,ncomp=2": "2",
+        "|past|=4,ncomp=3": "2",
+        "|past|=4,ncomp=4": "2",
+        "|past|=5,ncomp=1": "1",
+        "|past|=5,ncomp=2": "2",
+        "|past|=5,ncomp=3": "2",
+        "|past|=5,ncomp=4": "2",
+        "|past|=5,ncomp=5": "2"
+      }
+    },
+    "3": {
+      "in_simplified_rs_subfamily": false,
+      "in_general_rs_family": true,
+      "reason": "Same past-size maps to different TEIC weights because the weight depends on n_components, not on |past|. Outside the simplified RS subfamily (t_k = f(|past|)). Still a valid member of the GENERAL Rideout-Sorkin / CSG family, reparametrized by n_components.",
+      "conflicts": [
+        {
+          "past_size": 2,
+          "distinct_weights": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "past_size": 3,
+          "distinct_weights": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "past_size": 4,
+          "distinct_weights": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "past_size": 5,
+          "distinct_weights": [
+            "1",
+            "3"
+          ]
+        }
+      ],
+      "ncomponents_parametrization": {
+        "|past|=0,ncomp=0": "1",
+        "|past|=1,ncomp=1": "1",
+        "|past|=2,ncomp=1": "1",
+        "|past|=2,ncomp=2": "3",
+        "|past|=3,ncomp=1": "1",
+        "|past|=3,ncomp=2": "3",
+        "|past|=3,ncomp=3": "3",
+        "|past|=4,ncomp=1": "1",
+        "|past|=4,ncomp=2": "3",
+        "|past|=4,ncomp=3": "3",
+        "|past|=4,ncomp=4": "3",
+        "|past|=5,ncomp=1": "1",
+        "|past|=5,ncomp=2": "3",
+        "|past|=5,ncomp=3": "3",
+        "|past|=5,ncomp=4": "3",
+        "|past|=5,ncomp=5": "3"
+      }
+    },
+    "5": {
+      "in_simplified_rs_subfamily": false,
+      "in_general_rs_family": true,
+      "reason": "Same past-size maps to different TEIC weights because the weight depends on n_components, not on |past|. Outside the simplified RS subfamily (t_k = f(|past|)). Still a valid member of the GENERAL Rideout-Sorkin / CSG family, reparametrized by n_components.",
+      "conflicts": [
+        {
+          "past_size": 2,
+          "distinct_weights": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "past_size": 3,
+          "distinct_weights": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "past_size": 4,
+          "distinct_weights": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "past_size": 5,
+          "distinct_weights": [
+            "1",
+            "5"
+          ]
+        }
+      ],
+      "ncomponents_parametrization": {
+        "|past|=0,ncomp=0": "1",
+        "|past|=1,ncomp=1": "1",
+        "|past|=2,ncomp=1": "1",
+        "|past|=2,ncomp=2": "5",
+        "|past|=3,ncomp=1": "1",
+        "|past|=3,ncomp=2": "5",
+        "|past|=3,ncomp=3": "5",
+        "|past|=4,ncomp=1": "1",
+        "|past|=4,ncomp=2": "5",
+        "|past|=4,ncomp=3": "5",
+        "|past|=4,ncomp=4": "5",
+        "|past|=5,ncomp=1": "1",
+        "|past|=5,ncomp=2": "5",
+        "|past|=5,ncomp=3": "5",
+        "|past|=5,ncomp=4": "5",
+        "|past|=5,ncomp=5": "5"
+      }
+    }
+  },
+  "T3": {
+    "6": {
+      "chain": {
+        "statistic": 0.042333333333333334,
+        "p_value": 0.009242928805578456,
+        "mean_teic": 2.138,
+        "mean_perc": 2.1976666666666667,
+        "delta": -0.05966666666666676,
+        "significant": true
+      },
+      "maximal": {
+        "statistic": 0.11,
+        "p_value": 3.2124479961999155e-16,
+        "mean_teic": 2.756666666666667,
+        "mean_perc": 2.5196666666666667,
+        "delta": 0.2370000000000001,
+        "significant": true
+      },
+      "ordering": {
+        "statistic": 0.16566666666666666,
+        "p_value": 2.4180645588135753e-36,
+        "mean_teic": 0.45286666666666664,
+        "mean_perc": 0.5057333333333333,
+        "delta": -0.05286666666666662,
+        "significant": true
+      },
+      "_timing_ratio": 1.0254750638499888,
+      "_n_samples": 3000
+    },
+    "8": {
+      "chain": {
+        "statistic": 0.013666666666666667,
+        "p_value": 0.9421189044453018,
+        "mean_teic": 2.776666666666667,
+        "mean_perc": 2.7856666666666667,
+        "delta": -0.008999999999999897,
+        "significant": false
+      },
+      "maximal": {
+        "statistic": 0.06666666666666667,
+        "p_value": 3.214452953950123e-06,
+        "mean_teic": 3.066333333333333,
+        "mean_perc": 2.925,
+        "delta": 0.1413333333333333,
+        "significant": true
+      },
+      "ordering": {
+        "statistic": 0.166,
+        "p_value": 1.730250311809714e-36,
+        "mean_teic": 0.46251190476190474,
+        "mean_perc": 0.5088214285714286,
+        "delta": -0.04630952380952391,
+        "significant": true
+      },
+      "_timing_ratio": 1.0557468886209358,
+      "_n_samples": 3000
+    },
+    "10": {
+      "chain": {
+        "statistic": 0.029,
+        "p_value": 0.1603654184817161,
+        "mean_teic": 3.3513333333333333,
+        "mean_perc": 3.2943333333333333,
+        "delta": 0.05699999999999994,
+        "significant": false
+      },
+      "maximal": {
+        "statistic": 0.009,
+        "p_value": 0.9997216820373293,
+        "mean_teic": 3.2656666666666667,
+        "mean_perc": 3.2616666666666667,
+        "delta": 0.0040000000000000036,
+        "significant": false
+      },
+      "ordering": {
+        "statistic": 0.134,
+        "p_value": 6.916223474973842e-24,
+        "mean_teic": 0.48098518518518524,
+        "mean_perc": 0.5121481481481481,
+        "delta": -0.031162962962962892,
+        "significant": true
+      },
+      "_timing_ratio": 1.0554738274574595,
+      "_n_samples": 3000
+    },
+    "12": {
+      "chain": {
+        "statistic": 0.014333333333333333,
+        "p_value": 0.917644347795967,
+        "mean_teic": 3.7943333333333333,
+        "mean_perc": 3.76,
+        "delta": 0.03433333333333355,
+        "significant": false
+      },
+      "maximal": {
+        "statistic": 0.03266666666666666,
+        "p_value": 0.0814074105652808,
+        "mean_teic": 3.527,
+        "mean_perc": 3.575,
+        "delta": -0.04800000000000004,
+        "significant": false
+      },
+      "ordering": {
+        "statistic": 0.13266666666666665,
+        "p_value": 2.0221472100867985e-23,
+        "mean_teic": 0.4906565656565657,
+        "mean_perc": 0.5182323232323233,
+        "delta": -0.027575757575757587,
+        "significant": true
+      },
+      "_timing_ratio": 1.0477132698419653,
+      "_n_samples": 3000
+    },
+    "14": {
+      "chain": {
+        "statistic": 0.04533333333333334,
+        "p_value": 0.004197479125867196,
+        "mean_teic": 4.268666666666666,
+        "mean_perc": 4.175333333333334,
+        "delta": 0.09333333333333282,
+        "significant": true
+      },
+      "maximal": {
+        "statistic": 0.048666666666666664,
+        "p_value": 0.001638772023997551,
+        "mean_teic": 3.7783333333333333,
+        "mean_perc": 3.9103333333333334,
+        "delta": -0.13200000000000012,
+        "significant": true
+      },
+      "ordering": {
+        "statistic": 0.103,
+        "p_value": 2.8609539204989354e-14,
+        "mean_teic": 0.5055641025641026,
+        "mean_perc": 0.5241025641025641,
+        "delta": -0.018538461538461504,
+        "significant": true
+      },
+      "_timing_ratio": 1.0249263167781462,
+      "_n_samples": 3000
+    }
+  }
+}

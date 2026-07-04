@@ -1,0 +1,143 @@
+{
+  "criterion": "Secao 5 COMPLETA: janela = <z> satura E C4>0 nao-decai E C4>controle",
+  "z_saturates_sigmas": [],
+  "c4_nontrivial_sigmas": [],
+  "window_sigmas": [],
+  "per_sigma": {
+    "0.5": {
+      "sigma": 0.5,
+      "z_top": 53.49058121874949,
+      "z_rel_slope": 0.67610535329326,
+      "z_saturates": false,
+      "c4_top": 0.13802690641689722,
+      "c4_nondecay": true,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.8230545433576222,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "1.0": {
+      "sigma": 1.0,
+      "z_top": 40.8269289224817,
+      "z_rel_slope": 0.6145235263754043,
+      "z_saturates": false,
+      "c4_top": 0.09074669637755435,
+      "c4_nondecay": true,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.7375353509460729,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "1.5": {
+      "sigma": 1.5,
+      "z_top": 42.59615164052554,
+      "z_rel_slope": 0.5925616467523368,
+      "z_saturates": false,
+      "c4_top": 0.0587675000684228,
+      "c4_nondecay": true,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.7025171975725201,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "2.0": {
+      "sigma": 2.0,
+      "z_top": 34.85912946190956,
+      "z_rel_slope": 0.5349451541374521,
+      "z_saturates": false,
+      "c4_top": 0.04771631020854125,
+      "c4_nondecay": true,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.7081201950795872,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "2.5": {
+      "sigma": 2.5,
+      "z_top": 34.39164962810978,
+      "z_rel_slope": 0.4783637550589953,
+      "z_saturates": false,
+      "c4_top": 0.03622398753755568,
+      "c4_nondecay": false,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.7428493783310061,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "3.0": {
+      "sigma": 3.0,
+      "z_top": 30.16918412658801,
+      "z_rel_slope": 0.4458320925419251,
+      "z_saturates": false,
+      "c4_top": 0.032972830343996146,
+      "c4_nondecay": false,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.7741014152562552,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "3.5": {
+      "sigma": 3.5,
+      "z_top": 27.301439706723603,
+      "z_rel_slope": 0.4296929078651824,
+      "z_saturates": false,
+      "c4_top": 0.030935619607233317,
+      "c4_nondecay": false,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.8050250505309953,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "4.0": {
+      "sigma": 4.0,
+      "z_top": 25.24755275564716,
+      "z_rel_slope": 0.4152128950534553,
+      "z_saturates": false,
+      "c4_top": 0.02952134063208478,
+      "c4_nondecay": false,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.8326891882167857,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "5.0": {
+      "sigma": 5.0,
+      "z_top": 22.581959224027074,
+      "z_rel_slope": 0.39894593922970767,
+      "z_saturates": false,
+      "c4_top": 0.027722197037182515,
+      "c4_nondecay": false,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.8751971353209188,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "6.0": {
+      "sigma": 6.0,
+      "z_top": 20.96241054685768,
+      "z_rel_slope": 0.3917783001740218,
+      "z_saturates": false,
+      "c4_top": 0.026566254415775245,
+      "c4_nondecay": false,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.9017430101740069,
+      "c4_nontrivial": false,
+      "window": false
+    },
+    "8.0": {
+      "sigma": 8.0,
+      "z_top": 19.155831320225165,
+      "z_rel_slope": 0.3852234954254227,
+      "z_saturates": false,
+      "c4_top": 0.025108281938820157,
+      "c4_nondecay": false,
+      "c4_above_control": false,
+      "c4_ratio_over_control": 0.9295531313569522,
+      "c4_nontrivial": false,
+      "window": false
+    }
+  },
+  "verdict": "SEM_JANELA",
+  "lorentz_invariance": "PASS (gate item 5: arestas bit-identicas sob boost eta=0.8)",
+  "note": "<z> diverge em TODOS os sigma (slope rel >=0.38, nunca <0.05); C4 fica ABAIXO do controle aleatorio em 0/11 sigma -> nem a barreira de lacos e passada de forma nao-trivial. Sem ponto de sobreposicao."
+}

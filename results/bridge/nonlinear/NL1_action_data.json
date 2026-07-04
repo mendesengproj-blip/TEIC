@@ -1,0 +1,27 @@
+{
+  "what": "Is the non-linear coefficient lambda fixed by the BD action? -> NO (free).",
+  "schwarzschild": {
+    "density_series": "5*u**3/2 + 3*u**2/2 + u + 1",
+    "redshift_series": "-u**3/2 - u**2/2 - u + 1",
+    "density_u2_coeff": "3/2",
+    "redshift_u2_coeff": "-1/2"
+  },
+  "correct_density_2nd_order_coeff": "3/2",
+  "prompt_value_one_half_is_redshift_coeff_not_density": true,
+  "nonlinear_structure": {
+    "theta2_from_theta_squared": "C1 + C2/r + M**2*lambda*log(r)",
+    "theta2_from_gradient_squared": "C1 + C2/r + M**2*lambda/(2*r**2)",
+    "gradient_1_over_r2_coeff_in_lambda": "lambda/2",
+    "lambda_matching_3_2": "3"
+  },
+  "lambda_theta2_gives_log_not_r2": true,
+  "gradient_coupling_gives_clean_r2": true,
+  "lambda_matching_density_3_2": "3",
+  "bd_action_is_quadratic": true,
+  "lambda_is_geometric": false,
+  "lambda_is_free": true,
+  "geometric_nonlinearity_lives_in": "-(1/2) R phi curvature coupling + causal-structure back-reaction (Regge / causal-set Einstein sector) -- OPEN FRONTIER, not contained in the quadratic BD action.",
+  "verdict": "lambda LIVRE (nao geometrico)",
+  "note": "NL1 death criterion met: lambda free -> non-linearity not derived. Per the prompt, NL2/NL3 proceed (numerical, independent of NL1). Target for NL2/NL3 is the DENSITY coefficient 3/2, not the prompt's 1/2 (which is the redshift's).",
+  "timestamp_utc": "2026-06-09T22:23:25Z"
+}

@@ -1,0 +1,16 @@
+{
+  "scorecard": {
+    "R1 -- rarefacao rho_eff(0)<rho_eff(inf)": "SIM (dinamica, dip~1.0; cinematica PLANA)",
+    "R2 -- corrente J circulante": "SIM",
+    "R2 -- L/(rho xi^2) > 1": "NAO (=0.38, sub-limiar)",
+    "R3 -- dip ~ W": "parcial (|drho(0)|~W^1.05)",
+    "R4 -- |Phi_eff|(0)->0": "SIM (|Phi|(0)=0.00)",
+    "R4 -- sigma_core constante": "SIM"
+  },
+  "verdict": "B",
+  "verdict_text": "Rarefacao existe (back-reaction dinamica) e ATINGE |Phi|(0)->0 com nucleo constante na rigidez natural, MAS so para rho dinamico (D1-D3) e K macio: quarto axioma REDUZIDO (promover rho ao campo dinamico + amplificar a rarefacao), nao 'sem axioma'.  O fluxo cinematico de links e plano.",
+  "note": "the A-CONDITIONS (|Phi|(0)->0, sigma_core constant) ARE met -- but only for the DYNAMICAL causal density (D1-D3 geometry sector) at natural/soft stiffness (K<~8.0); the fixed Poisson substrate (PE4) stays flat and the kinematic link COUNT does not change.  So this is a REDUCED fourth ingredient (promote rho to the dynamical density the bridge already has), not 'no ingredient' (A).",
+  "what_emerged": "the causal density, IF dynamical (the D1-D3 geometry sector), DEPLETES at the vortex core driven by the genuine circulating gauge current/action, reaching |Phi_eff|(0)->0 with a constant core at natural stiffness -- the pinning PE4 lacked.",
+  "what_is_conditional": "the depletion is a BACK-REACTION (the kinematic link count is flat) whose depth ~1/K depends on the (free) geometry stiffness, and it requires rho to be the dynamical density, not PE4's fixed Poisson substrate.",
+  "timestamp_utc": "2026-06-09T22:48:25Z"
+}

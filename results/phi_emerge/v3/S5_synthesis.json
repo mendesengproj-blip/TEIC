@@ -1,0 +1,30 @@
+{
+  "scorecard": {
+    "S1_protocol_dynamical_rho": true,
+    "S2_dip_emerges_spontaneously": true,
+    "S2_dip200": 1.057726351057212,
+    "S2_dV2": 1.0640430029040384,
+    "S2_ratio_to_V2": 0.9940635399167252,
+    "S2_tau_dip": 2.3400000000000007,
+    "S1_tau_vortex": 3.9,
+    "S2_dip_forms_with_vortex": true,
+    "S2_sigma_core_constant": true,
+    "S3_Kc_found": true,
+    "S3_Kc_full_depletion": 8.465245653410353,
+    "S3_Kc_trend": "K_c ~ constante (escala f\u00edsica de acoplamento)",
+    "S4_five_consistencies": "5/5",
+    "S4_gauge_winding_diffuses_CR3D_baseline": true
+  },
+  "verdict": "B",
+  "triple_verification_spontaneous_emergence": {
+    "S2_headline_20seeds": {
+      "tau_dip": 2.3400000000000007,
+      "ratio_to_V2": 0.9940635399167252,
+      "sigma_core": "3.720+/-0.097"
+    },
+    "S2_grid_15cells_ratio_all": "~1.00 (dip reaches V2 equilibrium for every K)",
+    "S4_independent_resigma": 3.7202162530151006,
+    "S1_tau_dip_lt_tau_vortex": true
+  },
+  "timestamp_utc": "2026-06-09T23:49:08Z"
+}

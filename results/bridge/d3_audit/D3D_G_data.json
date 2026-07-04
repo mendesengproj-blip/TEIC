@@ -1,0 +1,94 @@
+{
+  "what": "Network effective coupling G_net = A/w_M vs w_M, rho, L, and stiffness K.",
+  "r_min": 0.5,
+  "r_core": 2.0,
+  "G_vs_wM": [
+    [
+      1.0,
+      0.9812103179008582
+    ],
+    [
+      2.0,
+      0.9812103179008582
+    ],
+    [
+      5.0,
+      0.9812103179008578
+    ],
+    [
+      10.0,
+      0.9812103179008578
+    ],
+    [
+      20.0,
+      0.9812103179008578
+    ]
+  ],
+  "slope_wM": -1.8209634953457614e-16,
+  "G_net_cv_over_wM": 2.3188506001255093e-16,
+  "G_vs_rho": [
+    [
+      50.0,
+      0.9745793689952176
+    ],
+    [
+      100.0,
+      0.9812103179008582
+    ],
+    [
+      200.0,
+      0.985742748054606
+    ],
+    [
+      400.0,
+      0.9887397327007376
+    ]
+  ],
+  "delta_rho": 0.006908216552775314,
+  "G_vs_L": [
+    [
+      20.0,
+      0.9761969146507725
+    ],
+    [
+      40.0,
+      0.9812103179008582
+    ],
+    [
+      80.0,
+      0.9804556588260439
+    ]
+  ],
+  "slope_L": 0.0031400969633536653,
+  "G_vs_K": [
+    [
+      0.5,
+      1.9624206358017164
+    ],
+    [
+      1.0,
+      0.9812103179008582
+    ],
+    [
+      2.0,
+      0.4906051589504291
+    ],
+    [
+      4.0,
+      0.24530257947521455
+    ]
+  ],
+  "slope_K": -1.0000000000000002,
+  "G_ref_solver": 0.9812103179008582,
+  "G_ref_mc": 0.9805149861757633,
+  "G_ref_mc_std": 0.010899922233551367,
+  "linear_in_wM": true,
+  "independent_of_rho": true,
+  "stable_in_L": true,
+  "rides_on_K": true,
+  "case": "(b) form derived, value external: G_net is constant in (w_M, rho, L) but rides on the action stiffness K (G_net ~ 1/K), the granularity normalisation -- an INPUT. Same pattern as a_0.",
+  "verdict": "DONE -- case (b)",
+  "runtime_s": 17.5,
+  "honest_statement": "G is NOT derived as a universal constant. The network produces the COUPLING RELATION (linear, Poisson form: A proportional to w_M, exponent -1), but the numerical value G_net = 1/(4 pi K)-type rides on the action stiffness K (the granularity / Planck normalisation), an external input. Constant in (w_M, rho, L); proportional to 1/K. This is the same pattern as a_0: the FORM is derived, the SCALE is measured. No pure geometric theory has derived G; TEIC is not an exception.",
+  "timestamp_utc": "2026-06-07T13:01:06Z"
+}

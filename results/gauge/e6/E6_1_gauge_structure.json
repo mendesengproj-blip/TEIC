@@ -1,0 +1,21 @@
+{
+  "config": {
+    "rho": 0.5,
+    "L_box": 4.6
+  },
+  "N_nodes": 224,
+  "L_links": 2105,
+  "P_plaquettes": 2215,
+  "H1_BG_maxabs": 0.0,
+  "H1_M_gauge_maxabs": 2.1316282072803006e-14,
+  "H1_pass": true,
+  "rank_B": 1184,
+  "rank_G": 223,
+  "gauge_modes": 223,
+  "harmonic_modes": 698,
+  "physical_modes": 1184,
+  "gauge_fraction": 0.10593824228028503,
+  "verdict": "GAUGE STRUCTURE CONFIRMED: H1 gauge invariance exact (|BG|=0e+00, |M*gauge|=2e-14); of L=2105 link d.o.f., 223 are pure gauge (11%, = #nodes-#comp), 698 harmonic/topological, and 1184 are physical (transverse) propagating modes. The link sector carries the genuine gauge redundancy a photon needs -- exactly the structure the orientation Goldstone sector (E4) LACKED (there the 2 modes were internal scalars with NO gauge redundancy). H2 (relativistic dispersion omega=ck of the physical modes) needs the Lorentzian electric/magnetic construction and remains the open hard part.",
+  "verdict_tag": "GAUGE_STRUCTURE_OK",
+  "runtime_s": 6.582843542098999
+}

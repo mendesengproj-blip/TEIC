@@ -1,0 +1,104 @@
+{
+  "params": {
+    "rho": 20.0,
+    "T": 9.0,
+    "X": 12.0,
+    "sigma": 2.5,
+    "forces": [
+      0.0,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "n_seeds": 20
+  },
+  "force_response": {
+    "0.0": {
+      "v_drift": {
+        "mean": 0.0016114904384669378,
+        "std": 0.0534593485122679,
+        "sem": 0.011953873730628327,
+        "n": 20
+      },
+      "accel": {
+        "mean": -0.01967946290773604,
+        "std": 0.06060312876436724,
+        "sem": 0.013551271556629798,
+        "n": 20
+      }
+    },
+    "0.05": {
+      "v_drift": {
+        "mean": -0.002005872807900059,
+        "std": 0.0530118659982696,
+        "sem": 0.011853813598624056,
+        "n": 20
+      },
+      "accel": {
+        "mean": -0.0221943357786299,
+        "std": 0.061590786760138634,
+        "sem": 0.013772118598336401,
+        "n": 20
+      }
+    },
+    "0.1": {
+      "v_drift": {
+        "mean": -0.005798484679433006,
+        "std": 0.05270015608005935,
+        "sem": 0.011784113141986156,
+        "n": 20
+      },
+      "accel": {
+        "mean": -0.024358337836573565,
+        "std": 0.06234560005405262,
+        "sem": 0.013940899981887621,
+        "n": 20
+      }
+    },
+    "0.2": {
+      "v_drift": {
+        "mean": -0.013964357276734535,
+        "std": 0.052698350118741966,
+        "sem": 0.011783709316759114,
+        "n": 20
+      },
+      "accel": {
+        "mean": -0.027650593426081484,
+        "std": 0.06323672052168496,
+        "sem": 0.014140160576064351,
+        "n": 20
+      }
+    },
+    "0.3": {
+      "v_drift": {
+        "mean": -0.02299931943127473,
+        "std": 0.05413103352069277,
+        "sem": 0.012104067064458879,
+        "n": 20
+      },
+      "accel": {
+        "mean": -0.029588408877488363,
+        "std": 0.06364043664295675,
+        "sem": 0.01423043424514198,
+        "n": 20
+      }
+    }
+  },
+  "v_slope_dv_dF": -0.08211135697713497,
+  "a_slope": -0.032774894372507545,
+  "typical_sem": 0.011895915370491308,
+  "responds": false,
+  "marginal_trend": true,
+  "v0_artifact": 0.0016114904384669378,
+  "a0_artifact": -0.01967946290773604,
+  "mean_degree_k": {
+    "mean": 486.95325,
+    "std": 22.44391209654344,
+    "sem": 5.018611312890095,
+    "n": 20
+  },
+  "tautology_note": "cost/<k> is tautological: both numerator and denominator count causal links per event.",
+  "verdict": "C",
+  "statement": "No Newtonian inertia recovered (death criterion met).  A force gradient produces only a MARGINAL (~2-3 sigma) linear trend in the centroid velocity (dv/dF=-0.082) and acceleration, sitting on top of force-INDEPENDENT baseline offsets that are pure artifacts (at F=0, where there is no force, v0=+0.0016, a0=-0.0197).  The acceleration -- which defines inertial mass -- does not scale cleanly with F, so m_rede=F/a is neither stable nor force-independent at accessible precision.  The free massless network scalar has no localized excitation that accelerates like a particle.  What T15/T16 called 'mass', cost/<k>, is the connectivity scale <k>=487 (both count links/event -- tautological), not a Lorentz-invariant inertia."
+}

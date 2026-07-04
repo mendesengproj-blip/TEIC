@@ -1,0 +1,84 @@
+{
+  "rho": 60.0,
+  "n_seeds": 20,
+  "N": [
+    0,
+    1,
+    3,
+    10,
+    30,
+    100
+  ],
+  "cost_kinematic": [
+    1.0,
+    1.0833333333333333,
+    1.25,
+    1.8333333333333333,
+    3.5,
+    9.333333333333334
+  ],
+  "v_eff": [
+    1.0,
+    0.9230769230769231,
+    0.8,
+    0.5454545454545454,
+    0.2857142857142857,
+    0.10714285714285714
+  ],
+  "proper_time": [
+    {
+      "N": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "sem": 0.0,
+      "n": 20
+    },
+    {
+      "N": 1,
+      "mean": 9.95,
+      "std": 1.4317821063276353,
+      "sem": 0.3201562118716424,
+      "n": 20
+    },
+    {
+      "N": 3,
+      "mean": 30.85,
+      "std": 2.680828622881955,
+      "sem": 0.5994515036791199,
+      "n": 20
+    },
+    {
+      "N": 10,
+      "mean": 103.15,
+      "std": 5.234249556627256,
+      "sem": 1.170413781981668,
+      "n": 20
+    },
+    {
+      "N": 30,
+      "mean": 312.45,
+      "std": 7.029823685742877,
+      "sem": 1.5719163631159192,
+      "n": 20
+    },
+    {
+      "N": 100,
+      "mean": 1036.2,
+      "std": 11.79027252932643,
+      "sem": 2.6363850848822277,
+      "n": 20
+    }
+  ],
+  "fit": {
+    "tau_per_loop_a": 10.365803814713896,
+    "affine_a": 10.366044479745833,
+    "affine_b": -0.018400847233303836,
+    "power_exponent": 1.0080855215608455,
+    "quadratic_curvature": -0.0007592682424865541,
+    "r2_proportional": 0.9999961826339058,
+    "slope_significant": true
+  },
+  "verdict": "CONFIRMADO (linear)",
+  "grade": "A",
+  "statement": "The MEASURED proper time tau(N) -- the longest causal chain through the structure in the Poisson medium -- is proportional to N (exponent p=1.008, intercept consistent with 0, R^2=1.00000). Each internal cycle contributes a fixed quantum of proper time a=10.37 links; the photon (N=0) has tau=0. This is the causal rest cost m c^2 = (internal updates), grown from event counting alone."
+}

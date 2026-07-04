@@ -1,0 +1,213 @@
+{
+  "n_files_scanned": 28,
+  "files": [
+    "results\\bridge\\bd\\BD1_diagnosis.py",
+    "results\\bridge\\bd\\bd_core.py",
+    "results\\bridge\\bd\\bd_summed_action.py",
+    "results\\bridge\\bd\\make_figures.py",
+    "results\\bridge\\coefficients\\C1_moments.py",
+    "results\\bridge\\coefficients\\C2_ratios.py",
+    "results\\bridge\\coefficients\\C3_scale.py",
+    "results\\bridge\\coefficients\\C4_completeness.py",
+    "results\\bridge\\coefficients\\make_figures.py",
+    "results\\bridge\\d3_audit\\D3A_robustness.py",
+    "results\\bridge\\d3_audit\\D3B_sources.py",
+    "results\\bridge\\d3_audit\\D3C_superposition.py",
+    "results\\bridge\\d3_audit\\D3D_G.py",
+    "results\\bridge\\d3_audit\\d3_audit_core.py",
+    "results\\bridge\\dynamics\\D1_action.py",
+    "results\\bridge\\dynamics\\D2_numeric.py",
+    "results\\bridge\\dynamics\\D3_MC.py",
+    "results\\bridge\\nonlinear\\NL1_action.py",
+    "results\\bridge\\nonlinear\\NL2_MC.py",
+    "results\\bridge\\nonlinear\\NL3_profile.py",
+    "results\\bridge\\rho\\P2_numeric.py",
+    "results\\bridge\\rho\\P3_numeric.py",
+    "results\\bridge\\wilson\\W1_holonomy.py",
+    "results\\bridge\\wilson\\W2_coarse_graining.py",
+    "results\\bridge\\wilson\\W3_strong_field.py",
+    "results\\bridge\\wilson\\W4_dev_comparison.py",
+    "results\\bridge\\wilson\\make_figures.py",
+    "results\\bridge\\wilson\\wilson_core.py"
+  ],
+  "dilation_violations": [],
+  "complex_violations": [],
+  "dev_data_tokens_OUTSIDE_comparison": [],
+  "dev_data_tokens_contained_in_comparison": 0,
+  "schwarzschild_refs_circular_in_generator": [],
+  "schwarzschild_refs_symbolic_comparison": [
+    {
+      "file": "results\\bridge\\nonlinear\\NL1_action.py",
+      "line": 112,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": null,
+      "allowed_source": null
+    }
+  ],
+  "schwarzschild_refs_allowed_source": [
+    {
+      "file": "results\\bridge\\dynamics\\D2_numeric.py",
+      "line": 58,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\dynamics\\D2_numeric.py",
+      "line": 133,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\dynamics\\D2_numeric.py",
+      "line": 169,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\dynamics\\D3_MC.py",
+      "line": 57,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\dynamics\\D3_MC.py",
+      "line": 182,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\nonlinear\\NL1_action.py",
+      "line": 70,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": true,
+      "resolves_to": null,
+      "allowed_source": null
+    },
+    {
+      "file": "results\\bridge\\nonlinear\\NL2_MC.py",
+      "line": 59,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\nonlinear\\NL2_MC.py",
+      "line": 192,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\nonlinear\\NL2_MC.py",
+      "line": 217,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\nonlinear\\NL3_profile.py",
+      "line": 53,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\nonlinear\\NL3_profile.py",
+      "line": 99,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\nonlinear\\NL3_profile.py",
+      "line": 124,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\rho\\P2_numeric.py",
+      "line": 54,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\rho\\P2_numeric.py",
+      "line": 57,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\rho\\P2_numeric.py",
+      "line": 80,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\rho\\P2_numeric.py",
+      "line": 95,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\rho\\P2_numeric.py",
+      "line": 126,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\rho\\P3_numeric.py",
+      "line": 53,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\rho\\P3_numeric.py",
+      "line": 117,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    },
+    {
+      "file": "results\\bridge\\rho\\P3_numeric.py",
+      "line": 131,
+      "desc": "schwarzschild identifier reference",
+      "in_comparison": false,
+      "resolves_to": "schwarzschild_redshift",
+      "allowed_source": "src/validation.py (designated dilation-formula file)"
+    }
+  ],
+  "comparison_block_advisories": [],
+  "verdict_clean": true,
+  "timestamp_utc": "2026-06-09T22:25:34Z"
+}

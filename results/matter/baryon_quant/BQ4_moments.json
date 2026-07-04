@@ -1,0 +1,35 @@
+{
+  "calibrated_e": 5.394214220738921,
+  "calibrated_f_pi_MeV": 125.74777596896628,
+  "mu_p": 1.9287642090103796,
+  "mu_n": -1.2735293063479822,
+  "mu_p_over_mu_n": -1.5145031994131115,
+  "isoscalar_charge_radius_fm": 0.6462388310762821,
+  "g_A": 0.5579846182316038,
+  "skyrme_inertia_fraction": 0.43222511306664463,
+  "ANW_reference": {
+    "mu_p": 1.87,
+    "mu_n": -1.31,
+    "ratio": -1.43,
+    "r_iso": 0.59,
+    "g_A": 0.61
+  },
+  "experiment": {
+    "mu_p": 2.793,
+    "mu_n": -1.913,
+    "ratio": -1.4600104547830632,
+    "r_iso": 0.81,
+    "g_A": 1.267
+  },
+  "rel_err_vs_ANW": {
+    "mu_p": 0.03142471070073769,
+    "mu_n": 0.02784022416184567,
+    "ratio": 0.05909314644273537,
+    "r_iso": 0.09532005267166464,
+    "g_A": 0.08527111765310845
+  },
+  "ratio_closer_to_exp": "our ratio -1.515 vs exp -1.460 (ANW -1.43): our parameter-free ratio sits between ANW and experiment",
+  "primary_predictions_ok": true,
+  "scope_note": "g_A reproduces the famously-LOW Skyrme value ~0.6 (exp 1.27) -- a known limitation of the minimal Skyrme model, not of this quantization; reported for completeness.",
+  "verdict": "PASS"
+}

@@ -1,0 +1,150 @@
+{
+  "n_seeds": 20,
+  "W1_strong_constant": [
+    {
+      "F0": 0.1,
+      "W_over_area": 0.10000000000000003,
+      "rel_err": 2.7755575615628914e-16
+    },
+    {
+      "F0": 1.0,
+      "W_over_area": 1.0000000000000004,
+      "rel_err": 4.440892098500626e-16
+    },
+    {
+      "F0": 10.0,
+      "W_over_area": 9.999999999999998,
+      "rel_err": 1.7763568394002506e-16
+    },
+    {
+      "F0": 100.0,
+      "W_over_area": 99.99999999999994,
+      "rel_err": 5.684341886080802e-16
+    }
+  ],
+  "W1_varying_curvature": [
+    {
+      "k": 0.5,
+      "F_ref": 0.43879128094337355,
+      "hs": [
+        0.4,
+        0.2,
+        0.1,
+        0.05,
+        0.025
+      ],
+      "rel_errs": [
+        0.0033288920579637657,
+        0.0008330556010265397,
+        0.00020831596886729343,
+        5.2082244155167364e-05,
+        1.3020761417472013e-05
+      ],
+      "loglog_slope_err_vs_h": 1.9995718199974741,
+      "rel_err_smallest_loop": 1.3020761417472013e-05
+    },
+    {
+      "k": 1.0,
+      "F_ref": 0.5403023058569989,
+      "hs": [
+        0.4,
+        0.2,
+        0.1,
+        0.05,
+        0.025
+      ],
+      "rel_errs": [
+        0.013262425015716868,
+        0.003328892041531375,
+        0.0008330555845496714,
+        0.0002083159523926108,
+        5.208222768167057e-05
+      ],
+      "loglog_slope_err_vs_h": 1.9982872299594,
+      "rel_err_smallest_loop": 5.208222768167057e-05
+    },
+    {
+      "k": 2.0,
+      "F_ref": -0.8322936730364993,
+      "hs": [
+        0.4,
+        0.2,
+        0.1,
+        0.05,
+        0.025
+      ],
+      "rel_errs": [
+        0.05220846664408734,
+        0.013262424967556594,
+        0.0033288919928851097,
+        0.0008330555357909507,
+        0.00020831590360879536
+      ],
+      "loglog_slope_err_vs_h": 1.993152208863456,
+      "rel_err_smallest_loop": 0.00020831590360879536
+    }
+  ],
+  "W2_eb_3plus1D": {
+    "cross_sem": 0.008941636753244962,
+    "EB_anisotropy_sem": 0.10313073572833303,
+    "D": 4,
+    "rho": 12.0,
+    "extent": 3.0,
+    "n_real": 20,
+    "kappa": -0.5310182897613793,
+    "n_links_density": 1218.9827160493828,
+    "m4_scalar": 28.101382913557046,
+    "Pi_area2_density": 22.27820227294124,
+    "n_plaquettes_total": 1061,
+    "EB_anisotropy_ratio": 3.250794975775688,
+    "mean_elecplane_area2": 0.5388652368241005,
+    "mean_magnplane_area2": 0.16605880649146545,
+    "mean_cross": 0.010541572696588043
+  },
+  "W3_saturation": {
+    "amps": [
+      0.05,
+      0.2,
+      0.8,
+      3.2,
+      12.0,
+      50.0
+    ],
+    "hard_ceiling_frac": 2.0,
+    "scalar_plateau_frac_at_maxamp_mean": 1.000460351734742,
+    "scalar_plateau_frac_at_maxamp_std": 0.009803129213098227,
+    "plaq_sat_frac_at_maxamp_mean": 0.9229024200782845,
+    "plaq_sat_frac_at_maxamp_std": 0.02175710132483613,
+    "action_bounded_below_hard_ceiling_2": true,
+    "max_observed_frac": 1.0299844106503984
+  },
+  "W4_no_forbidden": {
+    "u_definition": "u = (A_mu + d_mu theta) e^mu  (FIRST derivatives only)",
+    "expansions": {
+      "order_u2": {
+        "n_monomials": 3,
+        "only_first_derivative_covectors": true,
+        "contains_second_or_higher_derivative": false
+      },
+      "order_u4": {
+        "n_monomials": 8,
+        "only_first_derivative_covectors": true,
+        "contains_second_or_higher_derivative": false
+      },
+      "order_u6": {
+        "n_monomials": 15,
+        "only_first_derivative_covectors": true,
+        "contains_second_or_higher_derivative": false
+      }
+    },
+    "plaquette_term": "W_p = sum link phases = closed integral of A -> F=dA (FIRST derivative of A); 1-cos(W) -> powers of F.  No d^2 of a field.",
+    "forbidden_operators_checked": [
+      "d^2 theta",
+      "d^4 theta",
+      "Horava-Lifshitz d_t^2 d_x^2 (z=2)"
+    ],
+    "any_forbidden_operator_emerges": false,
+    "reason": "the action contains only first differences (Dtheta over a link, F=dA around a plaquette); coarse-graining replaces e-products by CONSTANT Poisson moments, which cannot raise the derivative order.  Higher derivatives are structurally impossible from this action."
+  },
+  "timestamp_utc": "2026-06-09T21:46:42Z"
+}

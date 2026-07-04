@@ -1,0 +1,80 @@
+{
+  "R1_special_relativity": {
+    "corr_chain": 0.9997999471229523,
+    "corr_volume": 0.9999552753838119,
+    "mean_abs_dev_chain": 0.002778050735604086,
+    "mean_abs_dev_volume": 0.001378132652597099,
+    "fixed_tau_cv_poisson": 0.008179395769036151,
+    "fixed_tau_cv_lattice": 0.17028736423833193,
+    "expected_fixed_count": 108.0,
+    "verdict": "PROVADO"
+  },
+  "R2_dimension_volume": {
+    "analytic_vol2": "tau**2/2",
+    "analytic_vol4": "pi*tau**4/24",
+    "fits": {
+      "2": {
+        "exponent": 2.0058173840369706,
+        "coef": 24.7976990019008,
+        "exponent_expected": 2.0,
+        "coef_expected": 25.0
+      },
+      "4": {
+        "exponent": 4.0039155025319335,
+        "coef": 6.509253038390437,
+        "exponent_expected": 4.0,
+        "coef_expected": 6.544984694978735
+      }
+    },
+    "verdict": "PROVADO"
+  },
+  "R3_taskC_gravitational": {
+    "part1_circular_note": "sum of local dtau=sqrt(g_tt)dt -- CIRCULAR, consistency only",
+    "part1_values": {
+      "3.0": 0.5773502691896258,
+      "4.0": 0.7071067811865476,
+      "6.0": 0.816496580927726,
+      "10.0": 0.8944271909999159,
+      "20.0": 0.9486832980505138
+    },
+    "taskC_slopes": [
+      0.5785654023523364,
+      0.7068369712414372,
+      0.8160144619901769,
+      0.8937674623141487,
+      0.9482453683599039
+    ],
+    "taskC_reference_sqrt_gtt": [
+      0.5773502691896258,
+      0.7071067811865476,
+      0.816496580927726,
+      0.8944271909999159,
+      0.9486832980505138
+    ],
+    "taskC_corr": 0.9999963970353429,
+    "taskC_max_rel_err": 0.002104672375776622,
+    "verdict": "PROVADO"
+  },
+  "taskA_curvature_analytic": {
+    "ricci_scalar_of_background": "R",
+    "V_of_tau": "R**2*tau**6/2880 - R*tau**4/96 + tau**2/2",
+    "tau_vol_over_tau_geo": "3*R**2*tau**4/10240 - R*tau**2/96 + 1",
+    "volume_leading_coeff_in_brace_(Ricci units)": "-1/48",
+    "divergence_leading_relative_coeff_(Ricci units)": "-1/96",
+    "convention_note": "Ricci-scalar coeff 1/48 == Gaussian-curvature coeff 1/24",
+    "chain_proviso": "chain estimator assumed = tau_geo; its actual curvature response is measured in e5 (Task B)",
+    "verdict": "PROVADO (analytic): volume formulation diverges from geodesic/chain proper time at O(R tau^2), relative coeff -1/96 (Ricci units), IF chain has zero curvature correction -- tested in e5."
+  },
+  "taskB_curvature_numeric": {
+    "c2_calibration": 1.3825901872339643,
+    "volume_slope_measured": -0.010496228826526847,
+    "volume_slope_err": 4.769425755347512e-05,
+    "volume_slope_predicted_taskA": -0.010416666666666666,
+    "chain_slope_measured": -0.0002389803797516255,
+    "chain_slope_err": 0.0004346206456788905,
+    "slope_separation": 0.010257248446775221,
+    "separation_sigma": 23.459631050511533,
+    "volume_matches_taskA": true,
+    "verdict": "PROVADO: chain and volume formulations DIVERGE in curved space"
+  }
+}

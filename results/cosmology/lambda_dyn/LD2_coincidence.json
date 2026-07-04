@@ -1,0 +1,60 @@
+{
+  "description": "Coincidence-problem dissolution + envelope effective w for everpresent Lambda.",
+  "p_track": 1.107,
+  "omega_m": 0.31,
+  "omega_L0": 0.69,
+  "rows": [
+    {
+      "z": 0.0,
+      "omega_L_lcdm": 0.69,
+      "omega_L_everpresent": 0.69,
+      "w_eff_envelope": -0.65675906916117
+    },
+    {
+      "z": 0.5,
+      "omega_L_lcdm": 0.39740820734341253,
+      "omega_L_everpresent": 0.5484689296345283,
+      "w_eff_envelope": -0.3329309996993036
+    },
+    {
+      "z": 1.0,
+      "omega_L_lcdm": 0.21766561514195581,
+      "omega_L_everpresent": 0.49946465676096957,
+      "w_eff_envelope": -0.13395587439923773
+    },
+    {
+      "z": 2.0,
+      "omega_L_lcdm": 0.076158940397351,
+      "omega_L_everpresent": 0.48599505177463004,
+      "w_eff_envelope": 0.022692066872332717
+    },
+    {
+      "z": 5.0,
+      "omega_L_lcdm": 0.010199556541019957,
+      "omega_L_everpresent": 0.5225156158094206,
+      "w_eff_envelope": 0.09570910013356837
+    },
+    {
+      "z": 10.0,
+      "omega_L_lcdm": 0.0016694894749576578,
+      "omega_L_everpresent": 0.5683675261630974,
+      "w_eff_envelope": 0.105151878149228
+    },
+    {
+      "z": 100.0,
+      "omega_L_lcdm": 2.1603411460453233e-06,
+      "omega_L_everpresent": 0.7281142075543998,
+      "w_eff_envelope": 0.10699760853183449
+    },
+    {
+      "z": 1000.0,
+      "omega_L_lcdm": 2.219142359947457e-09,
+      "omega_L_everpresent": 0.848300072804194,
+      "w_eff_envelope": 0.10699999750707434
+    }
+  ],
+  "efolds_order1_lcdm": 0.9985647067877463,
+  "efolds_order1_everpresent": 6.90875477931522,
+  "w_eff_envelope_z0": -0.65675906916117,
+  "honesty": "w_eff is the apparent EoS of the slowly-drifting RMS envelope; everpresent Lambda is instantaneously a true cosmological-constant term (w=-1). Background imported (flat LCDM). Consistency diagnostic only."
+}

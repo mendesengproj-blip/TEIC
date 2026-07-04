@@ -1,0 +1,30 @@
+{
+  "sharp_second_moment": {
+    "M2": [
+      [
+        20113.697951765953,
+        -34.84961826359825
+      ],
+      [
+        -34.84961826359825,
+        5046.11453906774
+      ]
+    ],
+    "a_t": 20113.697951765953,
+    "a_x": 5046.11453906774,
+    "ratio_a_t_over_a_x": 3.9859772892673813,
+    "eigenvalues": [
+      5046.033936268802,
+      20113.77855456489
+    ],
+    "positive_definite": true,
+    "can_equal_g_munu": false,
+    "note": "M2 is a sum of Dtau(>=0) * (e outer e)(PSD) => positive-definite. g^{mu nu}=diag(+,-) is indefinite, so M2 can NEVER be ~ g. The 'anisotropy' (a_t/a_x and E/B) is this Euclidean-vs-Lorentzian mismatch, sourced by (i) the temporal elongation of causal links (a_t = <Dtau Dt^2> dominates) and (ii) the all-positive weighting."
+  },
+  "context_existing": {
+    "C1_d4_a_t_over_a_x": 3.3816791616398807,
+    "W2_d4_EB": 2.9702445543220133
+  },
+  "cure_identified": "An INDEFINITE form needs a SIGN-ALTERNATING weight. The Benincasa-Dowker smeared weight w(m) (e10) alternates sign by construction -> the only network operator that can give a Lorentzian (indefinite) second moment. BD2 implements it.",
+  "timestamp_utc": "2026-06-06T18:54:54Z"
+}

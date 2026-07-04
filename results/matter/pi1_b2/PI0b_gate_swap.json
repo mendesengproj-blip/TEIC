@@ -1,0 +1,64 @@
+{
+  "baryon_number": 1.593841783301946,
+  "g5": {
+    "classes": [
+      1,
+      1,
+      1
+    ],
+    "stable": true,
+    "value": 1,
+    "details": [
+      {
+        "class": 1,
+        "n_segments": 442,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9549061720067138,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 448,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9362606006463313,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 472,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.965522136870718,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "swap_topology_confirmed": true,
+  "known_true_class": 0,
+  "eps_anomaly": 1,
+  "_meta": {
+    "campaign": "MATTER_PI1_B2",
+    "timestamp": "2026-06-12T00:14:39.089657+00:00",
+    "numpy": "2.4.4"
+  }
+}

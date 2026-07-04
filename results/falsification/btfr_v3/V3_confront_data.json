@@ -1,0 +1,148 @@
+{
+  "published": {
+    "a0_z1": [
+      2.38,
+      0.11
+    ],
+    "a1_fit": [
+      1.59,
+      0.105
+    ],
+    "a0_own": [
+      1.0,
+      0.04
+    ],
+    "anchors": {
+      "A1_SPARC_McGaugh16": [
+        1.2,
+        0.26,
+        0.0
+      ],
+      "A2_MIGHTEE_Varasteanu25": [
+        1.69,
+        0.13,
+        0.04
+      ],
+      "A3_own_fit_CORRELATED": [
+        1.0,
+        0.04,
+        0.0
+      ]
+    },
+    "bins": {
+      "low~0.5": 1.99,
+      "high~1.3": 2.71
+    },
+    "z_eff": [
+      0.85,
+      1.0
+    ]
+  },
+  "R3_amplitude": {
+    "A1_SPARC_McGaugh16": {
+      "obs_dlogv": 0.07434892775222178,
+      "obs_err": 0.02405355215467887,
+      "vs": {
+        "0.85": {
+          "pred": 0.051860966676091295,
+          "pred_om_band": [
+            0.04958712724521783,
+            0.054043381376672806
+          ],
+          "deviation_sigma": 0.9349122712320954
+        },
+        "1.0": {
+          "pred": 0.06142021172928407,
+          "pred_om_band": [
+            0.05891146388236732,
+            0.06381812627582652
+          ],
+          "deviation_sigma": 0.5374971621571007
+        }
+      }
+    },
+    "A2_MIGHTEE_Varasteanu25": {
+      "obs_dlogv": 0.037172563110709614,
+      "obs_err": 0.009743421346731295,
+      "vs": {
+        "0.85": {
+          "pred": 0.04986458839021688,
+          "pred_om_band": [
+            0.04772158089285347,
+            0.051916485706070443
+          ],
+          "deviation_sigma": -1.3026251075311615
+        },
+        "1.0": {
+          "pred": 0.059423833443409645,
+          "pred_om_band": [
+            0.057045917530002974,
+            0.061691230605224155
+          ],
+          "deviation_sigma": -2.283722477029575
+        }
+      }
+    },
+    "A3_own_fit_CORRELATED": {
+      "obs_dlogv": 0.09414423926412799,
+      "obs_err": 0.006636458597259288,
+      "vs": {
+        "0.85": {
+          "pred": 0.051860966676091295,
+          "pred_om_band": [
+            0.04958712724521783,
+            0.054043381376672806
+          ],
+          "deviation_sigma": 6.371360864889409
+        },
+        "1.0": {
+          "pred": 0.06142021172928407,
+          "pred_om_band": [
+            0.05891146388236732,
+            0.06381812627582652
+          ],
+          "deviation_sigma": 4.930947289923306
+        }
+      }
+    }
+  },
+  "R3_anchor_spread_dex": 0.028924350553187483,
+  "R3_consistent_2sigma_independent_anchor": true,
+  "R4_form": {
+    "A1_SPARC_McGaugh16": {
+      "a1_H_secant_0_to_1": 0.9128180233990808,
+      "ratio_measured_over_H": 1.7418586829380096,
+      "tension_sigma_stat": 3.0241937062634676
+    },
+    "A2_MIGHTEE_Varasteanu25": {
+      "a1_H_secant_0_to_1": 1.3064479423104978,
+      "ratio_measured_over_H": 1.217040456421119,
+      "tension_sigma_stat": 1.9885468411591403
+    },
+    "A3_own_fit_CORRELATED": {
+      "a1_H_secant_0_to_1": 0.7606816861659007,
+      "ratio_measured_over_H": 2.090230419525611,
+      "tension_sigma_stat": 7.586167521213493
+    }
+  },
+  "R4_sanity": {
+    "linear_fit_at_1.44": 3.2896,
+    "top_bin_measured(z~1.3)": 2.71,
+    "a0H_SPARC_at_1.3": 2.5028272013864634
+  },
+  "R2_direction_sigma": 15.142857142857144,
+  "R1_kill": {
+    "qualifying_sample_exists": false,
+    "triggered": false,
+    "note": "F1 criterion unchanged; sign of available right-regime signal is OPPOSITE to death (dlogv > 0)"
+  },
+  "_meta": {
+    "timestamp": "2026-06-12T00:34:45.371712+00:00",
+    "numpy": "2.4.4",
+    "Om": [
+      0.3,
+      0.02
+    ],
+    "deterministic": true
+  }
+}

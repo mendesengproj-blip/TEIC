@@ -1,0 +1,29 @@
+{
+  "sensitivity_anchor": {
+    "K_gamma": 9.788462596342697,
+    "from": "Chae sigma_gamma=0.06 at N=26615"
+  },
+  "transition_test": {
+    "gamma_above_lambda": 1.336311591084853,
+    "gamma_below_lambda": 1.089381072855367,
+    "delta_gamma": 0.24693051822948608,
+    "N_pairs_for_3sigma": 28284.723699025402
+  },
+  "subpc_discriminator": {
+    "delta_gamma": 0.33280861474769363,
+    "N_binaries_for_3sigma": 15570.85130640268,
+    "note": "DEV(Newton) vs MOND(1.36) at sub-pc; data ALREADY exist (Chae)"
+  },
+  "structural_obstacle": {
+    "jacobi_radius_pc": 1.7,
+    "lambda_A_pc": 17.3,
+    "ratio_lambda_over_rJ": 10.176470588235295,
+    "verdict": "bound binaries disrupted beyond r_J~1.7 pc (Jiang & Tremaine 2010); the 5-50 pc transition regime is 3-30x wider than r_J -> NOT accessible to bound binaries; needs comoving/dissolving pairs"
+  },
+  "surveys": {
+    "Gaia_DR4_2026": "deeper bound-binary census but still <~1-2 pc (tidal cap)",
+    "comoving_pairs_DR3_DR4": "6D phase-space pairs to 10-100 pc exist but mix bound + dissolving -> 3D velocity not orbital",
+    "4MOST_WEAVE": "high-res RV to sharpen plane-of-sky velocities sub-pc",
+    "Roman_2027": "fainter/farther binaries, sub-pc statistics"
+  }
+}

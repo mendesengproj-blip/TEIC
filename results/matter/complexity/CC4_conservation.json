@@ -1,0 +1,201 @@
+{
+  "N_test": [
+    3,
+    10,
+    30
+  ],
+  "branch_w": 0.3,
+  "gradient_shear": 0.04,
+  "deltas": [
+    0.0,
+    0.015,
+    0.03,
+    0.045,
+    0.06,
+    0.09,
+    0.135,
+    0.18
+  ],
+  "n_seeds": 20,
+  "surviving": {
+    "3": [
+      {
+        "delta": 0.0,
+        "mean": 3.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      {
+        "delta": 0.015,
+        "mean": 3.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      {
+        "delta": 0.03,
+        "mean": 3.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      {
+        "delta": 0.045,
+        "mean": 2.8,
+        "std": 0.5231483637805969,
+        "sem": 0.11697953037312035,
+        "n": 20
+      },
+      {
+        "delta": 0.06,
+        "mean": 2.65,
+        "std": 0.48936048492959294,
+        "sem": 0.10942433098048311,
+        "n": 20
+      },
+      {
+        "delta": 0.09,
+        "mean": 1.9,
+        "std": 0.7181848464596078,
+        "sem": 0.16059101370939322,
+        "n": 20
+      },
+      {
+        "delta": 0.135,
+        "mean": 0.8,
+        "std": 0.7677718959499146,
+        "sem": 0.17167901505579045,
+        "n": 20
+      },
+      {
+        "delta": 0.18,
+        "mean": 0.55,
+        "std": 0.6863327411532597,
+        "sem": 0.1534686664402456,
+        "n": 20
+      }
+    ],
+    "10": [
+      {
+        "delta": 0.0,
+        "mean": 10.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      {
+        "delta": 0.015,
+        "mean": 10.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      {
+        "delta": 0.03,
+        "mean": 10.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      {
+        "delta": 0.045,
+        "mean": 9.55,
+        "std": 0.6863327411532596,
+        "sem": 0.15346866644024557,
+        "n": 20
+      },
+      {
+        "delta": 0.06,
+        "mean": 8.85,
+        "std": 1.2258187382102497,
+        "sem": 0.2741014026731137,
+        "n": 20
+      },
+      {
+        "delta": 0.09,
+        "mean": 5.95,
+        "std": 1.7006190823220508,
+        "sem": 0.3802699871905416,
+        "n": 20
+      },
+      {
+        "delta": 0.135,
+        "mean": 3.7,
+        "std": 1.3018205875255098,
+        "sem": 0.2910959328215754,
+        "n": 20
+      },
+      {
+        "delta": 0.18,
+        "mean": 2.65,
+        "std": 1.3869694338832113,
+        "sem": 0.31013579368772604,
+        "n": 20
+      }
+    ],
+    "30": [
+      {
+        "delta": 0.0,
+        "mean": 30.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      {
+        "delta": 0.015,
+        "mean": 30.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      {
+        "delta": 0.03,
+        "mean": 30.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      {
+        "delta": 0.045,
+        "mean": 29.1,
+        "std": 0.9679060415469871,
+        "sem": 0.21643037047317987,
+        "n": 20
+      },
+      {
+        "delta": 0.06,
+        "mean": 25.75,
+        "std": 2.3591925469711477,
+        "sem": 0.5275314907038352,
+        "n": 20
+      },
+      {
+        "delta": 0.09,
+        "mean": 17.45,
+        "std": 2.4596747752497685,
+        "sem": 0.5499999999999999,
+        "n": 20
+      },
+      {
+        "delta": 0.135,
+        "mean": 10.1,
+        "std": 3.143916431191483,
+        "sem": 0.7030010855722696,
+        "n": 20
+      },
+      {
+        "delta": 0.18,
+        "mean": 7.4,
+        "std": 1.818038271845435,
+        "sem": 0.4065257161542635,
+        "n": 20
+      }
+    ]
+  },
+  "preserved_small": true,
+  "breaks_large": true,
+  "verdict": "CONSERVADO (perturbacao pequena) / QUEBRA (grande)",
+  "grade": "A",
+  "statement": "N is CONSERVED for small medium kicks (>97% of cycles survive at delta=0.015, ~5% of the diamond half-width) -- the complexity is a topologically stable quantity, an identity carried through motion. For large kicks (delta ~ branch_w) cycles are destroyed (>15% lost), the analogue of pair annihilation. Both regimes are present, exactly the expected behaviour."
+}

@@ -1,0 +1,31 @@
+{
+  "rho_low": 2.0,
+  "n_seeds": 20,
+  "residual": {
+    "mean": 0.0,
+    "std": 0.0,
+    "sem": 0.0,
+    "n": 20
+  },
+  "cross_mid": {
+    "mean": 5.0,
+    "std": 3.4641016151377544,
+    "sem": 0.7745966692414833,
+    "n": 20
+  },
+  "cross_late_excess": {
+    "mean": 0.0,
+    "std": 0.0,
+    "sem": 0.0,
+    "n": 20
+  },
+  "central_late_excess": {
+    "mean": 0.0,
+    "std": 0.0,
+    "sem": 0.0,
+    "n": 20
+  },
+  "no_creation": true,
+  "verdict": "CONFIRMADO (sem criacao)",
+  "statement": "At low energy the chains PASS THROUGH: the field is an exact linear superposition (residual 0.0e+00), the two chains interact only transiently (5 cross-links at the encounter) and leave NO persistent bound structure (late cross-link excess 0.00, central over-density 0.00, both ~0). No loops are created -- the expected low-energy baseline, consistent with P4."
+}

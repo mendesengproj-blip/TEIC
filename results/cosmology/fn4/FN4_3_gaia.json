@@ -1,0 +1,70 @@
+{
+  "chae_sample": {
+    "ref": "arXiv:2309.08160 (Chae 2023)",
+    "N_binaries": 26615,
+    "within_pc": 200,
+    "sep_range_au": [
+      200.0,
+      30000.0
+    ],
+    "sep_range_pc": [
+      0.000969627362219072,
+      0.1454441043328608
+    ],
+    "anomaly_onset_au": 2000.0,
+    "gamma": 1.43,
+    "gamma_err": 0.06
+  },
+  "lambda_A_pc": 17.3,
+  "chae_max_sep_over_lambda": 0.008407173660859005,
+  "r_MOND_au": 7030.650093981142,
+  "checkpoints": {
+    "200au": {
+      "s_pc": 0.000969627362219072,
+      "s_over_lambda": 5.60478244057267e-05,
+      "screening_S": 5.6046253755770437e-05,
+      "boost_DEV": 1.0,
+      "boost_MOND": 1.0,
+      "MOND_boost_recovered": 0.0
+    },
+    "2000au": {
+      "s_pc": 0.00969627362219072,
+      "s_over_lambda": 0.000560478244057267,
+      "screening_S": 0.0005603212054665629,
+      "boost_DEV": 1.0000075882861834,
+      "boost_MOND": 1.0135427431790793,
+      "MOND_boost_recovered": 0.0005603212054656262
+    },
+    "7031au": {
+      "s_pc": 0.03408724991881148,
+      "s_over_lambda": 0.0019703612669833225,
+      "screening_S": 0.0019684213795243544,
+      "boost_DEV": 1.0005456592518969,
+      "boost_MOND": 1.2772065257839733,
+      "MOND_boost_recovered": 0.0019684213795244485
+    },
+    "10000au": {
+      "s_pc": 0.0484813681109536,
+      "s_over_lambda": 0.002802391220286335,
+      "screening_S": 0.0027984681874904105,
+      "boost_DEV": 1.0009266595972812,
+      "boost_MOND": 1.3311310099658904,
+      "MOND_boost_recovered": 0.002798468187490732
+    },
+    "30000au": {
+      "s_pc": 0.1454441043328608,
+      "s_over_lambda": 0.008407173660859005,
+      "screening_S": 0.008371932205873622,
+      "boost_DEV": 1.0029783696953056,
+      "boost_MOND": 1.3557565472419857,
+      "MOND_boost_recovered": 0.008371932205873752
+    }
+  },
+  "DEV_prediction_in_chae_band": {
+    "gamma_DEV": 1.0014816212375028,
+    "gamma_MOND": 1.3508730743136395,
+    "regime": "deeply screened: S << 1 -> DEV ~ Newton"
+  },
+  "tension_with_chae_sigma": 7.141972979374952,
+  "is_chae_the_right_test": "YES as a discriminator (DEV->Newton vs MOND->boost differ maximally here), but it probes the SCREENED PLATEAU, not the 17 pc transition"
+}

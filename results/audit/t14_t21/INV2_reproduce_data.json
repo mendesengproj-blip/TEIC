@@ -1,0 +1,196 @@
+{
+  "relativity": {
+    "vs": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.95,
+      0.98
+    ],
+    "rate_mean": [
+      1.0,
+      0.9804337307665788,
+      0.9235674335318473,
+      0.8341121856186502,
+      0.7201293194375916,
+      0.6572645511234383,
+      0.6248891905017091,
+      0.605384464704231
+    ],
+    "rate_std": [
+      0.0,
+      0.00042747297728751944,
+      0.0012410506109304389,
+      0.0027718798988697743,
+      0.00487570202792138,
+      0.006065056678060076,
+      0.006705972347891796,
+      0.007080521956776531
+    ],
+    "E_mean": [
+      1.0,
+      1.0199569422271952,
+      1.0827599241646229,
+      1.1988926943739397,
+      1.3887026114793122,
+      1.5215855006118986,
+      1.6004657265749074,
+      1.652065678927206
+    ],
+    "E_std": [
+      0.0,
+      0.00044468099760845925,
+      0.001453844401542218,
+      0.003970517588807367,
+      0.009325759343343036,
+      0.013886306724730249,
+      0.01696253707242968,
+      0.01905533576009829
+    ],
+    "COMPARISON_inv_gamma": [
+      1.0,
+      0.9797958971132712,
+      0.916515138991168,
+      0.8,
+      0.5999999999999999,
+      0.4358898943540673,
+      0.31224989991991997,
+      0.1989974874213242
+    ],
+    "COMPARISON_gamma": [
+      1.0,
+      1.0206207261596576,
+      1.0910894511799618,
+      1.25,
+      1.666666666666667,
+      2.294157338705618,
+      3.202563076101742,
+      5.025189076296055
+    ],
+    "rmse_rate_vs_inv_gamma": 0.20234416110511352,
+    "rmse_E_vs_gamma": 1.3519194877352878,
+    "gaussian_overlap_a": 0.5225205620449923,
+    "rmse_rate_vs_gaussian": 0.0030009098509002474,
+    "sigma_sensitivity_rmse_vs_inv_gamma": {
+      "0.05": 0.1673791754543973,
+      "0.1": 0.1980652768024202,
+      "0.2": 0.33286261748651297
+    },
+    "note": "Measured 'rate' is the overlap of a hand-translated Gaussian blob; v is imposed by hand. A pure-Gaussian overlap exp(-a v^2) fits as well or better than 1/gamma, and the fit DEPENDS on the arbitrary blob width sigma -- so this is a one-parameter coincidence over a limited v-range, not a derivation of the Lorentz factor."
+  },
+  "mass": {
+    "rows": [
+      {
+        "dim": 2,
+        "n": 100,
+        "NL_mean": 6.170154600301659,
+        "NL_std": 0.5837232994889643,
+        "avgk_mean": 24.594500000000004,
+        "avgk_std": 1.8223322282174566,
+        "cost_mean": 7.609,
+        "cost_std": 0.3379778099224859,
+        "cost_over_k_mean": 0.311471752111567,
+        "cost_over_k_std": 0.031049333670575878
+      },
+      {
+        "dim": 2,
+        "n": 300,
+        "NL_mean": 9.802520471396837,
+        "NL_std": 0.6764316096983846,
+        "avgk_mean": 75.1705,
+        "avgk_std": 2.814462308032091,
+        "cost_mean": 21.297,
+        "cost_std": 0.60028965230684,
+        "cost_over_k_mean": 0.2837405622049001,
+        "cost_over_k_std": 0.013817356718008373
+      },
+      {
+        "dim": 3,
+        "n": 100,
+        "NL_mean": 13.10515873015873,
+        "NL_std": 1.2850573351011836,
+        "avgk_mean": 11.2485,
+        "avgk_std": 1.1205457375761152,
+        "cost_mean": 3.3924999999999996,
+        "cost_std": 0.14166421566507187,
+        "cost_over_k_mean": 0.3052494674018385,
+        "cost_over_k_std": 0.039660552616069544
+      },
+      {
+        "dim": 3,
+        "n": 300,
+        "NL_mean": 25.268731268731266,
+        "NL_std": 2.0284078752914576,
+        "avgk_mean": 34.086666666666666,
+        "avgk_std": 2.106708860336952,
+        "cost_mean": 8.320833333333335,
+        "cost_std": 0.258299728997148,
+        "cost_over_k_mean": 0.24503271684358757,
+        "cost_over_k_std": 0.016815479476223184
+      },
+      {
+        "dim": 4,
+        "n": 100,
+        "NL_mean": 21.583333333333336,
+        "NL_std": 2.607414641193669,
+        "avgk_mean": 4.6175,
+        "avgk_std": 0.9378372726651464,
+        "cost_mean": 1.8625,
+        "cost_std": 0.08017948615450209,
+        "cost_over_k_mean": 0.41813395411474097,
+        "cost_over_k_std": 0.07565130305483862
+      },
+      {
+        "dim": 4,
+        "n": 300,
+        "NL_mean": 45.17857142857143,
+        "NL_std": 4.229542600831076,
+        "avgk_mean": 14.276,
+        "avgk_std": 0.8776987587498978,
+        "cost_mean": 3.693833333333333,
+        "cost_std": 0.11701982263227409,
+        "cost_over_k_mean": 0.25957139722997163,
+        "cost_over_k_std": 0.01566780688355524
+      }
+    ],
+    "cost_over_k_range": [
+      0.24503271684358757,
+      0.41813395411474097
+    ],
+    "note": "Cost (links per event in a dt-window) and <k> (links per event) BOTH count causal links per event, so Cost/<k> being O(1)-stable is near-tautological, not a discovered law. GE used unseeded single shots; here mean+/-std over 20 seeds."
+  },
+  "gravity": {
+    "corr_with_1_over_r": {
+      "connectivity_like_peak": -0.9999715188856563,
+      "arbitrary_gaussian": -0.9981754270004978,
+      "arbitrary_topcap": -0.9998996728212532,
+      "arbitrary_triangle": -0.9998996728212534
+    },
+    "note": "The GE solver hard-codes (1/r^2) d/dr(r^2 dtheta/dr) = alpha*k, i.e. the radial Poisson operator. ANY centrally-peaked source -- connectivity or not -- yields a ~1/r exterior (3D Green's function). So 'corr 0.86 with 1/r' measures the coded Laplacian, not connectivity. This rediscovers TEIC's own D1-D3 (nabla^2 theta=J -> 1/r), which TEIC did far more rigorously (corr 0.9991, unconstrained MC, no hard-coded Poisson)."
+  },
+  "particles": {
+    "dists": [
+      1.0,
+      0.5,
+      0.2,
+      0.1,
+      0.05,
+      0.02
+    ],
+    "k_total": [
+      7.7,
+      7.966666666666667,
+      12.966666666666667,
+      15.283333333333333,
+      15.466666666666667,
+      15.4
+    ],
+    "note": "'fermion' is a hand-drawn deterministic helix (the winding argument is unused); 'Pauli exclusion' is the link-count change as two fixed curves overlap -- no spin, no spin-statistics, no antisymmetry, single structure, no error bars. 'Spin-1/2' (T20) is rotating a blob with an arctan2 z-offset and printing path counts, with no 2pi-vs-4pi periodicity test. Interpretation, not derivation."
+  },
+  "n_seeds": 20,
+  "runtime_s": 5.8,
+  "timestamp_utc": "2026-06-07T17:18:09Z"
+}

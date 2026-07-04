@@ -1,0 +1,42 @@
+{
+  "angle": "A4 -- gravitational slip eta=Psi/Phi from the Skyrmion anisotropic stress",
+  "engine": "MG1 BD relaxer + su3_core Skyrmion (E2 sigma-sector stress)",
+  "e_sk": 0.5,
+  "E2": 164.33837818716555,
+  "E4": 17.88359227815341,
+  "r_support99": 9.928571428571429,
+  "G0_gate": {
+    "A": 0.9800744736538759,
+    "C": -0.02803297957026252,
+    "exponent": -0.9901290190024542,
+    "conservation": 1.1169731806148775e-11,
+    "D3_ref": {
+      "A": 1.028,
+      "C": -0.028,
+      "exponent": -1.018
+    },
+    "passes": true
+  },
+  "integral_eps": 82.16918909358277,
+  "integral_Pi": -49.72719201435237,
+  "eta_minus_1_interior_median": 0.30758313809309157,
+  "eta_minus_1_exterior_median": 0.6052483616507782,
+  "eta_minus_1_exterior_gauss": 0.6052483616507789,
+  "tilt_falloff_exponent": -5.13391774144595,
+  "Phi_falloff_exponent": -0.9112410984868996,
+  "different_falloff": true,
+  "relativistic_interior": true,
+  "comparison_only": {
+    "DEV_slip_window_eta_minus_1": [
+      0.022,
+      0.041
+    ],
+    "in_window_robust": false
+  },
+  "status_eta": "EXTERNO-B",
+  "verdict": "the DEV slip [2.2%,4.1%] is NOT reproduced as a robust feature: the interior slip is O(1) (|eta-1|_int=0.31), as expected for a RELATIVISTIC soliton -- not a 2-4% galactic plateau; the exterior is a CONSTANT slip plateau |eta-1|~61% (the anisotropic stress has a non-zero monopole, int Pi/int eps=-0.61) -- a genuine slip in FORM, but O(1), ~15x the DEV window; the orientation tilt <n>(r)~r^-5.1 and Phi(r)~r^-0.9 have DIFFERENT falloffs, so <n>/theta is not the constant ratio of a DEV slip.  The DEV slip is a galactic vector-sector (A_mu) effect, and A1 showed A_mu does not emerge -> eta stays [EXTERNO-B]/[INCONCLUSIVO].",
+  "caveat": "sigma(E2)-sector stress used (rigorous, exterior-dominant); E4/Skyrme anisotropic stress omitted as a declared subleading correction.  This is the LOCAL matter-sourced slip of a baryon, conceptually related but not identical to the DEV's effective galactic slip.",
+  "anti_circularity": "DEV window only in COMPARISON block; slip from F(r)+BD relaxer",
+  "runtime_s": 2.297820568084717,
+  "timestamp_utc": "2026-06-21T12:17:33Z"
+}

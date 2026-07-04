@@ -1,0 +1,234 @@
+{
+  "setup": {
+    "n_links": 27960,
+    "n_plaq": 16013
+  },
+  "scalar_channel": {
+    "rows": [
+      {
+        "amp": 0.05,
+        "S_link": 3.8172718567190294,
+        "S_quadratic": 3.824609244756795,
+        "S_through_quartic": 3.8172604969301425,
+        "S_over_quad": 0.99808153263034,
+        "saturation_frac": 0.0012881477440426013
+      },
+      {
+        "amp": 0.1,
+        "S_link": 15.181581561377412,
+        "S_quadratic": 15.29843697902718,
+        "S_through_quartic": 15.180857013800738,
+        "S_over_quad": 0.9923616106789231,
+        "saturation_frac": 0.005123061907384213
+      },
+      {
+        "amp": 0.2,
+        "S_link": 59.35821279167614,
+        "S_quadratic": 61.19374791610872,
+        "S_through_quartic": 59.31246847248563,
+        "S_over_quad": 0.9700045317219508,
+        "saturation_frac": 0.020030574391345035
+      },
+      {
+        "amp": 0.4,
+        "S_link": 217.44947190177447,
+        "S_quadratic": 244.77499166443488,
+        "S_through_quartic": 214.6745205664654,
+        "S_over_quad": 0.8883647402994449,
+        "saturation_frac": 0.07337885725390271
+      },
+      {
+        "amp": 0.8,
+        "S_link": 642.8239223548668,
+        "S_quadratic": 979.0999666577395,
+        "S_through_quartic": 497.49242909022735,
+        "S_over_quad": 0.6565457504295641,
+        "saturation_frac": 0.21692250813641403
+      },
+      {
+        "amp": 1.6,
+        "S_link": 1274.8849698767199,
+        "S_quadratic": 3916.399866630958,
+        "S_through_quartic": -3789.3207344492366,
+        "S_over_quad": 0.32552471997028903,
+        "saturation_frac": 0.4302130577810177
+      },
+      {
+        "amp": 3.2,
+        "S_link": 1892.574449282882,
+        "S_quadratic": 15665.599466523832,
+        "S_through_quartic": -107625.93015075928,
+        "S_over_quad": 0.12081085395596679,
+        "saturation_frac": 0.6386538865407971
+      },
+      {
+        "amp": 6.4,
+        "S_link": 2371.469918363696,
+        "S_quadratic": 62662.39786609533,
+        "S_through_quartic": -1910002.0760104347,
+        "S_over_quad": 0.03784518306227831,
+        "saturation_frac": 0.800258336337279
+      },
+      {
+        "amp": 12.0,
+        "S_link": 2727.31166234288,
+        "S_quadratic": 220297.49249799136,
+        "S_through_quartic": -24161084.096857306,
+        "S_over_quad": 0.012380130302063003,
+        "saturation_frac": 0.9203380049980668
+      }
+    ],
+    "meta": {
+      "n_links": 27960,
+      "max_S_link": 2963.3804618865097
+    }
+  },
+  "gauge_channel_lp1": {
+    "rows": [
+      {
+        "amp": 0.05,
+        "S_link_phi": 18.79835584438826,
+        "S_plaq": 7.333097332005423,
+        "S_plaq_quadratic": 7.372984428690884,
+        "plaq_over_link": 0.39009248429534965
+      },
+      {
+        "amp": 0.1,
+        "S_link_phi": 71.9536675229865,
+        "S_plaq": 28.862654157937783,
+        "S_plaq_quadratic": 29.491937714763537,
+        "plaq_over_link": 0.40112832537295257
+      },
+      {
+        "amp": 0.2,
+        "S_link_phi": 243.60517568465855,
+        "S_plaq": 108.44205590079454,
+        "S_plaq_quadratic": 117.96775085905415,
+        "plaq_over_link": 0.4451549750370261
+      },
+      {
+        "amp": 0.4,
+        "S_link_phi": 583.4224523289231,
+        "S_plaq": 348.1291649588072,
+        "S_plaq_quadratic": 471.8710034362166,
+        "plaq_over_link": 0.596701692862753
+      },
+      {
+        "amp": 0.8,
+        "S_link_phi": 1052.025037809998,
+        "S_plaq": 831.4805746691657,
+        "S_plaq_quadratic": 1887.4840137448664,
+        "plaq_over_link": 0.790361963627843
+      },
+      {
+        "amp": 1.6,
+        "S_link_phi": 1663.164375483624,
+        "S_plaq": 1618.90910087931,
+        "S_plaq_quadratic": 7549.936054979466,
+        "plaq_over_link": 0.9733909195887837
+      },
+      {
+        "amp": 3.2,
+        "S_link_phi": 2286.7043139802377,
+        "S_plaq": 2740.061797922266,
+        "S_plaq_quadratic": 30199.744219917862,
+        "plaq_over_link": 1.1982580262652824
+      },
+      {
+        "amp": 6.4,
+        "S_link_phi": 2793.1945181979427,
+        "S_plaq": 4342.934683795898,
+        "S_plaq_quadratic": 120798.97687967145,
+        "plaq_over_link": 1.5548271541782153
+      },
+      {
+        "amp": 12.0,
+        "S_link_phi": 2939.868160476324,
+        "S_plaq": 6167.676003978735,
+        "S_plaq_quadratic": 424683.9030925949,
+        "plaq_over_link": 2.097943059793346
+      }
+    ],
+    "meta": {
+      "n_links": 27960,
+      "n_plaq": 16013,
+      "link_saturation": 2963.3804618865097,
+      "plaq_saturation": 16013.0
+    }
+  },
+  "gauge_channel_lp10": {
+    "rows": [
+      {
+        "amp": 0.05,
+        "S_link_phi": 18.79835584438826,
+        "S_plaq": 73.33097332005423,
+        "S_plaq_quadratic": 73.72984428690884,
+        "plaq_over_link": 3.9009248429534966
+      },
+      {
+        "amp": 0.1,
+        "S_link_phi": 71.9536675229865,
+        "S_plaq": 288.62654157937783,
+        "S_plaq_quadratic": 294.9193771476354,
+        "plaq_over_link": 4.011283253729526
+      },
+      {
+        "amp": 0.2,
+        "S_link_phi": 243.60517568465855,
+        "S_plaq": 1084.4205590079455,
+        "S_plaq_quadratic": 1179.6775085905415,
+        "plaq_over_link": 4.451549750370262
+      },
+      {
+        "amp": 0.4,
+        "S_link_phi": 583.4224523289231,
+        "S_plaq": 3481.2916495880722,
+        "S_plaq_quadratic": 4718.710034362166,
+        "plaq_over_link": 5.96701692862753
+      },
+      {
+        "amp": 0.8,
+        "S_link_phi": 1052.025037809998,
+        "S_plaq": 8314.805746691656,
+        "S_plaq_quadratic": 18874.840137448664,
+        "plaq_over_link": 7.903619636278429
+      },
+      {
+        "amp": 1.6,
+        "S_link_phi": 1663.164375483624,
+        "S_plaq": 16189.0910087931,
+        "S_plaq_quadratic": 75499.36054979466,
+        "plaq_over_link": 9.733909195887838
+      },
+      {
+        "amp": 3.2,
+        "S_link_phi": 2286.7043139802377,
+        "S_plaq": 27400.61797922266,
+        "S_plaq_quadratic": 301997.4421991786,
+        "plaq_over_link": 11.982580262652824
+      },
+      {
+        "amp": 6.4,
+        "S_link_phi": 2793.1945181979427,
+        "S_plaq": 43429.34683795898,
+        "S_plaq_quadratic": 1207989.7687967145,
+        "plaq_over_link": 15.548271541782153
+      },
+      {
+        "amp": 12.0,
+        "S_link_phi": 2939.868160476324,
+        "S_plaq": 61676.76003978735,
+        "S_plaq_quadratic": 4246839.030925949,
+        "plaq_over_link": 20.979430597933458
+      }
+    ]
+  },
+  "findings": {
+    "cos_bounded_no_explosion": true,
+    "scalar_saturates": true,
+    "quartic_is_leading_nonlinearity": true,
+    "no_cancellation_different_operators": true,
+    "hierarchy_set_by_lambda_p": true
+  },
+  "timestamp_utc": "2026-06-06T16:10:08Z"
+}

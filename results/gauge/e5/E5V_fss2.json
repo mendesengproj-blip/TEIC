@@ -1,0 +1,87 @@
+{
+  "betas_4D": [
+    0.95,
+    1.0,
+    1.05,
+    1.1,
+    1.15
+  ],
+  "betas_3D": [
+    1.0,
+    1.5,
+    2.0,
+    2.5
+  ],
+  "rows_4D": [
+    {
+      "shape": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "N_plaq": 1536,
+      "C_per_plaq_peak": 0.9196040079130636,
+      "peak_beta": 1.0
+    },
+    {
+      "shape": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "N_plaq": 3750,
+      "C_per_plaq_peak": 2.6968614348397892,
+      "peak_beta": 1.0
+    },
+    {
+      "shape": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "N_plaq": 7776,
+      "C_per_plaq_peak": 1.7774293100177225,
+      "peak_beta": 1.05
+    }
+  ],
+  "rows_3D": [
+    {
+      "shape": [
+        6,
+        6,
+        6
+      ],
+      "N_plaq": 648,
+      "C_per_plaq_peak": 0.7113149104327743,
+      "peak_beta": 1.5
+    },
+    {
+      "shape": [
+        8,
+        8,
+        8
+      ],
+      "N_plaq": 1536,
+      "C_per_plaq_peak": 0.6794558168713757,
+      "peak_beta": 1.5
+    },
+    {
+      "shape": [
+        10,
+        10,
+        10
+      ],
+      "N_plaq": 3000,
+      "C_per_plaq_peak": 0.7217995030605802,
+      "peak_beta": 1.5
+    }
+  ],
+  "slope_4D": 0.4357287897130521,
+  "slope_3D": 0.006592347324552458,
+  "G3_pass": true,
+  "verdict": "G3 PASS: 4D C/N_plaq trend dln/dlnN = +0.44 (grows -> transition); 3D trend = +0.01 (flat/decreasing -> crossover).",
+  "runtime_s": 48.198036909103394
+}

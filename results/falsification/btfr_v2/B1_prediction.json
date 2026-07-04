@@ -1,0 +1,61 @@
+{
+  "cosmology": {
+    "H0": 67.0,
+    "Om": 0.3,
+    "Om_sigma": 0.02
+  },
+  "note_H0_cancels": "H(z)/H0 is independent of H0 in flat LCDM; H0 uncertainty propagates to zero.",
+  "predictions": [
+    {
+      "z": 0.0,
+      "delta_logv": 0.0,
+      "sigma_from_Om": 0.0,
+      "delta_logv_H0_68": 0.0,
+      "H0_propagation_error": 0.0
+    },
+    {
+      "z": 0.5,
+      "delta_logv": 0.029203822520557903,
+      "sigma_from_Om": 0.001506151873238189,
+      "delta_logv_H0_68": 0.029203822520557903,
+      "H0_propagation_error": 0.0
+    },
+    {
+      "z": 0.9,
+      "delta_logv": 0.05506837738955519,
+      "sigma_from_Om": 0.002308141267159315,
+      "delta_logv_H0_68": 0.05506837738955519,
+      "H0_propagation_error": 0.0
+    },
+    {
+      "z": 1.5,
+      "delta_logv": 0.0914234103960985,
+      "sigma_from_Om": 0.0029502592105358633,
+      "delta_logv_H0_68": 0.0914234103960985,
+      "H0_propagation_error": 0.0
+    },
+    {
+      "z": 2.0,
+      "delta_logv": 0.11806033401877107,
+      "sigma_from_Om": 0.00321159847306883,
+      "delta_logv_H0_68": 0.11806033401877107,
+      "H0_propagation_error": 0.0
+    },
+    {
+      "z": 2.3,
+      "delta_logv": 0.13249793745639507,
+      "sigma_from_Om": 0.0033079847087835873,
+      "delta_logv_H0_68": 0.13249793745639507,
+      "H0_propagation_error": 0.0
+    },
+    {
+      "z": 3.0,
+      "delta_logv": 0.16235663455121332,
+      "sigma_from_Om": 0.0034418597090741104,
+      "delta_logv_H0_68": 0.16235663455121332,
+      "H0_propagation_error": 0.0
+    }
+  ],
+  "anchor_z0.9": 0.05506837738955519,
+  "anchor_z2.3": 0.13249793745639507
+}

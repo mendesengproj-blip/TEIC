@@ -1,0 +1,128 @@
+{
+  "rot_one": {
+    "classes": [
+      1,
+      1,
+      1
+    ],
+    "stable": true,
+    "value": 1,
+    "details": [
+      {
+        "class": 1,
+        "n_segments": 446,
+        "n_components": 2,
+        "component_parities": [
+          0,
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9606368066402943,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 422,
+        "n_components": 2,
+        "component_parities": [
+          0,
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9755639672917147,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 430,
+        "n_components": 2,
+        "component_parities": [
+          0,
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9805044902846894,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "rot_pair": {
+    "classes": [
+      0,
+      0,
+      0
+    ],
+    "stable": true,
+    "value": 0,
+    "details": [
+      {
+        "class": 0,
+        "n_segments": 614,
+        "n_components": 2,
+        "component_parities": [
+          1,
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9323803471804336,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 612,
+        "n_components": 2,
+        "component_parities": [
+          1,
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9459240160226383,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 620,
+        "n_components": 2,
+        "component_parities": [
+          1,
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9128544427012194,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "verdict": {
+    "class_one_soliton_2pi": 1,
+    "class_whole_pair_2pi": 0,
+    "predicted": {
+      "one": 1,
+      "pair": 0
+    },
+    "death": false
+  },
+  "_meta": {
+    "campaign": "MATTER_PI1_B2",
+    "timestamp": "2026-06-11T23:47:07.684463+00:00",
+    "numpy": "2.4.4"
+  }
+}

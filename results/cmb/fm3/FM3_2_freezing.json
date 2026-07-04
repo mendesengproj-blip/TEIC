@@ -1,0 +1,44 @@
+{
+  "w_eff": -0.43343313041120374,
+  "w_eff_sem": 0.01235501270864912,
+  "rho_exponent_p": 1.6997006087663884,
+  "cold_CDM_like": false,
+  "texture_like_minus_third": true,
+  "coarsening_exponent_q": 1.7508216716379306,
+  "lambdas": [
+    1.0,
+    1.3,
+    1.7,
+    2.2,
+    3.0
+  ],
+  "rho_norm": [
+    1.0,
+    0.6556989360583187,
+    0.4135492475603759,
+    0.2719216948491092,
+    0.15681889194000403
+  ],
+  "coarsen_t": [
+    0,
+    20,
+    50,
+    100,
+    200,
+    400
+  ],
+  "n_def_t": [
+    1015.125,
+    55.625,
+    16.875,
+    5.5,
+    1.875,
+    0.25
+  ],
+  "verdict": "relic is COSMOLOGICAL-scale (FM3-1) and causally FROZEN super-horizon (E3b, gate) -- but its equation of state is w_eff=-0.43 (~ -1/3, texture/global-monopole), NOT cold (w=0). Under flat (sub-horizon) evolution it coarsens away (n_def ~ t^-1.75). So it is NOT a cold, clustering CDM-like component.",
+  "L": 20,
+  "tau_Q": 8,
+  "seeds": 20,
+  "runtime_s": 4.463721036911011,
+  "timestamp_utc": "2026-06-14T13:46:45Z"
+}

@@ -1,0 +1,24 @@
+{
+  "W1": {
+    "passed": true
+  },
+  "W2": {
+    "lam_c": 1.0,
+    "wilson_string": false
+  },
+  "W3": {
+    "grade": "D",
+    "wilson_helps": false,
+    "any_stable": true
+  },
+  "W4": {
+    "consistent": true,
+    "mass": 7.995563833154227,
+    "E2_dispersion": true,
+    "theta_M_over_r": true
+  },
+  "W5": {
+    "helps_anywhere": false
+  },
+  "verdict": "D"
+}

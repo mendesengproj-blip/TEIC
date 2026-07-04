@@ -1,0 +1,118 @@
+{
+  "campaign": "RESIDUOS_A5",
+  "part1_eps2": {
+    "calibrators": [
+      {
+        "label": "base z (PI0b, loaded)",
+        "B": 1.593841783301946,
+        "swap_topology": true,
+        "stable": true,
+        "raw_class": 1,
+        "classes": [
+          1,
+          1,
+          1
+        ],
+        "eps": 1
+      },
+      {
+        "label": "width=1.5",
+        "B": 1.3636811177971602,
+        "swap_topology": true,
+        "stable": true,
+        "raw_class": 1,
+        "classes": [
+          1,
+          1
+        ],
+        "eps": 1
+      },
+      {
+        "label": "width=2.5",
+        "B": 1.7218627076088133,
+        "swap_topology": true,
+        "stable": true,
+        "raw_class": 1,
+        "classes": [
+          1,
+          1
+        ],
+        "eps": 1
+      },
+      {
+        "label": "axis-x (control, prior run)",
+        "B": 1.59,
+        "swap_topology": false,
+        "stable": true,
+        "raw_class": 0,
+        "classes": [
+          0,
+          0
+        ],
+        "eps": 0,
+        "note": "comps=2 (not winding-2 swap) -> excluded; confirms the machinery distinguishes swap from non-swap topology"
+      }
+    ],
+    "n_valid": 3,
+    "eps_values": [
+      1,
+      1,
+      1
+    ],
+    "eps_uniform_1": true,
+    "any_eps_not_1": false
+  },
+  "part2_mg1_3d": {
+    "rows": [
+      {
+        "e_sk": 0.3,
+        "M": 175.06297358633066,
+        "A": 6.723246073970805,
+        "C": -0.41593253448161865,
+        "exponent": -0.9911632276534181,
+        "G_net": 0.03840472908827462,
+        "support": 9.642857142857142,
+        "n_fit": 9
+      },
+      {
+        "e_sk": 0.5,
+        "M": 182.22197046531898,
+        "A": 6.998172131843108,
+        "C": -0.43309954505414017,
+        "exponent": -0.991163550531235,
+        "G_net": 0.0384046562221487,
+        "support": 9.628571428571428,
+        "n_fit": 9
+      },
+      {
+        "e_sk": 1.0,
+        "M": 200.11690940934233,
+        "A": 7.6853891721788745,
+        "C": -0.4760113938542171,
+        "exponent": -0.9911642581104315,
+        "G_net": 0.03840449662581131,
+        "support": 9.6,
+        "n_fit": 9
+      },
+      {
+        "e_sk": 1.5,
+        "M": 218.00827063233478,
+        "A": 8.37246875873707,
+        "C": -0.5189151805067067,
+        "exponent": -0.9911648511320517,
+        "G_net": 0.03840436298335221,
+        "support": 9.571428571428571,
+        "n_fit": 9
+      }
+    ],
+    "exponent_mean": -0.9911639718567842,
+    "exponent_ok": true,
+    "G_net_mean": 0.03840456122989671,
+    "G_net_cv": 3.69792081779504e-06,
+    "G_net_constant": true
+  },
+  "verdict_part1": "OK(1): eps=1 on ALL 3 distinct winding-2 calibrators (axes, widths, resolution) -> the framed-transfer anomaly is UNIFORM on the swap class; the PI3 eps(2)=1 correction is no longer single-field, the spin-statistics caveat of the baryon is CLOSED.",
+  "verdict_part2": "OK(2): on a full 3D Cartesian Poisson grid the exterior exponent is -0.991~-1 and G_net=A/M is constant (CV 0.0%) -> theta=G_net M/r is NOT a radial-symmetry artefact; the MG1 result holds in 3D.",
+  "verdict_tag": "SUCCESS_A5",
+  "runtime_s": 422.5518846511841
+}

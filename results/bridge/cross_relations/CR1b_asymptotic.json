@@ -1,0 +1,60 @@
+{
+  "points": [
+    {
+      "deg": 7.0,
+      "const": 0.3527866133062215,
+      "src": "CR1 rho-scan"
+    },
+    {
+      "deg": 14.0,
+      "const": 0.24496619929364657,
+      "src": "CR1 rho-scan"
+    },
+    {
+      "deg": 28.0,
+      "const": 0.2112107771770949,
+      "src": "CR1 rho-scan"
+    },
+    {
+      "deg": 8.0,
+      "const": 0.31283688735461535,
+      "src": "CR1 rc-scan"
+    },
+    {
+      "deg": 14.0,
+      "const": 0.24496619929364657,
+      "src": "CR1 rc-scan"
+    },
+    {
+      "deg": 24.0,
+      "const": 0.22305132656376658,
+      "src": "CR1 rc-scan"
+    },
+    {
+      "deg": 48.0,
+      "const": 0.20248467069556364,
+      "sem": 0.002299229732396854,
+      "src": "CR1b high-degree"
+    },
+    {
+      "deg": 64.0,
+      "const": 0.1992180797805658,
+      "sem": 0.0017809642841426691,
+      "src": "CR1b high-degree"
+    }
+  ],
+  "fit_deg_ge_14": {
+    "c_inf": 0.1851615586470184,
+    "b": 0.8372843444620337,
+    "rms_resid": 0.0020343844296343452
+  },
+  "predicted": 0.18997721932938333,
+  "ratio_c_inf_over_pred": 0.9746513782054282,
+  "converged_within_10pct": true,
+  "note": "low-degree points (7, 8) excluded from the linear-in-1/deg fit: visible curvature (they sit above the line), which is what made CR1's naive all-point extrapolation overshoot.",
+  "_meta": {
+    "timestamp": "2026-06-11T01:08:38.341907+00:00",
+    "numpy": "2.4.4",
+    "n_seeds_new": 5
+  }
+}

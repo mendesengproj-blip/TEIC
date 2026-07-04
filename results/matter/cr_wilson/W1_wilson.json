@@ -1,0 +1,49 @@
+{
+  "check1_cr_gauge": {
+    "theta_diff": 0.0,
+    "phix_diff": 0.0,
+    "stays_y_uniform": 0.0,
+    "ok": true
+  },
+  "check2_pure_gauge": {
+    "flux_pure_gauge": 0.0,
+    "wilson_force_on_pure_gauge": 8.326676655155614e-17,
+    "flux_before_relax": 398.6896046696047,
+    "flux_after_relax": 0.0,
+    "relaxes": true,
+    "ok": true
+  },
+  "check3_kink_mass": {
+    "mass_lam0_ref": 8.0,
+    "kink_rest_mass": 7.995563833154227,
+    "kink_mass_after": 7.99555571910616,
+    "wilson_flux_on_kink": 0.0,
+    "count_after": 1,
+    "ok": true
+  },
+  "check4_conservation": {
+    "E0": {
+      "E_kin": 531.7380102813082,
+      "E_stuck": 5830.480468071845,
+      "E_xstiff": 0.0,
+      "E_ystiff": 0.0,
+      "E_wilson": 0.0,
+      "E_links": 6362.218478353154,
+      "E_total": 6362.218478353154
+    },
+    "E1": {
+      "E_kin": 2955.1397608889506,
+      "E_stuck": 2910.7399221859555,
+      "E_xstiff": 406.85809566392084,
+      "E_ystiff": 82.23027180157645,
+      "E_wilson": 2.2605888042439224,
+      "E_links": 6354.968050540403,
+      "E_total": 6357.228639344647
+    },
+    "drift": 0.0007842923070757026,
+    "ok": true
+  },
+  "passed": true,
+  "verdict": "VALIDADO",
+  "statement": "The full action is consistent. (1) lambda_p=0 reproduces CR_GAUGE exactly (row diffs 0e+00). (2) A pure-gauge config has W_p=0 and feels zero Wilson force; magnetic flux relaxes (398.69->0.00) -- the lattice Maxwell term. (3) A y-uniform kink has W_p=0, so Wilson leaves its rest mass 8 untouched (7.996, stable). (4) E_links+E_plaquettes is conserved (drift 8e-04 < 1%). W2-W6 may proceed."
+}

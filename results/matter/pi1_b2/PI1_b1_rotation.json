@@ -1,0 +1,122 @@
+{
+  "rot_2pi": {
+    "classes": [
+      1,
+      1,
+      1
+    ],
+    "stable": true,
+    "value": 1,
+    "details": [
+      {
+        "class": 1,
+        "n_segments": 202,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9681252716306736,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 182,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9745310342869375,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 1,
+        "n_segments": 198,
+        "n_components": 1,
+        "component_parities": [
+          1
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9810606064150331,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "rot_4pi": {
+    "classes": [
+      0,
+      0,
+      0
+    ],
+    "stable": true,
+    "value": 0,
+    "details": [
+      {
+        "class": 0,
+        "n_segments": 404,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9681252716306736,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 364,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9745310342869375,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 396,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9810600418723647,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "verdict": {
+    "class_2pi": 1,
+    "class_4pi": 0,
+    "predicted": {
+      "2pi": 1,
+      "4pi": 0
+    },
+    "death": false
+  },
+  "_meta": {
+    "campaign": "MATTER_PI1_B2",
+    "timestamp": "2026-06-11T23:36:35.264928+00:00",
+    "numpy": "2.4.4"
+  }
+}

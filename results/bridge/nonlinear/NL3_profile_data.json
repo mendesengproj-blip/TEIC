@@ -1,0 +1,61 @@
+{
+  "what": "small-r density profile by counting (theta=M/r); which curve fits best.",
+  "M": 1.0,
+  "rho0": 12000.0,
+  "n_real": 120,
+  "radii": [
+    2.5,
+    3.0,
+    4.0,
+    6.0,
+    9.0,
+    14.0,
+    22.0
+  ],
+  "counted_rho_eff": [
+    2.2344451581271367,
+    1.7300495317110596,
+    1.4143061520498863,
+    1.2247124190286787,
+    1.1346583225785842,
+    1.0800281663738789,
+    1.0487909176002892
+  ],
+  "newtonian_1+u": [
+    1.4,
+    1.3333333333333333,
+    1.25,
+    1.1666666666666667,
+    1.1111111111111112,
+    1.0714285714285714,
+    1.0454545454545454
+  ],
+  "truncated_1+u+1.5u2": [
+    1.64,
+    1.5,
+    1.34375,
+    1.2083333333333335,
+    1.1296296296296298,
+    1.0790816326530612,
+    1.0485537190082643
+  ],
+  "schwarzschild_1/sqrt(1-2u)": [
+    2.2360679774997902,
+    1.732050807568877,
+    1.414213562373095,
+    1.224744871391589,
+    1.1338934190276817,
+    1.0801234497346432,
+    1.0488088481701514
+  ],
+  "rms_err_vs_newtonian": 0.1723659797740302,
+  "rms_err_vs_truncated": 0.11401902127212894,
+  "rms_err_vs_schwarzschild": 0.000576921204299915,
+  "schwarzschild_beats_newtonian_small_r": true,
+  "deviation_right_sign_small_r": true,
+  "fraction_of_2nd_order_gap_captured": 0.9987501081270691,
+  "horizon_note": "r -> 2M (u -> 1/2) is the OPEN FRONTIER: counting needs rho0 -> inf (N -> 0 per shell). Stopped at r >= 2.5M; no horizon claim.",
+  "verdict": "PASSA",
+  "seed": 1414213562,
+  "timestamp_utc": "2026-06-05T22:56:03Z"
+}

@@ -1,0 +1,59 @@
+{
+  "what": "minimise BD static action over candidate f(r); winner = Green's fn of -nabla^2 in d spatial dims (d=3 -> 1/r).",
+  "M": 1.0,
+  "r0_smoothing": 3.0,
+  "r_range": [
+    1.0,
+    200.0
+  ],
+  "n_r": 400000,
+  "candidates": [
+    "f1_inv_r",
+    "f2_inv_r2",
+    "f3_exp",
+    "f4_smoothed"
+  ],
+  "d1_S_min": {
+    "f1_inv_r": -1.5000001873245394,
+    "f2_inv_r2": -0.6250000000019582,
+    "f3_exp": -2.9999999997271143,
+    "f4_smoothed": -7.2530109216909935
+  },
+  "d1_winner": "f4_smoothed",
+  "d3_S_min": {
+    "f1_inv_r": -0.5025125626818201,
+    "f2_inv_r2": -0.3750000467982468,
+    "f3_exp": -0.35294117639699557,
+    "f4_smoothed": -0.26159952394392366
+  },
+  "d3_winner": "f1_inv_r",
+  "f1_inv_r_wins_d3": true,
+  "inv_r_harmonic_d3_rms_box": 2.6095844180607688e-09,
+  "inv_r_annihilated_by_operator_d3": true,
+  "COMPARISON_emergent_dtau_dt": [
+    0.75,
+    0.8,
+    0.8571428571428571,
+    0.9090909090909091,
+    0.9523809523809523,
+    0.9756097560975611,
+    0.9876543209876544,
+    0.9937888198757763
+  ],
+  "COMPARISON_schwarzschild_sqrt(1-2M/r)": [
+    0.5773502691896258,
+    0.7071067811865476,
+    0.816496580927726,
+    0.8944271909999159,
+    0.9486832980505138,
+    0.9746794344808963,
+    0.9874208829065749,
+    0.9937303457175896
+  ],
+  "COMPARISON_corr_vs_schwarzschild": 0.9898345806886949,
+  "COMPARISON_weakfield_max_rel_err_r>=20": 0.003897669894723575,
+  "COMPARISON_leading_coeff_theta*r/M": 1.0,
+  "verdict": "PASSA (campo fraco)",
+  "note": "d (spatial dimension / shell measure r^{d-1}) is geometric INPUT, like the metric in P2/P3; the 1/r SHAPE and unit coefficient are OUTPUT of minimising the action -- not imposed (contrast P3). Literal 1+1D (d=1) prefers a decaying/screened profile, NOT 1/r: the Newtonian 1/r needs d=3, the honest dimensional caveat.",
+  "timestamp_utc": "2026-06-05T22:24:56Z"
+}

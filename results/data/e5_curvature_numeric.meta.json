@@ -1,0 +1,40 @@
+{
+  "timestamp_utc": "2026-06-01T12:50:10Z",
+  "seed": 1618033,
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "libs": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "sympy": "1.14.0"
+  },
+  "params": {
+    "rho": 3000.0,
+    "n_real": 80,
+    "T_values": [
+      3.0,
+      4.0,
+      5.0,
+      6.0
+    ],
+    "R_values": [
+      -0.1,
+      -0.05,
+      0.0,
+      0.05,
+      0.1
+    ]
+  },
+  "summary": {
+    "c2_calibration": 1.3825901872339643,
+    "volume_slope_measured": -0.010496228826526847,
+    "volume_slope_err": 4.769425755347512e-05,
+    "volume_slope_predicted_taskA": -0.010416666666666666,
+    "chain_slope_measured": -0.0002389803797516255,
+    "chain_slope_err": 0.0004346206456788905,
+    "slope_separation": 0.010257248446775221,
+    "separation_sigma": 23.459631050511533,
+    "volume_matches_taskA": true,
+    "verdict": "PROVADO: chain and volume formulations DIVERGE in curved space"
+  }
+}

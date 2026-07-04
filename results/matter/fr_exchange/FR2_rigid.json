@@ -1,0 +1,28 @@
+{
+  "separation": 8.0,
+  "errors": {
+    "D U_exch D^-1": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "D^-1 U_exch D": {
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "U_exch (no conj)": {
+      "max": 1.999518996036888,
+      "mean": 0.10619697587061287
+    }
+  },
+  "matching_form": "D U_exch D^-1",
+  "machine_precision": true,
+  "pre_registered": "exact identity < 1e-12 with ONE global isospin conjugation D(pi)",
+  "_meta": {
+    "campaign": "MATTER_FR_EXCHANGE",
+    "timestamp": "2026-06-11T01:21:44.814534+00:00",
+    "numpy": "2.4.4",
+    "grid": 61,
+    "L_box": 24.0,
+    "profile_w": 2.0
+  }
+}

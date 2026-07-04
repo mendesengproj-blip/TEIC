@@ -1,0 +1,43 @@
+{
+  "source": "Ubler et al. 2017, ApJ 842 121 (arXiv:1703.04321), Table 2",
+  "bTFR_slope": 3.75,
+  "v_ref_km_s": 242.0,
+  "zero_points": {
+    "b_z0.9": [
+      10.68,
+      0.04
+    ],
+    "b_z2.3": [
+      10.85,
+      0.05
+    ]
+  },
+  "to_local_offsets_Db": {
+    "z0.9": -0.44,
+    "z2.3": -0.27
+  },
+  "observed_dlogv_to_local": {
+    "z~0.9": {
+      "z": 0.9,
+      "Db_to_local": -0.44,
+      "dlogv": 0.11733333333333333,
+      "sigma_stat": 0.010666666666666666
+    },
+    "z~2.3": {
+      "z": 2.3,
+      "Db_to_local": -0.27,
+      "dlogv": 0.07200000000000001,
+      "sigma_stat": 0.013333333333333334
+    }
+  },
+  "internal_evolution": {
+    "Db_internal": 0.17,
+    "d(dlogv)_internal": -0.04533333333333334,
+    "sigma": 0.017074997966487596
+  },
+  "caveats": [
+    "to-local offsets are SYSTEMATICS-DOMINATED (sample selection; Ubler note the z=0->high-z evolution can be 'insignificant' if disturbed/dispersion-dominated galaxies are included); stat errors below are lower bounds on the true error.",
+    "the INTERNAL z~0.9->z~2.3 change is the robust, systematics-controlled quantity.",
+    "MASS BIAS: KMOS3D is massive disks (log M* > ~10.5), HIGH surface brightness, i.e. the HIGH-acceleration (Newtonian) regime -- where the DEV a0(z) signal is intrinsically weak. The DEV/SPARC calibration is LOW-mass, deep-MOND galaxies."
+  ]
+}

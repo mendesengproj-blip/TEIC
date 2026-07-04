@@ -1,0 +1,11 @@
+{
+  "ran": false,
+  "verdict_A": false,
+  "reasons": [
+    "E3b-1 B preserved under causal evolution: True (global survival 100%)",
+    "E3b-3 causal Derrick has interior minimum at all scales: False"
+  ],
+  "decision": "skip",
+  "explanation": "Verdict is NOT A: the hedgehog has no INTERIOR Derrick minimum (E3b-3), so its preserved charge (E3b-1/E3b-2) is protected by the frozen boundary slab propagated through the causal links, not by a self-supporting energy minimum. E_defect is therefore not a rest mass and E=mc^2 is NOT computed -- doing so would be the exact circularity the charter forbids (protocol 3 + anti-circularity 2).",
+  "c_from_E2_would_be": 0.98
+}

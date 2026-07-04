@@ -1,0 +1,23 @@
+{
+  "H1_condensate": true,
+  "v_example": [
+    0.1,
+    0.1,
+    1.0,
+    1.0094507115755968
+  ],
+  "H2_m_A_equals_e_v": false,
+  "m_A_gauge": 0.9896899432685103,
+  "H3_normal_core": false,
+  "xi": NaN,
+  "lambda_L": 0.71875,
+  "kappa": NaN,
+  "regime": "indefinido (sem nucleo normal: xi nao medivel)",
+  "H4_mu_c": null,
+  "H4_pinning": false,
+  "H4_diffuses_at_0": true,
+  "H5_core_pinned": false,
+  "n_consistencies": 4,
+  "verdict": "C",
+  "verdict_text": "condensado existe (H1) mas pinamento n\u00e3o ocorre (H4/H5): \u03b8 \u00e9 a fase de St\u00fcckelberg, n\u00e3o a magnitude"
+}

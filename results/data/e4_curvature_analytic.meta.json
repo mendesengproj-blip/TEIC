@@ -1,0 +1,10 @@
+{
+  "ricci_scalar_of_background": "R",
+  "V_of_tau": "R**2*tau**6/2880 - R*tau**4/96 + tau**2/2",
+  "tau_vol_over_tau_geo": "3*R**2*tau**4/10240 - R*tau**2/96 + 1",
+  "volume_leading_coeff_in_brace_(Ricci units)": "-1/48",
+  "divergence_leading_relative_coeff_(Ricci units)": "-1/96",
+  "convention_note": "Ricci-scalar coeff 1/48 == Gaussian-curvature coeff 1/24",
+  "chain_proviso": "chain estimator assumed = tau_geo; its actual curvature response is measured in e5 (Task B)",
+  "verdict": "PROVADO (analytic): volume formulation diverges from geodesic/chain proper time at O(R tau^2), relative coeff -1/96 (Ricci units), IF chain has zero curvature correction -- tested in e5."
+}

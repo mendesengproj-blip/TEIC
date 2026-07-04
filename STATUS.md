@@ -1,11 +1,9 @@
 # TEIC — STATUS MAP (what is consolidated, what is dead, what is open)
 
-> Master index by VERDICT. The narrative lives in `TEIC.md` (living summary).
-> **Archive note:** pointers to `docs/prompts/` (campaign charters) and `results/`
-> (campaign code + data) refer to the full research archive, which is larger than
-> this repository and available from the author on request; this repository carries
-> the reproducible core and the manuscripts (`paper/submission/`).
-> Updated jun/2026 (post E4/E5/E6 + house-cleaning).
+> Master index by VERDICT. The narrative lives in `TEIC.md` (living summary);
+> campaign charters are in `docs/prompts/`, campaign code + emitted data in
+> `results/` and `docs/campaigns/`, manuscripts in `paper/submission/` — all in
+> this repository. Updated jun/2026 (post E4/E5/E6 + house-cleaning).
 
 ---
 

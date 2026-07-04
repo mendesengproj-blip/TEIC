@@ -1,0 +1,116 @@
+{
+  "path": [
+    {
+      "theta_over_pi": 0.0,
+      "q0": 1.0,
+      "identity_err_max": 0.0
+    },
+    {
+      "theta_over_pi": 0.125,
+      "q0": 0.9807852804032304,
+      "identity_err_max": 6.550551057807856e-16
+    },
+    {
+      "theta_over_pi": 0.25,
+      "q0": 0.9238795325112867,
+      "identity_err_max": 6.526987848146008e-16
+    },
+    {
+      "theta_over_pi": 0.375,
+      "q0": 0.8314696123025452,
+      "identity_err_max": 6.579886408580703e-16
+    },
+    {
+      "theta_over_pi": 0.5,
+      "q0": 0.7071067811865476,
+      "identity_err_max": 6.004449063730082e-16
+    },
+    {
+      "theta_over_pi": 0.625,
+      "q0": 0.5555702330196023,
+      "identity_err_max": 6.181460191301304e-16
+    },
+    {
+      "theta_over_pi": 0.75,
+      "q0": 0.38268343236508984,
+      "identity_err_max": 6.206335383118183e-16
+    },
+    {
+      "theta_over_pi": 0.875,
+      "q0": 0.19509032201612833,
+      "identity_err_max": 7.244417918960237e-16
+    },
+    {
+      "theta_over_pi": 1.0,
+      "q0": 6.123233995736766e-17,
+      "identity_err_max": 5.3533015581491455e-16
+    },
+    {
+      "theta_over_pi": 1.125,
+      "q0": -0.1950903220161282,
+      "identity_err_max": 6.497413668604471e-16
+    },
+    {
+      "theta_over_pi": 1.25,
+      "q0": -0.3826834323650897,
+      "identity_err_max": 6.726075705317044e-16
+    },
+    {
+      "theta_over_pi": 1.3749999999999998,
+      "q0": -0.555570233019602,
+      "identity_err_max": 7.228449307508887e-16
+    },
+    {
+      "theta_over_pi": 1.5,
+      "q0": -0.7071067811865475,
+      "identity_err_max": 6.425880329391634e-16
+    },
+    {
+      "theta_over_pi": 1.6250000000000002,
+      "q0": -0.8314696123025453,
+      "identity_err_max": 6.798699777552592e-16
+    },
+    {
+      "theta_over_pi": 1.75,
+      "q0": -0.9238795325112867,
+      "identity_err_max": 6.231111271582837e-16
+    },
+    {
+      "theta_over_pi": 1.8749999999999998,
+      "q0": -0.9807852804032304,
+      "identity_err_max": 7.055869121689407e-16
+    },
+    {
+      "theta_over_pi": 2.0,
+      "q0": -1.0,
+      "identity_err_max": 5.822058658345461e-16
+    }
+  ],
+  "worst_identity_error": 7.244417918960237e-16,
+  "q_end": [
+    -1.0,
+    0.0,
+    0.0,
+    1.2246467991473532e-16
+  ],
+  "q_end_is_minus_identity": true,
+  "antipodal_crossings_W": 1,
+  "pre_registered": {
+    "identity": "<1e-12",
+    "q_end": [
+      -1,
+      0,
+      0,
+      0
+    ],
+    "W": 1
+  },
+  "_meta": {
+    "campaign": "MATTER_FR_EXCHANGE",
+    "timestamp": "2026-06-11T01:21:50.346158+00:00",
+    "numpy": "2.4.4",
+    "grid": 61,
+    "L_box": 24.0,
+    "profile_w": 2.0
+  }
+}

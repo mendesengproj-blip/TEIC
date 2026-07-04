@@ -1,0 +1,63 @@
+{
+  "grid": {
+    "Nx": 33,
+    "Ny": 16,
+    "Nz": 12
+  },
+  "dt": 0.02,
+  "check1_higgs_off": {
+    "E_hop_at_zero_Phi": 0.0,
+    "gauge_is_pure_wilson_maxdiff": 0.0,
+    "ok": true
+  },
+  "check2_gauge_off": {
+    "cov_minus_gradient_maxdiff": 0.0,
+    "ok": true
+  },
+  "check3_gauge_invariance": {
+    "abs_dE": 0.0,
+    "E": 2041.0613854172573,
+    "rel_dE": 0.0,
+    "ok": true
+  },
+  "check4_condensate": {
+    "rows": [
+      {
+        "mu2": 0.0,
+        "lam": 1.0,
+        "v": 0.0,
+        "rho_meas": 0.0014936504605873094,
+        "err": 0.0014936504605873094
+      },
+      {
+        "mu2": 0.5,
+        "lam": 0.5,
+        "v": 0.7071067811865476,
+        "rho_meas": 0.7071067811865029,
+        "err": 6.311771683908775e-14
+      },
+      {
+        "mu2": 1.0,
+        "lam": 0.5,
+        "v": 1.0,
+        "rho_meas": 0.9999999999999996,
+        "err": 4.440892098500626e-16
+      },
+      {
+        "mu2": 2.0,
+        "lam": 1.0,
+        "v": 1.0,
+        "rho_meas": 1.0,
+        "err": 0.0
+      }
+    ],
+    "ok": true
+  },
+  "check5_energy_conservation": {
+    "E0": -2572.5516551345413,
+    "E1": -2572.771263605654,
+    "drift": 8.536601030901105e-05,
+    "ok": true
+  },
+  "AH1_PASS": true
+}

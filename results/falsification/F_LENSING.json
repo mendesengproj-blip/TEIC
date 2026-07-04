@@ -1,0 +1,19 @@
+{
+  "eta_minus_1_pred_band": [
+    0.022,
+    0.067
+  ],
+  "eta_pred_mid": 0.0445,
+  "current_WL_precision_on_slip": 0.2,
+  "euclid_precision_forecast": 0.01,
+  "refs": [
+    "Heymans et al. 2021 (KiDS-1000)",
+    "DES Collaboration 2021 (DES Y3)",
+    "Reyes et al. 2010 (E_G ~ 0.39 +- 0.06, consistent with GR)"
+  ],
+  "distinguishable_with_current_data": false,
+  "distinguishable_with_euclid": true,
+  "consistent_with_current_data": true,
+  "verdict": "CONSISTENTE (mas nao testado)",
+  "note": "A 2.2-6.7% slip is inside current weak-lensing error bars (~10-30% on isotropic slip-type parameters; E_G consistent with GR), so it is CONSISTENT but NOT YET TESTED. Euclid (~1%) is the discriminating instrument. Moreover the DEV-V slip is DIRECTIONAL (anisotropic, filament/edge-aligned) -- a signature existing isotropic analyses do not target. Non-discriminating with present data."
+}

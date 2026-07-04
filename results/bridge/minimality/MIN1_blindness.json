@@ -1,0 +1,25 @@
+{
+  "grid": 64,
+  "core_geometric_flux": 6.283185307179586,
+  "core_geometric_flux_over_2pi": 1.0,
+  "core_group_element_W": 0.0,
+  "total_winding_number": 1.0,
+  "core_cost_per_action": {
+    "1-cos(W)": 0.0,
+    "1-cos(2W)": 0.0,
+    "1-cos(3W)": 0.0,
+    "random 6-harmonic series": 0.0
+  },
+  "note_geometric": "the same f applied to the UNwrapped flux would cost f(2pi-multiples) -- nonzero only because the argument is then not a group element",
+  "f_of_geometric_flux": {
+    "1-cos(W)": 0.0,
+    "1-cos(2W)": 0.0,
+    "1-cos(3W)": 0.0,
+    "random 6-harmonic series": 0.0
+  },
+  "theorem": "any 2pi-periodic f (= any class function of the U(1) group element) has f(W_core)=f(0)=0: core cost identically zero for the whole class; V4's single-cosine result is the n=1 case. B (SU(2)) is a volume index, not a loop holonomy: the theorem structurally does not apply.",
+  "_meta": {
+    "timestamp": "2026-06-11T01:03:02.949541+00:00",
+    "numpy": "2.4.4"
+  }
+}

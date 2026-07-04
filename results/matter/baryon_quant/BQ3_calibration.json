@@ -1,0 +1,22 @@
+{
+  "inputs": {
+    "M_N": 939.0,
+    "M_Delta": 1232.0
+  },
+  "calibrated_e": 5.394214220738921,
+  "calibrated_f_pi_MeV": 125.74777596896628,
+  "ANW_e": 5.45,
+  "ANW_f_pi_MeV": 64.5,
+  "e_rel_err_vs_ANW": 0.010235922800197975,
+  "e_ok": true,
+  "f_pi_over_ANW": 1.9495779219994773,
+  "reproduced_M_N": 938.9999999999999,
+  "reproduced_M_Delta": 1232.0,
+  "M_sol_classical": 865.7499999999999,
+  "NDelta_over_N": 0.31203407880724193,
+  "Ehat": 11.821443325796094,
+  "Lhat": 48.24473292896377,
+  "Iner_invMeV": 0.005119453924914676,
+  "convention_note": "f_pi ~ 2x ANW's 64.5 MeV is the F_pi=2 f_pi convention; the DIMENSIONLESS coupling e is convention-robust and matches ANW. f_pi is the declared EXTERNAL scale.",
+  "verdict": "PASS"
+}

@@ -1,0 +1,35 @@
+{
+  "to_local": {
+    "z~0.9": {
+      "obs": 0.11733333333333333,
+      "sig": 0.010666666666666666,
+      "DEV": 0.05506837738955519,
+      "tension_DEV": 5.837339619729201,
+      "tension_LCDM": 11.0
+    },
+    "z~2.3": {
+      "obs": 0.07200000000000001,
+      "sig": 0.013333333333333334,
+      "DEV": 0.13249793745639507,
+      "tension_DEV": 4.53734530922963,
+      "tension_LCDM": 5.4
+    }
+  },
+  "internal": {
+    "obs_change": -0.04533333333333334,
+    "sigma": 0.017074997966487596,
+    "DEV_change": 0.07742956006683988,
+    "LCDM_change": 0.0,
+    "tension_DEV": 7.189628580988118,
+    "tension_LCDM": 2.6549539521063035,
+    "trend_opposite_to_DEV": true
+  },
+  "dev_09": 0.05506837738955519,
+  "dev_23": 0.13249793745639507,
+  "summary": {
+    "to_local_favours_evolution_over_LCDM": true,
+    "internal_trend_opposite_to_DEV": true,
+    "internal_tension_DEV_sigma": 7.189628580988118,
+    "internal_tension_LCDM_sigma": 2.6549539521063035
+  }
+}

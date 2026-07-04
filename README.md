@@ -93,28 +93,49 @@ pip install -r requirements.txt
 pytest tests/            # guard + unit tests; exit 0 = clean
 ```
 
-### Reproducing the geometry baseline
+### Reproducing specific results
+
+The full campaign tree ships in this repository: every generator, its emitted
+`*.json` verdict (run parameters + numbers embedded), and the pre-registered
+charters with kill criteria (`docs/prompts/`). Per paper:
 
 ```bash
-# e1..e11: SR from chain counting, dimension/volume, Newtonian relaxation,
-# curvature, the causal d'Alembertian, growth dynamics, redshift, phase scaling
+# Geometry baseline, all papers' floor (e1..e11: SR, dimension, 1/r, curvature,
+# the causal d'Alembertian, growth, redshift, phase scaling)
 python experiments/run_all.py
+
+# goldstone_prd — order, dispersion, the photon exclusion + robustness
+python results/vacuum_structure/orientation/e4/E4_0_fss.py        # finite-size scaling
+python results/vacuum_structure/orientation/e4/E4_1_locking.py    # polarisation (photon dies)
+python results/vacuum_structure/orientation/e4/E4_R_robustness.py
+
+# photon_arc_cqg — the B-type (magnetic) fraction is structurally zero across N
+python results/gauge/e6/E6_3b_eb_population.py
+python results/gauge/e6/E6_3c_eb_Nscan.py
+
+# matter_gravity_prd — the soliton sources its own field; baryon quantization
+python results/matter/mg/MG1_skyrmion_gravity.py
+python results/matter/baryon_quant/run_all.py                     # BQ1..BQ5 suite
+
+# su3_prd — colour ordering, confinement, octet (FL1) + order of the transition
+python results/matter/fl1/run_all.py                              # FLA..FLD + octet suite
+python docs/campaigns/SU3_ORDEM_TRANSICAO/OT_transition_order.py
+
+# btfr_mnras — prediction, data confrontation (public catalogues)
+python results/falsification/btfr_v2/run_all.py
+python results/falsification/btfr_v3/V3_confront.py
 ```
 
-Each experiment writes a self-describing `*.json` (into `results/data/`, created on
-first run), embedding the run parameters and the numeric verdict. Same command → same
-numbers, from fixed seeds.
+Long campaigns (the finite-size scalings, the L=32 parallel tempering) ship with the
+`*.json` written by the original runs, so every quoted number can be checked against
+its recorded run before re-executing. Same command → same numbers, from fixed seeds.
 
-### The campaign archive
+### Companion repository
 
-The headline numbers of each paper come from dedicated campaign generators (finite-size
-scaling, polarisation locking, the B-fraction scan, the Skyrmion–gravity sourcing, the
-SU(3) transition study). Those scripts, their pre-registered charters with kill
-criteria, and the raw `*.json`/figure outputs form the full research archive —
-substantially larger than this repository — and are **available from the author on
-request** (and will accompany a data deposit). This repository carries the reproducible
-core: the substrate engine, the canonical geometry experiments, the guards, and the
-complete manuscripts with their figures.
+The two axiomatic manuscripts the papers cite as companions — the deductive core
+(*What a Lorentz-invariant discrete order can carry*) and the string-net complement —
+live with their own pre-registered campaign record at
+**<https://github.com/mendesengproj-blip/causal-substrate-core>**.
 
 ### Building the papers
 
@@ -133,6 +154,14 @@ RESEARCH_MAP.md              the full campaign map (history of what was tried)
 src/                         causal_core, chain, volume, curved (generators — NO relativity)
                              validation.py (the ONLY place SR/GR formulas live)
 experiments/                 e1..e11 geometry experiments + run_all.py
+results/                     all campaign code + emitted json verdicts + figures,
+                             grouped by sector: vacuum_structure/ (orientation,
+                             Goldstone), matter/ (SU(2)/SU(3), baryon, MG gravity),
+                             gauge/ (E5–E7), falsification/ (BTFR), cosmology/,
+                             cmb/, foundations/, bridge/, predictions/, audit/, ...
+docs/prompts/                campaign charters (pre-registered kill criteria)
+docs/campaigns/              later campaigns (generators + RESULTADO records)
+docs/reports/, docs/audits/  analysis reports and audit records
 tests/                       test_no_circularity.py + test_no_scale_literal.py (the
                              guards), test_core.py
 paper/submission/            the six manuscripts (self-contained: tex + bib + figures

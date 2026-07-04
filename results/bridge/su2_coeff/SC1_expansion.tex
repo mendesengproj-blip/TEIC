@@ -1,0 +1,56 @@
+% SC1 -- derivation of the emergent Skyrme operator from the SU(2) link cosine.
+% Standalone fragment, ready for inclusion in Paper II if the campaign closes.
+% Every step below is verified in SC1_expansion.py (symbolic + quaternion numerics).
+\section*{The fourth order of the SU(2) link cosine}
+
+Let $U(x)\in SU(2)$ be the chiral site field and
+$c_\mu = U^{-1}\partial_\mu U$ its currents (su(2)-valued, written as real
+3-vectors in the $i\sigma/2$ basis). A causal link of length $a$ in unit spatial
+direction $e$ carries the holonomy $\Omega = \exp(a L_e)$ with
+$L_e = \tfrac{i}{2}\,\ell_e\!\cdot\!\sigma$, $\ell_e = c_\mu e^\mu$, so the
+minimal link energy is a single cosine,
+\begin{equation}
+1-\tfrac12\mathrm{Tr}\,\Omega
+ = 1-\cos\Big(\frac{a|\ell_e|}{2}\Big)
+ = \frac{a^2}{8}\,|\ell_e|^2 - \frac{a^4}{384}\,|\ell_e|^4 + O(a^6).
+\end{equation}
+
+With $G_{\mu\nu}=c_\mu\!\cdot\!c_\nu$ the current Gram tensor,
+$|\ell_e|^2 = e^\top G\,e$, and the isotropic (Poisson) fourth moment
+$\langle e^\mu e^\nu e^\rho e^\sigma\rangle =
+(\delta^{\mu\nu}\delta^{\rho\sigma}+\delta^{\mu\rho}\delta^{\nu\sigma}
++\delta^{\mu\sigma}\delta^{\nu\rho})/15$ gives
+\begin{equation}
+\big\langle |\ell_e|^4 \big\rangle
+ = \frac{(\mathrm{Tr}G)^2 + 2\,\mathrm{Tr}(G^2)}{15}
+ = \frac{3S-2K}{15},
+\qquad
+\begin{aligned}
+S &= (\mathrm{Tr}G)^2,\\
+K &= (\mathrm{Tr}G)^2 - \mathrm{Tr}(G^2)
+   = \textstyle\sum_{\mu\nu} |c_\mu\times c_\nu|^2 ,
+\end{aligned}
+\end{equation}
+where $K$ is the Skyrme invariant: the commutator of su(2) currents is the cross
+product, $[L_\mu,L_\nu] = -\tfrac{i}{2}(c_\mu\times c_\nu)\!\cdot\!\sigma$, and
+$K$ vanishes identically in any Abelian (collinear) sector. The emergent quartic
+per link is therefore
+\begin{equation}
+E^{(4)} \;=\; -\frac{a^4}{5760}\,\big(3S - 2K\big)
+\;=\; -\frac{3a^4}{5760}\,S \;+\; \frac{a^4}{2880}\,K .
+\label{eq:emergent}
+\end{equation}
+
+Three structural consequences follow. (i)~\emph{The Skyrme operator is generated
+by Poisson isotropy}: a cubic lattice, whose links sample only the three axes,
+sees $\sum_i G_{ii}^2$ --- no cross-direction terms, hence no $K$; the isotropic
+sprinkling that yields Lorentz invariance (R1) is the same ingredient that
+yields the Skyrme operator. (ii)~\emph{The ratio is locked}: $K\!:\!S=+2:-3$ for
+any isotropic link measure, independent of the radial weight --- the analogue of
+the algebraically forced St\"uckelberg ratios. (iii)~\emph{The net sign is
+saturating}: $\mathrm{Tr}(G^2)\ge(\mathrm{Tr}G)^2/3$ implies $K\le\tfrac23 S$,
+so $3S-2K\ge\tfrac53 S>0$ and the total quartic is negative; the cosine alone
+cannot satisfy Derrick's criterion, and the commutator's \emph{dominance} (a
+net-positive quartic) remains an ingredient beyond the minimal action. The
+emergent stabiliser length is the granularity itself,
+$\lambda_{\rm Sk}^2 = (a^4/2880)\,/\,(a^2/24) = a^2/120$.

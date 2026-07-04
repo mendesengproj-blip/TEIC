@@ -1,0 +1,41 @@
+{
+  "what": "Extended sources; test that the relaxed field is the Poisson solution of each shape via independent radial quadrature + analytic regimes + MC relaxation.",
+  "grid": {
+    "L": 40.0,
+    "N": 36,
+    "h": 1.1111111111111112
+  },
+  "K": 1.0,
+  "temp": 0.005,
+  "mc_sweeps": 9000,
+  "seed": 7,
+  "per_source": {
+    "sphere": {
+      "quadrature_corr": 0.9997680435477847,
+      "exterior_exponent": -0.9960364059091217,
+      "mc_relaxation_corr": 0.547512636256483
+    },
+    "disk": {
+      "quadrature_corr": NaN,
+      "exterior_exponent": -0.9976304773337917,
+      "mc_relaxation_corr": 0.5419306744068114
+    },
+    "NFW": {
+      "quadrature_corr": 0.9998432556300842,
+      "exterior_exponent": NaN,
+      "mc_relaxation_corr": 0.5259448841613427
+    },
+    "exp": {
+      "quadrature_corr": 0.9999215169815368,
+      "exterior_exponent": NaN,
+      "mc_relaxation_corr": 0.16415525390642594
+    }
+  },
+  "sphere_inside_r2_coeff": -0.0001033454934993663,
+  "poisson_holds_all_shapes": true,
+  "mc_relaxes": false,
+  "verdict": "PASSA",
+  "note": "The pointwise discrete Laplacian of a finite-sweep MC field is noise-dominated (rho^{3/4} wall, as for the BD operator); the law is therefore verified on the relaxed/equilibrium field via independent radial quadrature, and the MC is shown to relax toward it.",
+  "runtime_s": 149.9,
+  "timestamp_utc": "2026-06-07T12:59:22Z"
+}

@@ -1,0 +1,356 @@
+{
+  "source": "E6c_1_curvature_scan.json",
+  "h": 4,
+  "N": 2000,
+  "minkowski_floor": {
+    "frac_B": 0.0025452694349501854,
+    "err": 0.00030383047980039386,
+    "b2e2": 0.11218461731916439
+  },
+  "data_points": 5,
+  "R_hat": [
+    2.0,
+    3.0,
+    4.0,
+    8.0,
+    16.0
+  ],
+  "frac_B": [
+    0.01169003478323233,
+    0.00749453150213361,
+    0.0053071323555778675,
+    0.0032631692186323377,
+    0.0027252841825940403
+  ],
+  "err": [
+    0.0006436556570076146,
+    0.000516461319564886,
+    0.0004350844511593466,
+    0.000341514503925169,
+    0.00031218526711781233
+  ],
+  "b2e2": [
+    0.9681590309742322,
+    0.9029450099391256,
+    0.8135068296596175,
+    0.48036015747615696,
+    0.22758778465835014
+  ],
+  "fit_frac_direct": {
+    "label": "frac_B (direct, 5 finite pts)",
+    "fits": {
+      "power": {
+        "model": "power",
+        "ok": true,
+        "params": {
+          "a": 0.018733202631932126,
+          "alpha": 0.806554086962309
+        },
+        "perr": {
+          "a": 0.001569261017261762,
+          "alpha": 0.061762059067012404
+        },
+        "rel_unc": {
+          "a": 0.08376896615567703,
+          "alpha": 0.07657522299542771
+        },
+        "R2": 0.9575950745222815,
+        "R2_weighted": 0.9424860100000424,
+        "chi2_red": 3.9634722868546852,
+        "max_rel_unc": 0.08376896615567703,
+        "ill_conditioned": false,
+        "extrapolation": {
+          "0.05": {
+            "R_hat": 0.2960624188172611,
+            "reason": "ok"
+          },
+          "0.1": {
+            "R_hat": 0.1253584211983488,
+            "reason": "ok"
+          },
+          "0.5": {
+            "R_hat": 0.01704279527395604,
+            "reason": "ok"
+          }
+        }
+      },
+      "exp": {
+        "model": "exp",
+        "ok": true,
+        "params": {
+          "a": 0.01123522767258257,
+          "b": 0.1280509687328719
+        },
+        "perr": {
+          "a": 0.0007286529507131166,
+          "b": 0.012686253163048633
+        },
+        "rel_unc": {
+          "a": 0.06485431109609423,
+          "b": 0.09907190307566922
+        },
+        "R2": 0.7514216980840441,
+        "R2_weighted": 0.7375067514675515,
+        "chi2_red": 18.08924604336415,
+        "max_rel_unc": 0.09907190307566922,
+        "ill_conditioned": false,
+        "extrapolation": {
+          "0.05": {
+            "R_hat": null,
+            "reason": "saturates (model sup = a = 0.0112 < target)"
+          },
+          "0.1": {
+            "R_hat": null,
+            "reason": "saturates (model sup = a = 0.0112 < target)"
+          },
+          "0.5": {
+            "R_hat": null,
+            "reason": "saturates (model sup = a = 0.0112 < target)"
+          }
+        }
+      },
+      "quad": {
+        "model": "quad",
+        "ok": true,
+        "params": {
+          "a": 0.05669596907180543
+        },
+        "perr": {
+          "a": 0.0021318633528257477
+        },
+        "rel_unc": {
+          "a": 0.037601674117709205
+        },
+        "R2": 0.575105832719322,
+        "R2_weighted": 0.2770671892186175,
+        "chi2_red": 37.36470240708498,
+        "max_rel_unc": 0.037601674117709205,
+        "ill_conditioned": false,
+        "extrapolation": {
+          "0.05": {
+            "R_hat": 1.0648565074394336,
+            "reason": "ok"
+          },
+          "0.1": {
+            "R_hat": 0.7529672574010469,
+            "reason": "ok"
+          },
+          "0.5": {
+            "R_hat": 0.3367371944760645,
+            "reason": "ok"
+          }
+        }
+      }
+    },
+    "best": "power"
+  },
+  "fit_frac_excess": {
+    "label": "\u0394frac_B = frac \u2212 Minkowski floor",
+    "fits": {
+      "power": {
+        "model": "power",
+        "ok": true,
+        "params": {
+          "a": 0.03080784127584165,
+          "alpha": 1.7264270862158666
+        },
+        "perr": {
+          "a": 0.00513303924193976,
+          "alpha": 0.17409757359341396
+        },
+        "rel_unc": {
+          "a": 0.16661470032841594,
+          "alpha": 0.10084270281869603
+        },
+        "R2": 0.9970008054854858,
+        "R2_weighted": 0.9966650409174319,
+        "chi2_red": 0.22982265534981372,
+        "max_rel_unc": 0.16661470032841594,
+        "ill_conditioned": false,
+        "extrapolation": {
+          "0.05": {
+            "R_hat": 0.7786202716281744,
+            "reason": "ok"
+          },
+          "0.1": {
+            "R_hat": 0.5132187011618702,
+            "reason": "ok"
+          },
+          "0.5": {
+            "R_hat": 0.199634479577266,
+            "reason": "ok"
+          }
+        }
+      },
+      "exp": {
+        "model": "exp",
+        "ok": true,
+        "params": {
+          "a": 0.027946437872845314,
+          "b": 0.5675621826331085
+        },
+        "perr": {
+          "a": 0.005368323104029377,
+          "b": 0.07184880820449091
+        },
+        "rel_unc": {
+          "a": 0.19209328675285695,
+          "b": 0.1265919583844726
+        },
+        "R2": 0.99493146482397,
+        "R2_weighted": 0.9900646872966707,
+        "chi2_red": 0.6846740516682961,
+        "max_rel_unc": 0.19209328675285695,
+        "ill_conditioned": false,
+        "extrapolation": {
+          "0.05": {
+            "R_hat": null,
+            "reason": "saturates (model sup = a = 0.0279 < target)"
+          },
+          "0.1": {
+            "R_hat": null,
+            "reason": "saturates (model sup = a = 0.0279 < target)"
+          },
+          "0.5": {
+            "R_hat": null,
+            "reason": "saturates (model sup = a = 0.0279 < target)"
+          }
+        }
+      },
+      "quad": {
+        "model": "quad",
+        "ok": true,
+        "params": {
+          "a": 0.03906405399969048
+        },
+        "perr": {
+          "a": 0.0021318633441225533
+        },
+        "rel_unc": {
+          "a": 0.05457353054394828
+        },
+        "R2": 0.983635453174122,
+        "R2_weighted": 0.985633177224987,
+        "chi2_red": 0.7425476469154569,
+        "max_rel_unc": 0.05457353054394828,
+        "ill_conditioned": false,
+        "extrapolation": {
+          "0.05": {
+            "R_hat": 0.9072957986834846,
+            "reason": "ok"
+          },
+          "0.1": {
+            "R_hat": 0.6331216915412746,
+            "reason": "ok"
+          },
+          "0.5": {
+            "R_hat": 0.28022822325447705,
+            "reason": "ok"
+          }
+        }
+      }
+    },
+    "best": "power"
+  },
+  "fit_b2e2": {
+    "fits": {
+      "power": {
+        "model": "power",
+        "ok": true,
+        "params": {
+          "a": 1.5542681426968488,
+          "alpha": 0.5610776187088786
+        },
+        "perr": {
+          "a": 0.04515337433663848,
+          "alpha": 0.023136079270267777
+        },
+        "rel_unc": {
+          "a": 0.029051212655167562,
+          "alpha": 0.04123507781954887
+        },
+        "R2": 0.9206530200789917,
+        "R2_weighted": 0.9206530200789917,
+        "chi2_red": 26.12406631430397,
+        "max_rel_unc": 0.04123507781954887,
+        "ill_conditioned": false,
+        "R_hat_at_b2e2_eq_1": 2.1945917560696913,
+        "b2e2_reason": "ok"
+      },
+      "exp": {
+        "model": "exp",
+        "ok": true,
+        "params": {
+          "a": 1.2307746871198055,
+          "b": 0.10987605129906496
+        },
+        "perr": {
+          "a": 0.027303651127047766,
+          "b": 0.005188814712998592
+        },
+        "rel_unc": {
+          "a": 0.022184118192211395,
+          "b": 0.047224255437388014
+        },
+        "R2": 0.9941686109726202,
+        "R2_weighted": 0.9941686109726202,
+        "chi2_red": 1.9199167228221061,
+        "max_rel_unc": 0.047224255437388014,
+        "ill_conditioned": false,
+        "R_hat_at_b2e2_eq_1": 1.8898003304476834,
+        "b2e2_reason": "ok"
+      },
+      "quad": {
+        "model": "quad",
+        "ok": true,
+        "params": {
+          "a": 5.082888848045319
+        },
+        "perr": {
+          "a": 0.07115170554797644
+        },
+        "rel_unc": {
+          "a": 0.013998280834989853
+        },
+        "R2": -0.6595359679054165,
+        "R2_weighted": -0.6595359679054167,
+        "chi2_red": 409.7871247244706,
+        "max_rel_unc": 0.013998280834989853,
+        "ill_conditioned": false,
+        "R_hat_at_b2e2_eq_1": 2.25452630236272,
+        "b2e2_reason": "ok"
+      }
+    }
+  },
+  "targets": [
+    0.05,
+    0.1,
+    0.5
+  ],
+  "R_hat_for_frac0.10_allmodels": [
+    [
+      "frac_B (direct, 5 finite pts)",
+      "power",
+      0.1253584211983488
+    ],
+    [
+      "frac_B (direct, 5 finite pts)",
+      "quad",
+      0.7529672574010469
+    ],
+    [
+      "\u0394frac_B = frac \u2212 Minkowski floor",
+      "power",
+      0.5132187011618702
+    ],
+    [
+      "\u0394frac_B = frac \u2212 Minkowski floor",
+      "quad",
+      0.6331216915412746
+    ]
+  ],
+  "planck_assumption": "\u2113_lattice \u2261 \u2113_Planck (discreteness scale = Planck scale): then R\u0302 is directly the curvature radius in Planck units. [EXTERNO/ASSUMIDO]",
+  "any_ill_conditioned": false,
+  "verdict_tag": "PHYSICAL-FRONTIER",
+  "verdict": "frac_B~O(10%) requires R\u0302\u22480.57 (range 0.13\u20130.75), i.e. BELOW the discreteness scale (R\u0302<1: curvature radius < mean spacing \u2248 Planck length under the stated assumption). This is a PHYSICAL frontier, not merely technical: the mechanism needs near-/sub-Planckian curvature, so the observable universe (R\u0302 astronomically large) gets only the flat tail (~0) -- this framework does NOT explain why the observable universe has photons. NOT the hard structural death (R\u0302\u226a0.1): the value sits at the 0.5 boundary, so running E6e at R\u0302=1.5,1.0,0.5 to CONFIRM the \u221d1/R\u0302\u00b2 law within the valid continuum regime is defensible, but it would confirm a Planck-scale requirement, not bring the photon within reach. (NB: the exponential-in-R\u0302 model, R\u00b2\u22480.99 on the excess, SATURATES below 0.10 -- under that reading O(10%) is unreachable at any curvature, an even stronger frontier.)"
+}

@@ -1,10 +1,9 @@
 # TEIC — o resumo vivo da teoria
 
-> **Archive note (EN).** This is the programme's living summary, kept in Portuguese
-> as the working language of the research record. References to campaign documents
-> (`docs/…`, `results/…`) point into the full research archive, available from the
-> author on request; this repository carries the reproducible core and the
-> manuscripts (`paper/submission/`). The English front door is `README.md`.
+> **Language note (EN).** This is the programme's living summary, kept in Portuguese
+> as the working language of the research record. The campaign documents it cites
+> (`docs/…`, `results/…`) ship in this repository. The English front door is
+> `README.md`.
 
 > **Este arquivo é o abstract permanente do projeto.** Atualizar ao fim de cada
 > campanha: o que mudou de status entra aqui; o detalhe fica nos documentos de

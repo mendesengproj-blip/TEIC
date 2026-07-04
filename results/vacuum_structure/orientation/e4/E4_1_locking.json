@@ -1,0 +1,31 @@
+{
+  "config": {
+    "n_seeds": 16,
+    "J": 2.0,
+    "rho": 0.5,
+    "L": 6.4,
+    "n_dirs": 32,
+    "n_kmag": 5,
+    "n_burn": 300,
+    "n_samples": 40,
+    "kmags": [
+      0.9817477042468103,
+      1.0665300282589905,
+      1.1513123522711706,
+      1.2360946762833507,
+      1.3208770002955308
+    ]
+  },
+  "r_real_mean": 0.061496680002600314,
+  "r_real_std": 0.02940435795713625,
+  "r_shuffled_mean": 0.04430831383504086,
+  "r_shuffled_std": 0.024119073747392458,
+  "anisotropy_excess_sigma": 8.98612661857784,
+  "eigvec_khat_circ_corr": 0.09841693296739812,
+  "lock_permutation_pvalue": 0.227,
+  "lock_sigma_vs_null": 0.7278037144556319,
+  "n_samples_total": 640,
+  "verdict": "PHOTON DIES (two scalars): the polarisation principal axis does NOT track khat (circular corr +0.098; permutation p=0.23, +0.7sigma vs null). The two transverse Goldstone modes are decoupled INTERNAL scalars (pion-like), not a spatial gauge vector locked to k. The small anisotropy excess over the position-shuffle baseline (+9.0sigma) is real-space field coherence, not locking.",
+  "verdict_tag": "SCALARS_PHOTON_DIES",
+  "runtime_s": 15.47707748413086
+}

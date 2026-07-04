@@ -1,0 +1,27 @@
+{
+  "link_action_quartic": {
+    "quadratic": "X1**2/2 + X2**2/2 + X3**2/2",
+    "quartic": "-X1**4/24 - X1**2*X2**2/12 - X1**2*X3**2/12 - X2**4/24 - X2**2*X3**2/12 - X3**4/24",
+    "is_symmetric_4th_power": true,
+    "note": "quartic = -1/24 (X.X)^2 : symmetric, no cross product"
+  },
+  "skyrme_commutator": {
+    "identity": "Tr[L_i,L_j]^2 = -8 |a_i x a_j|^2 (antisymmetric cross product)",
+    "max_err_vs_-8cross": 0.0,
+    "abelian_collinear_cross_max": 1.7763568394002505e-15,
+    "vanishes_in_abelian_limit": true
+  },
+  "numeric_abelian_check": {
+    "E4_abelian_sigma3": 0.0,
+    "E4_nonabelian_hedgehog": 47.92970189794648,
+    "abelian_skyrme_is_zero": true
+  },
+  "C4_comparison_only": {
+    "c4_verdict": "ALL THREE cases occur for different operators: MATCH (dtheta)^4, EXTRA Stuckelberg quartics + LV terms, MISSING Maxwell F^2.",
+    "c4_quartic": "(A+dtheta)^4 : SYMMETRIC perfect 4th power"
+  },
+  "skyrme_emerges_from_C4_quartic": false,
+  "conclusion": "The C4 quartic is the SYMMETRIC (w.w)^2 = (A+dtheta)^4 (the DBI/k-essence X^2 term). The Skyrme term is the ANTISYMMETRIC commutator |a_i x a_j|^2, which is IDENTICALLY ZERO in the Abelian (U(1)) sector C4 analysed. So the Skyrme term does NOT emerge from the C4 quartic: it is a genuinely non-Abelian 4-derivative operator of the SAME ORDER, sourced by the group commutator (the non-Abelian plaquette curvature F = dA + [A,A]), not by the C4 link quartic. Honest report: THIRD INGREDIENT (non-Abelian), not a hand-added U(1) axiom but not the C4 operator either.",
+  "verdict_derrick_stable": "SIM (E2=E4, SU3)",
+  "verdict_skyrme_is_C4": "NAO -- antisymmetric, zero in Abelian limit"
+}

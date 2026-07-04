@@ -1,0 +1,44 @@
+{
+  "config": {
+    "n_seeds": 16,
+    "J": 2.0,
+    "rho": 0.5,
+    "L": 6.4,
+    "n_dirs": 32,
+    "n_kmag": 6,
+    "n_burn": 300,
+    "n_samples": 40,
+    "kmags": [
+      0.9817477042468103,
+      1.1024086434683757,
+      1.223069582689941,
+      1.3437305219115063,
+      1.4643914611330717,
+      1.585052400354637
+    ]
+  },
+  "degeneracy_split_mean": 0.03693743286279644,
+  "degeneracy_split_max": 0.09924834361661086,
+  "direction_CV_mean": 0.04233872560082617,
+  "direction_CV_per_k": [
+    0.044039491263694164,
+    0.03862496645302239,
+    0.04064326894870974,
+    0.04520361794132307,
+    0.04443225284333281,
+    0.04108875615487487
+  ],
+  "S_kscaling_exponent": -0.5793145726323373,
+  "S_mean_per_k": [
+    0.03570469552065627,
+    0.03267604688322557,
+    0.030160283393650057,
+    0.028522337321623802,
+    0.02765318533674364,
+    0.02724158466542137
+  ],
+  "n_samples_total": 640,
+  "verdict": "SUCCESS: the two transverse Goldstone modes are degenerate (mean split 0.04) and spatially isotropic (direction CV 0.04); they form a clean equivalent pair of scalar Goldstones. The transverse static structure factor falls as S(k)~k^-0.58 over the limited probed range (6 k-points): softer than mean-field flat (0) but not yet the relativistic 1/k (-1); reported as a diagnostic, not over-interpreted at this size/range.",
+  "verdict_tag": "CLEAN_SCALARS",
+  "runtime_s": 14.597371339797974
+}

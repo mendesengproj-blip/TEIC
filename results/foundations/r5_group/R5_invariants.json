@@ -1,0 +1,122 @@
+{
+  "description": "Representation-theoretic invariants of SU(N), N=2..8, for colour-group selection (campaign R5).",
+  "normalisation": "Tr(T_a T_b)=1/2 delta_ab; d^abc=2 Tr({T_a,T_b}T_c).",
+  "rows": [
+    {
+      "N": 2,
+      "group": "SU(2)",
+      "dim_adjoint": 3,
+      "rank": 1,
+      "norm_err": 0.0,
+      "anomaly_sumsq_dabc": 0.0,
+      "max_abs_dabc": 0.0,
+      "has_cubic_invariant": false,
+      "fundamental_reality": "pseudoreal",
+      "fundamental_complex": false,
+      "intertwiner_null_dim": 1
+    },
+    {
+      "N": 3,
+      "group": "SU(3)",
+      "dim_adjoint": 8,
+      "rank": 2,
+      "norm_err": 0.0,
+      "anomaly_sumsq_dabc": 13.333333333333341,
+      "max_abs_dabc": 0.5773502691896257,
+      "has_cubic_invariant": true,
+      "fundamental_reality": "complex",
+      "fundamental_complex": true,
+      "intertwiner_null_dim": 0
+    },
+    {
+      "N": 4,
+      "group": "SU(4)",
+      "dim_adjoint": 15,
+      "rank": 3,
+      "norm_err": 5.551115123125783e-17,
+      "anomaly_sumsq_dabc": 44.99999999999999,
+      "max_abs_dabc": 0.8164965809277258,
+      "has_cubic_invariant": true,
+      "fundamental_reality": "complex",
+      "fundamental_complex": true,
+      "intertwiner_null_dim": 0
+    },
+    {
+      "N": 5,
+      "group": "SU(5)",
+      "dim_adjoint": 24,
+      "rank": 4,
+      "norm_err": 5.551115123125783e-17,
+      "anomaly_sumsq_dabc": 100.79999999999983,
+      "max_abs_dabc": 0.948683298050514,
+      "has_cubic_invariant": true,
+      "fundamental_reality": "complex",
+      "fundamental_complex": true,
+      "intertwiner_null_dim": 0
+    },
+    {
+      "N": 6,
+      "group": "SU(6)",
+      "dim_adjoint": 35,
+      "rank": 5,
+      "norm_err": 1.6653345369377348e-16,
+      "anomaly_sumsq_dabc": 186.66666666666652,
+      "max_abs_dabc": 1.032795558988644,
+      "has_cubic_invariant": true,
+      "fundamental_reality": "complex",
+      "fundamental_complex": true,
+      "intertwiner_null_dim": 0
+    },
+    {
+      "N": 7,
+      "group": "SU(7)",
+      "dim_adjoint": 48,
+      "rank": 6,
+      "norm_err": 1.6653345369377348e-16,
+      "anomaly_sumsq_dabc": 308.5714285714275,
+      "max_abs_dabc": 1.0910894511799616,
+      "has_cubic_invariant": true,
+      "fundamental_reality": "complex",
+      "fundamental_complex": true,
+      "intertwiner_null_dim": 0
+    },
+    {
+      "N": 8,
+      "group": "SU(8)",
+      "dim_adjoint": 63,
+      "rank": 7,
+      "norm_err": 1.6653345369377348e-16,
+      "anomaly_sumsq_dabc": 472.49999999999665,
+      "max_abs_dabc": 1.1338934190276815,
+      "has_cubic_invariant": true,
+      "fundamental_reality": "complex",
+      "fundamental_complex": true,
+      "intertwiner_null_dim": 0
+    }
+  ],
+  "boundary_analysis": {
+    "fundamental_complex": {
+      "first_true_at_N": 3,
+      "switch_points": [
+        [
+          3,
+          false,
+          true
+        ]
+      ],
+      "single_boundary": true
+    },
+    "has_cubic_invariant": {
+      "first_true_at_N": 3,
+      "switch_points": [
+        [
+          3,
+          false,
+          true
+        ]
+      ],
+      "single_boundary": true
+    }
+  },
+  "max_norm_err": 1.6653345369377348e-16
+}

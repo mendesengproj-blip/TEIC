@@ -1,0 +1,38 @@
+{
+  "rows": [
+    {
+      "n": 1,
+      "B_lattice": 0.938996207685622,
+      "E_class": 297.1680903775898,
+      "I_mean": 312.736557290485,
+      "alpha_C": 0.950233963941365,
+      "r2_vs_J": 0.9625652151618362,
+      "r2_vs_casimir": 0.9999999999790541,
+      "alpha_C_over_B1": 1.0
+    },
+    {
+      "n": 2,
+      "B_lattice": 1.7711841606809124,
+      "E_class": 606.3522068694551,
+      "I_mean": 312.73655729048505,
+      "alpha_C": 1.9388747521575398,
+      "r2_vs_J": 0.962566046188208,
+      "r2_vs_casimir": 0.9999999999949689,
+      "alpha_C_over_B1": 2.040418281951854
+    },
+    {
+      "n": 3,
+      "B_lattice": 2.4298367222539126,
+      "E_class": 1060.0873924964699,
+      "I_mean": 312.736557290485,
+      "alpha_C": 3.3897290736005603,
+      "r2_vs_J": 0.9625663880600264,
+      "r2_vs_casimir": 0.999999999998354,
+      "alpha_C_over_B1": 3.5672573305427826
+    }
+  ],
+  "structural_universality": true,
+  "structural_claim": "For B=1,2,3 the spectrum is Casimir-linear (R^2~1) and NOT Regge-linear (R^2<0.99): the C3-1 death criterion triggers identically => universal.",
+  "numerical_alpha_C_universal": false,
+  "numerical_caveat": "alpha_C ~ E_class/I and the fixed-profile axial ansatz keeps I ~ B-independent, so alpha_C tracks the mass (alpha_C(B) ~ B). This is an ARTIFACT of the un-relaxed ansatz, not a physical statement; a clean test needs relaxed B>=2 solitons. INDETERMINATE."
+}

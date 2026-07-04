@@ -1,0 +1,18 @@
+{
+  "a_coef": 6.0,
+  "rotation_2pi": {
+    "psi(-q)+psi(q)_max": 5.100087019371813e-16,
+    "psi -> -psi": true
+  },
+  "harmonic_crosscheck": {
+    "degree1(j=1/2)_odd_err": 0.0,
+    "degree2(j=1)_even_err": 0.0,
+    "ok": true
+  },
+  "FR_ground_multiplicity": 4,
+  "spin_states (2j+1, j=1/2)": 2,
+  "interpretation": "(2j+1)^2 = 4 = 2 spin x 2 isospin (hedgehog locks spin=isospin)",
+  "two_skyrmion_states (1/2 x 1/2)": 4,
+  "degeneracy_ok": true,
+  "verdict": "SIM"
+}

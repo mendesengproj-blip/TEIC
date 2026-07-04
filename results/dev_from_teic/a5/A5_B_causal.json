@@ -1,0 +1,60 @@
+{
+  "phase": "A5 B -- Anderson-Higgs on the causal set",
+  "engine": "a5_causal_core (O(3) ferromagnet + non-compact U(1) on Hasse diamonds)",
+  "substrate": {
+    "rho": 4.0,
+    "side": 3.0,
+    "N": 331,
+    "E": 4092,
+    "diamonds": 5473,
+    "mean_degree": 24.725075528700906
+  },
+  "nonlocality_degree_vs_N": {
+    "137": 13.343065693430656,
+    "331": 24.725075528700906
+  },
+  "nonlocality_grows": true,
+  "gauge_invariance_dS": 0.0,
+  "gauge_invariance_pass": true,
+  "order_vs_lambda": {
+    "0.0": {
+      "charged_bond": 0.9137937785997126,
+      "neutral_bond": 0.004762276784793772
+    },
+    "0.1": {
+      "charged_bond": 0.0050435114695157515,
+      "neutral_bond": 0.907721234126411
+    },
+    "0.5": {
+      "charged_bond": 0.004655951764661162,
+      "neutral_bond": 0.9083763612484385
+    },
+    "1.0": {
+      "charged_bond": 0.00404187073012569,
+      "neutral_bond": 0.9097577987571943
+    }
+  },
+  "gauge_stiffness_scan_lambda1": {
+    "0.2": {
+      "charged_bond": 0.005471900722210091,
+      "neutral_bond": 0.9082383741368112
+    },
+    "0.5": {
+      "charged_bond": 0.004715999690362388,
+      "neutral_bond": 0.9079922620816611
+    },
+    "1.0": {
+      "charged_bond": 0.00404187073012569,
+      "neutral_bond": 0.9097577987571943
+    }
+  },
+  "matter_orders_uncoupled": true,
+  "charged_condenses_coupled": false,
+  "neutral_axis_escape": true,
+  "stiff_gauge_rescues": false,
+  "status": "MORTE-NONLOCALITY",
+  "verdict": "MORTE by non-locality -- the mechanism is OBSTRUCTED, with a precise structural reason (not just 'failed').  The pure O(3) ferromagnet orders fine on the causal set (charged_bond=0.91 at lambda=0), BUT the moment the gauge coupling is on, each event's ~25 charged bonds carry INCOHERENT gauge phases e^{i lam theta} (mean Hasse degree=24.7, vs 8 for a local lattice, and GROWING with N: {137: 13.343065693430656, 331: 24.725075528700906}).  The in-plane condensate cannot form against that frustration, so the ferromagnet ESCAPES to the ungauged NEUTRAL z-axis (neutral_bond 0.00->0.91 as lambda 0->1, charged 0.91->0.00).  The gauged U(1)_z therefore stays UNBROKEN -> no Goldstone is eaten -> the photon stays massless -> m_A=0.  A stiffer gauge does NOT rescue it (charged_bond<=0.01 even at g=0.2, near-flat field), so it is not a tunable artifact.  This is the SAME non-locality that obstructed E5 (Wilson loops) and E7 (Coulomb phase), now shown to specifically prevent the Higgs.  A_mu mass [EXTERNO-B]; Scenario B reinforced.",
+  "anti_circularity": "no DEV number; m_A_DEV COMPARISON ONLY in synthesis",
+  "runtime_s": 359.99753522872925,
+  "timestamp_utc": "2026-06-21T14:00:46Z"
+}

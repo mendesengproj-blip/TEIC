@@ -1,0 +1,48 @@
+{
+  "params": {
+    "rho0": 12.0,
+    "T": 10.0,
+    "X": 12.0,
+    "n_slabs": 8,
+    "n_seeds": 20
+  },
+  "uniform_slab_counts": [
+    349.6,
+    364.95,
+    365.7,
+    357.45,
+    353.8,
+    361.9,
+    356.65,
+    351.75
+  ],
+  "cv_uniform": 0.015676463159208866,
+  "growing_slab_counts": [
+    587.25,
+    1035.3,
+    1491.75,
+    1943.75,
+    2379.7,
+    2821.95,
+    3289.65,
+    3736.35
+  ],
+  "growth_slope": 0.2079450754367014,
+  "cross_separated": {
+    "mean": 0.34404556212655724,
+    "std": 0.027903479528168334,
+    "sem": 0.006239407703375815,
+    "n": 20
+  },
+  "cross_overlapping": {
+    "mean": 0.995227016751425,
+    "std": 0.0006829706385481812,
+    "sem": 0.00015271687744301715,
+    "n": 20
+  },
+  "symmetry_holds": true,
+  "growth_breaks": true,
+  "additive_when_separated": false,
+  "verdict": "C",
+  "statement": "Energy conservation is conditional, not absolute (honest result).  A static uniform sprinkling IS statistically time-translation invariant (slab-count CV 1.6%), so a conserved count-based quantity can exist -- but a GROWING network (CSG, rho(t)=rho0(1+t)) breaks that symmetry (slab count rises +21%/slab), so there is NO exactly conserved energy once the network grows.  The field-energy proxy is only approximately additive: even nominally SEPARATED sources develop a cross-term (0.34) because their forward light cones overlap downstream, rising to maximal (1.00) for co-located sources.  Strict additivity E_tot=E1+E2 holds only before the causal cones meet.  Energy thus emerges as APPROXIMATELY conserved in the static regime, exactly as anticipated -- not an exact Noether charge."
+}

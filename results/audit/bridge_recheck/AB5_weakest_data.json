@@ -1,0 +1,35 @@
+{
+  "ranking": [
+    {
+      "result": "BD5: Lorentz restoration (SNR ~ 1)",
+      "number": "best SNR over all eps = 1.80; signature resolved at any eps = False",
+      "critique": "'You claim BD smearing RESTORES Lorentz invariance, but you show only numbers CONSISTENT WITH ZERO at SNR<2 -- and with the WRONG sign. A non-detection is equally consistent with NO restoration. This is a null result presented as a success.'",
+      "response": "Fully conceded -- and this is exactly how BD5 reports it: the Lorentzian signature is NOT positively resolved at accessible network sizes (SNR<2, mis-signed). The honest claim is narrower: smearing REMOVES the gross Euclidean anisotropy (shown, AB3 BD3) and the OBSTRUCTION is identified as the physical Box/(2 eps rho) variance wall (shown: no eps helps). Closure is computational, flagged as the RISK outcome, not claimed as achieved.",
+      "vulnerability": 0.85
+    },
+    {
+      "result": "E/B ~ 3 (raw-operator Lorentz violation)",
+      "number": "E/B = 3.25 +/- 0.10  (22 sigma from 1)",
+      "critique": "'The theory CONFIDENTLY predicts an order-1 Lorentz violation in the vector sector -- ruled out by experiment to ~1e-20. A bare action that violates Lorentz at O(1) is dead on arrival.'",
+      "response": "This is the RAW link/plaquette operator, expected to be non-Lorentzian (a positive-definite second moment, AB1). The mechanism that restores Lorentz -- the sign-alternating BD smeared operator -- is identified (BD/AB3) and DOES collapse the anisotropy (a_t/a_x 4 -> O(0.1)). What is NOT shown is the positive restoration (see BD5). So E/B~3 is a property of the UNsmeared operator, not the physical prediction.",
+      "vulnerability": 0.55
+    },
+    {
+      "result": "'All DEV operators emerge' (form-completeness)",
+      "number": "no forbidden operator emerges = True; F^2 weight lambda_p FREE",
+      "critique": "'Completeness is a SYMBOLIC/structural statement: the F^2 term only appears once you ADD a plaquette term, and its weight lambda_p is a free parameter -- exactly like the DEV's free K. You have matched the FORM, not derived the coefficients.'",
+      "response": "Correct and stated (W4): the bridge is FORM-complete, not calibration-complete. Every DEV operator appears with the correct structure and the Stuckelberg ratios LOCKED (1,2), plus genuine extra quartics (AB1: C_q nonzero at 9-17 sigma) and NO forbidden higher-derivative term (AB2 W4). The free weight lambda_p is the one honest gap, identical to the DEV's free K.",
+      "vulnerability": 0.4
+    },
+    {
+      "result": "C2 ratios C2/C1=1, C3/C1=2",
+      "number": "seed-variance of ratio = 0.0e+00 (exactly algebraic)",
+      "critique": "'These are not a derivation: 1 and 2 are forced by writing the action with a SINGLE cosine (a perfect Stuckelberg square). Any single-cosine model gives them; the causal geometry is not tested.'",
+      "response": "Conceded and already stated (C2/AB1): the ratios are ALGEBRAIC (zero seed variance), the GEOMETRY enters only as the scale kappa (which varies seed-to-seed) and the order-1 anisotropy lambda. The claim is 'the minimal action = the gauge-invariant Stuckelberg/Proca special case of the DEV', not 'the geometry derives 1 and 2'.",
+      "vulnerability": 0.35
+    }
+  ],
+  "weakest_result": "BD5: Lorentz restoration (SNR ~ 1)",
+  "weakest_reason": "a non-detection (SNR<2, mis-signed) underpinning the central 'Lorentz restoration' narrative -- the result a referee can most credibly reject",
+  "timestamp_utc": "2026-06-09T22:08:43Z"
+}

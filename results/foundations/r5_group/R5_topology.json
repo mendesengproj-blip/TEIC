@@ -1,0 +1,48 @@
+{
+  "description": "Low homotopy of SU(N) and the colour-selection test (R5).",
+  "table": [
+    {
+      "homotopy": "pi_3",
+      "physical_role": "instanton / Skyrmion (baryon) winding number",
+      "SU2": "Z",
+      "SU3": "Z",
+      "SU4": "Z",
+      "distinguishes_2_from_3": false,
+      "distinguishes_3_from_4": false,
+      "note": "Bott: pi_3(G)=Z for every simple compact Lie group."
+    },
+    {
+      "homotopy": "pi_4",
+      "physical_role": "spin-statistics enabler; Witten SU(2) global anomaly",
+      "SU2": "Z2",
+      "SU3": "0",
+      "SU4": "0",
+      "distinguishes_2_from_3": true,
+      "distinguishes_3_from_4": false,
+      "note": "pi_4(SU(2))=Z2 (used for spin-1/2, FQ2); 0 for N>=3."
+    },
+    {
+      "homotopy": "pi_5",
+      "physical_role": "Wess-Zumino-Witten term / baryon-number current",
+      "SU2": "Z2",
+      "SU3": "Z",
+      "SU4": "Z",
+      "distinguishes_2_from_3": true,
+      "distinguishes_3_from_4": false,
+      "note": "SU(3) is the first with pi_5=Z (nontrivial WZW); but SU(N>=3) all Z."
+    },
+    {
+      "homotopy": "pi_6",
+      "physical_role": "none known in 3+1D (maps S^6 -> G)",
+      "SU2": "Z12",
+      "SU3": "Z6",
+      "SU4": "0",
+      "distinguishes_2_from_3": true,
+      "distinguishes_3_from_4": true,
+      "note": "UNSTABLE: pi_6(SU(3))=Z6 differs from pi_6(SU(4))=0 -- a genuine 3-vs-4 distinction, but with no physical role."
+    }
+  ],
+  "H_topology_killed_physical": true,
+  "any_homotopy_separates_3_from_4": true,
+  "verdict": "Topology (physically-relevant pi_3,pi_4,pi_5) does NOT distinguish SU(3) from SU(4). pi_4/pi_5 separate SU(2) from N>=3 only. The single homotopy group that separates 3 from 4 (pi_6) has no 3+1D role."
+}

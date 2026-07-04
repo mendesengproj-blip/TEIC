@@ -1,0 +1,149 @@
+{
+  "campaign": "ESCALAS_B6",
+  "graph": "symmetrised causal-relation (B5-identical)",
+  "stage0_gate": {
+    "er_k1": 39.9575,
+    "er_C": 0.04980183987909724,
+    "er_ok": true,
+    "d2_kc": 1.0835507075771622,
+    "d2_kc_err": 0.019060012500178296,
+    "d2_zc_MR": 0.8992076456999946,
+    "perc_ok": true,
+    "mr_ok": true,
+    "passed": true
+  },
+  "stage1_rho_invariance": {
+    "rows": [
+      {
+        "rho": 0.25,
+        "L": 7.952707287670506,
+        "N_mean": 979.1666666666666,
+        "ratio_k2_over_k1sq": 1.3103609333136597,
+        "CV": 0.5571004696763947,
+        "z_c_MR": 0.766622096687338,
+        "C_clustering": 0.1064985123082336
+      },
+      {
+        "rho": 0.5,
+        "L": 6.68740304976422,
+        "N_mean": 979.1666666666666,
+        "ratio_k2_over_k1sq": 1.3103609333136597,
+        "CV": 0.5571004696763947,
+        "z_c_MR": 0.766622096687338,
+        "C_clustering": 0.1064985123082336
+      },
+      {
+        "rho": 1.0,
+        "L": 5.623413251903491,
+        "N_mean": 979.1666666666666,
+        "ratio_k2_over_k1sq": 1.3103609333136597,
+        "CV": 0.5571004696763947,
+        "z_c_MR": 0.766622096687338,
+        "C_clustering": 0.1064985123082336
+      },
+      {
+        "rho": 2.0,
+        "L": 4.728708045015879,
+        "N_mean": 979.1666666666666,
+        "ratio_k2_over_k1sq": 1.3103609333136597,
+        "CV": 0.5571004696763947,
+        "z_c_MR": 0.766622096687338,
+        "C_clustering": 0.1064985123082336
+      }
+    ],
+    "rho_spread": {
+      "CV": 0.0,
+      "z_c_MR": 0.0,
+      "C_clustering": 0.0
+    },
+    "invariant": true,
+    "death": false
+  },
+  "stage2_fss_kc": {
+    "rows": [
+      {
+        "N": 200,
+        "seeds": 24,
+        "kc": 0.7403283050825098,
+        "kc_err": 0.03387226484957292,
+        "CV": 1.0101606737848376,
+        "z_c_MR": 0.5088002783249829,
+        "C_clustering": 0.1482627732289142,
+        "eta": 0.06742938914132211
+      },
+      {
+        "N": 500,
+        "seeds": 24,
+        "kc": 0.664824087367725,
+        "kc_err": 0.06985743144913452,
+        "CV": 0.9949576461796529,
+        "z_c_MR": 0.5081134068350728,
+        "C_clustering": 0.1429510457717031,
+        "eta": 0.11234289240887843
+      },
+      {
+        "N": 1000,
+        "seeds": 20,
+        "kc": 0.6826878007363442,
+        "kc_err": 0.03675846891921414,
+        "CV": 1.0012526711551881,
+        "z_c_MR": 0.5021752175122944,
+        "C_clustering": 0.1386894022703894,
+        "eta": 0.10068703180153803
+      },
+      {
+        "N": 1800,
+        "seeds": 16,
+        "kc": 0.6261324438385222,
+        "kc_err": 0.009723060605369649,
+        "CV": 1.0012917450560397,
+        "z_c_MR": 0.5008429078248753,
+        "C_clustering": 0.14326770607142367,
+        "eta": 0.13977694955015577
+      },
+      {
+        "N": 2600,
+        "seeds": 14,
+        "kc": 0.5846252422540388,
+        "kc_err": 0.02026699012768603,
+        "CV": 1.0021094674913982,
+        "z_c_MR": 0.49998456940937547,
+        "C_clustering": 0.14196317423534058,
+        "eta": 0.17253618937251597
+      },
+      {
+        "N": 3600,
+        "seeds": 10,
+        "kc": 0.6128752458154229,
+        "kc_err": 0.025440365405467003,
+        "CV": 0.9953882212944898,
+        "z_c_MR": 0.5030223746594003,
+        "C_clustering": 0.14295257470256328,
+        "eta": 0.14986557530246927
+      }
+    ],
+    "kc_largeN": 0.626580183161082,
+    "band_spread": 0.09806255848230538,
+    "sigma_from_1": 7.615950932104197,
+    "precisely_pinned": false,
+    "non_generic": true
+  },
+  "stage34_decomposition_verdict": {
+    "z_c_MR": 0.5015062673514863,
+    "C_clustering": 0.14171821431992923,
+    "kc_largeN": 0.626580183161082,
+    "gap_Delta": 0.1250739158095957,
+    "gap_ok": true,
+    "kc_pred_mult": 0.572578840030792,
+    "kc_pred_redun": 0.5843142377233501,
+    "best_form": "z_c_MR/(1-C)",
+    "best_err": 0.06745496677616135,
+    "independent_formula_ok": true,
+    "eta_MR_leading": 0.24849600148984785,
+    "eta_full": 0.13944235960801107,
+    "eta_in_b5_range": true,
+    "verdict": "MORTE PARCIAL (bem-entendida): the closed-form chain-derivation of eta(4) FAILS, with the two missing inputs identified (first-class result). (1) The LEADING Molloy-Reed term z_c_MR(4)=0.50 IS cleanly d-derived (CV->1.00 rho-invariant & N-stable -> eta_MR=0.25), and k_c(4)~0.63 is robustly NON-GENERIC (8 sigma below the ER value 1) and dimension-dependent -- so eta(4)~0.14 is d-DETERMINED in leading order, NOT a free SR parameter. (2) BUT the clustering correction Delta=k_c-z_c_MR=+0.13 has NO tested closed form from C (best independent form z_c_MR/(1-C) errs 7%>>10%), AND k_c(4) is not precisely pinned (large-N band-spread 0.10, residual finite-size drift below the N<=1600 plateau). So eta's PRECISE value stays [EXTERNO-B]: the missing input is the clustering+finite-size correction (a graph property without closed form), not an SI scale. This REFINES B5: its 'size-stable k_c=0.67' was an N<=1600 plateau; B6 (N->3600) shows mild further drift toward z_c_MR. The core B5 finding (k_c dimension-dependent, non-generic, MR-led) STANDS. NOT circular: rests on measured k_c, not on Delta:=residual.",
+    "verdict_tag": "MORTE_B6_PARCIAL"
+  },
+  "runtime_s": 45.01274800300598
+}

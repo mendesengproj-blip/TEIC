@@ -1,0 +1,230 @@
+{
+  "grid": {
+    "Lx": 24.0,
+    "Nx": 49,
+    "Ny": 12,
+    "Nz": 12
+  },
+  "n_seed": 4,
+  "t_relax": 120.0,
+  "mu2s": [
+    0.0,
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "lamhs": [
+    0.1,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "rows": [
+    {
+      "mu2": 0.0,
+      "lamh": 0.1,
+      "v_expected": 0.0,
+      "theta_bulk_mean": -0.00032836568158614056,
+      "theta_bulk_sem": 0.00030215878116315723,
+      "theta_bulk_std": 0.00025090281364156325,
+      "E_per_node": 3.955869435837943e-10,
+      "rel_err": NaN
+    },
+    {
+      "mu2": 0.1,
+      "lamh": 0.1,
+      "v_expected": 1.0,
+      "theta_bulk_mean": 1.0094507115755968,
+      "theta_bulk_sem": 4.706129188901022e-09,
+      "theta_bulk_std": 0.005268283327031579,
+      "E_per_node": -0.009020465142213637,
+      "rel_err": 0.009450711575596848
+    },
+    {
+      "mu2": 0.5,
+      "lamh": 0.1,
+      "v_expected": 2.23606797749979,
+      "theta_bulk_mean": 2.236522911264448,
+      "theta_bulk_sem": 2.220446049250313e-16,
+      "theta_bulk_std": 0.0009268197754613123,
+      "E_per_node": -0.264787635309198,
+      "rel_err": 0.00020345256460703332
+    },
+    {
+      "mu2": 1.0,
+      "lamh": 0.1,
+      "v_expected": 3.1622776601683795,
+      "theta_bulk_mean": 3.162371616168273,
+      "theta_bulk_sem": 1.8129866073473578e-16,
+      "theta_bulk_std": 0.0001802727982844071,
+      "E_per_node": -1.1123996184930132,
+      "rel_err": 2.9711495950228626e-05
+    },
+    {
+      "mu2": 2.0,
+      "lamh": 0.1,
+      "v_expected": 4.47213595499958,
+      "theta_bulk_mean": 4.472124618696487,
+      "theta_bulk_sem": 0.0,
+      "theta_bulk_std": 1.354662004447845e-05,
+      "E_per_node": -4.925316108759753,
+      "rel_err": 2.5348744328797086e-06
+    },
+    {
+      "mu2": 0.0,
+      "lamh": 0.5,
+      "v_expected": 0.0,
+      "theta_bulk_mean": -0.0003279707825826047,
+      "theta_bulk_sem": 0.00030184235557964383,
+      "theta_bulk_std": 0.00025069228592828805,
+      "E_per_node": 3.948905153233539e-10,
+      "rel_err": NaN
+    },
+    {
+      "mu2": 0.1,
+      "lamh": 0.5,
+      "v_expected": 0.4472135954999579,
+      "theta_bulk_mean": 0.45144033472689915,
+      "theta_bulk_sem": 4.600428647609691e-10,
+      "theta_bulk_std": 0.002356736416937149,
+      "E_per_node": -0.0018040807313358857,
+      "rel_err": 0.009451276234605486
+    },
+    {
+      "mu2": 0.5,
+      "lamh": 0.5,
+      "v_expected": 1.0,
+      "theta_bulk_mean": 1.0002063881438825,
+      "theta_bulk_sem": 0.0,
+      "theta_bulk_std": 0.0004198570418147364,
+      "E_per_node": -0.05293885433242736,
+      "rel_err": 0.0002063881438825188
+    },
+    {
+      "mu2": 1.0,
+      "lamh": 0.5,
+      "v_expected": 1.4142135623730951,
+      "theta_bulk_mean": 1.4142607427561524,
+      "theta_bulk_sem": 0.0,
+      "theta_bulk_std": 9.061969867559689e-05,
+      "E_per_node": -0.2220253855752047,
+      "rel_err": 3.3361568798787314e-05
+    },
+    {
+      "mu2": 2.0,
+      "lamh": 0.5,
+      "v_expected": 2.0,
+      "theta_bulk_mean": 2.00002131972808,
+      "theta_bulk_sem": 0.0,
+      "theta_bulk_std": 2.613546802042552e-05,
+      "E_per_node": -0.9232658606275013,
+      "rel_err": 1.0659864039919142e-05
+    },
+    {
+      "mu2": 0.0,
+      "lamh": 1.0,
+      "v_expected": 0.0,
+      "theta_bulk_mean": -0.00032747781735366235,
+      "theta_bulk_sem": 0.0003014474482150061,
+      "theta_bulk_std": 0.00025042947359052876,
+      "E_per_node": 3.940219062429679e-10,
+      "rel_err": NaN
+    },
+    {
+      "mu2": 0.1,
+      "lamh": 1.0,
+      "v_expected": 0.31622776601683794,
+      "theta_bulk_mean": 0.3192165430577502,
+      "theta_bulk_sem": 1.6168263832958054e-10,
+      "theta_bulk_std": 0.001666527180347891,
+      "E_per_node": -0.0009020395975107096,
+      "rel_err": 0.00945134286770103
+    },
+    {
+      "mu2": 0.5,
+      "lamh": 1.0,
+      "v_expected": 0.7071067811865476,
+      "theta_bulk_mean": 0.7072529689489722,
+      "theta_bulk_sem": 0.0,
+      "theta_bulk_std": 0.000297339314079897,
+      "E_per_node": -0.026468295029709585,
+      "rel_err": 0.00020674071627382792
+    },
+    {
+      "mu2": 1.0,
+      "lamh": 1.0,
+      "v_expected": 1.0,
+      "theta_bulk_mean": 1.000033711434548,
+      "theta_bulk_sem": 0.0,
+      "theta_bulk_std": 6.474999381887425e-05,
+      "E_per_node": -0.11098919925052964,
+      "rel_err": 3.3711434547889496e-05
+    },
+    {
+      "mu2": 2.0,
+      "lamh": 1.0,
+      "v_expected": 1.4142135623730951,
+      "theta_bulk_mean": 1.414229647082486,
+      "theta_bulk_sem": 6.409875621278546e-17,
+      "theta_bulk_std": 1.9864564874283994e-05,
+      "E_per_node": -0.4611193126449875,
+      "rel_err": 1.1373607083685796e-05
+    },
+    {
+      "mu2": 0.0,
+      "lamh": 2.0,
+      "v_expected": 0.0,
+      "theta_bulk_mean": -0.00032649407248784145,
+      "theta_bulk_sem": 0.00030065970695998816,
+      "theta_bulk_std": 0.00024990500100643693,
+      "E_per_node": 3.9229105757061124e-10,
+      "rel_err": NaN
+    },
+    {
+      "mu2": 0.1,
+      "lamh": 2.0,
+      "v_expected": 0.22360679774997896,
+      "theta_bulk_mean": 0.2257201897237897,
+      "theta_bulk_sem": 5.4628865280182365e-11,
+      "theta_bulk_std": 0.0011784346263154337,
+      "E_per_node": -0.00045101960673296485,
+      "rel_err": 0.009451376233086568
+    },
+    {
+      "mu2": 0.5,
+      "lamh": 2.0,
+      "v_expected": 0.5,
+      "theta_bulk_mean": 0.5001034579431332,
+      "theta_bulk_sem": 0.0,
+      "theta_bulk_std": 0.00021041065793778944,
+      "E_per_node": -0.013233865858510238,
+      "rel_err": 0.0002069158862663123
+    },
+    {
+      "mu2": 1.0,
+      "lamh": 2.0,
+      "v_expected": 0.7071067811865476,
+      "theta_bulk_mean": 0.70713073875466,
+      "theta_bulk_sem": 3.204937810639273e-17,
+      "theta_bulk_std": 4.601554042973602e-05,
+      "E_per_node": -0.05548886854641916,
+      "rel_err": 3.388111774612499e-05
+    },
+    {
+      "mu2": 2.0,
+      "lamh": 2.0,
+      "v_expected": 1.0,
+      "theta_bulk_mean": 1.0000116722042498,
+      "theta_bulk_sem": 0.0,
+      "theta_bulk_std": 1.4456714922315618e-05,
+      "E_per_node": -0.2304479863819373,
+      "rel_err": 1.1672204249801865e-05
+    }
+  ],
+  "no_condensate_at_mu2_0": true,
+  "frac_converged": 1.0,
+  "converged_to_v": true,
+  "broken_vacuum_preferred": true,
+  "H1_PASS": true
+}

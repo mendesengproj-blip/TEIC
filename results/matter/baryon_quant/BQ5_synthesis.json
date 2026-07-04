@@ -1,0 +1,21 @@
+{
+  "BQ1_tower": "PASS",
+  "BQ1_FR_degeneracies": [
+    4,
+    16,
+    36
+  ],
+  "BQ1_ratio": 2.6385853919977182,
+  "BQ2_inertia": "PASS",
+  "BQ2_skyrme_inertia_fraction": 0.43222511306664463,
+  "BQ2_full_over_sigma": 1.7612614136584357,
+  "BQ3_calibration": "PASS",
+  "BQ3_e": 5.394214220738921,
+  "BQ3_e_vs_ANW": 5.45,
+  "BQ4_moments": "PASS",
+  "BQ4_mu_ratio": -1.5145031994131115,
+  "BQ4_r_iso_fm": 0.6462388310762821,
+  "BQ4_g_A": 0.5579846182316038,
+  "VERDICT": "A",
+  "verdict_text": "A -- the quantitative collective-coordinate quantization of the TEIC B=1 Skyrmion reproduces the established baryon phenomenology. (1) The FR-projected rotor tower gives the baryon multiplets with degeneracies [4, 16, 36] = (2j+1)^2 for j=1/2(N),3/2(Delta),5/2, spin=isospin locked, with the parameter-free ratio (E_5/2-E_1/2)/(E_3/2-E_1/2)=2.639 (rigid-rotor 8/3=2.667). (2) The FULL moment of inertia adds the Skyrme contribution Q2 omitted (43% of the total; full inertia 1.76x the sigma-only value). (3) ONE calibration (the N-Delta splitting) fixes the Skyrme coupling e=5.39 (ANW 5.45, 1%). (4) Then the magnetic-moment ratio mu_p/mu_n=-1.515 (ANW -1.43, exp -1.46), isoscalar radius 0.65 fm (ANW 0.59), g_A=0.56 (ANW 0.61) are PARAMETER-FREE predictions. SCOPE: f_pi (overall scale) is EXTERNAL-B; the EM current decomposition is imported standard physics (like the FR phase); the profile is the lattice's. The DIMENSIONLESS baryon structure is derived."
+}

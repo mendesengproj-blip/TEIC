@@ -1,0 +1,28 @@
+{
+  "CR1": {
+    "verdict": "SIM",
+    "well_defined": true,
+    "conserved_free": true
+  },
+  "CR2": {
+    "verdict": "CONFIRMADO (sem criacao)",
+    "no_creation": true
+  },
+  "CR3": {
+    "verdict": "SEM LIMIAR (sem criacao)",
+    "grade": "D",
+    "rho_star": null,
+    "max_residual": 0.0,
+    "interaction_grows": true
+  },
+  "CR4": {
+    "verdict": "SIM",
+    "worst_systematic_imbalance": 0.07996360290447097,
+    "loops_scale": false
+  },
+  "CR5": {
+    "verdict": "SIM",
+    "theta_conserved": true
+  },
+  "matter_created": false
+}

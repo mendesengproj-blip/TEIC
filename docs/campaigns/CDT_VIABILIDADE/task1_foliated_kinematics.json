@@ -1,0 +1,95 @@
+{
+  "observable": "z, C4 no 1-esqueleto do CDT 2D FOLIADO (motor F1)",
+  "estimador": "rs_clustering.clustering_metrics (VERBATIM Gatilhos 1/2)",
+  "edge_length": "FIXED [External]",
+  "ladder_V": [
+    500,
+    1000,
+    2000
+  ],
+  "foliated": [
+    {
+      "z": 6.0,
+      "z_sem": 0.0,
+      "C4": 0.1032545570925463,
+      "C4_sem": 0.0005611399675129734,
+      "C_trans": 0.3527613819986185,
+      "val_sample": {
+        "V": 484,
+        "V_expected": 484,
+        "E": 1452,
+        "E_expected": 1452,
+        "z_mean": 6.0
+      },
+      "V": 500
+    },
+    {
+      "z": 6.0,
+      "z_sem": 0.0,
+      "C4": 0.10247776032780821,
+      "C4_sem": 0.00014938003552465135,
+      "C_trans": 0.353807550542327,
+      "val_sample": {
+        "V": 986,
+        "V_expected": 986,
+        "E": 2958,
+        "E_expected": 2958,
+        "z_mean": 6.0
+      },
+      "V": 1000
+    },
+    {
+      "z": 6.0,
+      "z_sem": 0.0,
+      "C4": 0.1027270293370798,
+      "C4_sem": 0.00019846282973942392,
+      "C_trans": 0.35168303207732887,
+      "val_sample": {
+        "V": 1981,
+        "V_expected": 1981,
+        "E": 5943,
+        "E_expected": 5943,
+        "z_mean": 6.0
+      },
+      "V": 2000
+    }
+  ],
+  "generic_nonfoliated": [
+    {
+      "z": 5.976,
+      "C4": 0.15509797135845232,
+      "C4_sem": 0.0020290819329339595,
+      "C_trans": 0.3175865496735358,
+      "V": 500
+    },
+    {
+      "z": 5.988,
+      "C4": 0.14990880999359907,
+      "C4_sem": 0.0009912939258606554,
+      "C_trans": 0.31544033739691646,
+      "V": 1000
+    },
+    {
+      "z": 5.994,
+      "C4": 0.14856746257764397,
+      "C4_sem": 0.0008164776178620046,
+      "C_trans": 0.30825485198959857,
+      "V": 2000
+    }
+  ],
+  "refs": {
+    "poisson_C4": "0.029-0.054 (decaindo)",
+    "csg_C4": "0.019",
+    "flipped_DT_C4": "~0.145-0.148",
+    "lattice2D_C4": 0.125
+  },
+  "triviality_test": {
+    "foliated_C4": 0.1027,
+    "generic_C4": 0.1486,
+    "diff": 0.0458,
+    "combined_3sem": 0.0025,
+    "C4_trivial_in_class": false
+  },
+  "verdict": "C4 informativo: a foliação muda C4 vs triangulação genérica. <z> satura=True, C4 satura não-trivial -> avaliar ARMADO/NÃO-ARMADO.",
+  "z_saturates_6": true
+}

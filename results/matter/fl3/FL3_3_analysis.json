@@ -1,0 +1,115 @@
+{
+  "per_seed": [
+    {
+      "seed": 0,
+      "scenario": "annihilation",
+      "t_q_half": 0.6776470588235296,
+      "Q_top_0": 1.6275509707813776,
+      "Q_top_late": 0.020290998792792555,
+      "Q_top_peak_ratio": 0.022900949094585836,
+      "Q_top_late_ratio": 0.018163002677991334,
+      "E_field_drop_frac": 0.49526464207620635,
+      "B_abs_max": 0.048775733941355946,
+      "n_peaks_late_max_radiation": 29
+    },
+    {
+      "seed": 1,
+      "scenario": "annihilation",
+      "t_q_half": 0.6776470588235296,
+      "Q_top_0": 1.6257877350466192,
+      "Q_top_late": 0.020713233783264815,
+      "Q_top_peak_ratio": 0.022757998500609146,
+      "Q_top_late_ratio": 0.018722562518975448,
+      "E_field_drop_frac": 0.5130436746653833,
+      "B_abs_max": 0.02811896568199358,
+      "n_peaks_late_max_radiation": 38
+    },
+    {
+      "seed": 2,
+      "scenario": "annihilation",
+      "t_q_half": 0.6776470588235296,
+      "Q_top_0": 1.6265817486238763,
+      "Q_top_late": 0.022747330379079958,
+      "Q_top_peak_ratio": 0.0241221866930697,
+      "Q_top_late_ratio": 0.01920101858667773,
+      "E_field_drop_frac": 0.5126815712127387,
+      "B_abs_max": 0.026094409725261135,
+      "n_peaks_late_max_radiation": 38
+    },
+    {
+      "seed": 3,
+      "scenario": "annihilation",
+      "t_q_half": 0.6776470588235296,
+      "Q_top_0": 1.6266180911914112,
+      "Q_top_late": 0.017875789544982524,
+      "Q_top_peak_ratio": 0.025892716679853687,
+      "Q_top_late_ratio": 0.018101405662663116,
+      "E_field_drop_frac": 0.5114657576648152,
+      "B_abs_max": 0.03866290976867579,
+      "n_peaks_late_max_radiation": 35
+    },
+    {
+      "seed": 4,
+      "scenario": "annihilation",
+      "t_q_half": 0.6776470588235296,
+      "Q_top_0": 1.626393749392419,
+      "Q_top_late": 0.018909843381397947,
+      "Q_top_peak_ratio": 0.022566938443720753,
+      "Q_top_late_ratio": 0.017937771987591337,
+      "E_field_drop_frac": 0.5104425455867296,
+      "B_abs_max": 0.06290455225103479,
+      "n_peaks_late_max_radiation": 33
+    },
+    {
+      "seed": 5,
+      "scenario": "annihilation",
+      "t_q_half": 0.6776470588235296,
+      "Q_top_0": 1.6270312300104184,
+      "Q_top_late": 0.022078883788066144,
+      "Q_top_peak_ratio": 0.023613903759606217,
+      "Q_top_late_ratio": 0.01951339580582313,
+      "E_field_drop_frac": 0.5116475862390993,
+      "B_abs_max": 0.06800037546639044,
+      "n_peaks_late_max_radiation": 38
+    },
+    {
+      "seed": 6,
+      "scenario": "annihilation",
+      "t_q_half": 0.6776470588235296,
+      "Q_top_0": 1.6258534914962197,
+      "Q_top_late": 0.01997460158743985,
+      "Q_top_peak_ratio": 0.024221255678681067,
+      "Q_top_late_ratio": 0.018522049029140862,
+      "E_field_drop_frac": 0.511124689696067,
+      "B_abs_max": 0.06096157657598124,
+      "n_peaks_late_max_radiation": 32
+    },
+    {
+      "seed": 7,
+      "scenario": "annihilation",
+      "t_q_half": 0.6776470588235296,
+      "Q_top_0": 1.625958550347625,
+      "Q_top_late": 0.0232828378863178,
+      "Q_top_peak_ratio": 0.02413145320612007,
+      "Q_top_late_ratio": 0.02010687993600127,
+      "E_field_drop_frac": 0.5129620448068366,
+      "B_abs_max": 0.028352378907268928,
+      "n_peaks_late_max_radiation": 44
+    }
+  ],
+  "scenario_counts": {
+    "creation": 0,
+    "annihilation": 8,
+    "elastic": 0
+  },
+  "n_seeds_created": 0,
+  "n_seeds": 8,
+  "B_abs_max_all_seeds": 0.06800037546639044,
+  "KE_collision": 10.109761366385435,
+  "E_threshold_2Mc2": 548.0680018176458,
+  "KE_over_threshold": 0.0184461806433815,
+  "creation_observed": false,
+  "death_criterion_triggered": true,
+  "verdict_code": "B",
+  "verdict": "ANNIHILATION"
+}

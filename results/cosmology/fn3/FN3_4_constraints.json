@@ -1,0 +1,108 @@
+{
+  "lyman_alpha": [
+    {
+      "m_eV": 3.7e-25,
+      "frac_at_contour": 1.0,
+      "P_supp_k3": 1.0685421550269026e-13,
+      "lya_safe": false
+    },
+    {
+      "m_eV": 1e-24,
+      "frac_at_contour": 1.0,
+      "P_supp_k3": 0.0,
+      "lya_safe": false
+    },
+    {
+      "m_eV": 1e-23,
+      "frac_at_contour": 1.0,
+      "P_supp_k3": 0.0,
+      "lya_safe": false
+    },
+    {
+      "m_eV": 1e-22,
+      "frac_at_contour": 1.0,
+      "P_supp_k3": 0.9630010437710226,
+      "lya_safe": true
+    }
+  ],
+  "lya_safe_floor_eV": 2e-21,
+  "overproduction_Omega_gt_012": {
+    "3.70e-25": {
+      "1e+15": false,
+      "1e+16": false,
+      "1e+17": false,
+      "1e+18": true
+    },
+    "1.00e-24": {
+      "1e+15": false,
+      "1e+16": false,
+      "1e+17": false,
+      "1e+18": true
+    },
+    "1.00e-23": {
+      "1e+15": false,
+      "1e+16": false,
+      "1e+17": false,
+      "1e+18": true
+    },
+    "1.00e-22": {
+      "1e+15": false,
+      "1e+16": false,
+      "1e+17": false,
+      "1e+18": true
+    }
+  },
+  "subdominance_before_eq": [
+    {
+      "m_eV": 3.7e-25,
+      "a_osc": 1.064551762656948e-05,
+      "a_eq": 0.00029403116730373417,
+      "oscillating_before_eq": true
+    },
+    {
+      "m_eV": 1e-24,
+      "a_osc": 6.454026010161275e-06,
+      "a_eq": 0.00029403116730373417,
+      "oscillating_before_eq": true
+    },
+    {
+      "m_eV": 1e-23,
+      "a_osc": 2.033735409824384e-06,
+      "a_eq": 0.00029403116730373417,
+      "oscillating_before_eq": true
+    },
+    {
+      "m_eV": 1e-22,
+      "a_osc": 6.424012286432347e-07,
+      "a_eq": 0.00029403116730373417,
+      "oscillating_before_eq": true
+    }
+  ],
+  "jeans_mass": [
+    {
+      "m_eV": 3.7e-25,
+      "M_J_Msun": 66648238096.76648,
+      "suppresses_observed_dwarfs": true
+    },
+    {
+      "m_eV": 1e-24,
+      "M_J_Msun": 15000000000.000004,
+      "suppresses_observed_dwarfs": true
+    },
+    {
+      "m_eV": 1e-23,
+      "M_J_Msun": 474341649.02525693,
+      "suppresses_observed_dwarfs": false
+    },
+    {
+      "m_eV": 1e-22,
+      "M_J_Msun": 15000000.0,
+      "suppresses_observed_dwarfs": false
+    }
+  ],
+  "paper_II_window_eV": [
+    3.7e-25,
+    1.2e-22
+  ],
+  "key_conflict": "100%-DM relic (Omega=0.12) at Paper II masses (<=1.2e-22 eV) is below the Lyman-alpha 100%-DM floor (~2e-21 eV) -> excluded as dominant DM; survives only as a subdominant fraction."
+}

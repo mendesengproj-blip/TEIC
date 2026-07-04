@@ -1,0 +1,29 @@
+{
+  "experiment": "EXP2_confirm_mechanism",
+  "by": {
+    "dim2": {
+      "symmetric_diamond": {
+        "D_TR_max": 0.5678141070723093,
+        "frac_n_above_3": 0.0,
+        "mean_asym": 0.0
+      },
+      "future_cone": {
+        "D_TR_max": 50.87853615062877,
+        "frac_n_above_3": 0.9166666666666666,
+        "mean_asym": 0.0
+      }
+    },
+    "dim4": {
+      "symmetric_diamond": {
+        "D_TR_max": 0.8853279229658035,
+        "frac_n_above_3": 0.0,
+        "mean_asym": 0.0
+      },
+      "future_cone": {
+        "D_TR_max": 60.05151914517954,
+        "frac_n_above_3": 0.9166666666666666,
+        "mean_asym": 0.0
+      }
+    }
+  }
+}

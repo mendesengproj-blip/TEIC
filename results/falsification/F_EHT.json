@@ -1,0 +1,38 @@
+{
+  "targets": [
+    {
+      "target": "M87*",
+      "ref": "EHT 2019, ApJL 875 L6 (arXiv:1906.11243)",
+      "theta_GR_uas": 39.69199176036073,
+      "theta_obs_uas": 42.0,
+      "sigma_obs_uas": 3.0,
+      "r_photon_m": 28799990186920.254,
+      "a_photon_m_s2": 1040.2785951968801,
+      "delta_DEV_frac (a0/a)": 1.153537144319394e-13,
+      "dtheta_DEV_uas": 4.578618682759543e-12,
+      "delta_Planck_frac": 3.148458935684106e-97,
+      "dtheta_Planck_uas": 1.2496860613300764e-95,
+      "within_error_bars": true
+    },
+    {
+      "target": "SgrA*",
+      "ref": "EHT 2022 (arXiv:2311.08680)",
+      "theta_GR_uas": 50.35020002446892,
+      "theta_obs_uas": 51.8,
+      "sigma_obs_uas": 2.3,
+      "r_photon_m": 17723070884.258614,
+      "a_photon_m_s2": 1690452.7171949304,
+      "delta_DEV_frac (a0/a)": 7.098690118888577e-17,
+      "dtheta_DEV_uas": 3.574204673977609e-15,
+      "delta_Planck_frac": 8.313899377040845e-91,
+      "dtheta_Planck_uas": 4.186064966173141e-89,
+      "within_error_bars": true
+    }
+  ],
+  "a0_MOND_m_s2": 1.2e-10,
+  "GR_matches_EHT_2sigma": true,
+  "max_TEIC_shadow_shift_uas": 4.578618682759543e-12,
+  "is_discriminating_test": false,
+  "verdict": "CONSISTENTE",
+  "note": "TEIC/DEV -> GR in the strong-field (high-acceleration, F=0) regime; the quartic/DBI deviation at a BH photon sphere is 10^-12 (a0/a) to 10^-95 (Planck) of the shadow size, i.e. 12-95 orders of magnitude below the EHT error bars. CONSISTENT but NON-DISCRIMINATING: EHT cannot test the TEIC quartic sector. The '5-10%' figure in the prompt intro is not supported by any suppression scale and is inconsistent with the 'inert where F=0' structure of the bridge."
+}

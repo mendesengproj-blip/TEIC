@@ -1,0 +1,153 @@
+{
+  "N_target": 1200,
+  "n_seeds": 5,
+  "K_MIN": 128,
+  "K_FACTOR": 12,
+  "rules": [
+    "R0_binary_e7",
+    "R1_graded_pen_0.33",
+    "R1_graded_pen_0.6",
+    "R2_graded_reward_2",
+    "R2_graded_reward_3",
+    "R2_graded_reward_5"
+  ],
+  "results": {
+    "R0_binary_e7": {
+      "d_int": {
+        "mean": 1.3952173425264691,
+        "std": 0.10234184615518158,
+        "sem": 0.045768664989162294,
+        "n": 5
+      },
+      "d_glob": {
+        "mean": 2.300631799056769,
+        "std": 0.3074339519986052,
+        "sem": 0.13748864305205769,
+        "n": 5
+      },
+      "r": {
+        "mean": 0.40543008062274116,
+        "std": 0.08979506752444641,
+        "sem": 0.040157575005769185,
+        "n": 5
+      },
+      "manifold_like": false,
+      "near_d4": false
+    },
+    "R1_graded_pen_0.33": {
+      "d_int": {
+        "mean": 1.4022157901881056,
+        "std": 0.0839569221416028,
+        "sem": 0.03754667701805622,
+        "n": 5
+      },
+      "d_glob": {
+        "mean": 2.388714989319244,
+        "std": 0.26684579351287885,
+        "sem": 0.11933706676093389,
+        "n": 5
+      },
+      "r": {
+        "mean": 0.37723742007228245,
+        "std": 0.07932196051287874,
+        "sem": 0.035473859163070186,
+        "n": 5
+      },
+      "manifold_like": false,
+      "near_d4": false
+    },
+    "R1_graded_pen_0.6": {
+      "d_int": {
+        "mean": 1.2967035306102126,
+        "std": 0.08143270121846077,
+        "sem": 0.036417811103181645,
+        "n": 5
+      },
+      "d_glob": {
+        "mean": 2.1381106331896715,
+        "std": 0.2044201945304458,
+        "sem": 0.0914194901887615,
+        "n": 5
+      },
+      "r": {
+        "mean": 0.4542399221573533,
+        "std": 0.06975598927617689,
+        "sem": 0.031195826771855575,
+        "n": 5
+      },
+      "manifold_like": false,
+      "near_d4": false
+    },
+    "R2_graded_reward_2": {
+      "d_int": {
+        "mean": 1.3711695232565098,
+        "std": 0.06235832807000108,
+        "sem": 0.027887492105551134,
+        "n": 5
+      },
+      "d_glob": {
+        "mean": 2.397923987594647,
+        "std": 0.10889255237679925,
+        "sem": 0.04869822987159588,
+        "n": 5
+      },
+      "r": {
+        "mean": 0.36975229357798167,
+        "std": 0.031301954646331696,
+        "sem": 0.013998659683562611,
+        "n": 5
+      },
+      "manifold_like": false,
+      "near_d4": false
+    },
+    "R2_graded_reward_3": {
+      "d_int": {
+        "mean": 1.418592782602503,
+        "std": 0.11334666534176863,
+        "sem": 0.050690169745422814,
+        "n": 5
+      },
+      "d_glob": {
+        "mean": 2.303674286685106,
+        "std": 0.3859621734483053,
+        "sem": 0.172607531314795,
+        "n": 5
+      },
+      "r": {
+        "mean": 0.4099096469279956,
+        "std": 0.1343560155090553,
+        "sem": 0.06008583677285273,
+        "n": 5
+      },
+      "manifold_like": false,
+      "near_d4": false
+    },
+    "R2_graded_reward_5": {
+      "d_int": {
+        "mean": 1.3097748604357748,
+        "std": 0.18331082551184932,
+        "sem": 0.08197909337121954,
+        "n": 5
+      },
+      "d_glob": {
+        "mean": 1.8974811182544655,
+        "std": 0.4306392896263556,
+        "sem": 0.19258774507735021,
+        "n": 5
+      },
+      "r": {
+        "mean": 0.5579491242702252,
+        "std": 0.17755755909350363,
+        "sem": 0.07940615441040201,
+        "n": 5
+      },
+      "manifold_like": false,
+      "near_d4": false
+    }
+  },
+  "G0_e7_anchor_ok": true,
+  "any_success": false,
+  "verdict": "DEATH GENERALISES -- no graded rule form (penalise OR reward components) yields manifold-like d*~4; every form stays low-d and/or non-manifold. The e7 dimensional death (T3A/T3B) is robust to the rule FORM, not just the coupling (T3A-3 already swept the coupling).",
+  "note": "T3A-3 already swept the coupling w_meet of the binary e7 form; FM5 varies the FUNCTIONAL FORM (graded by component count). Scope: the component-graded subfamily, not the full RS/CSG coupling-sequence family.",
+  "runtime_s": 863.5462260246277
+}

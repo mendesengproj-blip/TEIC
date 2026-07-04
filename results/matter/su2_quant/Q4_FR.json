@@ -1,0 +1,22 @@
+{
+  "a_coef": 6.0,
+  "FR_phase": {
+    "W_2pi": 1,
+    "ends_at_antipode_2pi": true,
+    "phase_2pi": -1,
+    "W_4pi": 2,
+    "ends_at_start_4pi": true,
+    "phase_4pi": 1,
+    "ok": true
+  },
+  "full_ground_j": 0.0,
+  "FR_ground_j": 0.5,
+  "FR_ground_multiplicity": 4,
+  "E_half (j=1/2)": 0.1431809458278204,
+  "E_3half (j=3/2)": 0.6590928542519645,
+  "ratio_E3half_Ehalf": 4.603216234124787,
+  "expected_ratio": 5.0,
+  "half_integer_law_ok": true,
+  "fr_selects_half_integer": true,
+  "verdict": "SIM"
+}

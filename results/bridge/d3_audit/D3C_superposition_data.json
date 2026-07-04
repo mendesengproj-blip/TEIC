@@ -1,0 +1,54 @@
+{
+  "what": "Superposition theta_total =? theta1 + theta2 for two separated sources.",
+  "grid": {
+    "L": 40.0,
+    "N": 36,
+    "h": 1.1111111111111112
+  },
+  "separation": 14.0,
+  "r0": 3.0,
+  "w_M": 1.0,
+  "K": 1.0,
+  "temp": 0.005,
+  "n_sweeps": 9000,
+  "part1_linear_BD": {
+    "mc_corr": 0.8587068578614568,
+    "mc_max_reldev": 0.268347338863072,
+    "mc_rms_over_std": 0.5875651318542244,
+    "mc_consistent": false,
+    "solver_corr": 1.0,
+    "solver_rms_over_std": 1.7913868817191821e-09,
+    "superposition_exact": true,
+    "note": "quadratic BD action => linear EOM => exact superposition at all field strengths (NL1)."
+  },
+  "part2_DBI_illustrative": {
+    "X0": 7.688335194559745,
+    "dbi_superposition_corr": 0.9999254798119596,
+    "field_strength_bins": [
+      0.00031343996382122855,
+      0.0007426055219062933,
+      0.0012184935405268953,
+      0.001956275517250965,
+      0.0033408557782241264,
+      0.0064962868110502465,
+      0.01682578140845636,
+      0.3737123016516483
+    ],
+    "resid_by_strength": [
+      0.002101673536340764,
+      0.0018576024340273846,
+      0.0018541279405252774,
+      0.0020861189247501234,
+      0.0027435684380184167,
+      0.0032763418755877125,
+      0.005423689454832181,
+      0.025836329953706674
+    ],
+    "saturating_direction": true,
+    "breaks_in_strong_field": true,
+    "note": "DBI coefficient added BY HAND (labelled); not the BD action of D1-D3. Shows what a non-linear completion does: linear weak field, breaking in strong field toward saturation."
+  },
+  "verdict": "PASSA",
+  "runtime_s": 143.4,
+  "timestamp_utc": "2026-06-07T13:10:34Z"
+}

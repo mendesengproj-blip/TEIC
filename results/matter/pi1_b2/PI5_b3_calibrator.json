@@ -1,0 +1,145 @@
+{
+  "G1_baryon": {
+    "values": {
+      "37": 2.0408201926823977,
+      "49": 2.381764795211805,
+      "61": 2.573298450750428,
+      "73": 2.6895141870685326
+    },
+    "monotone": true,
+    "extrapolation": 3.369541264239896,
+    "pass": true
+  },
+  "class_runs": {
+    "49": {
+      "classes": [
+        1,
+        1,
+        1
+      ],
+      "stable": true,
+      "value": 1,
+      "winding3_topology": true,
+      "details": [
+        {
+          "class": 1,
+          "n_segments": 700,
+          "n_components": 1,
+          "windings": [
+            3
+          ],
+          "all_chains_closed": true,
+          "boundary_touch": false,
+          "min_frame_dot": 0.9053920178168215,
+          "frame_dot_ok": true,
+          "failure": null,
+          "ok": true
+        },
+        {
+          "class": 1,
+          "n_segments": 672,
+          "n_components": 1,
+          "windings": [
+            -3
+          ],
+          "all_chains_closed": true,
+          "boundary_touch": false,
+          "min_frame_dot": 0.7770788622997001,
+          "frame_dot_ok": true,
+          "failure": null,
+          "ok": true
+        },
+        {
+          "class": 1,
+          "n_segments": 662,
+          "n_components": 1,
+          "windings": [
+            -3
+          ],
+          "all_chains_closed": true,
+          "boundary_touch": false,
+          "min_frame_dot": 0.8536383208952617,
+          "frame_dot_ok": true,
+          "failure": null,
+          "ok": true
+        }
+      ]
+    },
+    "61": {
+      "classes": [
+        1,
+        1,
+        1
+      ],
+      "stable": true,
+      "value": 1,
+      "winding3_topology": true,
+      "details": [
+        {
+          "class": 1,
+          "n_segments": 688,
+          "n_components": 1,
+          "windings": [
+            3
+          ],
+          "all_chains_closed": true,
+          "boundary_touch": false,
+          "min_frame_dot": 0.9412470503284663,
+          "frame_dot_ok": true,
+          "failure": null,
+          "ok": true
+        },
+        {
+          "class": 1,
+          "n_segments": 674,
+          "n_components": 1,
+          "windings": [
+            -3
+          ],
+          "all_chains_closed": true,
+          "boundary_touch": false,
+          "min_frame_dot": 0.8661832636147658,
+          "frame_dot_ok": true,
+          "failure": null,
+          "ok": true
+        },
+        {
+          "class": 1,
+          "n_segments": 684,
+          "n_components": 1,
+          "windings": [
+            -3
+          ],
+          "all_chains_closed": true,
+          "boundary_touch": false,
+          "min_frame_dot": 0.9127316358329636,
+          "frame_dot_ok": true,
+          "failure": null,
+          "ok": true
+        }
+      ]
+    }
+  },
+  "verdict": {
+    "true_class": 1,
+    "gate": {
+      "G1_baryon": true,
+      "G2_winding3": true,
+      "G3_stable": true,
+      "G4_converged": true,
+      "all_pass": true
+    },
+    "measured_class": 1,
+    "eps_of_3": 0,
+    "selected_law": "H_lin: eps(n)=(n-1) mod 2",
+    "predicted_measured_H_lin": 1,
+    "prediction_matched": true,
+    "machinery_death": false,
+    "fr_correction_status": "eps(2)=1 stands; PI3 FR correction valid"
+  },
+  "_meta": {
+    "campaign": "MATTER_PI1_B2",
+    "timestamp": "2026-06-13T12:42:01.456659+00:00",
+    "numpy": "2.4.4"
+  }
+}

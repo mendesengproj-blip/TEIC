@@ -1,0 +1,51 @@
+{
+  "CC1": {
+    "grade": "build",
+    "verdict": "CONSTRUIDO"
+  },
+  "CC2": {
+    "grade": "A",
+    "verdict": "CONFIRMADO (linear)",
+    "tau_per_loop": 10.365803814713896,
+    "exponent": 1.0080855215608455
+  },
+  "CC3": {
+    "grade": "B",
+    "verdict": "CONFIRMADO"
+  },
+  "CC4": {
+    "grade": "A",
+    "verdict": "CONSERVADO (perturbacao pequena) / QUEBRA (grande)"
+  },
+  "CC5": {
+    "grade": "B",
+    "verdict": "CONFIRMADO"
+  },
+  "dispersion": {
+    "ok": true,
+    "rapidities": [
+      0.0,
+      0.2,
+      0.4,
+      0.6000000000000001,
+      0.8,
+      1.0,
+      1.2000000000000002,
+      1.4000000000000001,
+      1.6,
+      1.8,
+      2.0
+    ],
+    "max_rel_error": 3.6372855429259466e-16,
+    "photon_m_is_zero_E_eq_p": true,
+    "tau_by_N": {
+      "0": 0.0,
+      "1": 9.95,
+      "3": 30.85,
+      "10": 103.15,
+      "30": 312.45,
+      "100": 1036.2
+    },
+    "n_rows": 66
+  }
+}

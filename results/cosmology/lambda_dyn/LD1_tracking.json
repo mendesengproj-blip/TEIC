@@ -1,0 +1,81 @@
+{
+  "description": "Everpresent-Lambda tracking of rho_crit over cosmic time.",
+  "model_imported": "Sorkin everpresent Lambda ~ 1/sqrt(V4_past); ADGS astro-ph/0209274; V<->Hubble transplant (CST heritage).",
+  "teic_input": "L1 measured fluctuation coefficient = 0.971",
+  "omega_m": 0.31,
+  "convergence_V4_z0_vs_zmax": {
+    "10": 0.12465323224504145,
+    "20": 0.12504644190723993,
+    "30": 0.12509012821615087,
+    "50": 0.12515906805375518
+  },
+  "rows": [
+    {
+      "z": 0.0,
+      "V4_past": 0.12509012821615087,
+      "lambda_rms": 2.7454131597115556,
+      "rho_crit": 1.0,
+      "ratio_R": 2.7454131597115556
+    },
+    {
+      "z": 0.25,
+      "V4_past": 0.04866970641308584,
+      "lambda_rms": 4.4013901446193255,
+      "rho_crit": 1.2954687500000002,
+      "ratio_R": 3.3975270685760077
+    },
+    {
+      "z": 0.5,
+      "V4_past": 0.020456770991963805,
+      "lambda_rms": 6.788919956201923,
+      "rho_crit": 1.7362499999999998,
+      "ratio_R": 3.9101050863653986
+    },
+    {
+      "z": 1.0,
+      "V4_past": 0.0045334787970038835,
+      "lambda_rms": 14.421267593562945,
+      "rho_crit": 3.1699999999999995,
+      "ratio_R": 4.549295770840047
+    },
+    {
+      "z": 1.5,
+      "V4_past": 0.0012996006761082303,
+      "lambda_rms": 26.934831660540443,
+      "rho_crit": 5.5337499999999995,
+      "ratio_R": 4.8673741424062245
+    },
+    {
+      "z": 2.0,
+      "V4_past": 0.00045352515058722073,
+      "lambda_rms": 45.59513876737973,
+      "rho_crit": 9.059999999999997,
+      "ratio_R": 5.032576022889597
+    },
+    {
+      "z": 3.0,
+      "V4_past": 8.319384907202576e-05,
+      "lambda_rms": 106.45685231294469,
+      "rho_crit": 20.53,
+      "ratio_R": 5.1854287536748505
+    },
+    {
+      "z": 5.0,
+      "V4_past": 7.262572172408857e-06,
+      "lambda_rms": 360.30807824441695,
+      "rho_crit": 67.64999999999998,
+      "ratio_R": 5.326061762666919
+    },
+    {
+      "z": 8.0,
+      "V4_past": 5.829282343582717e-07,
+      "lambda_rms": 1271.7791021323892,
+      "rho_crit": 226.68,
+      "ratio_R": 5.610460129399987
+    }
+  ],
+  "tracking_exponent_p": 1.1070820492518436,
+  "tracking_r2": 0.9959220020791351,
+  "finite_nonzero_at_z0": true,
+  "kill_criterion_fires": false
+}

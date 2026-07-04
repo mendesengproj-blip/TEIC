@@ -1,0 +1,53 @@
+{
+  "what": "BD action with matter source; variation -> B theta = J -> box theta = 4 pi G T/c^4; point mass -> theta = GM/rc^2 (= P2 bridge scalar).",
+  "bd_layer_coeffs_C0_C1_C2": [
+    1,
+    -2,
+    1
+  ],
+  "kernel_moments_k0..3": [
+    0,
+    0,
+    2,
+    18
+  ],
+  "annihilates_constant": true,
+  "annihilates_linear": true,
+  "second_order_nonzero_2nd_moment": true,
+  "box_fingerprint": true,
+  "smeared_operator_check": {
+    "const": {
+      "mean": -0.027017667680501935,
+      "sem": 0.02272725940957662,
+      "box": 0.0,
+      "n": 2880
+    },
+    "lin": {
+      "mean": -0.31777456267691,
+      "sem": 0.15195314231392493,
+      "box": 0.0,
+      "n": 2880
+    },
+    "t2": {
+      "mean": -0.7438765432226535,
+      "sem": 0.3447937818464221,
+      "box": 2.0,
+      "n": 2880
+    },
+    "x2": {
+      "mean": -1.1486906571768274,
+      "sem": 1.1451464249958934,
+      "box": -2.0,
+      "n": 2880
+    }
+  },
+  "smeared_const_annihilates": true,
+  "smeared_lorentzian_sign": false,
+  "static_solution_theta(r)": "C1 + C2/r",
+  "static_solution_has_1_over_r": true,
+  "COMPARISON_point_mass_theta": "GM/(r c^2)  (unit coefficient)",
+  "COMPARISON_P2_apparent_coeff_theta*r/M_far": 0.9847941218553302,
+  "COMPARISON_matches_P2": true,
+  "verdict": "PASSA",
+  "timestamp_utc": "2026-06-05T22:26:59Z"
+}

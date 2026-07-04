@@ -1,0 +1,12 @@
+{
+  "rho_M_lattice": 0.41,
+  "rho_Planck_kg_m3": 5.156260160865612e+96,
+  "interpretation_A_relic_density_kg_m3": 2.1140666659549008e+96,
+  "parker_bound_kg_m3": 1e-16,
+  "A_over_parker": 2.114066665954901e+112,
+  "interpretation_A_verdict": "GROSSLY FALSIFIED (~1e112 over Parker) -> NOT physical relics",
+  "monopole_type_in_T3D2": "Polyakov (compact-U(1) monopole-instantons; vacuum/condensate)",
+  "interpretation_B_constrained_by_parker": false,
+  "verdict": "CONSISTENTE",
+  "note": "The compact-U(1) lattice monopoles of T3D2 are Polyakov instantons (Euclidean tunnelling events disordering the vacuum / generating the photon mass / confining), NOT asymptotic relic particles, so the Parker bound does not apply -> CONSISTENT. Caveat: this means T3D2's monopole plasma is a vacuum phenomenon, NOT a prediction of relic monopoles; the absurd interpretation-A overshoot (~1e112) confirms they cannot be physical particles."
+}

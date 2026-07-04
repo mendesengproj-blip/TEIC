@@ -1,0 +1,106 @@
+{
+  "campaign": "FOTON_B3B4",
+  "experiment": "B3b_closure_gauge",
+  "rho": 2.0,
+  "stages_run": "0+1 (gauge gate only; 2/3 not run)",
+  "stage0_positive_control": {
+    "label": "lattice_4D_Maxwell",
+    "P": 1536,
+    "L": 1024,
+    "N": 256,
+    "closure_ddBG": 0.0,
+    "gauge_dS_over_S_max": 3.331244448956753e-16,
+    "rank_B_physical": 765,
+    "rank_G_gauge": 255,
+    "ker_B": 259,
+    "harmonic": 4,
+    "gauge_fraction": 0.2490234375,
+    "physical_fraction": 0.7470703125,
+    "expected_gauge_modes": 255,
+    "expected_gauge_fraction": 0.2490234375
+  },
+  "stage0_control_pass": true,
+  "stage1_signal": [
+    {
+      "label": "spacelike_N400",
+      "P": 1500,
+      "L": 1812,
+      "N": 400,
+      "closure_ddBG": 0.0,
+      "gauge_dS_over_S_max": 9.950094944278491e-16,
+      "rank_B_physical": 1157,
+      "rank_G_gauge": 347,
+      "ker_B": 655,
+      "harmonic": 308,
+      "gauge_fraction": 0.1915011037527594,
+      "physical_fraction": 0.6385209713024282
+    },
+    {
+      "label": "spacelike_N800",
+      "P": 1500,
+      "L": 2058,
+      "N": 800,
+      "closure_ddBG": 0.0,
+      "gauge_dS_over_S_max": 9.368459614404312e-16,
+      "rank_B_physical": 1243,
+      "rank_G_gauge": 613,
+      "ker_B": 815,
+      "harmonic": 202,
+      "gauge_fraction": 0.2978620019436346,
+      "physical_fraction": 0.6039844509232264
+    }
+  ],
+  "stage1_null": [
+    {
+      "label": "null_N400",
+      "P": 1500,
+      "L": 4930,
+      "N": 400,
+      "closure_ddBG": 0.0,
+      "gauge_dS_over_S_max": 6.598258567072538e-16,
+      "rank_B_physical": 1496,
+      "rank_G_gauge": 403,
+      "ker_B": 3434,
+      "harmonic": 3031,
+      "gauge_fraction": 0.08174442190669372,
+      "physical_fraction": 0.30344827586206896
+    },
+    {
+      "label": "null_N800",
+      "P": 1500,
+      "L": 5036,
+      "N": 800,
+      "closure_ddBG": 0.0,
+      "gauge_dS_over_S_max": 9.14650127887799e-16,
+      "rank_B_physical": 1499,
+      "rank_G_gauge": 832,
+      "ker_B": 3537,
+      "harmonic": 2705,
+      "gauge_fraction": 0.16521048451151707,
+      "physical_fraction": 0.2976568705321684
+    }
+  ],
+  "stage1_hasse": [
+    {
+      "side_link_fraction": 0.4515,
+      "n_sides": 6000,
+      "cells_all4_links_fraction": 0.058666666666666666,
+      "n_cells": 1500,
+      "N": 400
+    },
+    {
+      "side_link_fraction": 0.30783333333333335,
+      "n_sides": 6000,
+      "cells_all4_links_fraction": 0.014666666666666666,
+      "n_cells": 1500,
+      "N": 800
+    }
+  ],
+  "verdict_tag": "MORTE_B3b_NOGAUGE",
+  "verdict": "MORTE (gauge gate non-discriminating + off-substrate): closure ddBG=0.00e+00 and gauge dS/S=9.37e-16 are machine zero -- BUT this is AUTOMATIC for any set of closed quads: the B3 KINEMATIC NULL (random apices) gives the SAME machine zero (ddBG=0.00e+00, dS/S=9.15e-16). The closure/gauge-invariance 'pass' carries no information (lesson B3/B4: a pass the null reproduces is not evidence). Decisively, only 30.8% of the cells' sides are Hasse LINKS (1.5% of cells have all four sides as links): the future-cone cells do NOT live on the link sector whose gauge field E6_1 validated -- they are a relation complex, not the gauge complex. The future-cone construction does not furnish a genuine gauge 2-complex; frac_B=0.84 was spacelike structure, not a photon. Channel 'cones futuros' -> [FRONTEIRA]; B4 Bianchi-I genuine = the last door. Stages 2/3 NOT run (blocked by the gate, as pre-registered).",
+  "closure_ok": true,
+  "null_also_passes": true,
+  "on_hasse_substrate": false,
+  "physical_fraction_gap_signal_minus_null": 0.306327580391058,
+  "runtime_s": 41.03600239753723
+}

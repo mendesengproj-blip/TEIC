@@ -1,0 +1,37 @@
+{
+  "scalar_sector": "N/A (no creation in DBI3)",
+  "single_kink": {
+    "E_rest": 7.995563833154227,
+    "E_after": 7.995556679586727,
+    "W_initial": 1.0,
+    "W_after": 1.0,
+    "count_initial": 1,
+    "count_after": 1,
+    "stable": true,
+    "sine_gordon_theory_mass_comparison": 8.0
+  },
+  "pair": {
+    "W_initial_net": 0.0,
+    "count_trajectory": [
+      2,
+      4,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "final_count": 0,
+    "transient": true
+  },
+  "phase_energy": {
+    "before": 99.19790939920037,
+    "after": 99.11618374501616,
+    "drift": 0.0008238646830279881,
+    "conserved": true
+  },
+  "scenario": "2 (pares virtuais / transientes)",
+  "cc2_quantitative_transfer": false,
+  "verdict": "PARES TRANSIENTES + KINK ISOLADO ESTAVEL",
+  "statement": "Scalar sector: nothing to stabilise (DBI3). Compact field: a SINGLE charged kink (W=1) is STABLE with rest mass 8.00 (sine-Gordon theory 8) and exact winding conservation; but a kink-antikink PAIR nucleated from W=0 data is TRANSIENT (count [2, 4, 2, 0, 2, 0, 0] -> annihilates), the dynamical analogue of QFT VIRTUAL pair production (Scenario 2). A net-charged kink cannot be created from W=0 data (winding is conserved) -- a topological selection rule. Phase-energy is conserved across the collision (drift 8e-04). The conserved winding W is the dynamical analogue of CC's conserved N_interno; CC2's tau(N)=aN does not transfer numerically (continuum soliton vs diamonds), only qualitatively."
+}

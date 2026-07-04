@@ -1,0 +1,17 @@
+{
+  "scorecard": {
+    "PE1 -- Phi=rho e^{i phibar} well-defined": "SIM",
+    "PE2 -- spontaneous condensate": "NAO",
+    "PE2 -- C(r) = constant": "decai (sempre)",
+    "PE3 -- m_A vs rho": "SIM, ~sqrt(rho) (p_measured=0.34, analytic 0.5)",
+    "PE4 -- |Phi|(0) < |Phi|(inf) (core dip)": "NAO",
+    "PE4 -- sigma_core constant (pinning)": "NAO (no core)",
+    "PE5 -- stable matter without extra axiom": "NAO / N/A"
+  },
+  "verdict": "C",
+  "verdict_text": "Phi emergente GERA m_A (~sqrt(rho)) mas NAO pina -> mecanismo PARCIAL: a composicao rho*e^{i phibar} captura a fase (massa de gauge dependente da densidade) mas nao a magnitude dinamica (o nucleo do vortice). O campo complexo de CR_ABELIAN_HIGGS continua necessario para o nucleo/pinamento.",
+  "triple_verification_for_A": "NOT triggered -- Veredito A requires PE4 core AND PE5 matter, both negative, so no A claim is made.",
+  "what_emerged": "the PHASE sector: arg(Phi)=phibar behaves like the gauge field and gives a density-dependent mass m_A ~ sqrt(rho) (PE3, = AH2's m_A=e<|Phi|>).",
+  "what_did_not": "the MAGNITUDE sector: |Phi|=rho is the static causal-density substrate, decoupled from the gauge vortex, so it never forms a core (PE4) and creates no stable structure (PE5).  The abelian-Higgs core needs |Phi| to be a DYNAMICAL field with a covariant kinetic term |Phi|^2|D Phi|^2 -- which the bare density is not.",
+  "timestamp_utc": "2026-06-09T22:10:16Z"
+}

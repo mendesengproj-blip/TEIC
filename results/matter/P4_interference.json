@@ -1,0 +1,26 @@
+{
+  "params": {
+    "rho": 18.0,
+    "T": 8.0,
+    "X": 14.0,
+    "sigma": 1.6,
+    "sep": 6.0,
+    "n_seeds": 20
+  },
+  "linearity_residual": {
+    "mean": 1.061294639777483e-15,
+    "std": 2.752782040442056e-16,
+    "sem": 6.155407769669012e-17,
+    "n": 20
+  },
+  "intensity_ratio_opp_same": {
+    "mean": 0.27936207486199194,
+    "std": 0.023343845267777833,
+    "sem": 0.0052198424874988015,
+    "n": 20
+  },
+  "linear": true,
+  "cancels": true,
+  "verdict": "C",
+  "statement": "Classical superposition, not quantum interference (as expected, consistent with e11).  The dynamics is LINEAR to machine precision (residual 1.1e-15), so states add exactly: theta_12 = theta_1 + theta_2.  Opposite-sign sources cancel where the cones overlap (total-intensity ratio E_opp/E_same = 0.28 < 1) -- this is Young's CLASSICAL interference of real fields.  There is no complex amplitude and no |psi|^2 Born rule (the guard forbids complex numbers in the generator, and none was needed): the quantum content is absent.  The TEIC<->QM boundary is exactly where e11 left it."
+}

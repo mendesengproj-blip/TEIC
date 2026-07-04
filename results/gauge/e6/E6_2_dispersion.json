@@ -1,0 +1,30 @@
+{
+  "config": {
+    "rho": 0.5,
+    "L_box": 4.6
+  },
+  "N": 224,
+  "L": 2105,
+  "kmags": [
+    1.3659098493868667,
+    1.9122737891416133,
+    2.4586377288963597,
+    3.0050016686511065,
+    3.5513656084058534,
+    4.0977295481606
+  ],
+  "omega_star": [
+    0.29170278139448336,
+    0.14585139069724168,
+    0.048617130232413895,
+    0.09723426046482779,
+    0.38893704185931116,
+    0.5834055627889667
+  ],
+  "c_fit": 0.09721730331393878,
+  "rel_deviation": 0.4744056732336026,
+  "min_near_zero": true,
+  "verdict": "H2 FAIL (no propagation): the symbol minimum sits near omega=0, not on a light cone -- the naive Euclidean action does not yield a propagating photon. The Lorentzian electric/magnetic (BD-type) construction is required.",
+  "verdict_tag": "H2_FAIL_NOPROP",
+  "runtime_s": 12.828337907791138
+}

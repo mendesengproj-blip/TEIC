@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "name": "seed tetra = K4 (z=3, C_tri=1, C4=1)",
+      "ok": true,
+      "detail": "z=3.00 C_tri=1.0000 C4=1.0000"
+    },
+    {
+      "name": "manifold + Euler char V-E+F=2 (sphere) after moves",
+      "ok": true,
+      "detail": "all-edges-deg2=True V-E+F=2"
+    },
+    {
+      "name": "triangular lattice transitivity ~= 0.4",
+      "ok": true,
+      "detail": "C_tri=0.4000 vs 0.4"
+    },
+    {
+      "name": "estimator sane (C4 in (0,1), C_tri>0 on lattice)",
+      "ok": true,
+      "detail": "C4=0.0952 C_tri=0.4000"
+    }
+  ],
+  "passed": true
+}

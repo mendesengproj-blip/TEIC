@@ -1,0 +1,55 @@
+{
+  "params": {
+    "M_msun": 1.0,
+    "a0": 1.2e-10,
+    "lambda_A_pc": 17.3,
+    "g_ext_over_a0": 1.7879945817545237,
+    "gamma_plateau": 1.356098781048998,
+    "r_MOND_pc": 0.03408555352656103
+  },
+  "checkpoints": {
+    "0.05pc_Chae": {
+      "r_pc": 0.05,
+      "screening_S": 0.002886000879980366,
+      "boost_DEV": 1.0009975645024887,
+      "boost_MOND": 1.3456563403735178,
+      "vtilde_DEV": 1.000498657921383,
+      "vtilde_MOND": 1.160024284389563
+    },
+    "1.7pc_Jacobi": {
+      "r_pc": 1.7,
+      "screening_S": 0.09359213847356906,
+      "boost_DEV": 1.0333280456624105,
+      "boost_MOND": 1.3560987728880949,
+      "vtilde_DEV": 1.016527444618398,
+      "vtilde_MOND": 1.1645165404098368
+    },
+    "17.3pc_lambdaA": {
+      "r_pc": 17.3,
+      "screening_S": 0.6321205588285577,
+      "boost_DEV": 1.2250973604743798,
+      "boost_MOND": 1.356098781048237,
+      "vtilde_DEV": 1.1068411631640647,
+      "vtilde_MOND": 1.1645165439134977
+    },
+    "100pc": {
+      "r_pc": 100.0,
+      "screening_S": 0.9969123556367996,
+      "boost_DEV": 1.354999274654949,
+      "boost_MOND": 1.3560987810489975,
+      "vtilde_DEV": 1.1640443611198625,
+      "vtilde_MOND": 1.164516543913824
+    },
+    "1000pc": {
+      "r_pc": 1000.0,
+      "screening_S": 1.0,
+      "boost_DEV": 1.356098781048998,
+      "boost_MOND": 1.356098781048998,
+      "vtilde_DEV": 1.1645165439138243,
+      "vtilde_MOND": 1.1645165439138243
+    }
+  },
+  "transition_pc": 17.3,
+  "S_at_lambda": 0.6321205588285577,
+  "note": "g_DEV = g_N*[1+(nu_eff-1)*(1-exp(-r/lambda_A))]; EFE-capped nu_eff"
+}

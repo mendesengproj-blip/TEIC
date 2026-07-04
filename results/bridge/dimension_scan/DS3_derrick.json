@@ -1,0 +1,60 @@
+{
+  "per_dimension": {
+    "2": {
+      "E2": 4.19418965373278,
+      "E4K": 5.734083504140725,
+      "manual": {
+        "interior_minimum": false,
+        "lambda_star": null,
+        "lambda_star_pred": null
+      },
+      "cosine": {
+        "monotonic_increasing": true,
+        "interior_minimum": false
+      }
+    },
+    "3": {
+      "E2": 4.905054476278246,
+      "E4K": 7.112473336731789,
+      "manual": {
+        "interior_minimum": true,
+        "lambda_star": 1.2106969530296432,
+        "lambda_star_pred": 1.2041716771448157
+      },
+      "cosine": {
+        "monotonic_increasing": true,
+        "interior_minimum": false
+      }
+    },
+    "4": {
+      "E2": 7.489642201002076,
+      "E4K": 8.174088354314602,
+      "manual": {
+        "interior_minimum": false,
+        "lambda_star": null,
+        "lambda_star_pred": null
+      },
+      "cosine": {
+        "monotonic_increasing": true,
+        "interior_minimum": false
+      }
+    },
+    "5": {
+      "E2": 14.414624511092518,
+      "E4K": 10.000035280577002,
+      "manual": {
+        "interior_minimum": false,
+        "lambda_star": null,
+        "lambda_star_pred": null
+      },
+      "cosine": {
+        "monotonic_increasing": true,
+        "interior_minimum": false
+      }
+    }
+  },
+  "derrick_window_integers": [
+    3
+  ],
+  "pre_registered": "window = [3]; cosine monotonic in every d"
+}

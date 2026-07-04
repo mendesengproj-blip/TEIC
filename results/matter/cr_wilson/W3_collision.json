@@ -1,0 +1,479 @@
+{
+  "lam_c": 1.0,
+  "lams": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    5.0
+  ],
+  "rhos": [
+    10,
+    18,
+    50
+  ],
+  "n_seeds": 20,
+  "rows": [
+    {
+      "lam": 0.0,
+      "rho": 10,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.00966987247767262,
+        "std": 0.001006768795089244,
+        "sem": 0.00022512034634451057,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.011421554553639805,
+        "std": 0.0012436975377831457,
+        "sem": 0.0002780992237932227,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 0.0,
+      "rho": 18,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.03480571879187651,
+        "std": 0.003022662302859101,
+        "sem": 0.0006758878382219007,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.002893230343679216,
+        "std": 0.006117885647289604,
+        "sem": 0.0013680008185909857,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 0.0,
+      "rho": 50,
+      "n_kink_late": {
+        "mean": 1.75,
+        "std": 1.332784974957958,
+        "sem": 0.2980197803396349,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.5285714285714286,
+        "std": 0.27065580537629025,
+        "sem": 0.0605204779326338,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.027033286201379868,
+        "std": 0.0023704259367966275,
+        "sem": 0.0005300433530305878,
+        "n": 20
+      },
+      "winding": {
+        "mean": 0.0016605329910072783,
+        "std": 0.010836667132586872,
+        "sem": 0.002423152435800197,
+        "n": 20
+      },
+      "frac_survive": 0.6
+    },
+    {
+      "lam": 0.5,
+      "rho": 10,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.009907646846908699,
+        "std": 0.0009576415689718903,
+        "sem": 0.00021413516463007,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.011363215934845197,
+        "std": 0.001211894327386043,
+        "sem": 0.0002709878097581577,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 0.5,
+      "rho": 18,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.03499281754991519,
+        "std": 0.002642847025882859,
+        "sem": 0.0005909585604007219,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.004390999881903035,
+        "std": 0.005402524581679074,
+        "sem": 0.0012080412214748024,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 0.5,
+      "rho": 50,
+      "n_kink_late": {
+        "mean": 1.15,
+        "std": 0.7451598203705947,
+        "sem": 0.16662280124501821,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.5571428571428572,
+        "std": 0.2534403452351477,
+        "sem": 0.056670984018680516,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.02800466715811458,
+        "std": 0.002180709958970086,
+        "sem": 0.0004876215707467889,
+        "n": 20
+      },
+      "winding": {
+        "mean": 0.0022202413071702566,
+        "std": 0.007837410782871847,
+        "sem": 0.0017524983278091294,
+        "n": 20
+      },
+      "frac_survive": 0.55
+    },
+    {
+      "lam": 1.0,
+      "rho": 10,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.00982782624747218,
+        "std": 0.0008872442379641907,
+        "sem": 0.000198393842873293,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.011340121135356785,
+        "std": 0.001373678594982762,
+        "sem": 0.0003071638717617857,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 1.0,
+      "rho": 18,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.03535760888725746,
+        "std": 0.0021373256117247284,
+        "sem": 0.00047792053578678143,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.003194606734100172,
+        "std": 0.005872721622018924,
+        "sem": 0.001313180475976714,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 1.0,
+      "rho": 50,
+      "n_kink_late": {
+        "mean": 0.55,
+        "std": 0.8255779474818966,
+        "sem": 0.1846048411294272,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.4428571428571429,
+        "std": 0.28533809820984424,
+        "sem": 0.06380353841677228,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.02990487999489867,
+        "std": 0.002047496718194309,
+        "sem": 0.00045783418455902047,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.003732240314277044,
+        "std": 0.009502568285517285,
+        "sem": 0.0021248388647250277,
+        "n": 20
+      },
+      "frac_survive": 0.35
+    },
+    {
+      "lam": 2.0,
+      "rho": 10,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.009922169201503548,
+        "std": 0.0008638160037501316,
+        "sem": 0.00019315513044375075,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.011447337421932675,
+        "std": 0.0015775654377162922,
+        "sem": 0.000352754355768784,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 2.0,
+      "rho": 18,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.03874850790069535,
+        "std": 0.004061717552199467,
+        "sem": 0.0009082276552122058,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.002556578599764642,
+        "std": 0.007624420560452619,
+        "sem": 0.00170487226622191,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 2.0,
+      "rho": 50,
+      "n_kink_late": {
+        "mean": 0.35,
+        "std": 1.1367080817685316,
+        "sem": 0.2541756541407826,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.14285714285714285,
+        "std": 0.21239769762143662,
+        "sem": 0.04749356901459777,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.03070481538899844,
+        "std": 0.002258032468831417,
+        "sem": 0.0005049114095708723,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.0022706632995745817,
+        "std": 0.007872834999969743,
+        "sem": 0.0017604194235571898,
+        "n": 20
+      },
+      "frac_survive": 0.1
+    },
+    {
+      "lam": 5.0,
+      "rho": 10,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.010669831165134326,
+        "std": 0.0007999237533221014,
+        "sem": 0.00017886838892449918,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.011389992309425416,
+        "std": 0.001633870458541854,
+        "sem": 0.00036534454117283374,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 5.0,
+      "rho": 18,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.038519833468539724,
+        "std": 0.0029300695741321017,
+        "sem": 0.0006551834746563238,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.004816759550926519,
+        "std": 0.003469379353954696,
+        "sem": 0.0007757768075177004,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    },
+    {
+      "lam": 5.0,
+      "rho": 50,
+      "n_kink_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "lifetime_frac": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "frac_gauge": {
+        "mean": 0.03368184955172939,
+        "std": 0.0026816293304651995,
+        "sem": 0.0005996305473377434,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.0021724631884583448,
+        "std": 0.008327406130579,
+        "sem": 0.0018620646184223132,
+        "n": 20
+      },
+      "frac_survive": 0.0
+    }
+  ],
+  "by_rho": {
+    "10": {
+      "life_lam0": 0.0,
+      "life_lammax": 0.0,
+      "survive_lam0": 0.0,
+      "survive_lammax": 0.0
+    },
+    "18": {
+      "life_lam0": 0.0,
+      "life_lammax": 0.0,
+      "survive_lam0": 0.0,
+      "survive_lammax": 0.0
+    },
+    "50": {
+      "life_lam0": 0.5285714285714286,
+      "life_lammax": 0.0,
+      "survive_lam0": 0.6,
+      "survive_lammax": 0.0
+    }
+  },
+  "wilson_helps": false,
+  "any_stable": true,
+  "stable_needs_wilson": false,
+  "scenario": "C/D (Wilson sub-dominante; sem estabilizacao)",
+  "grade": "D",
+  "statement": "Wilson does NOT stabilise the collision-created kink in the testable regime: lifetime_frac and n_kink are essentially independent of lambda_p (the plaquette term is sub-dominant to the inherited gauge stiffness, W2), and lambda_p=0 already reproduces CR_GAUGE's radiation outcome. The created charge disperses regardless of lambda_p. As W2 showed, static 2D compact-U(1) does not linearly confine winding-+/-1 charges, so there is no confining string to catch the charge -- the frontier is deeper than the plaquette term (needs the dynamical Polyakov/monopole mechanism, higher dimension, or an external field)."
+}

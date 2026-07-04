@@ -1,0 +1,21 @@
+{
+  "i_composition_max_err": 2.9976021664879227e-15,
+  "ii_isotropic_moment_symbolic": true,
+  "iii_quartic_average_symbolic": true,
+  "iii_decomposition_3S_minus_2K": true,
+  "iv_K_equals_cross_sum_symbolic": true,
+  "iv_engine_commutator_is_cross_max_err": 0.0,
+  "v_plaquette_commutator_ratio": {
+    "mean": 0.9999534167655562,
+    "std": 2.095323242464073e-05,
+    "expected": 1.0
+  },
+  "conclusion": "single-link quartic = -(a^4/384)|l_e|^4; Poisson average -> -(a^4/(384*15))(3S-2K): the Skyrme operator K emerges with coefficient +2a^4/(384*15) = +a^4/2880 per link; the cubic 3-axis sum sees only sum_i G_ii^2 (K-blind). Gauge-plaquette quartic is symmetric in F (commutator only inside |F|^2).",
+  "_meta": {
+    "campaign": "BRIDGE_SU2_COEFF",
+    "timestamp": "2026-06-10T22:02:43.418665+00:00",
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "e_sk": 4.0,
+  "B_convergence": [
+    {
+      "N": 21,
+      "dx": 0.7999999999999998,
+      "B": 0.7795199451947142
+    },
+    {
+      "N": 31,
+      "dx": 0.5333333333333332,
+      "B": 0.8944163704981998
+    },
+    {
+      "N": 41,
+      "dx": 0.40000000000000036,
+      "B": 0.9389962076856221
+    },
+    {
+      "N": 51,
+      "dx": 0.3200000000000003,
+      "B": 0.9604653935046087
+    }
+  ],
+  "B_fine": 0.9604653935046087,
+  "B_anti_hedgehog": -0.9604653935046087,
+  "B_pair": 0.014718537680458667,
+  "B_series_evolution": [
+    0.9409813675693823,
+    0.934950857361627,
+    0.9146507582849274,
+    0.8802572099455868,
+    0.8034540152293003
+  ],
+  "B_drift_short16steps": 0.026330609284454964,
+  "B_drift_full": 0.13752735234008207,
+  "checks": {
+    "converges_to_+1": true,
+    "anti_is_-1": true,
+    "pair_is_0": true,
+    "quantised": true,
+    "conserved_short_time": true
+  },
+  "note": "B is correctly quantised (->+-1, pair 0) and approximately conserved short-time; the FD-Skyrme force mildly heats the coarse-lattice soliton so B leaks over long times -- a discretisation limit, not a topological one.",
+  "verdict": "SIM"
+}

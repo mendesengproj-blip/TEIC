@@ -1,0 +1,83 @@
+{
+  "ladder": [
+    0,
+    1,
+    3,
+    10,
+    30,
+    100
+  ],
+  "rows": [
+    {
+      "N": 0,
+      "betti": 0,
+      "n_events": 13,
+      "n_edges": 12,
+      "n_internal_links": 0,
+      "v_eff": 1.0,
+      "cost_kinematic": 1.0,
+      "dx_total": 12.0,
+      "dt_total": 12.0
+    },
+    {
+      "N": 1,
+      "betti": 1,
+      "n_events": 16,
+      "n_edges": 16,
+      "n_internal_links": 4,
+      "v_eff": 0.9230769230769231,
+      "cost_kinematic": 1.0833333333333333,
+      "dx_total": 12.0,
+      "dt_total": 13.0
+    },
+    {
+      "N": 3,
+      "betti": 3,
+      "n_events": 22,
+      "n_edges": 24,
+      "n_internal_links": 12,
+      "v_eff": 0.8,
+      "cost_kinematic": 1.25,
+      "dx_total": 12.0,
+      "dt_total": 15.0
+    },
+    {
+      "N": 10,
+      "betti": 10,
+      "n_events": 43,
+      "n_edges": 52,
+      "n_internal_links": 40,
+      "v_eff": 0.5454545454545454,
+      "cost_kinematic": 1.8333333333333333,
+      "dx_total": 12.0,
+      "dt_total": 22.0
+    },
+    {
+      "N": 30,
+      "betti": 30,
+      "n_events": 103,
+      "n_edges": 132,
+      "n_internal_links": 120,
+      "v_eff": 0.2857142857142857,
+      "cost_kinematic": 3.5,
+      "dx_total": 12.0,
+      "dt_total": 42.0
+    },
+    {
+      "N": 100,
+      "betti": 100,
+      "n_events": 313,
+      "n_edges": 412,
+      "n_internal_links": 400,
+      "v_eff": 0.10714285714285714,
+      "cost_kinematic": 9.333333333333334,
+      "dx_total": 12.0,
+      "dt_total": 112.0
+    }
+  ],
+  "betti_equals_N": true,
+  "photon_v_is_1": true,
+  "v_eff_monotone_decreasing": true,
+  "verdict": "CONSTRUIDO",
+  "note": "Structures are built by construction (topology), not emergence. Betti=N and v_eff(0)=1 are exact; v_eff=1/(1+N/n_ext)."
+}

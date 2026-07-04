@@ -40,16 +40,19 @@ ROOT = Path(__file__).resolve().parents[1]
 # Files that ARE allowed to contain relativistic formulas.
 ALLOWED = {ROOT / "src" / "validation.py"}
 
-# Generator code that must stay clean: the reproducible core of the programme --
-# every data-generating module under src/ and experiments/.  The scan tokenises
-# each file and fails if a dilation formula or an undeclared complex literal hides
-# in live code (comments and string/regex literals are stripped by _code_only, so
-# a forbidden pattern quoted in a docstring is fine).  The labelled exception
-# blocks below are load-bearing here: e10/e11 compare against the postulated QM
-# phase inside COMPARISON ONLY blocks (complex numbers allowed there and nowhere
-# else); the SU(3) GROUP-DEF COMPLEX machinery is kept so the guard behaves
-# identically on the colour-sector generators when they are present.
-SCAN_DIRS = [ROOT / "src", ROOT / "experiments"]
+# Generator code that must stay clean.  EXTENDED under campaign A1/C1 (Fase 2)
+# from the original {src, experiments, results/matter, results/bridge,
+# results/tier3, results/dev_from_teic} to cover EVERY data-generating module in
+# the repository -- the whole of results/, every campaign generator under
+# docs/campaigns/ (incl. sr_teic_core.py), experiments/, and src/.  The audit
+# question of A1 was precisely whether a dilation formula or an undeclared complex
+# literal hid in a generator that the old, narrower scan never looked at; pointing
+# SCAN_DIRS at the full tree closes that gap and the guard stays GREEN
+# (r5_group_core.py's Gell-Mann generators carry the SU(3) GROUP-DEF COMPLEX
+# marker; audit tools under results/audit hold the forbidden patterns only inside
+# string/regex literals, which _code_only strips).
+SCAN_DIRS = [ROOT / "src", ROOT / "experiments", ROOT / "results",
+             ROOT / "docs" / "campaigns"]
 
 # Dilation formulas (forbidden everywhere except validation.py, even in a
 # COMPARISON ONLY block).

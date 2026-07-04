@@ -1,0 +1,38 @@
+{
+  "theta_pure": {
+    "force_diff_vs_force_cos": 0.0,
+    "psi_late": 0.0017783767012720386,
+    "passthrough": true
+  },
+  "phi_pure": {
+    "force_diff_vs_sine_gordon": 0.0,
+    "kink_rest_mass": 7.995563833154227,
+    "kink_mass_after": 7.995612150516739,
+    "winding": 0.9999999999999996,
+    "count_initial": 1,
+    "count_after": 1,
+    "stable": true,
+    "sine_gordon_theory_mass_comparison": 8.0
+  },
+  "conservation": {
+    "E0": {
+      "E_theta": 0.053173615527165284,
+      "E_phi": 0.8851200643723166,
+      "E_coup": 6.407047510789551,
+      "E_total": 7.345341190689032
+    },
+    "E1": {
+      "E_theta": 0.07078928530205943,
+      "E_phi": 2.41517870879175,
+      "E_coup": 4.855449178149603,
+      "E_total": 7.341417172243412
+    },
+    "drift": 0.0005342186759947693
+  },
+  "A_ok": true,
+  "B_ok": true,
+  "C_ok": true,
+  "passed": true,
+  "verdict": "VALIDADO",
+  "statement": "The coupled engine is consistent. theta-pure limit IS DBI's force_cos (force diff 0e+00) and a frozen-gauge collision passes through (psi_late 0.00 ~ 0, DBI3). phi-pure limit IS DBI's sine-Gordon (force diff 0e+00 interior); an explicit compact kink is STABLE with rest mass 7.996 (theory 8, DBI4). The symplectic integrator conserves the coupled energy E_theta+E_phi+E_coupling to 5.3e-04 (< 1%). G2-G6 may proceed."
+}

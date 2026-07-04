@@ -1,0 +1,69 @@
+{
+  "campaign": "FOTON_B3B4",
+  "experiment": "B4_anisotropic",
+  "rho": 2.0,
+  "R_hat_low": 8.0,
+  "height": 3,
+  "rows": [
+    {
+      "aniso": 1.0,
+      "R_hat": 8.0,
+      "P_tot": 24000,
+      "frac_B": 0.0032083333333333334,
+      "wilson_lo": 0.00256802163864481,
+      "wilson_hi": 0.00400765914738404,
+      "b_plane_12_13_23": [
+        1.4867050140279205,
+        1.5882578534052463,
+        1.5940066562497393
+      ]
+    },
+    {
+      "aniso": 2.0,
+      "R_hat": 8.0,
+      "P_tot": 24000,
+      "frac_B": 0.157625,
+      "wilson_lo": 0.1530696801288819,
+      "wilson_hi": 0.16228990797971488,
+      "b_plane_12_13_23": [
+        8.777173481780098,
+        8.887502834199378,
+        1.5940066562497393
+      ]
+    },
+    {
+      "aniso": 4.0,
+      "R_hat": 8.0,
+      "P_tot": 24000,
+      "frac_B": 0.47508333333333336,
+      "wilson_lo": 0.4687698121522694,
+      "wilson_hi": 0.48140482989336064,
+      "b_plane_12_13_23": [
+        232.25745935417922,
+        230.29952271408092,
+        1.5940066562497393
+      ]
+    },
+    {
+      "aniso": 8.0,
+      "R_hat": 8.0,
+      "P_tot": 24000,
+      "frac_B": 0.579125,
+      "wilson_lo": 0.5728666627919871,
+      "wilson_hi": 0.5853580107119408,
+      "b_plane_12_13_23": [
+        99425.53835456184,
+        98536.22717289256,
+        1.5940066562497393
+      ]
+    }
+  ],
+  "gate_isotropic_subthreshold": true,
+  "frac_grows_with_aniso": true,
+  "stretched_plane_blowup": 64378.58733972403,
+  "unstretched_plane_ratio": 1.0,
+  "is_coordinate_artifact": true,
+  "verdict": "DEATH (coordinate artefact exposed): frac_B does rise with anisotropy (0.0032->0.5791), BUT the control proves it is a UNITS/COORDINATE artefact, not physics: the magnetic content in the stretched planes (12,13, containing x_1) blows up x6e+04 while the unstretched plane (23) is unchanged (x1.00). This is exactly the embedding scale factor e^{(a-1)Htau} inflating A^{1j} -- rescaling one coordinate axis trivially tilts area bivectors toward it. The implementation (anisotropic EMBEDDING at fixed isotropic causal ORDER) conflates a coordinate stretch with physical anisotropy. A FAITHFUL B4 needs the anisotropy in the CAUSAL ORDER itself (direction-dependent light cones, true Bianchi-I), which breaks the conformal-flat trick and is a larger campaign. As implemented, Direction A does NOT open the magnetic sector; the [FRONTIER] stands.",
+  "verdict_tag": "DEATH_B4_COORD_ARTIFACT",
+  "runtime_s": 8.190929412841797
+}

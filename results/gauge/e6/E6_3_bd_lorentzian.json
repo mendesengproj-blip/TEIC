@@ -1,0 +1,104 @@
+{
+  "stage0_lattice": {
+    "shape": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "n_plaq": 18816,
+    "n_electric": 9408,
+    "n_magnetic": 9408,
+    "EB_split_clean": true,
+    "kmags": [
+      0.7853981633974483,
+      1.0471975511965976,
+      1.308996938995747,
+      1.5707963267948966,
+      1.832595714594046,
+      2.0943951023931953,
+      2.356194490192345
+    ],
+    "zero_crossing": [
+      0.7877841726820464,
+      1.0542300146166568,
+      1.3243754922724704,
+      1.6020716484137796,
+      1.8912575220579009,
+      2.204782865722427,
+      2.558031677471767
+    ],
+    "c_fit": 1.0465201079931312,
+    "rel_dev": 0.02766915338846598,
+    "n_crossings": 7,
+    "pass": true
+  },
+  "H1": {
+    "BG_check_maxabs": 0.0,
+    "M_gauge_maxabs": 1.6486811915683575e-14,
+    "operator_scale": 28.86960508062772,
+    "M_gauge_relative": 5.710785398566698e-16,
+    "pass": true
+  },
+  "H2": {
+    "kmags": [
+      1.3659098493868667,
+      1.9122737891416133,
+      2.4586377288963597,
+      3.0050016686511065,
+      3.5513656084058534,
+      4.0977295481606
+    ],
+    "frac_E_type": 1.0,
+    "frac_B_type": 0.0,
+    "mean_w_norm": -0.667851495254247,
+    "norm": {
+      "c_fit": NaN,
+      "rel_dev": NaN,
+      "n_cross": 0,
+      "zero_crossing": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "sharp": {
+      "c_fit": NaN,
+      "rel_dev": NaN,
+      "n_cross": 0,
+      "zero_crossing": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ]
+    },
+    "euclid": {
+      "zero_crossing": [
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN,
+        NaN
+      ],
+      "no_crossing": true
+    },
+    "pass": false
+  },
+  "verdict": "H1 PASS, STAGE0 PASS (lattice c=1.05 validates the method), but H2 does NOT pass on the CAUSAL SET: norm-mode c=nan dev=nan crossings=0/6 (E-type frac=1.00, B-type frac=0.00, mean w=-0.67). The indefinite signature is correct and gauge-invariant, and works on a manifold lattice, but the causal diamonds do not furnish the balanced E/B bivector content the Lorentzian cancellation needs -- the E5/E6-1 non-locality persists. FRONTIER (technical): signature solved, non-locality not.",
+  "verdict_tag": "H2_FRONTIER",
+  "config": {
+    "rho": 0.5,
+    "L_box": 4.6,
+    "N": 224,
+    "L": 2105,
+    "P": 2215
+  },
+  "runtime_s": 20.62546706199646
+}

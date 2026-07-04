@@ -1,0 +1,26 @@
+{
+  "G1": {
+    "passed": true
+  },
+  "G2": {
+    "transfers": true,
+    "frac_phi_max": 0.5722247463429316,
+    "grows_with_rho": true
+  },
+  "G3": {
+    "scenario": "2/3 (nuclea\u00e7\u00e3o MARGINAL s\u00f3 no regime mal-posto)",
+    "grade": "C",
+    "rho_gauge": null,
+    "any_pair": true,
+    "pairs_only_illposed": true
+  },
+  "G4": {
+    "single_kink_stable": true,
+    "kink_rest_mass": 7.995563833154227,
+    "pair_transient": true
+  },
+  "G5": {
+    "Q_conserved": true,
+    "pairs_seen": true
+  }
+}

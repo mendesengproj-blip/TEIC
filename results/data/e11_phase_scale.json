@@ -1,0 +1,82 @@
+{
+  "verdict": "CRITERIO A: a escala de fase k NAO emerge da rede. theta_0 tem de escalar como rho^(-0.57) ~ 1/sqrt(rho) para manter o padrao fisico fixo. Logo k = theta_0*sqrt(rho) e EXTERNO: carrega m/hbar, propriedade da MATERIA, nao da geometria causal. A geometria fornece a FORMA da interferencia (passos causais, oscilacao com sinal de e10), nao a ESCALA quantica. Fronteira TEIC<->QM completamente mapeada: (i) forma DERIVADA; (ii) escala k EXTERNA.",
+  "criterion": "A",
+  "params": {
+    "rhos": [
+      1.0,
+      4.0,
+      16.0,
+      64.0,
+      256.0
+    ],
+    "tau_ref": 4.0,
+    "theta0": 1.0,
+    "n_trials": 25,
+    "geometry": {
+      "d": 6.0,
+      "T_slit": 10.0,
+      "T_screen": 20.0
+    }
+  },
+  "near_axis_slope": 0.628970902033151,
+  "sweep": [
+    {
+      "rho": 1.0,
+      "mean_chain": 3.44,
+      "chain_std": 1.0229369482035537,
+      "steps_per_length": 0.86,
+      "fringe_spacing": 5.9792309084677875,
+      "n_fringes": 2.3344405341577215,
+      "theta0_required_for_fixed_pattern": 24.883720930232556
+    },
+    {
+      "rho": 4.0,
+      "mean_chain": 8.92,
+      "chain_std": 1.26237870704476,
+      "steps_per_length": 2.23,
+      "fringe_spacing": 2.3058917404853347,
+      "n_fringes": 6.053258594385721,
+      "theta0_required_for_fixed_pattern": 9.59641255605381
+    },
+    {
+      "rho": 16.0,
+      "mean_chain": 19.68,
+      "chain_std": 1.8048822676285565,
+      "steps_per_length": 4.92,
+      "fringe_spacing": 1.0451501181468084,
+      "n_fringes": 13.355171427972081,
+      "theta0_required_for_fixed_pattern": 4.349593495934959
+    },
+    {
+      "rho": 64.0,
+      "mean_chain": 40.48,
+      "chain_std": 2.368459414893994,
+      "steps_per_length": 10.12,
+      "fringe_spacing": 0.5081164606010176,
+      "n_fringes": 27.470393262414113,
+      "theta0_required_for_fixed_pattern": 2.114624505928854
+    },
+    {
+      "rho": 256.0,
+      "mean_chain": 85.6,
+      "chain_std": 3.4871191548325386,
+      "steps_per_length": 21.4,
+      "fringe_spacing": 0.24028684959263072,
+      "n_fringes": 58.08956678020377,
+      "theta0_required_for_fixed_pattern": 1.0
+    }
+  ],
+  "exponent_steps_per_length_vs_rho": 0.5728177163973416,
+  "exponent_theta0_required_vs_rho": -0.5728177163973414,
+  "expected_steps_exponent": 0.5,
+  "expected_theta0_exponent_if_A": -0.5,
+  "peak_check": {
+    "rho": 16.0,
+    "n_peaks": 13,
+    "peak_spacing": 1.1464435146443517,
+    "analytic_spacing": 1.0451501181468084
+  },
+  "depends_on": "R2 chain~sqrt(rho) scaling (Myrheim-Meyer) for the EMERGENT step count; closes e6 ingredient (ii) and e10 ingredient (i).",
+  "interpretation": "Two floors. BOTTOM (TEIC): causal geometry / information -> form of interference. BOUNDARY (e11): scale k=m/hbar and charge e do NOT emerge from geometry. TOP: quantum/matter scales are external.",
+  "note": "EXPLORATORY, isolated from R1-R3 and curvature. No m/hbar/lambda_dB in generator; postulated complex phase confined to a labelled COMPARISON ONLY block (anti-circularity guard)."
+}

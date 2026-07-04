@@ -1,0 +1,35 @@
+{
+  "weak_field": {
+    "amps": [
+      0.005,
+      0.01,
+      0.02,
+      0.04,
+      0.08
+    ],
+    "rel_diffs": [
+      1.1859344823763777e-08,
+      4.7437462298841494e-08,
+      1.8974995067334934e-07,
+      7.59000017618562e-07,
+      3.0360020984727156e-06
+    ],
+    "scaling_exponent": 2.0000010516346807
+  },
+  "static_d3": {
+    "A": 0.9792618984427245,
+    "C": -0.028005110878521467,
+    "tail_exponent": -0.9904185745776202
+  },
+  "energy_conservation": {
+    "E0": 0.07384688905312686,
+    "E1": 0.07384626497687069,
+    "drift": 8.450948498638788e-06
+  },
+  "bd_ok": true,
+  "d3_ok": true,
+  "conservation_ok": true,
+  "passed": true,
+  "verdict": "VALIDADO",
+  "statement": "The cos propagator is consistent: it reproduces the linear BD evolution in weak field (rel diff 1e-08 at amp=0.005, scaling ~ amp^2.0), its static weak-field limit is D3's 1/r potential (tail exponent -0.99), and the symplectic integrator conserves the cos energy (drift 8e-06). DBI3 may proceed."
+}

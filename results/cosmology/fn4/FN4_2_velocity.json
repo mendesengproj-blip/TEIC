@@ -1,0 +1,63 @@
+{
+  "params": {
+    "M_msun": 1.5,
+    "a0": 1.2e-10,
+    "lambda_A_pc": 17.3,
+    "gamma_plateau": 1.356098781048998
+  },
+  "max_divergence_DEV_vs_MOND": {
+    "s_pc": 1.0,
+    "delta_vtilde": 0.15456592044557915
+  },
+  "table": {
+    "1.0pc": {
+      "vtilde_DEV": 1.0099505576205579,
+      "vtilde_MOND": 1.164516478066137,
+      "divergence": 0.15456592044557915,
+      "MOND_boost_recovered_by_DEV": 0.06048365329433837
+    },
+    "1.7pc": {
+      "vtilde_DEV": 1.016527444148787,
+      "vtilde_MOND": 1.1645165360298524,
+      "divergence": 0.14798909188106535,
+      "MOND_boost_recovered_by_DEV": 0.10046068649164877
+    },
+    "5.0pc": {
+      "vtilde_DEV": 1.0437341964577798,
+      "vtilde_MOND": 1.164516543808468,
+      "divergence": 0.12078234735068816,
+      "MOND_boost_recovered_by_DEV": 0.2658346415828892
+    },
+    "10.0pc": {
+      "vtilde_DEV": 1.0753266603816345,
+      "vtilde_MOND": 1.1645165439072396,
+      "divergence": 0.08918988352560508,
+      "MOND_boost_recovered_by_DEV": 0.4578667810096133
+    },
+    "17.3pc": {
+      "vtilde_DEV": 1.106841163163793,
+      "vtilde_MOND": 1.1645165439130891,
+      "divergence": 0.05767538074929601,
+      "MOND_boost_recovered_by_DEV": 0.6494250403183476
+    },
+    "30.0pc": {
+      "vtilde_DEV": 1.1372012044453887,
+      "vtilde_MOND": 1.164516543913743,
+      "divergence": 0.027315339468354294,
+      "MOND_boost_recovered_by_DEV": 0.8339660023330183
+    },
+    "50.0pc": {
+      "vtilde_DEV": 1.1559894424625397,
+      "vtilde_MOND": 1.1645165439138139,
+      "divergence": 0.008527101451274222,
+      "MOND_boost_recovered_by_DEV": 0.9481687297312703
+    },
+    "100.0pc": {
+      "vtilde_DEV": 1.164044361119862,
+      "vtilde_MOND": 1.1645165439138236,
+      "divergence": 0.00047218279396155083,
+      "MOND_boost_recovered_by_DEV": 0.9971298765295672
+    }
+  },
+  "note": "v~=sqrt(boost); divergence = v~_MOND - v~_DEV; DEV->1 below lambda_A"
+}

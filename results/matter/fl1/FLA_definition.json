@@ -1,0 +1,98 @@
+{
+  "A1_group_axioms": {
+    "gellmann_norm_err": 4.440892098500626e-16,
+    "f_antisym_err": 0.0,
+    "d_sym_err": 0.0,
+    "f_123": 1.0,
+    "f_458": 0.8660254037844388,
+    "d_118": 0.5773502691896258,
+    "random_unit_err": 1.3322676295501878e-15,
+    "random_det_err": 1.4432899320127037e-15,
+    "closure_unit_err": 1.7763568394002505e-15,
+    "closure_det_err": 1.784146017590271e-15,
+    "associativity_err": 3.510833468576701e-16,
+    "exp_unit_err": 3.774758283725532e-15,
+    "exp_det_err": 1.45710163361808e-14,
+    "n_samples": 200000
+  },
+  "A2_wilson_psd": {
+    "min_density_overall": 2.1979046349596132e-07,
+    "max_density_overall": 1.4917854398852093,
+    "haar_min": 0.030392107818329017,
+    "identity_density": 0.0,
+    "near_identity_floor_mins": {
+      "scale_0.001": 2.1979046349596132e-07,
+      "scale_0.01": 2.5697840463023702e-05,
+      "scale_0.1": 0.0025547400748422433,
+      "scale_0.5": 0.06159187562396351,
+      "scale_1.0": 0.0693799181625172,
+      "scale_2.0": 0.046403169750223405
+    },
+    "analytic": "eig(W) on unit circle => Re Tr W = sum cos(theta_k) <= 3",
+    "n_samples": 1000000
+  },
+  "A3_sigma_psd": {
+    "min_sigma_density": 0.1743688379079512,
+    "n_samples": 1000000,
+    "analytic": "Tr(X^2) = sum lambda_k^2 >= 0 for Hermitian X"
+  },
+  "A4_cauchy_schwarz": {
+    "max_net_quartic_density": -0.016454646584434518,
+    "sign_theorem_holds": true,
+    "identity_max_rel_err": 7.7892911154142985e-16,
+    "cauchy_schwarz_bound": 6.0,
+    "max_ratio_K_over_TrM2": 2.061573138028728,
+    "abelian_ref": {
+      "K": 0.0,
+      "TrM2": 18.0,
+      "ratio": 0.0
+    },
+    "su2_hedgehog_ref": {
+      "K": 48.0,
+      "TrM2": 18.0,
+      "ratio": 2.6666666666666665
+    },
+    "note": "Net leading quartic <= 0 for SU(3), same as SU(2). Bound constant changes (K<=6 TrM2 here vs K<=2/3 S there) but conclusion is identical: Skyrme dominance structurally absent. NOT a Phase-A death (action still PSD); carried to Phase C.",
+    "n_samples": 1000000
+  },
+  "A5_causal_locality": {
+    "min_causal_fraction": 1.0,
+    "mean_causal_fraction": 1.0,
+    "links_per_seed": {
+      "mean": 311.9166666666667,
+      "sem": 18.09171011119388,
+      "min": 210.0,
+      "max": 395.0,
+      "n_seeds": 12
+    },
+    "diamond_loops_per_seed": {
+      "mean": 134.41666666666666,
+      "sem": 18.07788634623735,
+      "min": 57.0,
+      "max": 246.0,
+      "n_seeds": 12
+    },
+    "max_gauge_invariance_err": 8.881784197001252e-16,
+    "rho": 80.0,
+    "n_seeds": 12,
+    "analytic": "links = transitive reduction of the timelike relation (identical to SU(2) substrate); loop holonomy W->gWg^dag"
+  },
+  "verdict": {
+    "phase_A_passes": true,
+    "A1": true,
+    "A2": true,
+    "A3": true,
+    "A4": true,
+    "A5": true,
+    "action_positive_semidefinite": true,
+    "causal_locality_preserved": true
+  },
+  "_meta": {
+    "campaign": "FL1_SU3_FOUNDATION",
+    "phase": "A",
+    "timestamp": "2026-06-16T18:04:15.770673+00:00",
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

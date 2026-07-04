@@ -1,0 +1,39 @@
+{
+  "config": {
+    "rho": 0.5,
+    "box": [
+      [
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        10.0
+      ],
+      [
+        0.0,
+        10.0
+      ]
+    ],
+    "J": 2.0,
+    "n_seeds": 8,
+    "n_burn": 600,
+    "n_meas": 40
+  },
+  "transverse_power": 0.0042909212863526955,
+  "transverse_sem": 3.998768745093704e-06,
+  "longitudinal_power": 2.343819380674231e-05,
+  "longitudinal_sem": 8.72848656327637e-08,
+  "ratio": 183.07388878738405,
+  "transverse_dominates": true,
+  "order_param_mean": 0.9956986184979285,
+  "n_goldstone_O3": 2,
+  "n_goldstone_U1": 1,
+  "verdict": "TRANSVERSE-DOMINANT: the soft (massless) modes are the two transverse-to-<n> Goldstones; the longitudinal amplitude is stiff. Their COUNT (2) matches the photon's two polarisations. CAVEAT: this is internal-space transversality; full gauge-transversality to k (k.A=0) needs an internal<->spacetime index identification not supplied by the bare sigma model.",
+  "runtime_s": 82.13850092887878,
+  "timestamp_utc": "2026-06-13T16:47:51Z"
+}

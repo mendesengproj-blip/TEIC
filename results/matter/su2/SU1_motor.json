@@ -1,0 +1,31 @@
+{
+  "seed": 20242,
+  "gate1_u1_limit": {
+    "err_angle_addition": 4.440892098500626e-16,
+    "err_half_trace": 0.0,
+    "err_wilson_action": 0.0,
+    "err_monopole_charge": 3.3306690738754696e-16,
+    "pass": true
+  },
+  "gate2_group_identity": {
+    "err_inverse": 4.440892098500626e-16,
+    "err_associativity": 3.3306690738754696e-16,
+    "err_closure": 3.3306690738754696e-16,
+    "pass": true
+  },
+  "gate3_gauge_invariance": {
+    "S_before": 3599.1101565015924,
+    "S_after": 3599.1101565015924,
+    "rel_err": 0.0,
+    "pass": true
+  },
+  "gate4_energy_conservation": {
+    "E0": 1.7070482435180228,
+    "E_final": 1.70636093257743,
+    "drift": 0.0004026312338872424,
+    "nsteps": 150,
+    "pass": true
+  },
+  "all_pass": true,
+  "verdict": "SIM"
+}

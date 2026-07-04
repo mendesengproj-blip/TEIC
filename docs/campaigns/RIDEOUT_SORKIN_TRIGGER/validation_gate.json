@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "name": "E[#minimais] n=200 p=0.05",
+      "ok": true,
+      "detail": "medido 19.86+-0.21 vs fechado 20.00"
+    },
+    {
+      "name": "E[#arestas diretas] n=200 p=0.05",
+      "ok": true,
+      "detail": "medido 996.0+-2.1 vs fechado 995.0"
+    },
+    {
+      "name": "E[#minimais] n=400 p=0.1",
+      "ok": true,
+      "detail": "medido 9.88+-0.14 vs fechado 10.00"
+    },
+    {
+      "name": "E[#arestas diretas] n=400 p=0.1",
+      "ok": true,
+      "detail": "medido 7977.2+-5.7 vs fechado 7980.0"
+    },
+    {
+      "name": "aciclicidade/DAG (ancestrais < j)",
+      "ok": true,
+      "detail": "nenhum ancestral com indice >= j"
+    },
+    {
+      "name": "fecho transitivo idempotente",
+      "ok": true,
+      "detail": "anc[i] subset anc[j] para i in anc[j]"
+    },
+    {
+      "name": "percolacao: fracao de ordenacao cresce com N (p fixo)",
+      "ok": true,
+      "detail": "order_frac(N) = [np.float64(0.473), np.float64(0.838), np.float64(0.917)] @ p=0.05"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,71 @@
+{
+  "rows": [
+    {
+      "m_eV": 4.14e-24,
+      "f_GW_Hz": 2.002095092893556e-09,
+      "Psi_c_firstprinciples": 3.779335334792677e-15,
+      "Psi_c_literature": 1.5558511672773386e-14,
+      "nanograv_hc_at_fGW": 1.5129298661485256e-14,
+      "strain_ratio_Psi_over_hc": 0.24980241446444262,
+      "omega_gw_propagating_bound": 1.4283375572812474e-29
+    },
+    {
+      "m_eV": 5e-24,
+      "f_GW_Hz": 2.4179892426250678e-09,
+      "Psi_c_firstprinciples": 2.5910518361685036e-15,
+      "Psi_c_literature": 1.0666666666666669e-14,
+      "nanograv_hc_at_fGW": 1.3340507583435552e-14,
+      "strain_ratio_Psi_over_hc": 0.19422438164089972,
+      "omega_gw_propagating_bound": 6.713549617712174e-30
+    },
+    {
+      "m_eV": 1e-23,
+      "f_GW_Hz": 4.8359784852501355e-09,
+      "Psi_c_firstprinciples": 6.477629590421259e-16,
+      "Psi_c_literature": 2.6666666666666673e-15,
+      "nanograv_hc_at_fGW": 8.40399316032632e-15,
+      "strain_ratio_Psi_over_hc": 0.07707799693365931,
+      "omega_gw_propagating_bound": 4.195968511070109e-31
+    },
+    {
+      "m_eV": 3e-23,
+      "f_GW_Hz": 1.4507935455750407e-08,
+      "Psi_c_firstprinciples": 7.197366211579174e-17,
+      "Psi_c_literature": 2.9629629629629635e-16,
+      "nanograv_hc_at_fGW": 4.040218508115678e-15,
+      "strain_ratio_Psi_over_hc": 0.017814299392772102,
+      "omega_gw_propagating_bound": 5.180208038358155e-33
+    },
+    {
+      "m_eV": 1e-22,
+      "f_GW_Hz": 4.835978485250136e-08,
+      "Psi_c_firstprinciples": 6.477629590421256e-18,
+      "Psi_c_literature": 2.666666666666667e-17,
+      "nanograv_hc_at_fGW": 1.810585439939771e-15,
+      "strain_ratio_Psi_over_hc": 0.003577643698845128,
+      "omega_gw_propagating_bound": 4.1959685110701046e-35
+    },
+    {
+      "m_eV": 1.2e-22,
+      "f_GW_Hz": 5.803174182300163e-08,
+      "Psi_c_firstprinciples": 4.498353882236984e-18,
+      "Psi_c_literature": 1.8518518518518522e-17,
+      "nanograv_hc_at_fGW": 1.6033617774910547e-15,
+      "strain_ratio_Psi_over_hc": 0.002805576349260378,
+      "omega_gw_propagating_bound": 2.0235187649836542e-35
+    }
+  ],
+  "nanograv_omega_gw_at_fyr": 8.071876724369852e-09,
+  "nanograv_A_yr": 2.4e-15,
+  "rho_local_GeVcm3": 0.4,
+  "interpretation": {
+    "KR_line": "Psi_c is the MONOCHROMATIC PTA observable; compare to h_c(f_GW)",
+    "SGWB": "omega_gw_propagating_bound is a generous CEILING on the radiated stochastic background; the true value is far below."
+  },
+  "verdict_inputs": {
+    "max_strain_ratio_in_band": 0.24980241446444262,
+    "max_omega_gw_prop_in_band": 1.4283375572812474e-29,
+    "nanograv_omega_gw": 8.071876724369852e-09
+  },
+  "note": "m_A from Paper II; NANOGrav numbers COMPARISON ONLY; not adjusted"
+}

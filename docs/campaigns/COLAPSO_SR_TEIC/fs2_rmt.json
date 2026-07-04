@@ -1,0 +1,193 @@
+{
+  "experiment": "FS2_dyson_rmt",
+  "frozen": "FS_PRE_REGISTRO.md",
+  "R_Poisson": 0.3862943611198906,
+  "R_GOE": 0.5307,
+  "dims": [
+    2,
+    4
+  ],
+  "Ns": [
+    100,
+    200,
+    400
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "by": {
+    "dim2_A_sym_N100": {
+      "r_mean": 0.5109261712029985,
+      "r_sem": 0.008429366181691279,
+      "n_ratios": 936,
+      "n_degenerate": 9,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim2_A_sym_N200": {
+      "r_mean": 0.5248270994391969,
+      "r_sem": 0.0059001708297391,
+      "n_ratios": 1896,
+      "n_degenerate": 8,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim2_A_sym_N400": {
+      "r_mean": 0.5280940021431959,
+      "r_sem": 0.004126115599948917,
+      "n_ratios": 3816,
+      "n_degenerate": 5,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim2_L_link_N100": {
+      "r_mean": 0.5192509303060628,
+      "r_sem": 0.008421152264672795,
+      "n_ratios": 936,
+      "n_degenerate": 0,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim2_L_link_N200": {
+      "r_mean": 0.5243481703909637,
+      "r_sem": 0.005858115001270394,
+      "n_ratios": 1896,
+      "n_degenerate": 0,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim2_L_link_N400": {
+      "r_mean": 0.536593234543809,
+      "r_sem": 0.004109134620451397,
+      "n_ratios": 3816,
+      "n_degenerate": 0,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim2_M_BD_N100": {
+      "r_mean": 0.5279776052463736,
+      "r_sem": 0.008391042133079264,
+      "n_ratios": 936,
+      "n_degenerate": 0,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim2_M_BD_N200": {
+      "r_mean": 0.5166043093924951,
+      "r_sem": 0.005875242062216364,
+      "n_ratios": 1896,
+      "n_degenerate": 0,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim2_M_BD_N400": {
+      "r_mean": 0.5290170482775856,
+      "r_sem": 0.0041236666553530945,
+      "n_ratios": 3816,
+      "n_degenerate": 0,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim4_A_sym_N100": {
+      "r_mean": 0.5026001107795599,
+      "r_sem": 0.008570467494557685,
+      "n_ratios": 936,
+      "n_degenerate": 207,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim4_A_sym_N200": {
+      "r_mean": 0.5153540472477431,
+      "r_sem": 0.005966422702507314,
+      "n_ratios": 1896,
+      "n_degenerate": 185,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim4_A_sym_N400": {
+      "r_mean": 0.5196033250084411,
+      "r_sem": 0.0042146487885609644,
+      "n_ratios": 3816,
+      "n_degenerate": 140,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim4_L_link_N100": {
+      "r_mean": 0.4902847386153414,
+      "r_sem": 0.008730719338874024,
+      "n_ratios": 936,
+      "n_degenerate": 17,
+      "class": "intermediario (semi-Poisson)"
+    },
+    "dim4_L_link_N200": {
+      "r_mean": 0.5169760035107177,
+      "r_sem": 0.006069322999906322,
+      "n_ratios": 1896,
+      "n_degenerate": 10,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim4_L_link_N400": {
+      "r_mean": 0.5175868887537768,
+      "r_sem": 0.004136409461386998,
+      "n_ratios": 3816,
+      "n_degenerate": 0,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim4_M_BD_N100": {
+      "r_mean": 0.5087648010702864,
+      "r_sem": 0.008830344097607874,
+      "n_ratios": 936,
+      "n_degenerate": 15,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim4_M_BD_N200": {
+      "r_mean": 0.5156869027193492,
+      "r_sem": 0.006110532090680159,
+      "n_ratios": 1896,
+      "n_degenerate": 10,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    },
+    "dim4_M_BD_N400": {
+      "r_mean": 0.5202692243389688,
+      "r_sem": 0.004115869342713097,
+      "n_ratios": 3816,
+      "n_degenerate": 0,
+      "class": "GOE/RMT (SOBREVIVE: repulsao de Dyson)"
+    }
+  },
+  "N_stability_primary": {
+    "dim2_A_sym": {
+      "r_by_N": [
+        0.5109261712029985,
+        0.5248270994391969,
+        0.5280940021431959
+      ],
+      "drift": 0.01716783094019736,
+      "N_stable": true
+    },
+    "dim4_A_sym": {
+      "r_by_N": [
+        0.5026001107795599,
+        0.5153540472477431,
+        0.5196033250084411
+      ],
+      "drift": 0.01700321422888118,
+      "N_stable": true
+    }
+  },
+  "verdict_primary": {
+    "dim2": {
+      "r_mean_maxN": 0.5280940021431959,
+      "verdict": "SOBREVIVE (GOE/DBM)"
+    },
+    "dim4": {
+      "r_mean_maxN": 0.5196033250084411,
+      "verdict": "SOBREVIVE (GOE/DBM)"
+    }
+  },
+  "_meta": {
+    "timestamp": "2026-06-22T12:59:05.502068+00:00",
+    "python": "3.12.10",
+    "numpy": "2.4.4",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

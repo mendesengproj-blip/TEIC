@@ -1,0 +1,86 @@
+{
+  "engine": "fm2_core O(3) ferromagnet",
+  "L": 16,
+  "J_ordered": 1.0,
+  "seeds": 16,
+  "n_burn": 400,
+  "n_meas": 160,
+  "hs": [
+    1.0,
+    0.3,
+    0.1,
+    0.03,
+    0.01,
+    0.003,
+    0.001
+  ],
+  "chi_par": [
+    0.055179973464422834,
+    0.13578595281024072,
+    0.2212826990499097,
+    0.3384331566245403,
+    0.5382922928499845,
+    0.6741078007267332,
+    0.7111847815834236
+  ],
+  "chi_par_sem": [
+    0.0040321639105273125,
+    0.00679441808762784,
+    0.015022104562572493,
+    0.036561516122510775,
+    0.07412936986738888,
+    0.11963757493484227,
+    0.2034548243589216
+  ],
+  "chi_perp_ward_mpar_over_h": [
+    0.8037160411697307,
+    2.4860569851881693,
+    7.11158923605097,
+    22.99356958737464,
+    67.39665461141887,
+    223.79683823403272,
+    672.1307629862288
+  ],
+  "chi_perp_fluct_VVarMx": [
+    0.7210586536699877,
+    1.8640227703779455,
+    4.206745898081079,
+    4.752302061553562,
+    4.868439749677022,
+    4.963079902375652,
+    5.956464362414206
+  ],
+  "chi_perp_fluct_sem": [
+    0.039219306048259364,
+    0.17178915841697134,
+    0.5149014494219382,
+    0.611374286583252,
+    0.8003473072877292,
+    0.9698549965413524,
+    1.0914651624583618
+  ],
+  "m_par": [
+    0.8037160411697307,
+    0.7458170955564507,
+    0.711158923605097,
+    0.6898070876212392,
+    0.6739665461141887,
+    0.6713905147020982,
+    0.6721307629862288
+  ],
+  "exponent_par": 0.3652864251500649,
+  "exponent_perp_ward": 0.975135167365192,
+  "exponent_perp_fluct_finite_size": 0.26210438025334365,
+  "note_chi_perp": "chi_perp from the Ward identity <m_par>/h (correct in the broken phase); the fluctuation estimator V*Var(M_x) saturates at small h (xi_perp>L, finite size) and is reported only for transparency.",
+  "rho_s_of_J": {
+    "0.9": 0.24732258614803573,
+    "1.2": 0.4962044105415402,
+    "1.6": 0.7722808859515938,
+    "2.2": 1.1599917664285804
+  },
+  "G0_chi_par_p_near_0.5": true,
+  "sectors_distinct": true,
+  "scale_external": true,
+  "verdict": "LIMIT EQUIVALENCE (partial) -- chi_perp~h^-0.98 (transverse Goldstone, quadratic ~X, the omega=ck magnon) and chi_par~h^-0.37 (longitudinal coexistence anomaly = deep-MOND) have DISTINCT exponents.  The TEIC<->Khoury equivalence lives in the LONGITUDINAL response sector (an emergent IR anomaly), NOT in the tree-level transverse phonon action: the magnon is ~X, not Khoury's postulated X^{3/2}.  Confirms & sharpens Fase 2; the loose claim 'magnon = Khoury phonon' is FALSE.  K2-ESCALA: the deep-MOND coefficient (stiffness rho_s) rides on J/K (rho_s spans 0.25-1.16 over the J scan) => 'form equivalent, scale external' -- a0 absolute stays external, as predicted.",
+  "runtime_s": 113.15627765655518
+}

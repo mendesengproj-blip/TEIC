@@ -1,0 +1,53 @@
+{
+  "e_sk": 2.0,
+  "mass_M": 206.5595619965814,
+  "E2": 103.32958058132846,
+  "E4": 103.22998141525296,
+  "consistency_1_mass": {
+    "M": 206.5595619965814,
+    "ok": true
+  },
+  "consistency_2_dispersion": {
+    "v": [
+      0.0,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "E": [
+      201.98336439491595,
+      202.14842210935373,
+      202.64359525266713,
+      203.46888382485608
+    ],
+    "P": [
+      -0.0,
+      3.3011542887558547,
+      6.602308577511709,
+      9.903462866267562
+    ],
+    "M_inertial": 33.011542887559465,
+    "M_rest": 206.5595619965814,
+    "inertia_ratio": 0.15981609647345113,
+    "E2_minus_P2_spread_over_M2": 0.01181780667090309,
+    "ok": false
+  },
+  "consistency_3_gravity": {
+    "far_theta_r_const": -4.024562148739323,
+    "far_scatter": 0.5489958331316708,
+    "coeff_ratio": 1.4374702950676077,
+    "mass_ratio": 1.4173253073408618,
+    "scales_with_M": true,
+    "ok": true
+  },
+  "consistency_4_isotropy": {
+    "cone_anisotropy": 0.0969866677181483,
+    "ok": true
+  },
+  "consistency_5_spin": {
+    "verified": false,
+    "note": "SU7: 2pi->-state is a quantum FR phase, not classically verifiable"
+  },
+  "passed": "3/5",
+  "verdict": "B"
+}

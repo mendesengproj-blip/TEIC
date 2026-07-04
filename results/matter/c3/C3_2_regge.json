@@ -1,0 +1,14 @@
+{
+  "E_class": 297.16809037758964,
+  "I_mean": 312.736557290485,
+  "alpha_C_lattice": 0.9502339639420052,
+  "alpha_C_lattice_seed_err": 0.002353837213165476,
+  "alpha_C_identity_E_over_I": 0.950218589576547,
+  "rot_split_j_half": 0.0011990923071129216,
+  "softness_split_over_mass": 4.035064146992778e-06,
+  "regge_slope_true": null,
+  "qcd_alpha_prime_GeV^-2": 0.9,
+  "lattice_to_GeV_conversion": "UNDEFINED (lattice energy scale not derived)",
+  "qcd_comparison": "INDETERMINATE",
+  "note": "m^2 is Casimir-linear not Regge-linear (C3-1 Verdict C); a true Regge alpha' is undefined.  alpha_C is the rigid-rotor Casimir slope.  The lattice->GeV^-2 map needs a non-derived energy scale, so the only honest QCD comparison is dimensionless -- and since the scaling law itself differs (J(J+1) vs J), it is INDETERMINATE."
+}

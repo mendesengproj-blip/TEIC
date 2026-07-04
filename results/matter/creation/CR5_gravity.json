@@ -1,0 +1,16 @@
+{
+  "L": 60.0,
+  "n_bins": 40,
+  "r_core": 4.0,
+  "K": 1.0,
+  "wA": 16.555555555555557,
+  "wB": 18.0,
+  "A_A": 16.212224763107322,
+  "A_B": 17.62671417196904,
+  "A_C": 33.83893893507639,
+  "field_additivity_residual": 1.058406116831922e-15,
+  "amplitude_additivity_residual": 8.399113661611578e-16,
+  "theta_conserved": true,
+  "verdict": "SIM",
+  "statement": "The gravitational field is CONSERVED through the collision: the combined source (the conserved total causal energy, CR4) produces exactly the sum of the individual 1/r fields (A_A+A_B=33.839 vs A_C=33.839, residual 1e-15). Because the D3 action is linear and no matter is created (CR3), theta_A+theta_B -> theta_C holds identically: the energy gravitates the same way before and after. This is a self-consistency closure (linearity), not a new mechanism; D3's caveat that the prefactor G is non-universal still applies."
+}

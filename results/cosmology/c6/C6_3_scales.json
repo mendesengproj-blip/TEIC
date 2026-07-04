@@ -1,0 +1,155 @@
+{
+  "inputs": {
+    "hbar_Js": 1.054571817e-34,
+    "m_A_window_eV": [
+      3.7e-25,
+      1.2e-22
+    ],
+    "lambda_A_pc": 17.3,
+    "v_vir_kms": 200.0
+  },
+  "per_mass": [
+    {
+      "m_eV": 3.7e-25,
+      "lambda_C_pc": 17.283599766289917,
+      "xi_core_pc": 25907.464285121398,
+      "lambda_dB_pc": 162781.39894255466,
+      "kappa_circ_m2s": 1.0045818268044975e+27
+    },
+    {
+      "m_eV": 1e-24,
+      "lambda_C_pc": 6.394931913527269,
+      "xi_core_pc": 9585.761785494917,
+      "lambda_dB_pc": 60229.11760874522,
+      "kappa_circ_m2s": 3.71695275917664e+26
+    },
+    {
+      "m_eV": 1e-23,
+      "lambda_C_pc": 0.639493191352727,
+      "xi_core_pc": 958.5761785494917,
+      "lambda_dB_pc": 6022.911760874522,
+      "kappa_circ_m2s": 3.7169527591766406e+25
+    },
+    {
+      "m_eV": 1e-22,
+      "lambda_C_pc": 0.06394931913527269,
+      "xi_core_pc": 95.85761785494915,
+      "lambda_dB_pc": 602.2911760874521,
+      "kappa_circ_m2s": 3.71695275917664e+24
+    },
+    {
+      "m_eV": 1.2e-22,
+      "lambda_C_pc": 0.053291099279393905,
+      "xi_core_pc": 79.88134821245764,
+      "lambda_dB_pc": 501.9093134062101,
+      "kappa_circ_m2s": 3.0974606326472003e+24
+    }
+  ],
+  "intervortex": [
+    {
+      "galaxy": "dwarf (v=50, R=5 kpc)",
+      "m_eV": 3.7e-25,
+      "d_v_pc": 40346.176887352616,
+      "N_vort": 0.04824864318033132,
+      "dv_over_lambdaA": 2332.148953026163
+    },
+    {
+      "galaxy": "dwarf (v=50, R=5 kpc)",
+      "m_eV": 1e-24,
+      "d_v_pc": 24541.621301117255,
+      "N_vort": 0.1304017383252198,
+      "dv_over_lambdaA": 1418.5908266541765
+    },
+    {
+      "galaxy": "dwarf (v=50, R=5 kpc)",
+      "m_eV": 1e-23,
+      "d_v_pc": 7760.742078483553,
+      "N_vort": 1.304017383252198,
+      "dv_over_lambdaA": 448.59780800482963
+    },
+    {
+      "galaxy": "dwarf (v=50, R=5 kpc)",
+      "m_eV": 1e-22,
+      "d_v_pc": 2454.1621301117257,
+      "N_vort": 13.040173832521981,
+      "dv_over_lambdaA": 141.85908266541767
+    },
+    {
+      "galaxy": "dwarf (v=50, R=5 kpc)",
+      "m_eV": 1.2e-22,
+      "d_v_pc": 2240.333264061868,
+      "N_vort": 15.648208599026377,
+      "dv_over_lambdaA": 129.49903260473224
+    },
+    {
+      "galaxy": "median SPARC (v=120, R=15 kpc)",
+      "m_eV": 3.7e-25,
+      "d_v_pc": 45108.39707617567,
+      "N_vort": 0.3473902308983855,
+      "dv_over_lambdaA": 2607.4217963107326
+    },
+    {
+      "galaxy": "median SPARC (v=120, R=15 kpc)",
+      "m_eV": 1e-24,
+      "d_v_pc": 27438.36675367751,
+      "N_vort": 0.9388925159415826,
+      "dv_over_lambdaA": 1586.0327603281796
+    },
+    {
+      "galaxy": "median SPARC (v=120, R=15 kpc)",
+      "m_eV": 1e-23,
+      "d_v_pc": 8676.773421666117,
+      "N_vort": 9.388925159415825,
+      "dv_over_lambdaA": 501.54759662809926
+    },
+    {
+      "galaxy": "median SPARC (v=120, R=15 kpc)",
+      "m_eV": 1e-22,
+      "d_v_pc": 2743.836675367751,
+      "N_vort": 93.88925159415827,
+      "dv_over_lambdaA": 158.60327603281797
+    },
+    {
+      "galaxy": "median SPARC (v=120, R=15 kpc)",
+      "m_eV": 1.2e-22,
+      "d_v_pc": 2504.768735348161,
+      "N_vort": 112.66710191298992,
+      "dv_over_lambdaA": 144.78431996232143
+    },
+    {
+      "galaxy": "massive spiral (v=200, R=30 kpc)",
+      "m_eV": 3.7e-25,
+      "d_v_pc": 49413.77322304298,
+      "N_vort": 1.1579674363279517,
+      "dv_over_lambdaA": 2856.287469540057
+    },
+    {
+      "galaxy": "massive spiral (v=200, R=30 kpc)",
+      "m_eV": 1e-24,
+      "d_v_pc": 30057.224824177938,
+      "N_vort": 3.1296417198052753,
+      "dv_over_lambdaA": 1737.4118395478577
+    },
+    {
+      "galaxy": "massive spiral (v=200, R=30 kpc)",
+      "m_eV": 1e-23,
+      "d_v_pc": 9504.929058815633,
+      "N_vort": 31.296417198052755,
+      "dv_over_lambdaA": 549.4178646714238
+    },
+    {
+      "galaxy": "massive spiral (v=200, R=30 kpc)",
+      "m_eV": 1e-22,
+      "d_v_pc": 3005.7224824177933,
+      "N_vort": 312.96417198052757,
+      "dv_over_lambdaA": 173.74118395478573
+    },
+    {
+      "galaxy": "massive spiral (v=200, R=30 kpc)",
+      "m_eV": 1.2e-22,
+      "d_v_pc": 2743.836675367751,
+      "N_vort": 375.55700637663307,
+      "dv_over_lambdaA": 158.60327603281797
+    }
+  ]
+}

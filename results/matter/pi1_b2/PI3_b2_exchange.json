@@ -1,0 +1,127 @@
+{
+  "exchange": {
+    "classes": [
+      0,
+      0,
+      0
+    ],
+    "stable": true,
+    "value": 0,
+    "details": [
+      {
+        "class": 0,
+        "n_segments": 566,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.959060884409997,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 572,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9572926731266749,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 560,
+        "n_components": 1,
+        "component_parities": [
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9404735838378486,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "exchange_squared": {
+    "classes": [
+      0,
+      0,
+      0
+    ],
+    "stable": true,
+    "value": 0,
+    "details": [
+      {
+        "class": 0,
+        "n_segments": 1132,
+        "n_components": 2,
+        "component_parities": [
+          0,
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.959060884409997,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 1144,
+        "n_components": 2,
+        "component_parities": [
+          0,
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9572923530150727,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      },
+      {
+        "class": 0,
+        "n_segments": 1120,
+        "n_components": 2,
+        "component_parities": [
+          0,
+          0
+        ],
+        "all_chains_closed": true,
+        "boundary_touch": false,
+        "min_frame_dot": 0.9404730016820838,
+        "frame_dot_ok": true,
+        "failure": null,
+        "ok": true
+      }
+    ]
+  },
+  "verdict": {
+    "closure_max": 0.48569153464571446,
+    "slerp_valid": true,
+    "class_exchange": 0,
+    "class_exchange_squared": 0,
+    "predicted": {
+      "exchange": 1,
+      "exchange^2": 0
+    },
+    "death": true
+  },
+  "_meta": {
+    "campaign": "MATTER_PI1_B2",
+    "timestamp": "2026-06-12T00:03:11.618296+00:00",
+    "numpy": "2.4.4"
+  }
+}

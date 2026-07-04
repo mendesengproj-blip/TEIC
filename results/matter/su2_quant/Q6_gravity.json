@@ -1,0 +1,14 @@
+{
+  "e_sk": 4.0,
+  "M_Sk": 306.4629008783512,
+  "I": 312.4944843113752,
+  "E_half_3_over_8I": 0.0012000211806181616,
+  "M_tot": 306.46410089953184,
+  "rotational_correction_fraction": 3.915714356219918e-06,
+  "theta_1overr_scatter": 0.5458630004713072,
+  "one_over_r": true,
+  "coeff_ratio": 1.397568141998985,
+  "mass_ratio": 1.632042869659356,
+  "scales_with_mass": true,
+  "verdict": "SIM"
+}

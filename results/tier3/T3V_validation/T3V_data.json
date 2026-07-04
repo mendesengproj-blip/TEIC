@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "w_meet": "1/3",
+  "sampler": {
+    "K_FACTOR": 12,
+    "K_MIN": 128
+  },
+  "V0": {
+    "audited": 20000,
+    "mismatches": 0,
+    "passed": true
+  },
+  "V1": {
+    "results": [
+      {
+        "causet": "chain5",
+        "n": 5,
+        "n_ideals": 6,
+        "tv": 0.011859999999999982,
+        "passed": true
+      },
+      {
+        "causet": "antichain5",
+        "n": 5,
+        "n_ideals": 32,
+        "tv": 0.014847272727272725,
+        "passed": true
+      },
+      {
+        "causet": "diamond_stack7",
+        "n": 7,
+        "n_ideals": 10,
+        "tv": 0.015179999999999999,
+        "passed": true
+      },
+      {
+        "causet": "e7_grown6",
+        "n": 6,
+        "n_ideals": 18,
+        "tv": 0.012235294117647042,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "V2": {
+    "n_target": 6,
+    "M": 4000,
+    "n_classes_exact": 318,
+    "tv_mcmc": 0.09755158838020225,
+    "tv_e7_exact_sampler": 0.09841816429450939,
+    "threshold": 0.1476272464417641,
+    "passed": true
+  },
+  "V3": {
+    "results": [
+      {
+        "d_input": 2,
+        "d_est_mean": 1.9668645929311108,
+        "d_est_all": [
+          1.9189338358252963,
+          2.0025566833253055,
+          1.9791032596427303
+        ],
+        "passed": true
+      },
+      {
+        "d_input": 4,
+        "d_est_mean": 4.0580719829718594,
+        "d_est_all": [
+          4.06832432371593,
+          4.073956532461634,
+          4.031935092738013
+        ],
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "runtime_s": 16.1796800000011
+}

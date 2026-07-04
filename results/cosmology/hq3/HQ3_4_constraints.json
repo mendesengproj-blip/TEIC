@@ -1,0 +1,43 @@
+{
+  "bbn": {
+    "omega_gw_ceiling": 1.4283375572812474e-29,
+    "omega_gw_h2_integrated_ceiling": 6.411807294635521e-30,
+    "delta_Neff": 1.1449655883277717e-24,
+    "bound": 0.3,
+    "ok": true
+  },
+  "cmb": {
+    "omega_gw_h2_integrated": 6.411807294635521e-30,
+    "bound": 1e-05,
+    "ok": true
+  },
+  "lyman_alpha": {
+    "floor_100pct_DM_eV": 2e-21,
+    "paper_II_ceiling_eV": 1.2e-22,
+    "can_be_100pct_DM_in_band": {
+      "4.14e-24": false,
+      "1.00e-23": false,
+      "3.00e-23": false,
+      "1.00e-22": false,
+      "1.20e-22": false
+    },
+    "any": false,
+    "implication": "in-band masses are SUBDOMINANT DM -> KR amplitude scales down by the m_A fraction"
+  },
+  "soliton_excluded": {
+    "window_eV": [
+      1.3e-21,
+      1.4e-20
+    ],
+    "in_band_masses_excluded": {
+      "4.14e-24": false,
+      "1.00e-23": false,
+      "3.00e-23": false,
+      "1.00e-22": false,
+      "1.20e-22": false
+    },
+    "any": false
+  },
+  "all_ok": true,
+  "note": "all bounds COMPARISON ONLY; m_A from Paper II"
+}

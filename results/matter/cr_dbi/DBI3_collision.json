@@ -1,0 +1,148 @@
+{
+  "rhos": [
+    1,
+    2,
+    5,
+    10,
+    50,
+    100
+  ],
+  "n_seeds": 20,
+  "nsteps": 3000,
+  "half": 4.0,
+  "rows": [
+    {
+      "rho": 1,
+      "psi_late": {
+        "mean": -4.943637855769553e-06,
+        "std": 4.507021206865322e-05,
+        "sem": 1.0078005794584e-05,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.00026956598317175184,
+        "std": 0.0022496581804663553,
+        "sem": 0.0005030388617661259,
+        "n": 20
+      },
+      "frac_ill_posed": 0.0
+    },
+    {
+      "rho": 2,
+      "psi_late": {
+        "mean": -8.098095549361056e-05,
+        "std": 0.0007303038514221929,
+        "sem": 0.00016330090560099297,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.0005391319663435037,
+        "std": 0.0044993163609327105,
+        "sem": 0.0010060777235322519,
+        "n": 20
+      },
+      "frac_ill_posed": 0.0
+    },
+    {
+      "rho": 5,
+      "psi_late": {
+        "mean": -0.0029643724489636925,
+        "std": 0.030475387564032796,
+        "sem": 0.006814503823382906,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.0013478299158587582,
+        "std": 0.011248290902331776,
+        "sem": 0.00251519430883063,
+        "n": 20
+      },
+      "frac_ill_posed": 0.0
+    },
+    {
+      "rho": 10,
+      "psi_late": {
+        "mean": 0.04975536781216441,
+        "std": 0.3245254926058981,
+        "sem": 0.07256610618983934,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.0026956598317175165,
+        "std": 0.022496581804663553,
+        "sem": 0.00503038861766126,
+        "n": 20
+      },
+      "frac_ill_posed": 0.0
+    },
+    {
+      "rho": 50,
+      "psi_late": {
+        "mean": 89.61103925404193,
+        "std": 41.02679511105679,
+        "sem": 9.173870276727902,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.013478299158587587,
+        "std": 0.11248290902331776,
+        "sem": 0.025151943088306296,
+        "n": 20
+      },
+      "frac_ill_posed": 1.0
+    },
+    {
+      "rho": 100,
+      "psi_late": {
+        "mean": -284.28466720898416,
+        "std": 121.48926346300003,
+        "sem": 27.165825163964957,
+        "n": 20
+      },
+      "winding": {
+        "mean": -0.026956598317175173,
+        "std": 0.2249658180466355,
+        "sem": 0.05030388617661259,
+        "n": 20
+      },
+      "frac_ill_posed": 1.0
+    }
+  ],
+  "creation_subcritical": false,
+  "winding_any": false,
+  "compact_control": {
+    "explicit_kink_init": 1,
+    "explicit_kink_stable_after_T": 1,
+    "detector_validated": true,
+    "nucleation": {
+      "3": {
+        "kinks_at_T": 0,
+        "kinks_persist": 2
+      },
+      "5": {
+        "kinks_at_T": 0,
+        "kinks_persist": 0
+      },
+      "8": {
+        "kinks_at_T": 2,
+        "kinks_persist": 2
+      },
+      "12": {
+        "kinks_at_T": 2,
+        "kinks_persist": 2
+      }
+    },
+    "nucleation_threshold_amp": 8,
+    "creates_kinks": true
+  },
+  "compact_creates_kinks": true,
+  "oblique_psi_late": {
+    "mean": -0.024977490638336652,
+    "std": 0.23741143172847365,
+    "sem": 0.053086809998041745,
+    "n": 20
+  },
+  "scenario": "3 + 4",
+  "grade": "D",
+  "statement": "The scalar (density) cos sector does NOT create matter. Below rho_pi the cos collision is an essentially exact pass-through (psi_late ~ 0, W = 0): the gradient nonlinearity only softens the overlap, no bound structure and no winding -- extending CR3's null into the non-linear-but-subcritical regime. Above rho_pi (cos'' < 0) the evolution LOSES HYPERBOLICITY and runs away (ill-posed in up to 100% of seeds), a breakdown of the action, NOT controlled creation (Scenario 4). Winding is structurally absent because the density field is non-compact (single-valued); the SAME dynamics on a COMPACT field (sine-Gordon) supports a STABLE kink (detector validated) and nucleates a persistent kink-antikink pair above amp~8 -- so the creation mechanism exists ONLY in the compact gauge sector (A_mu), the next layer (Scenario 3)."
+}

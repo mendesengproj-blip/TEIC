@@ -1,0 +1,72 @@
+{
+  "measured_exponents_used": {
+    "3": -0.9500018126031573,
+    "4": -1.9969889419641362
+  },
+  "runs": {
+    "d2_perturbed": {
+      "d": 2,
+      "v_over_vc": 1.02,
+      "verdict": "BOUND_STABLE",
+      "r_min": 1.0000000000002451,
+      "r_max": 1.040676322654979,
+      "r_final": 1.0366519219402996
+    },
+    "d2_fast_escape_attempt": {
+      "d": 2,
+      "v_over_vc": 2.5,
+      "verdict": "BOUND_WIDE",
+      "r_min": 1.0000000000424198,
+      "r_max": 22.621356965579594,
+      "r_final": 18.592787358641058
+    },
+    "d3_perturbed": {
+      "d": 3,
+      "v_over_vc": 1.02,
+      "verdict": "BOUND_STABLE",
+      "r_min": 1.000000000000211,
+      "r_max": 1.0799264209535753,
+      "r_final": 1.0761698741250676
+    },
+    "d3_escape": {
+      "d": 3,
+      "v_over_vc": 1.6,
+      "verdict": "ESCAPE",
+      "r_min": 1.000001924571767,
+      "r_max": 200.0003544154176,
+      "r_final": 200.0003544154176
+    },
+    "d4_perturb_in": {
+      "d": 4,
+      "v_over_vc": 0.98,
+      "verdict": "BOUND_WIDE",
+      "r_min": 0.06092852652410098,
+      "r_max": 1.0000000358934724,
+      "r_final": 0.9982744029523098
+    },
+    "d4_perturb_out": {
+      "d": 4,
+      "v_over_vc": 1.02,
+      "verdict": "ESCAPE",
+      "r_min": 1.0000001047746614,
+      "r_max": 107.85591395652197,
+      "r_final": 107.85591395652197
+    }
+  },
+  "verdicts": {
+    "d2": {
+      "bound_orbits": true,
+      "escape_possible": false,
+      "note": "log model: V(inf)=+inf, escape energy infinite; the 2.5 v_c orbit must turn around (window-limited caveat in DS1: log-degenerate fit)"
+    },
+    "d3": {
+      "bound_orbits": true,
+      "escape_possible": true
+    },
+    "d4": {
+      "bound_orbits": false,
+      "escape_possible": true
+    }
+  },
+  "selection": "d=3 unique with bound_orbits AND escape_possible"
+}

@@ -1,0 +1,11 @@
+{
+  "X0_exponent_p_C3": 1.097327888698689,
+  "dtau_min_exponent_q_C3": -0.5486639443493445,
+  "rho_pi_DBI2": 17.993684971937466,
+  "X_crit_exponent": 1.062926569180896,
+  "X0_is_UV": true,
+  "a0_is_IR": true,
+  "rho_DBI_equals_rho_a0": false,
+  "verdict": "NAO / ABERTO",
+  "statement": "rho_DBI is a UV (granularity) scale, NOT the cosmological a0. The creation/saturation criticality sits at X_crit = (pi/Dtau_min)^2 ~ rho^(1.06), the SAME rho^+1 UV scaling as the DBI saturation scale X0 (C3: X0 ~ rho^1.10, from Dtau_min ~ rho^-0.55 light-cone sliver). a0 ~ 1.2e-10 m/s^2 is an IR / cosmological scale (~ c H0); equating X0 = a0^2 fixes rho to a Planck-granularity value unrelated to rho_pi. So the hoped unification rho_DBI = rho(a0) does NOT hold: matter-creation criticality (UV) and the galactic a0 (IR) are different scales. This reproduces C3/W4 ('X0 ~ rho is UV, not cH') from the creation side. The IR scale a0 must come from elsewhere (the next layer: BD non-locality / the A_mu sector), not from the scalar DBI saturation."
+}

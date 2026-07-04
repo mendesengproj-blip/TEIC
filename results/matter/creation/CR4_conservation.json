@@ -1,0 +1,130 @@
+{
+  "rho_ladder": [
+    2.0,
+    10.0,
+    50.0,
+    100.0
+  ],
+  "n_seeds": 20,
+  "rows": [
+    {
+      "rho": 2.0,
+      "balance": {
+        "mean": -0.07996360290447097,
+        "std": 0.14897926601454564,
+        "sem": 0.03331277660465482,
+        "n": 20
+      },
+      "rms_imbalance": 0.16576868946391846,
+      "loops_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "E_before": {
+        "mean": 14.4,
+        "std": 3.37794705639231,
+        "sem": 0.7553319242488521,
+        "n": 20
+      },
+      "E_after": {
+        "mean": 12.25,
+        "std": 3.058637467549029,
+        "sem": 0.6839321295967435,
+        "n": 20
+      }
+    },
+    {
+      "rho": 10.0,
+      "balance": {
+        "mean": -0.007337860299296039,
+        "std": 0.08128327432072414,
+        "sem": 0.018175492681490223,
+        "n": 20
+      },
+      "rms_imbalance": 0.07956422779022726,
+      "loops_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "E_before": {
+        "mean": 73.25,
+        "std": 8.296321315403656,
+        "sem": 1.8551138424423046,
+        "n": 20
+      },
+      "E_after": {
+        "mean": 72.15,
+        "std": 8.517937729162776,
+        "sem": 1.904668779051816,
+        "n": 20
+      }
+    },
+    {
+      "rho": 50.0,
+      "balance": {
+        "mean": 0.008702435836108413,
+        "std": 0.04370187686747888,
+        "sem": 0.009772036742000834,
+        "n": 20
+      },
+      "rms_imbalance": 0.04347520821266823,
+      "loops_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "E_before": {
+        "mean": 360.1,
+        "std": 15.447363937953263,
+        "sem": 3.454135583844234,
+        "n": 20
+      },
+      "E_after": {
+        "mean": 366.7,
+        "std": 21.243203247404246,
+        "sem": 4.7501246521040175,
+        "n": 20
+      }
+    },
+    {
+      "rho": 100.0,
+      "balance": {
+        "mean": -0.011055975364746676,
+        "std": 0.027704530987550328,
+        "sem": 0.006194921457291191,
+        "n": 20
+      },
+      "rms_imbalance": 0.029178735007604678,
+      "loops_late": {
+        "mean": 0.0,
+        "std": 0.0,
+        "sem": 0.0,
+        "n": 20
+      },
+      "E_before": {
+        "mean": 733.65,
+        "std": 27.135672772977365,
+        "sem": 6.067720893556761,
+        "n": 20
+      },
+      "E_after": {
+        "mean": 717.9,
+        "std": 34.089510657123036,
+        "sem": 7.622646314903063,
+        "n": 20
+      }
+    }
+  ],
+  "worst_systematic_imbalance": 0.07996360290447097,
+  "conserved": true,
+  "loop_slope": 0.0,
+  "loops_scale_with_rho": false,
+  "pair_creation": "N/A (no loops created)",
+  "verdict": "SIM",
+  "statement": "The total causal rate is CONSERVED across the collision: the SIGNED before/after event-count imbalance is consistent with ZERO at every density (largest |mean| 8.0%, within 3 sigma of 0); the per-seed scatter is pure Poisson 1/sqrt(N) counting noise, not physical loss. This conservation is the flip side of LINEARITY -- the chains carry their events through unchanged. N_loops does NOT scale with density (late bound order parameter ~ 0 at every rho, slope 0.000), so 'more energy -> more loops' is refuted and pair creation is N/A (no loops created). The network neither creates nor dissipates events."
+}

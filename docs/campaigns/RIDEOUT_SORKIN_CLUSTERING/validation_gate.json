@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "name": "ER transitivity ~= p",
+      "ok": true,
+      "detail": "measured C=0.0499 vs p=0.05"
+    },
+    {
+      "name": "K_n transitivity == 1",
+      "ok": true,
+      "detail": "measured C=1.000000"
+    },
+    {
+      "name": "path/tree transitivity == 0",
+      "ok": true,
+      "detail": "triangles=0 C=0.0"
+    },
+    {
+      "name": "ring lattice k=4 transitivity ~= 0.5",
+      "ok": true,
+      "detail": "measured C=0.5000 vs 0.5"
+    },
+    {
+      "name": "C4 path/tree == 0",
+      "ok": true,
+      "detail": "C4=0.0"
+    },
+    {
+      "name": "C4 K_n == 1",
+      "ok": true,
+      "detail": "C4=1.000000"
+    },
+    {
+      "name": "C4 2D torus in (0,1) and triangle-free",
+      "ok": true,
+      "detail": "C4=0.1250 tri=0"
+    }
+  ],
+  "passed": true
+}

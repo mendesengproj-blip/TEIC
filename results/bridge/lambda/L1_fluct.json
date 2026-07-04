@@ -1,0 +1,45 @@
+{
+  "lambda_total": 100000,
+  "rho": 23873.241463784303,
+  "n_seeds": 200,
+  "rows": [
+    {
+      "radius": 0.2,
+      "volume": 0.03351032163829113,
+      "mean_N": 797.735,
+      "rms_dN_over_N": 0.034642285933512734,
+      "predicted_rms": 0.035355339059327376,
+      "coefficient": 0.9798318119756081
+    },
+    {
+      "radius": 0.3,
+      "volume": 0.11309733552923253,
+      "mean_N": 2698.995,
+      "rms_dN_over_N": 0.019764989042900406,
+      "predicted_rms": 0.01924500897298753,
+      "coefficient": 1.0270189570003696
+    },
+    {
+      "radius": 0.4,
+      "volume": 0.26808257310632905,
+      "mean_N": 6394.15,
+      "rms_dN_over_N": 0.011574180309594052,
+      "predicted_rms": 0.0125,
+      "coefficient": 0.9259344247675241
+    },
+    {
+      "radius": 0.5,
+      "volume": 0.5235987755982988,
+      "mean_N": 12482.37,
+      "rms_dN_over_N": 0.008523983650112357,
+      "predicted_rms": 0.00894427190999916,
+      "coefficient": 0.9530103440374006
+    }
+  ],
+  "coefficient_mean": 0.9714488844452256,
+  "pre_registered": "1.00 +- 0.05 (sampling error of an rms with n seeds ~ 1/sqrt(2n): 0.16 at n=20, 0.05 at n=200; first 20-seed run gave 0.88 -- within 1 sigma -- and was tightened to 200 seeds)",
+  "_meta": {
+    "timestamp": "2026-06-11T10:00:10.958388+00:00",
+    "numpy": "2.4.4"
+  }
+}
