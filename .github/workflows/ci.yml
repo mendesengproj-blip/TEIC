@@ -1,0 +1,35 @@
+name: Anti-circularity guard
+
+# Runs the circularity guards on every push and pull request.
+#  * tests/test_no_circularity.py tokenises every data-generating module and fails
+#    if a Lorentz factor, a gravitational-redshift square root, or an undeclared
+#    complex literal appears in generator code.
+#  * tests/test_no_scale_literal.py (campaign A1) fails if a float literal coinciding
+#    with a physical scale (c, G, hbar, a_0, m_e, M_Planck, ...) is smuggled into a
+#    generator -- the scale-analogue of the dilation sin.
+# Both scan the full generator tree of this repository (src/ and experiments/).
+# This is the closest thing to independent verification available before other groups
+# reproduce the results: anyone who clones the repo and commits sees the guards run.
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest numpy scipy
+      - name: Run the anti-circularity guard (dilation + undeclared complex)
+        run: pytest tests/test_no_circularity.py -v
+      - name: Run the scale-literal guard (no smuggled physical scale; campaign A1)
+        run: pytest tests/test_no_scale_literal.py -v
+      - name: Run the full test suite
+        run: pytest tests/ -q

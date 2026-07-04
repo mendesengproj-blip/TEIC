@@ -1,0 +1,576 @@
+% PAPER_PHOTON_ARC_CQG --- standalone article targeting Classical and Quantum
+% Gravity (informative-negative result, the venue's stated remit).
+%
+% This is the "photon arc" paper: not a failure, a map. The TEIC programme asked
+% repeatedly whether a photon (a massless transverse gauge vector, Coulomb phase)
+% emerges from a causal set carrying an internal field. The answer is a sequence
+% of pre-registered measurements, each relocating the obstruction:
+%   E4   the orientation Goldstone modes are internal SCALARS, not a gauge vector
+%        (polarisation does not lock to k; permutation p=0.23) -> photon excluded
+%        in the orientation sector (this is the GoldstonePRD companion result).
+%   E5/E7 the gauge-connection (link U(1)) sector: engine validated, but the bare
+%        connection inherits the causal-set non-locality; the confine/Coulomb
+%        phase shows a lattice-like crossover near beta~1 (Coulomb not certified).
+%   E6-3 an indefinite-signature (E^2-B^2) Benincasa--Dowker gauge operator is
+%        CONSTRUCTED (new; no precedent in the CST literature): gauge-invariant
+%        to 5.7e-16, validated against free Maxwell on a 4D lattice (omega=ck,
+%        c=1.05), but H2 FAILS on the causet -- causal diamonds are 100% electric
+%        (B-type fraction = 0.0000), the magnetic sector is empty.
+%   E6b  height of the diamond does NOT supply the spacelike 2-cell (tail ~0.25%,
+%        non-growing).
+%   E6c  spatial CURVATURE does: frac_B rises monotonically, crosses 0.01 at
+%        R_hat=2 (b^2/e^2 per cell 0.11->0.97). The spacelike 2-cell exists and
+%        grows with curvature -- the first positive lever.
+%   E6d  coupling the ordered ferromagnet to the gauge field does NOT amplify it
+%        (the rise is disorder noise; order suppresses it -- Meissner analogue
+%        fails) -> dead.
+%   E6e  extrapolation: Delta frac_B ~ (1/R_hat)^1.73 ~ H^2 (R^2=0.997); an O(10%)
+%        magnetic sector needs R_hat~0.5-0.6 -- sub-Planckian. PHYSICAL frontier:
+%        the mechanism is real but Planck-scale; it does NOT explain the photons
+%        of the observable, low-curvature universe.
+%
+% NO photon is claimed as a positive result anywhere. The contribution is the
+% systematic map + the new indefinite BD-gauge operator + the precise, original
+% statement of the remaining obstruction (a spacelike Lorentz-invariant 2-cell at
+% LOW curvature).
+%
+% Self-contained. Compiles with pdflatex+bibtex (revtex4-2 + apsrev4-2.bst)
+% against TEIC_CONSOLIDATED.bib (copied into this folder). At submission this
+% converts to the iopart (CQG) class; the revtex build here is for review/length.
+%
+% Reframe (jul/2026, PLANO_REENQUADRAMENTO): intro positions the paper as the
+% delimiting half of the CST matter-sector line (cites MatterGravityPRD + SU3PRD);
+% sec:cst gains the structural (Campbell-Mecke / boost non-compactness) reason for
+% the non-locality measured per-sector. No result or claim changed.
+\documentclass[aps,prd,reprint,nofootinbib,superscriptaddress,floatfix]{revtex4-2}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\newcommand{\Rhat}{\hat R}
+\newcommand{\fracB}{f_{\!B}}
+
+\begin{document}
+
+\title{Where, and why, a photon is hard to emerge in causal set theory:\\
+a systematic map and an indefinite-signature gauge operator}
+
+\author{Miqueias Alves Mendes}
+\email{mikalvesm@gmail.com}
+\affiliation{Independent Researcher, Ibiapina, Cear\'a, Brazil}
+\date{\today}
+
+\begin{abstract}
+A recurring hope in emergent-spacetime programmes is that the photon---a massless
+transverse gauge vector with a Coulomb phase---should arise from the substrate rather
+than be postulated. We report a systematic, pre-registered search for such a photon on
+a causal set (a Poisson sprinkling with its causal order), and the result is an
+informative negative: a map of exactly where and why the photon is hard, ending at a
+precisely stated open construction. Six measured links. (i)~The Goldstone modes of an
+internal orientation order are two degenerate internal \emph{scalars}, not a gauge
+vector: their polarisation does not lock to the wavevector (permutation $p=0.23$); a
+$0$-form Goldstone of a global internal symmetry is structurally scalar. (ii)~We
+relocate the question to the gauge-connection (link $U(1)$) sector, where the engine is
+validated but the bare connection inherits the causal set's non-locality, and the
+confinement/Coulomb phase shows a lattice-like crossover near $\beta\simeq1$ (Coulomb
+not certified). (iii)~We construct an indefinite-signature ($E^2-B^2$)
+Benincasa--Dowker gauge operator---absent from the causal-set literature, which carries
+the d'Alembertian only on scalars---which is gauge-invariant to $5.7\times10^{-16}$ and
+reproduces free Maxwell on a $4$D lattice ($\omega=ck$, $c=1.05$); but on the causet it
+fails, because causal diamonds are $100\%$ electric (magnetic-cell fraction
+$\fracB=0.0000$): the magnetic sector is structurally empty. (iv)~Diamond \emph{height}
+does not supply the missing spacelike cell (tail $\sim0.25\%$, non-growing).
+(v)~Spatial \emph{curvature} does: $\fracB$ rises monotonically and crosses $0.01$ at de
+Sitter radius $\Rhat=2$. (vi)~Coupling the ordered ferromagnet to the gauge field does
+not amplify it (the rise is disorder, not order). Extrapolating the one positive lever,
+$\Delta\fracB\propto(1/\Rhat)^{1.73}\approx H^2$ ($R^2=0.997$), an $O(10\%)$ magnetic
+sector requires $\Rhat\approx0.5$--$0.6$---\emph{sub-Planckian}. The photon mechanism is
+therefore real but Planck-scale, and does not explain the photons of the
+observable low-curvature universe. (vii)~Two further low-curvature levers---future-cone
+cells and a genuine Bianchi-I anisotropy on the causal \emph{order}---are exhausted as well
+(the former gauge-trivial and off the Hasse-link substrate, the latter redistributing but
+not magnetising), closing the low-curvature map. We state the remaining obstruction exactly:
+a Lorentz-invariant spacelike $2$-cell on the causal order at low curvature.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}\label{sec:intro}
+
+That gauge fields might emerge as collective excitations of a structured vacuum---rather
+than be postulated---is a recurring theme, from emergent photons in quantum spin liquids
+and string-net condensates to the gauge sector of discrete quantum-gravity models
+\cite{SverdlovBombelli2009}. For any such claim two things must be shown, not merely the
+right \emph{number} of low-energy modes but the right \emph{tensorial character}: a
+photon is a transverse \emph{vector} $A_\mu$ with a gauge redundancy, a Coulomb phase,
+and a light-cone dispersion $\omega=ck$. The mode count alone never decides it.
+
+We pose this for the discrete substrate of causal set theory (CST), where spacetime is
+fundamentally a locally finite partial order---the order being the causal relation---and
+a Lorentzian manifold is an approximation to it \cite{BLMS1987}. The substrate's
+defining virtue is that a Poisson sprinkling breaks no Lorentz frame on average
+\cite{BombelliHensonSorkin2009}, and CST recovers spacetime dimension and a
+scalar-curvature (d'Alembertian) operator from the order alone
+\cite{Myrheim1978,BenincasaDowker2010,Surya2019}. We take these geometric results as
+established and add nothing to them; we ask only whether a \emph{photon} can be made to
+emerge on the same substrate.
+
+This paper is deliberately a negative result, in the sense \emph{Classical and Quantum
+Gravity} explicitly welcomes: a clear map of where a natural construction fails and why,
+ending at an open problem stated precisely enough to be attacked. It is also the
+delimiting half of a matter-sector programme on the same substrate: companion
+measurements derive an ordered vacuum with relativistic scalar Goldstone modes
+\cite{GoldstonePRD}, a spin-$\tfrac12$ topological baryon that sources its own
+gravitational field \cite{MatterGravityPRD}, and an $SU(3)$ colour sector with
+confinement and a meson octet \cite{SU3PRD}; the present map bounds those
+emergent-matter claims by a measured negative---the photon does not emerge in any
+sector tested---rather than by silence. The programme that
+generated it \cite{TEICDoc1} is cited once as provenance and never relied upon; every
+claim below is a stand-alone measurement under a guard (\S\ref{sec:protocol}) that
+forbids inserting relativity into the data-generating code. We proceed by elimination
+through the natural carriers of a photon, recording at each step what is measured and
+the obstruction that relocates the question:
+the orientation Goldstone sector, where the modes are scalars (\S\ref{sec:goldstone});
+the gauge-connection (link) sector, where non-locality blocks the bare connection
+(\S\ref{sec:link}); an indefinite-signature Benincasa--Dowker gauge operator, new to
+CST, which works on a lattice but finds the causal diamonds $100\%$ electric
+(\S\ref{sec:operator}); and three levers on the missing magnetic cell---height, which
+fails; curvature, which works; and an ordering coupling, which fails
+(\S\ref{sec:levers}). We then quantify the one positive lever and find the photon
+mechanism real but Planck-scale (\S\ref{sec:frontier}); we test the two further
+low-curvature levers---future-cone cells and a genuine Bianchi-I anisotropy on the causal
+order---and find both exhausted, closing the low-curvature map (\S\ref{sec:further});
+discuss what this means for the
+CST literature (\S\ref{sec:cst}), and delimit precisely what is and is not established
+(\S\ref{sec:claim}).
+
+\section{Substrate and protocol}\label{sec:protocol}
+
+The substrate is a causal set \cite{BLMS1987}: a finite set of events with a transitive,
+irreflexive, locally finite partial order $\prec$, realised by Poisson sprinkling into
+$(3{+}1)$-dimensional Minkowski space (or, in \S\ref{sec:levers}, de Sitter), with
+$x\prec y$ when $y$ lies in the causal future of $x$. The \emph{links} are the relations
+of the transitive reduction; a \emph{causal diamond} (order interval) is the set
+$\{z: x\prec z\prec y\}$, and the elementary plaquettes of the gauge sector are built
+from such diamonds. These are standard CST constructions, used without modification.
+
+\emph{Anti-circularity.} Because we ask whether relativistic gauge structure
+\emph{emerges}, we exclude having inserted it. A guard tokenises every data-generating
+module and fails if a Lorentz factor, a light-cone speed, or any closed relativistic
+form appears outside an explicitly labelled, non-generating comparison block. The speed
+of light is never input: where a dispersion $\omega=ck$ is reported it is fitted to a
+measured zero crossing, and $c$ appears only in quarantined comparison blocks. Every
+number below is produced by code that passes this guard.
+
+\section{The orientation Goldstone sector is scalar}\label{sec:goldstone}
+
+The first natural carrier is the Goldstone mode of a spontaneously ordered internal
+field. Placing a unit orientation $\vec n\in S^2$ on each event and coupling causal
+neighbours by the minimal $O(3)$ tension
+$S=J\sum_{\langle ij\rangle}\Delta\tau_{ij}[1-\vec n_i\!\cdot\!\vec n_j]$, the field
+orders spontaneously through a continuous transition, and the order is genuine by
+finite-size scaling (the order parameter rises with system size, Binder cumulant
+$U_4=2/3$ throughout) \cite{GoldstonePRD}. The ordering $O(3)\to O(2)$ leaves
+\emph{two} gapless transverse modes---the number a photon has.
+
+But the number is not the character. A photon's polarisation is a spatial index locked
+to the wavevector ($\vec k\!\cdot\!\vec\epsilon=0$); the two transverse modes here carry
+an \emph{internal} $S^2$ index with, a priori, no relation to space, because the global
+internal $O(3)$ is decoupled from the spacetime causal order. Measuring the
+$2\times2$ polarisation tensor over $160$ wavevectors and testing the
+eigenvector--$\hat k$ correlation against a confound-free permutation null, the
+polarisation does \emph{not} track the wavevector (circular correlation $0.10$,
+permutation $p=0.23$); the two modes are degenerate ($3.7\%$) and spatially isotropic
+\cite{GoldstonePRD}. They are two internal \emph{scalar} Goldstone bosons, not a gauge
+vector. This is not an accident of the model but the generic outcome: a $0$-form
+Goldstone of a \emph{global internal} symmetry carries an internal index unlocked from
+space, so it is structurally a scalar (in the model's non-Abelian extension these are
+precisely the pseudoscalar mesons \cite{GellMann1962}, not a photon). A gauge vector
+requires a field with a spacetime index \emph{and} a gauge redundancy---which an
+internal order parameter does not provide. The photon, if it exists here, must live in a
+different sector. We take this E4 result as the established starting point (it is the
+subject of the companion paper \cite{GoldstonePRD}) and build forward from it.
+
+\section{The gauge-connection sector and its non-locality}\label{sec:link}
+
+The natural carrier with a genuine spacetime index and a gauge redundancy is a
+\emph{connection} on the causal links: a $U(1)$ link variable $\theta_{ij}$ in the
+spirit of lattice gauge theory \cite{Wilson1974}, whose Wilson loops around causal
+diamonds define the field strength. Such a gauge \emph{action} has a precedent in CST
+\cite{Sverdlov2008,SverdlovBombelli2009}: holonomies attached to causally related events
+and a Lagrangian built from parallel transport around diamonds. What has never been done
+is to measure its phase or its dispersion, and that is where the obstruction lives.
+
+We validated the link engine---gauge invariance to machine precision, a $4$D ordering
+transition, gauge-invariant diamond plaquettes---and then measured the
+confinement/Coulomb phase via Wilson loops. The result is a \emph{crossover}
+confine~$\to$~Coulomb near $\beta\simeq1$ that mirrors the compact-$U(1)$ lattice anchor
+(the log-slope of large loops crosses from the confining band to the Coulomb band near
+$\beta\approx0.85$, tracking the matched lattice points); a permanently confining $U(1)$
+is therefore \emph{disfavoured}. But the Coulomb phase is \emph{not certified}: the clean
+discriminator (the Creutz ratio on $R\times T$ rectangles) cannot be built on the
+non-local causal order---there is no controlled rectangular loop structure---and a patch
+surrogate fails its own validation control. The root cause is the documented non-locality
+of causal-set operators \cite{Sorkin2007,BenincasaDowker2010}: the mean graph degree
+grows without bound (empirically $\propto L^{2.9}$), and the region
+$\{$future$,\ \tau\le\tau_{\max}\}$ has infinite volume in Minkowski, so there is no
+finite-volume Lorentz-invariant local neighbourhood. The bare connection inherits this;
+a smeared operator is needed, exactly as the scalar sector needed the smeared
+Benincasa--Dowker d'Alembertian.
+
+A third, independent manifestation of the same non-locality shows that it obstructs not
+merely the \emph{measurement} of the gauge phase but the gauge-generating
+\emph{mechanism} itself. We tested the Anderson--Higgs route to a massive gauge field
+directly: a gauge-invariant charged $U(1)$ condensate---an $O(3)$ order parameter gauged
+under a non-compact $U(1)$ with covariant hopping---built on the same substrate. On a
+regular $4$D lattice the mechanism is correct, the standard Higgs result: the gauge mass
+grows with the condensate ($m_A:0\to0.63$ as the coupling turns on) and vanishes in the
+disordered phase. On the causet it fails. Local spontaneous symmetry breaking needs the
+charged condensate to hold a coherent phase across an event's neighbourhood, but the
+causal order supplies $\sim25$ Hasse neighbours per event (against $8$ on the local
+lattice, and growing with $N$), whose incoherent gauge phases frustrate it: the order
+escapes to the neutral, ungauged axis (the charged bond order collapses $0.91\to0.00$
+while the neutral order rises $0.00\to0.91$ already at coupling $\lambda=0.1$), $U(1)$ is
+never broken, no Goldstone is absorbed, and the gauge field stays massless ($m_A=0$); a
+stiffer gauge coupling does not rescue it. The Wilson-loop phase, the Coulomb
+discriminator, and now the charged condensate are three independent observables blocked
+by one structural fact: the non-locality of the Poisson causal order ($\sim25$ Hasse
+neighbours per event) defeats any construction that requires local phase coherence. This
+is a structural frontier of the substrate, not a technical limitation---and it is the
+reason the next step is a \emph{smeared} operator, which tames exactly this non-locality.
+
+\section{An indefinite-signature Benincasa--Dowker gauge operator}\label{sec:operator}
+
+\subsection{Why an indefinite signature, and why it is new}
+The scalar Benincasa--Dowker (BD) operator tames the non-locality with
+alternating-sign layer weights that annihilate the divergent constant mode and converge
+to $\Box$ in the continuum \cite{BenincasaDowker2010,DowkerGlaser2013}; its continuum
+limit is proved \cite{BelenchiaBenincasaDowker2016}, which is the only reason it is
+trusted. A literature scan (performed before any code) confirms that the entire BD /
+Dowker--Glaser line defines the operator on a \emph{scalar field only}: there is no
+BD-type operator for a vector, a connection, a $1$-form, or any $p$-form. The gauge line
+in CST \cite{Sverdlov2008,SverdlovBombelli2009} supplies an \emph{action}, not a smeared
+operator and not a dispersion. Moreover, a naive positive-definite gauge action
+$\tfrac12\sum_P F_P^2$ is \emph{Euclidean}: it measures a non-negative energy with a
+minimum at $\omega\approx0$, not a propagation. A Lorentzian photon needs an
+\emph{indefinite} action, $E^2-B^2$, where the electric and magnetic modes enter with
+opposite signs and produce the light cone.
+
+We therefore construct an indefinite-signature BD-type gauge operator: each causal-
+diamond plaquette is classified by its area bivector as \emph{E-type} (timelike bivector,
+$A^{0i}$-dominant) or \emph{B-type} (spacelike, $A^{ij}$-dominant), and the two enter the
+quadratic form with opposite signs,
+\begin{equation}
+S \;=\; \sum_{P\in E}\!F_P^2 \;-\!\sum_{P\in B}\!F_P^2 ,
+\label{eq:indef}
+\end{equation}
+the $1$-form analogue of the scalar operator's alternating layer weights. This object has
+no precedent in CST and no continuum theorem of its own; its correctness is part of the
+research, and we gate it accordingly.
+
+\subsection{Gauge invariance and the lattice validation gate}
+Two checks precede any causal-set reading. \emph{Gauge invariance} is automatic
+($F=d\theta$, so $\delta S=0$ under $\theta\to\theta+d\chi$ since $d^2=0$) and measured
+to a relative $5.7\times10^{-16}$---the indefinite signature does not break it.
+\emph{Continuum recovery}: on a regular $4$D lattice, where the free-Maxwell answer is
+known and the E/B split is clean ($9408$ E-type, $9408$ B-type plaquettes on an $8^4$
+lattice), the symbol's zero crossing follows $\omega=ck$ with a fitted light-cone speed
+$c=1.05$ (deviation $3\%$), $c$ never inserted. The operator represents Maxwell where
+Maxwell is known.
+
+\subsection{The causet result: diamonds are 100\% electric}
+On the Poisson causet the operator fails, and the reason is sharp. The causal diamonds
+are \emph{entirely} E-type: the measured B-type fraction is $\fracB=0.0000$ exactly
+across nine sprinklings ($N\le626$), and the exactly-zero value is stable as the
+network grows---scanning $N\simeq200$ to $2000$ leaves $\fracB=0.0000$ with a
+one-sided Wilson $95\%$ upper bound falling to $6\times10^{-5}$ over $6\times10^4$
+plaquettes (Table~\ref{tab:fBN}), confirming the electricity of the diamonds is
+structural, not a finite-size effect. Every causal diamond contains the timelike
+extension from its past tip to its future tip, so its area bivector is timelike and
+$b^2<e^2$ always; the magnetic sector that the $-\sum_B F_P^2$ term needs is
+\emph{structurally empty}.
+
+\begin{table}[t]
+\caption{The exactly-zero magnetic ($B$-type) fraction is stable across network size
+$N$. Each row pools three Poisson sprinklings at the target $N$; $\fracB$ is the
+$B$-type fraction over all $P$ height-$2$ causal-diamond plaquettes, and the last
+column is the one-sided Wilson $95\%$ upper bound for zero $B$-type cells out of $P$.
+The structural electricity of the causal diamonds is not a finite-size effect.}
+\label{tab:fBN}
+\begin{ruledtabular}
+\begin{tabular}{rrcc}
+$N$ & plaquettes $P$ & $\fracB$ & Wilson $95\%$ upper \\
+\colrule
+$200$  & $6\,218$  & $0.0000$ & $6.2\times10^{-4}$ \\
+$500$  & $59\,901$ & $0.0000$ & $6.4\times10^{-5}$ \\
+$1000$ & $60\,000$ & $0.0000$ & $6.4\times10^{-5}$ \\
+$2000$ & $60\,000$ & $0.0000$ & $6.4\times10^{-5}$ \\
+\end{tabular}
+\end{ruledtabular}
+\end{table} The symbol is then $\lambda\propto-e^2\propto-\omega^2$,
+strictly negative, and never crosses zero: no light cone. This is not the Euclidean
+failure of the naive action (positive-definite, minimum at $\omega\approx0$); it is the
+opposite failure of a correctly indefinite operator with \emph{no $B^2$ term to
+balance}. The frontier is thereby \emph{relocated}, not crossed: the obstacle is neither
+the signature (resolved) nor the BD weight (the normalised, sharp, and raw weights fail
+identically), but the absence of a \emph{spacelike $2$-cell} in the causal order. That is
+the precise open construction the rest of the paper probes.
+
+\subsection{Continuum limit: an open mathematical problem}\label{sec:contlimit}
+We are explicit about the status of the operator itself. The scalar Benincasa--Dowker
+operator has a \emph{proven} continuum limit: it converges to $\Box$ as the sprinkling
+density $\rho\to\infty$
+\cite{BenincasaDowker2010,DowkerGlaser2013,BelenchiaBenincasaDowker2016}. The
+indefinite-signature gauge extension constructed here is validated only
+\emph{numerically}---on a regular $4$D lattice where Maxwell is known (gauge invariance
+to $5.7\times10^{-16}$, $\omega=ck$ with $c=1.05$, \S\ref{sec:operator})---and its
+continuum limit has \emph{not} been proven analytically. We regard this as an open
+mathematical problem: the lattice validation is necessary but not sufficient for a
+claim of mathematical equivalence to Maxwell. Accordingly we read the causet verdict as
+a \emph{structural} statement about the causal-diamond $2$-complex (the cells are
+electric), not as a proven continuum result---a distinction we keep throughout.
+
+\section{Three levers on the spacelike 2-cell}\label{sec:levers}
+
+If the obstruction is the absence of a spacelike $2$-cell, three geometric levers might
+supply one: making the diamond taller, curving space, or coupling the ordered internal
+field. We test each with a pre-registered success/death criterion, reusing the same
+E/B classifier verbatim so that the levers are the only variable.
+
+\subsection{Height does not help}\label{sec:height}
+Generalising the height-$2$ plaquette to a $2h$-gon (two ascending chains of length $h$
+between the tips; $h=2$ reproduces the original, B-type $=0.0000$, as an anchor), we
+sweep $h=2$--$6$ at $N\le2000$. The exact zero is specific to height $2$. Spacelike
+B-type cells \emph{appear} for $h\ge3$, but as a tail $\sim0.25\%$ that does \emph{not}
+grow ($h{=}3{:}\,0.0024$, $h{=}6{:}\,0.0010$, declining at best sampling) and whose per-
+cell $b^2/e^2$ \emph{decreases} with height ($0.22\to0.08$). No well-sampled cell reaches
+the $0.01$ threshold. The route ``taller diamond'' to the spacelike $2$-cell is closed:
+the magnetic sector is of measure zero at every height, with no light cone.
+
+\subsection{Curvature does}\label{sec:curvature}
+The orthogonal lever is spatial \emph{curvature}. A de Sitter background dS$_4$ in flat
+slicing is conformally flat, so the \emph{causal order} in conformal coordinates is
+identical to Minkowski's: sprinkling a conformal box gives the \emph{same} causet
+ensemble at every curvature, with curvature the only variable (no loss of statistics).
+The E/B split is read from the $5$D hyperboloid embedding $-X_0^2+\sum X_i^2=R^2$, where
+curvature enters only through the area bivector. A mandatory gate passes: at $R\to\infty$
+the curved construction reproduces the flat height scan bit-for-bit
+($h{=}2{:}\,0.0000$, $h{=}3{:}\,0.0024$).
+
+Curvature \emph{supplies} the magnetic sector, monotonically---the opposite of height.
+The per-cell $b^2/e^2$ rises $8.6\times$ (from $0.11$ at the Minkowski floor toward $0.97$
+under strong curvature), and the B-type fraction rises at every curvature step. At
+$\Rhat\equiv R_{\rm dS}/\ell=2$ (de Sitter radius $\approx1.7\,\ell$), the measured
+$\fracB=0.0117$ with a Wilson-style lower bound $0.0105>0.01$ over $\sim2.8\times10^4$
+plaquettes (N-stable, not a fluctuation): the pre-registered success threshold fires.
+The spacelike $2$-cell \emph{exists and grows with curvature}. We calibrate this
+honestly: the crossing is marginal ($1.2\%$) and only at extreme curvature; the
+\emph{average} diamond is still electric ($b^2/e^2=0.97<1$), so the magnetic sector is a
+$\sim1.2\%$ tail at the edge of the light cone, not $O(1)$. (Height $2$ is immune,
+$\fracB=0.0000$ at every curvature, since it always contains the tip-to-tip timelike
+extension.) The obstruction is thus \emph{flat-specific and curvature-removable}; what
+remains is to make the fraction $O(1)$, not a tail.
+
+\subsection{An ordering coupling does not amplify it}\label{sec:coupling}
+Before pushing curvature further, we test whether the ordered orientation field of
+\S\ref{sec:goldstone} can \emph{amplify} the $1.2\%$ signal, by coupling it to the gauge
+field, $\Phi=A+\lambda(\vec n_i\times\vec n_j)\!\cdot\!\hat e_z$, on the curved substrate
+($\Rhat=2$). The coupling is realised exactly inside the E/B classifier ($\lambda=0$
+reproduces \S\ref{sec:curvature} bit-for-bit). It does not amplify. The B-type fraction
+does rise with $\lambda$ (to $0.27$ at $\lambda=2$)---but through \emph{disorder}, not
+order: at $\lambda=2$ the disordered phase ($0.272$) exceeds the ordered phases
+($J_c{:}\,0.205$, $2J_c{:}\,0.099$), so \emph{more order gives less magnetic fraction},
+and at small $\lambda$ order even suppresses it below the baseline. Any incoherent
+internal texture inflates $b^2$ as spacelike noise; ordering removes it. The Meissner-
+like analogue (a coherent condensate amplifying the magnetic sector) does \emph{not}
+occur. This lever is dead: the magnetic fraction can come only from curvature, not from
+ordering.
+
+\section{The mechanism is real, but Planck-scale}\label{sec:frontier}
+
+Curvature is the one positive lever, so we ask quantitatively how much is needed for an
+$O(1)$ photon. Fitting the five finite-curvature points (well-conditioned, parameter
+uncertainties $\le17\%$), the curvature-added magnetic fraction obeys
+\begin{equation}
+\Delta\fracB \;=\; \fracB-\fracB^{\rm flat}\;\propto\;(1/\Rhat)^{1.73}\;\approx\;H^2,
+\qquad R^2=0.997,
+\label{eq:H2}
+\end{equation}
+i.e.\ the added fraction scales as the curvature squared (a fixed quadratic gives
+$R^2=0.984$, as good within errors). Extrapolating, an $O(10\%)$ magnetic sector requires
+$\Rhat\approx0.5$--$0.6$ (range $0.13$--$0.75$); $O(50\%)$ needs $\Rhat\approx0.2$--$0.3$;
+even $O(5\%)$ needs $\Rhat\approx0.8$--$0.9$. Every target lies at $\Rhat<1$: a de Sitter
+radius below the discreteness scale. Identifying the discreteness scale with the Planck
+scale ($\ell\equiv\ell_{\rm Planck}$, declared external), this is \emph{sub-Planckian}
+curvature---at or below the floor where the continuum/sprinkling picture is valid. A
+pessimistic but comparably good exponential fit \emph{saturates} at $\sim3\%$, making
+$O(10\%)$ unreachable at \emph{any} curvature.
+
+The physical reading is unambiguous and is the central honest conclusion of the paper.
+The curvature mechanism is real and cleanly characterised ($\fracB\propto H^2$,
+$R^2=0.997$), but it delivers an $O(1)$ magnetic sector only at Planck-scale curvature.
+The observable universe has $\Rhat$ astronomically large, where Eq.~\eqref{eq:H2} gives
+$\fracB\approx$ the flat tail $\approx0$. \emph{The BD-gauge curvature route therefore
+does not explain the photons of the observable, low-curvature universe.} This is a
+\emph{physical} frontier, not merely a technical one: the ingredient (extreme curvature)
+is well-defined and the scaling law is clean, but the required value lies where the
+framework's own continuum description fails. A full Monte-Carlo campaign at $\Rhat<1$ is
+of marginal value and not pursued; the well-conditioned extrapolation already answers the
+question.
+
+\section{Two further levers at low curvature}\label{sec:further}
+
+Curvature is the only lever above that opens the magnetic sector, and only at the Planck
+scale. Two further constructions remain that might supply a spacelike cell \emph{at low
+curvature}; we test both under the same pre-registered discipline---with a control null in
+each---and both fail, so the low-curvature map closes.
+
+\subsection{Future-cone cells: gauge-trivial and off the link substrate}\label{sec:futurecone}
+Instead of the diamond anchored on a timelike pair, anchor a cell on a \emph{spacelike}
+pair ($i,j$ incomparable) with apices in their common future. The raw magnetic fraction is
+spectacular---$\fracB=0.836$ at low curvature, N-stable, some $70\times$ the curved-diamond
+value---but a control exposes it: a null with \emph{random} apices on the same spacelike
+base already gives $0.614$, the kinematic floor of anchoring on a spacelike diagonal, so
+only $\sim0.22$ comes from the causal structure. The pre-registered gate is gauge: for
+$S=\tfrac12\sum F^2$ with $F=d\theta$ the boundary-of-boundary vanishes
+($\partial\partial=0$) and the action is gauge-invariant to $\Delta S/S\approx10^{-15}$---
+but this is \emph{automatic} for any set of closed quadrilaterals, and the kinematic null
+reproduces the same machine zero, so the ``pass'' carries no information. Decisively, the
+cells do not live on the substrate of Hasse links whose gauge field the link sector
+validated: only $30.8\%$ of their sides are covering relations at $N=800$, and that fraction
+\emph{falls} with $N$ ($0.452\to0.308$), the cells migrating off the link substrate as the
+common-future apices deepen. They are a complex of causal relations, not a gauge complex;
+the $\fracB=0.84$ was spacelike-base geometry, not a photon.
+
+\subsection{Bianchi-I anisotropy on the causal order does not open it}\label{sec:bianchi}
+The remaining low-curvature lever is genuine anisotropy placed in the \emph{causal order}
+itself---directional light cones $\mathrm{d}t^2>a^2\,\mathrm{d}x_1^2+\mathrm{d}x_2^2+
+\mathrm{d}x_3^2$ ($a=1$--$8$)---with the E/B split read in \emph{flat} coordinates (no
+stretched axis, the error that made a coordinate-embedding version a pure artifact). The
+magnetic fraction does not open: $\fracB\approx0.002$--$0.003$ for every $a$, never reaching
+$0.01$, with a gap over an isotropic-order null of $\le0.0008$ (negative at $a=2$). The
+anisotropy is not a trivial null---it genuinely \emph{redistributes} magnetic content,
+draining the planes containing the squeezed axis ($b_{\rm plane}\,0.279\to0.011$) entirely
+into the unsqueezed plane ($0.268\to0.629$)---but the diamonds remain timelike-dominated
+(electric), so the \emph{fraction} with $b^2>e^2$ does not rise.
+
+Together with isotropic curvature (Planck-scale, \S\ref{sec:curvature}), these exhaust the
+three low-curvature levers; the magnetic sector stays a sub-percent electric-edge tail at
+the curvature of the observable universe.\footnote{This causal-set non-locality is the same
+high mean-field connectivity that, in the synthesis paper, leaves the ordering transition
+without a divergent correlation length, so that no dimensional-transmutation scale is
+manufactured from the substrate either.}
+
+\section{What this means for the CST literature}\label{sec:cst}
+
+The map sharpens an open problem in causal set theory into a single, concrete
+construction. The Benincasa--Dowker / Dowker--Glaser operator line carries a smeared,
+Lorentz-invariant d'Alembertian on \emph{scalars}
+\cite{BenincasaDowker2010,DowkerGlaser2013,BelenchiaBenincasaDowker2016}; the gauge line
+\cite{Sverdlov2008,SverdlovBombelli2009} supplies an \emph{action} but no smeared
+operator, no measured phase, and no dispersion. The indefinite-signature gauge operator
+of \S\ref{sec:operator} is, to our knowledge, the first BD-type operator for a gauge
+$1$-form, and the first to be gated against free Maxwell on a lattice before any causet
+reading. Its outcome localises the obstruction precisely: the $2$-complex of causal
+diamonds carries only timelike (electric) cells, and curvature is the first ingredient
+that endows it with spacelike (magnetic) cells, at a rate $\propto H^2$. The remaining
+open problem is therefore not the signature, nor a different BD weight, nor confinement
+(the link sector is not permanently confined, \S\ref{sec:link}), but the construction of
+a \emph{Lorentz-invariant spacelike $2$-cell on the causal order at low curvature}---a
+$2$-cell whose area bivector is spacelike without a preferred frame to call events
+``simultaneous.'' Height, isotropic curvature, and an ordering coupling are exhausted
+(dead, Planck-scale, and dead, respectively), and the two natural low-curvature directions
+beyond them---a genuinely different $2$-cell (the future-cone construction,
+\S\ref{sec:futurecone}) and a genuine Bianchi-I anisotropy on the causal order
+(\S\ref{sec:bianchi})---are now tested and also fail: the former is gauge-trivial and lives
+off the Hasse-link substrate, the latter redistributes magnetic content without raising its
+fraction. The one genuinely open direction that remains is an \emph{inhomogeneous} geometry,
+or a spacelike $2$-cell construction not yet conceived.
+
+The non-locality that blocks the bare connection (\S\ref{sec:link}) is, moreover,
+not an accident of this construction. For \emph{any} connection rule on the
+sprinkling that is a Lorentz-invariant function of pair (or neighbourhood)
+invariants, the expected valency diverges: by a Campbell--Mecke argument the
+marginal connection probability can depend only on the proper time $\Delta\tau$, so
+the integral over neighbours factorises through the orbit at fixed
+$\Delta\tau$---the boost hyperboloid, whose volume is infinite because the Lorentz
+group is non-compact. For the covering relation this is the familiar non-locality of
+causal-set links; the observation here is that it is not specific to links but
+follows for every invariant rule. The smeared character of every workable causal-set
+operator---including the gauge operator of \S\ref{sec:operator}---is the price of
+that structural fact, not a technical choice.
+
+\section{What is, and is not, established}\label{sec:claim}
+
+\emph{Established by measurement.}
+(a)~The orientation Goldstone modes are degenerate internal scalars, not a gauge vector
+(polarisation unlocked from $\hat k$, $p=0.23$); a $0$-form Goldstone of a global
+internal symmetry is structurally scalar (\S\ref{sec:goldstone}).
+(b)~The link $U(1)$ sector is not permanently confining (lattice-like crossover near
+$\beta\simeq1$); its bare connection inherits the causal-set non-locality, the clean
+Coulomb discriminator is not constructible there, and an Anderson--Higgs charged
+condensate is frustrated by the same non-locality ($U(1)$ unbroken, $m_A=0$, on a causet
+where the regular-lattice Higgs mechanism works) (\S\ref{sec:link}).
+(c)~An indefinite-signature BD gauge operator (new to CST) is gauge-invariant to
+$5.7\times10^{-16}$ and reproduces free Maxwell on a $4$D lattice ($\omega=ck$,
+$c=1.05$), but fails on the causet because causal diamonds are $100\%$ electric
+($\fracB=0.0000$) (\S\ref{sec:operator}).
+(d)~Diamond height does not supply the missing spacelike cell ($\sim0.25\%$,
+non-growing) (\S\ref{sec:height}); curvature does ($\fracB$ monotonic, crossing $0.01$ at
+$\Rhat=2$, $b^2/e^2$ per cell $0.11\to0.97$) (\S\ref{sec:curvature}); an ordering coupling
+does not (the rise is disorder, order suppresses it) (\S\ref{sec:coupling}).
+(e)~The curvature-added fraction scales as $\Delta\fracB\propto H^2$ ($R^2=0.997$), and an
+$O(10\%)$ sector requires sub-Planckian curvature $\Rhat\approx0.5$--$0.6$
+(\S\ref{sec:frontier}).
+(f)~Two further low-curvature levers are exhausted: future-cone cells reach $\fracB=0.84$
+but are gauge-trivial (the kinematic null reproduces the gauge invariance) and migrate off
+the Hasse-link substrate ($30.8\%$ of sides are links at $N=800$, falling with $N$), and a
+genuine Bianchi-I anisotropy on the causal order redistributes magnetic content between
+spatial planes without raising $\fracB$ above $\sim0.003$ (\S\ref{sec:further}).
+
+\emph{Not established.} No photon is obtained: there is no causet regime, in any lever
+tested, with an $O(1)$ transverse magnetic sector at the low curvature of the observable
+universe, hence no emergent Maxwell field, no Coulomb phase certified, and no electric
+charge or conserved current derived. The indefinite operator has no continuum theorem of
+its own (it is validated only against the known lattice answer), so its causet verdict is
+trusted as a \emph{structural} statement (the diamonds are electric) rather than a proven
+continuum limit. The identification $\ell\equiv\ell_{\rm Planck}$ that turns ``$\Rhat<1$''
+into ``sub-Planckian'' is an external assumption, declared. The Goldstone-scalar result
+(a) is the companion paper's \cite{GoldstonePRD} and is used here as an established
+input, not re-derived. This paper claims neither a photon nor its impossibility---it
+claims a map, an operator, and a precisely located open construction.
+
+\section{Conclusions}\label{sec:conclusions}
+
+We have searched systematically for an emergent photon on a causal set and report the
+search as an informative negative. The orientation Goldstone modes are internal scalars,
+not a gauge vector, for a structural reason; the gauge-connection sector has the right
+indices but inherits the substrate's non-locality---which independently frustrates a
+charged Higgs condensate and leaves the gauge field massless; and an indefinite-signature
+Benincasa--Dowker gauge operator---new to causal set theory, gauge-invariant and
+correct against free Maxwell on a lattice---fails on the causet because the causal
+diamonds are entirely electric. Of three geometric levers on the missing spacelike
+magnetic cell, height fails, an ordering coupling fails, and only curvature works, at a
+clean rate $\Delta\fracB\propto H^2$; but an $O(1)$ magnetic sector then demands
+sub-Planckian curvature, so the mechanism, though real, does not produce the photons of
+the low-curvature universe we inhabit. Two further low-curvature constructions---future-cone
+cells and a genuine Bianchi-I anisotropy on the causal order---are then exhausted as well,
+the first gauge-trivial and off the link substrate, the second redistributing magnetic
+content without magnetising; the low-curvature map is closed. The contribution is not a photon but a map: a new
+gauge operator, a chain of pre-registered measurements that relocate the obstruction step
+by step, and a single, concrete open construction---a Lorentz-invariant spacelike
+$2$-cell on the causal order at low curvature---on which an emergent photon in this
+framework now demonstrably depends.
+
+\begin{acknowledgments}
+This work uses only the author's own simulations; the anti-circularity guard, the
+validation gates, and the pre-registered success/death criteria of the E4--E6 and
+Anderson--Higgs campaigns are part of the build.
+\end{acknowledgments}
+
+\bibliographystyle{apsrev4-2}
+\bibliography{TEIC_CONSOLIDATED}
+
+\end{document}

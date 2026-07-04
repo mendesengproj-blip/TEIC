@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+.ipynb_checkpoints/
+*Notes.bib
+*.toc
+*.synctex(busy)
+# Compiled paper PDFs: regenerable from the .tex sources, not tracked.
+*.pdf
+# Run outputs of experiments/ (created on first run; data is regenerable from seeds).
+results/

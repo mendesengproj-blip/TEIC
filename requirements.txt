@@ -1,0 +1,8 @@
+# TEIC pipeline -- pinned dependencies for reproducibility.
+# Reproduced under Python 3.12.10. (A copy lives in env/requirements.txt; this
+# root file additionally pins the test runner used by the anti-circularity CI.)
+numpy==2.4.4
+scipy==1.17.1
+sympy==1.14.0
+matplotlib==3.10.9
+pytest==9.0.3

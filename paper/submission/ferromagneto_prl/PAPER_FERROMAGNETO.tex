@@ -1,0 +1,312 @@
+% PAPER_FERROMAGNETO --- standalone Letter targeting Physical Review Letters.
+%
+% The "form/scale" Letter. Central claim (version 2, corrected by the Phase-1
+% evaluation in PAPER_FERROMAGNETO_GAPS.md):
+%   A single Poisson causal substrate derives DIMENSIONLESS structure (forms,
+%   ratios, exponents) and INTERNAL scales in lattice units, across four domains
+%   that were not built to agree (geometry, matter, cosmology, quantum collapse);
+%   what is never fixed by the substrate is the lattice->SI conversion, so every
+%   absolute physical scale (G, hbar, a0, f_pi, eta) needs one external calibration.
+%
+% Honest framing enforced throughout (see the charter's writing rules):
+%   - NOT "cannot generate scale": the substrate DOES generate internal scales
+%     (h_sat, M_Skyrmion, sigma, lambda_Sk in lattice units); the lattice->SI map
+%     is the single external input.
+%   - "causal substrate" is the unifying object; the ferromagnet is the sector that
+%     carries matter+cosmology; the collapse domain uses the BARE causal spectrum.
+%   - cosmology link (nu = -0.37, not -0.5) declared [WEAK], not hidden.
+%   - collapse domain = UNPLANNED CONVERGENCE with Stochastic Rupture, not derivation.
+%   - QCD analogy includes the honest difference: QCD transmutes Lambda_QCD from a
+%     dimensionless coupling; in TEIC no such transmutation mechanism is identified.
+%   - guard caveat declared: the anti-circularity guard forbids inserting scales, so
+%     the external-ness is partly methodological.
+%
+% Compiles with pdflatex+bibtex (revtex4-2 + apsrev4-2.bst) against the shared
+% TEIC_CONSOLIDATED.bib (with added ZambuziSR2026 + QCD-transmutation entries).
+%
+% Reframe (jul/2026, PLANO_REENQUADRAMENTO): (1) the outdated "a non-equilibrium
+% route is not ruled out" corrected -- the NESS parametric drive was tested and is
+% mean-field too (amplitude sweep killed the apparent 0.53 exponent); (2) the scale
+% closure now carries its structural reason (Campbell-Mecke / boost non-compactness
+% for invariant rules; tree/Bethe for the non-invariant escapes); (3) legacy
+% citations PaperI/II/V retargeted to the active companion series
+% (MatterGravityPRD/SU3PRD); PaperIV kept (sole record of the chi_par MOND-form
+% measurement). No positive result changed.
+\documentclass[aps,prl,reprint,nofootinbib,superscriptaddress,floatfix]{revtex4-2}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Dimensionless structure across four domains of a causal network:\\
+forms derive, absolute scales do not}
+
+\author{Miqueias Alves Mendes}
+\email{mikalvesm@gmail.com}
+\affiliation{Independent Researcher, Ibiapina, Cear\'a, Brazil}
+\date{\today}
+
+\begin{abstract}
+A single discrete causal substrate---a Poisson sprinkling of events with their causal
+order---reproduces, under a guard that forbids inserting any relativistic or
+dimensionful expression into the generating code, the \emph{dimensionless} structure of
+physics in four domains that were not built to agree: emergent Newtonian gravity, a
+spin-$\tfrac12$ baryon with $SU(3)$ colour confinement, the deep-MOND interpolation, and
+the order parameter of objective wave-function collapse. In every domain the substrate
+also fixes \emph{internal} scales in lattice units (the gravitational response, the
+soliton mass and string tension, the MOND response knee), but it never fixes the
+conversion of those lattice units to physical (SI) units, so $G$, $\hbar$, $a_0$, $f_\pi$
+and the collapse threshold $\eta$ each require one external calibration. The pattern is
+the lattice-QCD situation, with one honest difference: lattice QCD generates its scale
+$\Lambda_{\rm QCD}$ from a dimensionless coupling by dimensional transmutation, whereas
+here no transmutation mechanism operates: we tested the cheapest equilibrium signature---a
+divergent correlation length at the ordering transition---and the substrate has none (it is
+mean-field, in equilibrium and under a non-equilibrium parametric drive), for a structural
+reason: for any Lorentz-invariant connection rule on the sprinkling the expected
+coordination diverges with system size, so no critical length survives to anchor a
+manufactured scale, and the internal scales ride on a fixed action normalisation. The claim is falsifiable: a single domain in which the
+lattice$\to$SI conversion is fixed by the substrate, with no external input, would refute
+it. We report the supporting evidence and state plainly where it is weak (the cosmology
+link) and where it is convergence rather than derivation (the collapse domain).
+\end{abstract}
+
+\maketitle
+
+\emph{The claim.}---Emergent-spacetime programmes are often read as promising to derive
+``everything.'' We make and test a deliberately narrower, falsifiable statement. A single
+Poisson causal substrate \cite{BLMS1987,BombelliHensonSorkin2009,Surya2019}, equipped
+with one internal field and analysed under an anti-circularity guard, derives the
+\emph{dimensionless} content of physics---functional forms, exponents, ratios, and
+topological facts---in four domains that share no design and were measured in separate
+campaigns. The same substrate fixes internal scales, but only in lattice units; the one
+thing it does not supply is the conversion of those units to physical ones. The result is
+a sharp boundary, identical in all four domains: \emph{forms and dimensionless ratios are
+derived; the lattice$\to$SI map---and hence every absolute scale $G$, $\hbar$, $a_0$,
+$f_\pi$, $\eta$---is external.} This is interesting precisely because it is not a ``theory
+of everything'' statement: it is specific, it is falsifiable (below), and it recurs in
+domains, such as quantum-measurement collapse, that were never intended to share a vacuum
+with galactic dynamics.
+
+\emph{The substrate and the ferromagnet.}---The substrate is a causal set: a locally
+finite set of events with a transitive, irreflexive partial order $\prec$, realised by
+Poisson sprinkling into $(3{+}1)$-dimensional Minkowski space \cite{BLMS1987}, breaking no
+Lorentz frame on average \cite{BombelliHensonSorkin2009}. On three of the four domains the
+relevant object is the \emph{causal ferromagnet}: an internal orientation $\vec n$ (in
+$O(3)$, $SU(2)$, or $SU(3)$) on each event, coupled across causal links by the minimal
+tension $S=J\sum_{\langle ij\rangle}\Delta\tau_{ij}[1-\vec n_i\!\cdot\!\vec n_j]$, which
+orders spontaneously through a continuous transition (genuine by finite-size scaling,
+Binder cumulant $U_4=2/3$) \cite{GoldstonePRD}. The fourth domain (collapse) uses the
+\emph{bare} causal spectrum, with no ferromagnet---so the unifying object is the causal
+substrate, of which the ferromagnet is one sector. Throughout, a guard tokenises the
+generating code and fails if a Lorentz factor, a metric redshift, a value of $c$, $G$, or
+any dimensionful constant appears outside a labelled, non-generating comparison block.
+This guard has a consequence we state up front and return to: by forbidding the insertion
+of scales, it guarantees that only dimensionless structure \emph{can} emerge---so part of
+the ``scales stay external'' pattern is a property of the discipline, not only of the
+substrate.
+
+\emph{Four domains, one pattern.}---Table~\ref{tab:pattern} is the central result: for
+each domain, what the substrate derives (form), what internal scale it fixes in lattice
+units, and which physical scale remains external. We summarise the evidence; the technical
+detail lives in the cited domain papers.
+
+\begin{table*}[t]
+\caption{One pattern in four domains of the causal substrate. ``Form derived'' lists the
+dimensionless structure that emerges without calibration; ``internal scale'' is a
+substrate-fixed quantity in \emph{lattice} units; ``external (SI)'' is the absolute
+physical scale that requires one calibration. We distinguish two kinds of external scale: a
+dimensional SI constant with no computational route ($G$, $f_\pi$, $\hbar$), and a
+\emph{geometric} one ($\dagger$)---a calculable graph property whose form and mechanism are
+derived and whose only missing input is a finite-size/clustering correction, not an
+arbitrary world constant (here the collapse threshold $\eta$, a percolation threshold fixed
+by the causal graph's degree heterogeneity and clustering). The cosmology form is weak
+(declared); the collapse domain is unplanned convergence with an independent collapse
+theory, not a derivation.}
+\label{tab:pattern}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllll}
+\toprule
+Domain & Form derived (dimensionless) & Internal scale (lattice units) & External (SI) & Status \\
+\midrule
+Geometry \cite{MatterGravityPRD,TEICDoc1}
+ & $\theta\propto1/r$ (exp.\ $-0.992$); Poisson; superpos.\ $10^{-9}$; $\sqrt{1{-}2M/r}$ to $0.2\%$
+ & $G_{\rm net}=A/M=0.93$, $\propto1/K$
+ & $G$ (via $K$, granularity)
+ & solid \\
+Matter \cite{MatterGravityPRD,SU3PRD,GoldstonePRD}
+ & $B{=}1$, spin-$\tfrac12$; $c{=}\sqrt{2/3}$; $\mu_p/\mu_n{=}{-}1.51$; $[4,16,36]$; $V{\sim}\sigma r$
+ & $M_{\rm Sk}{\approx}146{-}207$, $\sigma$, $\lambda_{\rm Sk}{=}a/\sqrt{120}$
+ & $f_\pi$ (GeV); $e$ one calibration
+ & solid \\
+Cosmology \cite{PaperIV}
+ & deep-MOND $\chi_\parallel\!\sim\!h^{-0.37}$ ($-0.4{\pm}0.1$; ideal $-1/2$)
+ & $h_{\rm sat}\propto\rho_s^{-0.48}$ ($R^2{=}0.90$)
+ & $a_0,\ \beta$
+ & \textbf{weak} \\
+Collapse \cite{ZambuziSR2026}
+ & $\chi_{\rm eff}$ saturates; GOE $\langle r\rangle{\to}0.53$; decoh.\ $\propto\Delta x^{2}$
+ & $\eta$ forced (percolation threshold)
+ & $\eta^{\dagger}$ (geometric); $\hbar$
+ & \textbf{convergence} \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+
+\emph{Geometry.}---A localised source in the coarse-grained causal-density field, relaxed
+under the Benincasa--Dowker action with no imposed profile, gives a Newtonian potential
+$\theta\propto1/r$ (exterior exponent $-0.992$), a Poisson law for every source shape
+(correlation $0.9998$), exact linear superposition (residual $1.8\times10^{-9}$), and the
+Schwarzschild dilation $\sqrt{1-2M/r}$ to $0.2\%$ by chain counting---all with $G$ and the
+metric absent from the generator \cite{MatterGravityPRD,TEICDoc1}. The substrate \emph{does} fix a
+scale: the response $G_{\rm net}=A/M=0.93$ in lattice units, constant to five digits across
+the source. But $G_{\rm net}\propto1/K$ with $K$ the action normalisation (the granularity
+scale), so the absolute $G$ is the one external input.
+
+\emph{Matter.}---On the $SU(2)$ ferromagnet, a topological soliton exists with baryon
+number $B=1$ and measured spin-$\tfrac12$ fermionic statistics (exchange phase $=2\pi$
+rotation $\in\mathbb{Z}_2$, to $5\times10^{-16}$); quantising its rotation with the full
+inertia, one calibration (the $N$--$\Delta$ splitting) fixes the single dimensionless
+coupling $e=5.39$, after which $\mu_p/\mu_n=-1.51$ (experiment $-1.46$) and the multiplet
+degeneracies $[4,16,36]$ are parameter-free \cite{MatterGravityPRD,AdkinsNappiWitten1983}. On the
+$SU(3)$ ferromagnet the same substrate confines ($V\sim\sigma r$, $\sigma>0$) and yields an
+exactly degenerate meson octet with $c=\sqrt{2/3}$ \cite{SU3PRD}. The internal scales
+($M_{\rm Sk}\approx146$--$207$, $\sigma=1.35\to0.33$, $\lambda_{\rm Sk}=a/\sqrt{120}$) are
+in lattice units; the physical GeV scale $f_\pi$ is external.
+
+\emph{Cosmology.}---This is the weakest link, and we mark it as such. The longitudinal
+susceptibility of the ordered ferromagnet rises as $\chi_\parallel\sim h^{-0.37}$
+(measured $-0.4\pm0.1$ against the ideal deep-MOND value $-1/2$), reproducing the form of
+the MOND interpolation function and matching, in the deep-MOND limit, the response sector
+of a superfluid dark-matter theory \cite{PaperIV}. Two honesty flags: finite-size effects
+push the exponent toward zero, so the form is weak, not solid; and the transverse Goldstone
+(magnon) is quadratic ($\propto X$), \emph{not} the fractional $X^{3/2}$ of the superfluid
+phonon---so the loose identification ``magnon $=$ superfluid phonon'' is false, and the
+equivalence is a deep-MOND \emph{limit} statement. The substrate again fixes an internal
+scale---the response knee $h_{\rm sat}\propto\rho_s^{-0.48}$ ($R^2=0.90$), a genuine
+network scale tracking the spin stiffness---while the absolute acceleration $a_0$ and the
+coupling $\beta$ stay external.
+
+\emph{Collapse (unplanned convergence).}---The most recent and most delicate domain. An
+independent objective-collapse theory, Stochastic Rupture (SR) \cite{ZambuziSR2026},
+defines a collapse order parameter $\chi_{\rm eff}$, a spectral noise of random-matrix
+type, and a localisation rate. Fed only the \emph{bare} Poisson causal spectrum---no
+ferromagnet, no threshold, no time direction inserted---the substrate reproduces the
+\emph{forms}: $\chi_{\rm eff}$ saturates spontaneously to a dimension-fixed value
+(reproducing SR's two-sector dichotomy, adjacency saturating while the Laplacian decays);
+the causal operator's spectrum is a Dyson Brownian motion of GOE class
+($\langle r\rangle\to0.53$); and the decoherence rate scales as $\Delta x^{2}$ (fitted
+exponent $2.14$). We present this as \emph{convergence}, not derivation, for three honest
+reasons: the $\Delta x^2$ and $\sigma_x^{-2}$ laws follow partly from a generic Laplacian
+limit; complete positivity of the generator requires a Euclidean continuation (a choice);
+and the threshold $\eta$ stays external---though in a sharper sense than the dimensional
+constants. The substrate \emph{forces} $\eta$ to the percolation threshold of the causal
+graph, a Molloy--Reed quantity (degree heterogeneity) raised by the graph's clustering,
+which is non-generic (it sits $\sim8\sigma$ below the Erd\H{o}s--R\'enyi value in four
+dimensions) and dimension-dependent; the form and the mechanism are derived, and only the
+precise value's finite-size/clustering correction is missing. So $\eta$ is external as a
+\emph{geometric} scale, not as a dimensional world constant. The forms emerge; the absolute
+scale ($\hbar$) does not.
+
+\emph{Why the pattern is structural---and the honest QCD analogy.}---In all four domains
+the same boundary appears: the substrate derives dimensionless structure and internal
+scales in lattice units, but never the lattice$\to$SI conversion. This is the position of
+lattice gauge theory \cite{Wilson1974,Creutz1980}: dimensionless ratios and the running
+are computed on the lattice, but a single physical input sets the unit. We draw the analogy
+\emph{with} its decisive difference. In QCD the absolute scale $\Lambda_{\rm QCD}$ is
+itself \emph{generated} from a dimensionless coupling by dimensional transmutation
+\cite{GrossWilczek1973,Politzer1973,ColemanWeinberg1973}: a classically scale-free theory
+manufactures a scale through the quantum running, and only the overall physical unit needs
+calibration. The causal substrate has shown no such mechanism: its internal scales
+($\rho_s$, $\sigma$, $h_{\rm sat}$, $M_{\rm Sk}$) ride on the fixed action normalisation
+$K$, not on a running coupling, and attempts to fix the physical unit from within the
+theory have failed by many orders. So the honest statement is not that a dimensionless
+substrate \emph{cannot} generate a scale---QCD shows it can---but that \emph{this}
+substrate has not exhibited the transmutation that would do so. The cheapest equilibrium
+channel is now closed: we measured whether a correlation length diverges at the ordering
+transition---the minimal prerequisite for the essential singularity of dimensional
+transmutation---and it does not. The connected correlation per link is $1/z$ with no tail,
+and the coordination $z$ grows with system size, so larger systems are \emph{more}
+mean-field; the transition produces no divergent critical length to anchor a manufactured
+scale (consistent with the volume-law, latent-heat-free character of the $SU(3)$ ordering
+transition \cite{SU3PRD}). Transmutation in equilibrium is therefore excluded. A
+non-equilibrium route has since been tested as well: a parametric drive holding the
+geometry in a genuine non-equilibrium steady state (stationarity and broken detailed
+balance both verified) produced an apparent scaling exponent that did not survive an
+amplitude sweep at identical parameters---the driven substrate is mean-field too. And the
+closure now has a structural form: for any connection rule on the Poisson sprinkling that
+is a Lorentz-invariant function of pair or neighbourhood invariants, the expected
+coordination diverges---by a Campbell--Mecke argument the marginal connection probability
+depends only on the proper time, and the orbit of neighbours at fixed proper time is the
+non-compact boost hyperboloid---while every tested escape that abandons the invariant
+measure (sequential growth, dynamical triangulations in three and four dimensions) lands
+in tree-like or Bethe-like graphs, mean-field by their loop structure. No invariant rule
+can furnish the finite, loop-carrying connectivity that a divergent critical length
+requires. We
+add the methodological caveat already noted: the guard forbids inserting scales, so the
+external-ness of $G$, $a_0$, $f_\pi$, $\eta$ is in part a property of the discipline, not a
+proven impossibility.
+
+\emph{Scales, with a mechanism.}---The scale sector---equilibrium and the driven
+steady state tested---is now closed with a positive account of \emph{why}. A global rescaling of the action ($S\to KS$) does not fix
+any mass ratio (the hierarchy scales as $\sqrt{K}$), so rescaling manufactures no scale. The
+thresholds the network does produce---the collapse $\eta$, and by analogy $\hbar$---are
+calculable graph properties (a percolation threshold set by degree heterogeneity and
+clustering) but input-dependent (on dimension), hence not pinnable universal constants. And
+the one known scale-manufacturing mechanism, dimensional transmutation, has nowhere to
+anchor, the transition having no divergent critical length. The thesis ``forms derive,
+scales do not'' is thus complete for the equilibrium sector, extends to the one
+non-equilibrium regime tested, and now carries both a mechanism and a structural reason: the
+substrate fixes forms and graph-thresholds, not absolute universal numbers, and the
+table's geometric category ($\dagger$) names which kind of external each scale is.
+
+\emph{Falsifiability.}---The claim is refuted by a single counterexample: a domain in which
+the lattice$\to$SI conversion is fixed by the substrate, with no external calibration. This
+has been searched and not found. A dedicated programme asked whether the galactic effective
+theory's four numbers ($a_0$, $\beta$, the vector mass $m_A$, the slip) descend from the
+network: the verdict was that each is calibrated, not derived---$a_0$'s internal correlate
+$h_{\rm sat}$ even has the \emph{opposite} sign to the natural hypothesis, and $\beta$
+misses the operating point by $48\times$ except at fine-tuned criticality. Direct attempts
+to fix the absolute unit died decisively (the gravitational coupling inferred from a proton
+radius missed by $\sim10^{8}$ orders; a $\sqrt{\rho}$ inheritance for $m_A$ failed at
+$9.5\sigma$). Every such search has returned ``form derived, scale external,'' which is the
+evidence for the pattern rather than against it. The same boundary holds from the other
+side: the galactic effective theory exhibits it independently---its acceleration scale is an
+external infrared boundary scale ($a_0\sim cH_0$) and its coupling is calibrated, not
+derived---so the two theories prove ``forms derive, scales do not'' each in its own way. A
+final test asked whether they are in fact \emph{one} theory at two resolutions, the
+continuum vacuum being the coarse graining of the discrete network. They are not: under an
+explicitly anti-isospectral gate (a shared functional form is never evidence of identity),
+the identification is falsified in the vector sector---the effective theory needs a massive
+Proca vector as its galactic motor, whereas the network forces a massless gauge sector by
+the non-locality of its causal d'Alembertian---while the shared deep-MOND $X^{3/2}$ form is
+isospectral, fixed by Milgrom's theorem for any microstructure. They are two distinct
+theories that converge by symmetry, not one theory at two resolutions; a static coupling
+between them is likewise infeasible on the present map.
+
+\emph{Conclusion.}---A single Poisson causal substrate derives the dimensionless structure
+of four unrelated domains---Newtonian gravity to $0.2\%$; a spin-$\tfrac12$ baryon and
+$SU(3)$ confinement with parameter-free ratios; the deep-MOND form (weakly); and the
+order parameter, random-matrix spectrum and $\Delta x^2$ localisation of objective collapse
+(as convergence)---and in each it fixes internal scales in lattice units while leaving the
+single lattice$\to$SI conversion, and thus every absolute scale $G$, $\hbar$, $a_0$,
+$f_\pi$, $\eta$, external. The substrate is in the lattice-QCD position, with the honest
+difference that no dimensional-transmutation mechanism generating the physical scale has
+been identified here. The boundary is sharp, it is falsifiable, and it has survived every
+search---a derivation of the form of physics from causal order, not of its scales.
+
+\begin{acknowledgments}
+This work uses only the author's own simulations except where it converges with the
+independent Stochastic Rupture programme \cite{ZambuziSR2026}; the anti-circularity guard,
+the validation gates, and the pre-registered decision criteria of the cited campaigns are
+part of the build, and the weak (cosmology) and convergence-only (collapse) results are
+flagged as such.
+\end{acknowledgments}
+
+\bibliographystyle{apsrev4-2}
+\bibliography{TEIC_CONSOLIDATED}
+
+\end{document}

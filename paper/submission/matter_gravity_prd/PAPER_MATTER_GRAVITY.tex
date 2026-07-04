@@ -1,0 +1,700 @@
+% PAPER_MATTER_GRAVITY --- standalone Physical Review D article.
+%
+% Focused "bullet" paper in the style of PAPER_GOLDSTONE_PRD and
+% PAPER_BTFR_MNRAS: small, self-contained, one isolable claim. The claim is the
+% chain that survives independently of the (retracted) emergent-photon question:
+% a pure causal substrate with a single internal orientation field produces
+%   (i)   an emergent Newtonian gravitational sector (theta ~ 1/r, Poisson,
+%         linear superposition, Schwarzschild dilation by chain counting),
+%   (ii)  a stable topological particle (the SU(2) Skyrmion, B=1, spin-1/2,
+%         fermionic) that is QUANTITATIVELY a baryon (one calibration fixes e;
+%         mu_p/mu_n, radius, multiplet degeneracies parameter-free vs ANW), and
+%   (iii) whose OWN energy-density profile, fed as the literal source into the
+%         network's gravitational relaxer, sources that very field (theta ~ M/r)
+%         --- the heart of the paper.
+% Sections II (substrate/protocol) and the two theorems (group elimination;
+% Cauchy-Schwarz Skyrme bound) are reused, with adjustments, from the approved
+% text of PAPER_GOLDSTONE_PRD / TEIC Document I.
+%
+% UPDATE (jun/2026): incorporates two campaigns the first draft named as future
+% work. MG1 ("Skyrmion as a direct source of gravity"): the soliton's own
+% relaxed eps(r) profile is fed as the literal source, closing the Sec.-VII gap
+% from a COMPOSITION of two measured laws to a SINGLE direct measurement
+% (exponent -0.992, G_net constant to 5 digits, = top-hat to 0.02%). BQ
+% ("quantitative baryon phenomenology"): collective-coordinate quantization with
+% the full (sigma+Skyrme) inertia; one N-Delta calibration -> e=5.39 (1% of ANW),
+% then mu_p/mu_n=-1.51, radius 0.65 fm, degeneracies [4,16,36] parameter-free.
+%
+% Scope is strictly SU(2) + gravity + matter. SU(3)/confinement, MOND, and dark
+% matter are explicitly out of scope (companion papers). The emergent photon is
+% NEVER claimed as a positive result; the wave excitation of the same field is
+% mentioned only by reference to the companion Goldstone paper (a scalar, not a
+% photon).
+%
+% Reframe (jul/2026, PLANO_REENQUADRAMENTO): intro motivates the CST matter gap
+% (no derived particle/statistics/source-field loop); Sec. VII BTFR paragraph
+% reworded as a SEPARATE phenomenological line, not the empirical content of this
+% sector. No result or claim changed.
+%
+% Compiles with pdflatex + bibtex (revtex4-2 + apsrev4-2.bst) against the shared
+% TEIC_CONSOLIDATED.bib.
+\documentclass[aps,prd,reprint,nofootinbib,superscriptaddress,floatfix]{revtex4-2}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+
+\newcommand{\Sderiv}{\textsf{[Derived]}}
+\newcommand{\Sident}{\textsf{[Identified]}}
+\newcommand{\Sext}{\textsf{[External]}}
+\newcommand{\su}[1]{SU(#1)}
+
+\begin{document}
+
+\title{Topological matter and emergent gravitation from a causal network:\\
+a soliton that sources its own gravitational field}
+
+\author{Miqueias Alves Mendes}
+\email{mikalvesm@gmail.com}
+\affiliation{Independent Researcher, Ibiapina, Cear\'a, Brazil}
+\date{\today}
+
+\begin{abstract}
+We ask whether a discrete causal substrate carrying a single internal orientation
+field can produce, simultaneously and from the same construction, stable matter with
+the correct quantum statistics \emph{and} the gravitational field that matter should
+generate. Working under a guard that forbids any relativistic expression in the
+data-generating code, we establish four measured links. (i)~The coarse-grained
+causal-density field relaxes, under the Benincasa--Dowker action with a localised
+source and no imposed profile, to $\theta\propto r^{-1.02}$ (exterior exponent
+$-1.00$ for every source shape tested, matching an independent Gauss-law quadrature
+to $0.9998$); superposition is exact for the linear action (residual $10^{-9}$), and
+a non-circular chain-counting measurement of the Schwarzschild dilation reproduces
+$\sqrt{1-2M/r}$ to $0.2\%$. (ii)~Among the candidate internal groups, only $\su2$
+admits a conserved, localised, finite-energy topological charge ($\pi_3(S^3)=
+\mathbb{Z}$); $U(1)$ is excluded by $\pi_2(S^1)=0$, by theorem and by measurement.
+(iii)~A pointwise Cauchy--Schwarz bound $K\le\tfrac23 S$ (verified against $10^6$
+adversarial configurations) proves the Skyrme stabiliser cannot dominate
+spontaneously and is therefore an external input, declared as such. (iv)~The $\su2$
+soliton exists with $B=1$, virial mass $M\approx146$--$207$ in lattice units, and
+measured spin-$\tfrac12$ fermionic statistics (rigid-rotor band, Finkelstein--
+Rubinstein constraint, exchange phase $=2\pi$-rotation phase $\in\mathbb{Z}_2$).
+(v)~Quantising the soliton's collective rotation with the full ($\sigma$+Skyrme)
+inertia, a \emph{single} calibration---the $N$--$\Delta$ splitting---fixes the one
+dimensionless coupling to $e=5.39$ ($1\%$ from Adkins--Nappi--Witten), after which
+the magnetic-moment ratio $\mu_p/\mu_n=-1.51$ (experiment $-1.46$), the isoscalar
+radius $0.65$~fm and the multiplet degeneracies $(2j+1)^2=[4,16,36]$ are
+parameter-free: the soliton is quantitatively a baryon, only the absolute GeV scale
+($f_\pi$) remaining external. The central result unites matter and gravity by a
+direct measurement: feeding the soliton's \emph{own} relaxed energy-density profile
+$\varepsilon(r)$ as the literal source into the same Benincasa--Dowker relaxer yields
+$\theta=G_{\rm net}\,M/r$ with exterior exponent $-0.992$ and $G_{\rm net}=A/M$
+constant to five digits across the soliton mass, identical to a top-hat of equal mass
+to $0.02\%$. The form is derived; the absolute coupling $G_{\rm net}\propto1/K$ and the
+GeV scale are external. Matter and gravity are one measurement, not two coincident ones.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}\label{sec:intro}
+
+A recurring ambition of emergent-spacetime programmes is that gravitation and matter
+should not be postulated separately but should arise together from one microscopic
+structure. We pose a sharp, measurable version of the question for the discrete
+substrate of causal set theory (CST): can a causal network equipped with a single
+internal orientation degree of freedom produce, from the \emph{same} construction,
+(a)~a gravitational sector in which a localised source generates a Newtonian
+$1/r$ potential, and (b)~a stable point-like particle with the correct
+spin-statistics---and, decisively, does that particle's mass source the field
+of~(a)?
+
+In CST, spacetime is fundamentally a locally finite partial order, the order being
+the causal relation, and a Lorentzian manifold is an approximation to it
+\cite{BLMS1987}. The substrate's defining virtue is that a Poisson sprinkling breaks
+no Lorentz frame on average \cite{BombelliHensonSorkin2009}, and from it CST recovers
+spacetime dimension and a scalar-curvature (d'Alembertian) operator
+\cite{Myrheim1978,BenincasaDowker2010}. We take these geometric results as
+established and claim no novelty for them. What CST has so far lacked is the other
+half of physics: free scalar fields on a causal set are well developed
+\cite{Surya2019}, but no stable particle, no quantum statistics, and no closed
+source--field loop have been derived from the causal order itself. That is the gap
+this paper addresses: we add one internal field and measure what it forces.
+
+Our results are stated as what the measurements support, and each is tagged with its
+epistemic status using the vocabulary of the companion documents: \Sderiv{} (derived
+by measurement under the guard), \Sident{} (identified with a known object by
+matching quantum numbers, not by an absolute-scale calculation), and \Sext{}
+(an external input, declared rather than hidden). We establish an emergent Newtonian
+gravitational sector (\S\ref{sec:gravity}), show by elimination that stable
+point-like matter forces the internal group to $\su2$ (\S\ref{sec:group}), prove
+that the soliton's stabiliser is necessarily external (\S\ref{sec:skyrme}), exhibit
+the soliton and measure its mass and fermionic spin-$\tfrac12$ statistics
+(\S\ref{sec:soliton}), quantise its collective rotation to reproduce the dimensionless
+baryon phenomenology (\S\ref{sec:baryon}), and then close the loop: the soliton's own
+energy-density profile sources the gravitational field in proportion to its mass
+(\S\ref{sec:sourcesgravity}). We delimit precisely
+what is and is not established (\S\ref{sec:claim}) and conclude
+(\S\ref{sec:conclusions}). The orientation field belongs to a broader programme
+\cite{TEICDoc1}; the wave excitation of the \emph{same} field is the subject of a
+separate measurement and is a pair of relativistic internal scalars
+\cite{GoldstonePRD}, not addressed here. This paper is self-contained and limited to
+the $\su2$ matter-and-gravity sector; $\su3$ confinement, galactic dynamics, and
+dark matter are out of scope and treated in separate companion work.
+
+\section{Substrate and protocol}\label{sec:protocol}
+
+\subsection{The causal set}
+The substrate is a causal set \cite{BLMS1987}: a finite set of events with a
+transitive, irreflexive, locally finite partial order $\prec$, realised by Poisson
+sprinkling into $(3{+}1)$-dimensional Minkowski space at intensity $\rho$, with
+$x\prec y$ when $y$ is in the causal future of $x$. The \emph{links} are the
+relations of the transitive reduction (the Hasse diagram); graph distance along
+links is the separation used below. These are the standard CST constructions, used
+without modification.
+
+\subsection{Anti-circularity}\label{sec:guard}
+Because we claim that relativistic and gravitational structure \emph{emerges}, we
+must exclude having inserted it. A guard tokenises every data-generating module and
+fails if a Lorentz factor $1/\sqrt{1-\beta^2}$, a gravitational redshift
+$\sqrt{1-2M/r}$, or any complex literal appears outside an explicitly labelled,
+non-generating comparison block. The speed of light and Newton's constant never
+appear in a generator: in the gravitational sector (\S\ref{sec:gravity}) the source
+couples through a free, dimensionless weight, never through $G$; in the matter sector
+(\S\S\ref{sec:soliton}) the $\su2$ field is carried by unit quaternions---a real
+division algebra ($S^3$)---so no complex literal enters and the guard passes
+verbatim. Every number below is produced by code that passes this guard; the closed
+relativistic forms appear only in quarantined comparison-only blocks, never in a
+generator.
+
+\subsection{The internal field}\label{sec:field}
+On each event we place an internal orientation and couple causal neighbours by the
+minimal rotation-invariant misalignment tension
+\begin{equation}
+S=\sum_{\langle ij\rangle}\Delta\tau_{ij}\,\big[\,1-\cos\angle(\vec n_i,\vec n_j)\,\big],
+\label{eq:sigma}
+\end{equation}
+with $\Delta\tau_{ij}$ the link proper time. For an $S^2$ orientation this is the
+lattice $O(3)$ nonlinear sigma model on the causal Hasse graph; the choice of target
+is provisional, and \S\ref{sec:group} shows which group stable matter forces. The
+internal symmetry of Eq.~\eqref{eq:sigma} is global and acts only on the internal
+index, decoupled from the spacetime causal order.
+
+\section{Emergent Newtonian gravitation}\label{sec:gravity}
+
+We first establish the gravitational sector as a property of the causal-density
+field, independently of the matter content; \S\ref{sec:sourcesgravity} will then feed
+the soliton into it as a source.
+
+\subsection{Free Monte Carlo: the $1/r$ profile is an output}
+\emph{Method.} Write $\theta_i=\delta\rho(r_i)/\rho_0$ for the coarse-grained
+causal-density perturbation. We source a localised core and relax $\theta$ freely
+under the static Benincasa--Dowker (BD) gradient action with event-number
+conservation as an exact constraint,
+\begin{equation}
+\begin{split}
+E[\theta]={}&\frac{K}{2}\sum_i\Big(\frac{\theta_{i+1}-\theta_i}{\Delta r_i}\Big)^2 V_i
+\;-\;\kappa\,M\sum_i s_i\,\theta_i,\\
+&\sum_i\theta_i V_i=0,
+\end{split}
+\label{eq:BDenergy}
+\end{equation}
+with $V_i$ the shell volume, $s_i$ a finite source-core profile, $\kappa$ a free
+coupling, and $K$ the action stiffness. \emph{No} functional form is imposed and
+neither $G$ nor any relativistic expression enters the generator. \emph{Result.} The
+relaxed field is an over-density decaying as $\theta=A/r+C$; the log--log tail
+exponent, after removing the exactly predicted conservation offset $C$
+($C_{\rm pred}=-0.0257$ vs.\ $C_{\rm fit}=-0.0281$), is $-1.018\approx-1$, the
+Newtonian $1/r$. Calibrating $\kappa$ once so that $A=M$ in units $G=c=1$, the
+emergent $\rho_{\rm eff}/\rho_0=1+M/r$ reproduces the weak-field
+$\rho_0(1+GM/rc^2)$ to a maximum relative error of $0.62\%$ (correlation $0.9991$).
+\Sderiv{} for the functional form $1/r$ and the linear law.
+
+\subsection{The law is Poisson, and linear}
+\emph{Generic source shapes.} The $1/r$ falloff is not special to a point mass.
+Relaxing four extended sources (homogeneous sphere, thin disk, NFW, exponential), the
+equilibrium field equals the independent radial-quadrature Poisson solution
+$\theta'(r)=-Q_{\rm net}(r)/(4\pi K r^2)$ to correlation $0.9998$, with an exterior
+exponent $-0.996$ to $-0.998$ for every bounded shape---the harmonic-exterior
+signature of $\nabla^2\theta=J$, shape-independent. \emph{Superposition.} Because the
+implemented BD action is quadratic, its Euler--Lagrange equation is the linear
+Poisson equation; placing two cores a distance $d$ apart, the noise-free solver gives
+$\theta_{\rm tot}=\theta_1+\theta_2$ to a residual $\mathrm{rms}/\sigma=1.8\times
+10^{-9}$ (correlation $1.000000$). Superposition is exact: the network obeys a linear
+equation, not a nonlinear one in disguise. \Sderiv{}.
+
+\subsection{Schwarzschild dilation by chain counting}
+\emph{Method.} Sprinkling the Schwarzschild slice in tortoise coordinates, where the
+metric enters the generator only as the proper-volume weight $\Omega^2=(1-2M/r)$
+(never square-rooted), we measure the static-observer clock rate $d\tau/dt$ purely by
+counting (the estimator $\tau=\sqrt{2N/\rho_0}$). \emph{Result.} The counted clock
+rate reproduces $\sqrt{1-2M/r}$ with correlation $0.99999$ and maximum relative error
+$0.2\%$ across $3\le r\le160$, including the strong-field curvature $+\tfrac32
+(M/r)^2$; its reciprocal is the proper-time density $\rho_{\rm eff}=\rho_0/
+\sqrt{1-2M/r}$ whose leading term is exactly $1\cdot(GM/rc^2)$. \Sderiv{} for the
+form.
+
+\subsection{Status and the one external scale}
+The amplitude of the $1/r$ well defines the network's effective coupling
+$G_{\rm net}=A/w_M$ (well amplitude per unit source weight). Sweeping the source
+weight, the density, and the box leaves $G_{\rm net}$ constant (log--log slopes
+$-0.000$, $+0.007$, $+0.003$): the coupling is linear and granularity-independent,
+ruling out a non-Poisson law. But sweeping the action stiffness gives
+$G_{\rm net}\propto1/K$ (slope $-1.000$, reference value $G_{\rm net}=0.981$). The
+network therefore derives the \emph{coupling relation}---a linear, Poisson-form law
+with exponent $-1$ and amplitude $\propto w_M$---while the numerical \emph{value} of
+$G_{\rm net}$ rides on $K$, the action normalisation (the granularity scale).
+\Sext{}: the absolute value of $G$ is an input, the form is not. The spatial
+dimension $d=3$ entering the shell measure $r^{d-1}$ is likewise geometric input, the
+same status the metric had above.
+
+\subsection{What the network adds beyond Poisson}\label{sec:beyondpoisson}
+
+A fair objection must be met head on: have we discovered gravity, or only Poisson's
+equation? The minimisation of \emph{any} quadratic gradient action in three
+dimensions produces a $1/r$ Green's function---this is standard potential theory. The
+question is therefore not whether $1/r$ emerges (it must) but whether the quadratic
+action itself is an \emph{output} of the network rather than an \emph{input}.
+
+Three measured facts answer it, each going beyond a generic gradient minimisation.
+(a)~The specific quadratic form is not inserted by hand: it is the coarse-grained
+Benincasa--Dowker operator on the Poisson sprinkling, whose operator coefficients are
+fixed from Poisson isotropy alone (the measured operator ratio $5/9$ to $0.06\%$, with
+a cubic lattice exactly blind to the same operator, \S\ref{sec:skyrme}), not chosen.
+(b)~The Schwarzschild dilation is reproduced to $0.2\%$ by chain counting
+(\S\ref{sec:gravity}) without the metric formula ever entering the generator; this is
+more than ``just Poisson'' because it requires the specific causal structure of the
+Schwarzschild order, not a flat gradient problem. (c)~The central result
+(\S\ref{sec:sourcesgravity}) feeds the soliton's \emph{own} topological energy-density
+profile---not a generic point source---into the relaxer, and the exterior exponent
+$-0.992$ comes out of that specific defect profile rather than an ad hoc choice of
+source shape.
+
+What remains open we state plainly: the gravitational sector established here is
+Newtonian, a linear Poisson equation. The non-linear regime---gravitational waves,
+back-reaction between sources, and the Einstein equations---lies beyond the present
+construction and is not claimed.
+
+A separate, phenomenological line of work asks whether the effective galactic
+dynamics of such a vacuum modifies Newtonian gravity at low accelerations, with a
+pre-registered, parameter-free prediction for the redshift evolution of the baryonic
+Tully--Fisher relation confronted with observations in companion work
+\cite{BTFRMNRAS}. That line is independent of the present construction and is not
+relied upon here. Within this paper, the gravitational sector stands on the direct
+measurement above---the soliton's own relaxed profile sourcing its $1/r$ field in
+proportion to its mass---which is what makes the present ``$1/r$ from a network''
+more than a restatement of potential theory.
+
+\section{Gauge-group selection: why \texorpdfstring{$\su2$}{SU(2)}}\label{sec:group}
+
+The internal target of Eq.~\eqref{eq:sigma} was provisional. We now ask which group
+the requirement of \emph{stable, conserved, point-like matter} forces, and show by
+elimination that, among the candidates considered, $\su2$ is the minimal one that
+works.
+
+\begin{theorem}[Elimination of candidate internal groups]\label{thm:elim}
+Require an internal target space $G$ whose field configurations on $\mathbb{R}^3$
+(tending to a constant at spatial infinity, hence classified by $\pi_3$ of the vacuum
+manifold) admit a topological charge that is \textup{(i)}~conserved,
+\textup{(ii)}~localised, and \textup{(iii)}~carried by a stable finite-energy
+configuration. Then, among $\{$single real scalar, finite/discrete group, $U(1)$,
+$\su2$, and the higher classical groups$\}$, the minimal group meeting all three is
+$\su2$.
+\end{theorem}
+
+\begin{proof}[Proof (by elimination)]
+Each step is a topological or measured obstruction.
+\emph{Scalar.} A single real scalar has a point (or two-point) vacuum manifold; the
+relevant homotopy group vanishes, so there is no conserved point-like charge in three
+space dimensions. Fails~(i).
+
+\emph{Discrete/finite groups.} A discrete target gives domain-wall (codimension-one)
+defects, not localised point-like ones, and carries no continuous current. Fails~(ii).
+
+\emph{$U(1)$.} The vacuum manifold is $S^1$, and the point-like sector in $3$D is
+governed by $\pi_2(S^1)=0$: there is no point-like topological charge; $U(1)$ supports
+line vortices ($\pi_1(S^1)=\mathbb{Z}$), not particles. We verified the obstruction
+directly on the network: every $U(1)$ class function is exactly blind to a putative
+vortex core because $\cos2\pi n=1$, so the candidate point-defect carries no
+gauge-invariant marker and diffuses away under the dynamics. Fails~(iii) in the
+point-like sector.
+
+\emph{$\su2$.} The group manifold is $S^3$ and $\pi_3(S^3)=\mathbb{Z}$: there is a
+conserved, integer-valued, localised topological charge---the baryon number $B$---and
+\S\ref{sec:soliton} exhibits a stable finite-energy configuration carrying it. $\su2$
+meets~(i)--(iii).
+
+\emph{Higher groups.} For $SU(N\ge2)$ one again has $\pi_3=\mathbb{Z}$, so larger
+groups are not excluded by topology; they are excluded by minimality, $\su2$ being the
+smallest non-Abelian compact group with $\pi_3=\mathbb{Z}$ (Bott periodicity
+guarantees no smaller candidate appears in the relevant degree).
+\end{proof}
+
+\emph{Status.} \Sderiv{} in the contained sense: the elimination shows that,
+\emph{among the candidates considered}, only $\su2$ admits a stable point-like defect
+and $U(1)$ provably cannot. It is a minimality statement, not a uniqueness proof over
+all conceivable targets; exotic target spaces outside this family were not examined.
+
+\section{The Skyrme term as a necessary external input}\label{sec:skyrme}
+
+The $\su2$ hedgehog of Theorem~\ref{thm:elim} is, by Derrick's theorem
+\cite{Derrick1964}, unstable to collapse under the quadratic (Dirichlet) action
+alone: a stabilising higher-derivative term is required, the quartic ``Skyrme'' term
+\cite{Skyrme1962}. The question that decides the honesty of the whole matter sector is
+whether the network \emph{produces} that term with the strength needed to stabilise
+the soliton, or whether it must be added. We prove the latter, as a positive
+statement.
+
+Write the left-invariant currents $L_i=U^\dagger\partial_i U\in\mathfrak{su}(2)$. The
+quadratic (Dirichlet) and quartic (Skyrme) densities are built from the \emph{same}
+currents,
+\begin{equation}
+S=-\tfrac12\,\mathrm{Tr}(L_iL_i),\qquad
+K=-\tfrac1{16}\,\mathrm{Tr}\big([L_i,L_j][L_i,L_j]\big).
+\label{eq:S2K}
+\end{equation}
+
+\begin{theorem}[Pointwise domination of the quartic by the quadratic]\label{thm:KleS}
+At every point of space $K(x)\le\tfrac{2}{3}\,S(x)$, and the hedgehog configuration
+saturates the bound.
+\end{theorem}
+
+\begin{proof}[Proof (Cauchy--Schwarz on the commutator)]
+For Lie-algebra elements regarded as vectors under the Killing inner product, the
+squared norm of the commutator obeys
+\begin{equation}
+\big|[L_i,L_j]\big|^2\;\le\;|L_i|^2\,|L_j|^2-(L_i\!\cdot\!L_j)^2\;\le\;|L_i|^2\,|L_j|^2,
+\label{eq:cs}
+\end{equation}
+the first step being the identity $|a\times b|^2=|a|^2|b|^2-(a\cdot b)^2$ applied to
+the structure-constant cross product of $\mathfrak{su}(2)\cong\mathbb{R}^3$, the
+second dropping the non-negative $(L_i\!\cdot\!L_j)^2$. Summing Eq.~\eqref{eq:cs} over
+the antisymmetric pairs $i<j$ and comparing with Eq.~\eqref{eq:S2K}---the quartic a
+sum over pairs of the left-hand side, the quadratic a sum over single indices of
+$|L_i|^2$---and carrying the index combinatorics of three spatial directions (three
+ordered pairs against three single indices) yields
+\begin{equation}
+K(x)\;\le\;\tfrac{2}{3}\,S(x).
+\label{eq:KleS}
+\end{equation}
+For the hedgehog $U=\exp\!\big(i f(r)\,\hat r\!\cdot\!\vec\tau\big)$ the radial and
+angular currents are mutually orthogonal, so $(L_i\!\cdot\!L_j)^2=0$, the first
+inequality is an equality, and the bound is saturated.
+\end{proof}
+
+\begin{proposition}[Spontaneous dominance is impossible]\label{prop:nodom}
+Stabilisation against Derrick collapse requires the quartic to dominate the energy
+balance at the core. By Theorem~\ref{thm:KleS} the quartic density can never exceed
+$\tfrac23$ of the quadratic density the minimal action already contains; integrated
+over space the quartic contribution is bounded above by a fixed fraction of the
+quadratic one and cannot become dominant. Hence the stabilising dominance cannot
+emerge from the minimal action; it must be supplied with an independent coefficient.
+\end{proposition}
+
+\emph{What the network does and does not supply.} The \emph{form} of the Skyrme
+operator does emerge from Poisson coarse-graining: a measured operator ratio of $5/9$
+to $0.06\%$, with a cubic lattice exactly blind to the same operator, fixes the Skyrme
+length $\lambda_{\rm Sk}=a/\sqrt{120}$ from Poisson isotropy alone (\Sderiv{} for the
+form). But the \emph{dominance}---the core-cost strength that actually stabilises the
+soliton---is bounded away from dominance by Theorem~\ref{thm:KleS} and
+Proposition~\ref{prop:nodom}, and is therefore the one declared \Sext{} ingredient of
+the matter sector. The bound $K\le\tfrac23 S$ was tested against $10^6$ adversarially
+generated $\su2$ configurations chosen to try to violate it; none did. We flag this
+prominently: the Skyrme stabiliser is external by a theorem, not by a failed search.
+
+\section{The soliton: mass and spin-statistics}\label{sec:soliton}
+
+With the group forced (\S\ref{sec:group}) and the stabiliser declared external
+(\S\ref{sec:skyrme}), we exhibit the matter particle and measure its quantum numbers.
+
+\subsection{Existence, charge, mass}
+\emph{Method.} The $\su2$ hedgehog is carried by unit quaternions, so no complex
+literal enters and the guard passes verbatim; we relax the field to a stationary
+configuration under the quadratic plus externally weighted quartic energy.
+\emph{Result.} A stable soliton exists with baryon number $B=1$ and virial balance
+$E_2=E_4$ at the minimum, with mass $M\approx146$--$207$ in lattice units across the
+configurations tested. \Sderiv{} for existence, stability, and $B=1$.
+
+\subsection{Spin one-half and fermionic statistics}
+\emph{Method.} We quantise the soliton's collective rotational coordinate following
+Adkins--Nappi--Witten \cite{AdkinsNappiWitten1983} and measure the exchange phase
+directly on the lattice. \emph{Result, by a triple check.}
+(i)~The rotational spectrum is $E_j\propto j(j+1)$, the rigid-rotor law.
+(ii)~The Finkelstein--Rubinstein constraint \cite{FinkelsteinRubinstein1968} on
+$\pi_3(S^3)=\mathbb{Z}$ configurations selects half-integer $j$, giving $j=\tfrac12$
+as the ground state. (iii)~A $2\pi$ rotation of the field maps the configuration to
+minus itself, $\psi\to-\psi$, measured to $5\times10^{-16}$. The exchange statistics
+are then measured independently:
+\begin{equation}
+\begin{split}
+[\text{swap two solitons}]&=[\text{rotate one by }2\pi]\\
+&=1\in\pi_1(\mathrm{SO}(3))=\mathbb{Z}_2,
+\end{split}
+\label{eq:spinstat}
+\end{equation}
+with the general law $\varepsilon(n)=(n-1)\bmod 2$ verified for $n=1,2,3$ solitons.
+The winding-$2$ framed-transfer correction $\varepsilon(2)=1$ entering the exchange
+reading is uniform across distinct winding-$2$ swap fields (measured on three
+independent calibrators of known class; A5, \texttt{RESIDUOS\_A5/}), so it is a
+property of the swap topology rather than of one field.
+The Skyrmion is therefore a fermion of spin $\tfrac12$, with the spin-statistics
+connection obtained rather than assumed. \Sderiv{}.
+
+The identification Skyrmion~$\leftrightarrow$~baryon is \Sident{}, not \Sderiv{}: the
+topological charge, spin, and statistics match a nucleon's, but the mass is in lattice
+units, not GeV, and the absolute lattice scale is external. We therefore say the
+Skyrmion ``has the quantum numbers of a baryon,'' not ``is a baryon of mass $X$.'' We
+note one death honestly: the rotational band follows the Casimir law
+$m^2\propto J(J+1)$ ($R^2=1.0000000$), i.e.\ a rigid rotor, and \emph{not} the linear
+Regge law of a hadronic string.
+
+\section{Quantitative baryon phenomenology}\label{sec:baryon}
+
+Section~\ref{sec:soliton} measured the soliton's topological charge, spin, and
+statistics; its quantum numbers match a nucleon's, but the correspondence was left
+\Sident{}---the mass in lattice units, no continuum observable computed. We now
+sharpen it to \Sderiv{} for the \emph{dimensionless} baryon structure, by quantising
+the collective rotation quantitatively and comparing with the standard Skyrme-model
+phenomenology of Adkins, Nappi and Witten (ANW) \cite{AdkinsNappiWitten1983,Witten1983}.
+The construction introduces exactly one dimensionless coupling (the Skyrme parameter
+$e$) and one external scale ($f_\pi$, the analogue of $G$); the programme's universal
+pattern then predicts that pure numbers are derived, one number calibrates $e$, and the
+absolute scale stays external.
+
+\subsection{The rotor tower and its degeneracies}
+Projecting the rigid-rotor spectrum onto the Finkelstein--Rubinstein-allowed
+half-integer sector gives a tower whose grand-spin levels carry degeneracies
+$(2j+1)^2=[4,16,36]$ for $j=\tfrac12,\tfrac32,\tfrac52$---the nucleon doublet, the
+$\Delta$ quartet, and the next level---with spin locked to isospin ($I=J=j$) at each
+level. The low-lying spectrum follows the rigid-rotor law $E_\ell\propto\ell(\ell+2)$
+to $R^2=0.9999$, and the parameter-free level ratio is
+\begin{equation}
+\frac{E_{5/2}-E_{1/2}}{E_{3/2}-E_{1/2}}=2.639
+\qquad(\text{rigid rotor }8/3=2.667,\ 1.1\%).
+\label{eq:rotorratio}
+\end{equation}
+We certify the rotor law on this accurate low-$\ell$ spectrum and on the pure ratio,
+not on a high-$\ell$ fit: the $j(j+1)$ regression \emph{including} the $j=\tfrac52$
+level is only $R^2=0.98$, because that high transfer level carries discreteness and
+Monte-Carlo spread ($35\%$). The degeneracies and Eq.~\eqref{eq:rotorratio} are the
+robust, parameter-free content.
+
+\subsection{The full inertia and one calibration}
+The earlier qualitative quantisation (\S\ref{sec:soliton}) used only the
+$\sigma$-model zero-mode inertia; the quartic Skyrme term stiffens the rotor and was
+omitted there. Measuring both contributions from the lattice profile, the Skyrme part
+is $43\%$ of the total, so the full rotational inertia is $1.76\times$ the
+$\sigma$-only value---a correction every quantitative number inherits (the rotor
+energies the $\sigma$-only treatment implied were $76\%$ too large). With the full
+inertia, a \emph{single} calibration---the experimental $N$--$\Delta$ splitting---fixes
+the one dimensionless coupling,
+\begin{equation}
+e=5.39\qquad(\text{ANW }5.45,\ 1.0\%),
+\label{eq:ecalib}
+\end{equation}
+reproducing the dimensionless splitting $(M_\Delta-M_N)/M_N=0.312$ (experiment
+$0.314$). No second number is tuned.
+
+\subsection{Parameter-free predictions}
+With $e$ fixed, the remaining observables are parameter-free
+(Table~\ref{tab:baryon}). The magnetic-moment ratio $\mu_p/\mu_n=-1.51$ lands
+\emph{between} ANW ($-1.43$) and experiment ($-1.46$); the isoscalar charge radius is
+$0.65$~fm; and $g_A=0.56$ reproduces the famously low minimal-Skyrme value (ANW
+$0.61$)---a known limitation of the action, reported for completeness, not a free
+parameter.
+
+\begin{table}[t]
+\caption{Quantitative baryon phenomenology of the $\su2$ soliton (BQ). The
+degeneracies, the rotor ratio, and---after the single $N$--$\Delta$ calibration that
+fixes $e$---the magnetic-moment ratio, radius, and $g_A$ are measured from the
+lattice soliton's own profile and compared with Adkins--Nappi--Witten and experiment.
+Only $e$ is calibrated; everything below the rule is a parameter-free prediction.
+$f_\pi$ (the absolute GeV scale) is external and is not listed as a prediction.}
+\label{tab:baryon}
+\begin{ruledtabular}
+\begin{tabular}{lccc}
+Observable & This work & ANW & Experiment \\
+\colrule
+degeneracies $(2j+1)^2$ & $[4,16,36]$ & $[4,16,36]$ & $[4,16,36]$ \\
+ratio (rotor $8/3$) & $2.639$ & $2.667$ & --- \\
+$e$ (calibration) & $5.39$ & $5.45$ & --- \\
+\colrule
+$(M_\Delta-M_N)/M_N$ & $0.312$ & --- & $0.314$ \\
+$\mu_p/\mu_n$ & $-1.51$ & $-1.43$ & $-1.46$ \\
+$r_{\rm iso}$ (fm) & $0.65$ & $0.59$ & $0.81$ \\
+$g_A$ & $0.56$ & $0.61$ & $1.27$ \\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+\emph{Status, in the same breath.} What is \Sderiv{} is the \emph{dimensionless}
+baryon phenomenology: the multiplet degeneracies, the rigid-rotor ratio, the
+magnetic-moment ratio, the radius, and $g_A$---measured pure numbers reproducing ANW to
+$\le10\%$ from the lattice soliton's own profile. What stays \Sext{} is the overall GeV
+scale: $f_\pi$ is the one external input (the calibrated $f_\pi\approx126$~MeV is the
+$F_\pi=2f_\pi$ convention; the dimensionless $e$, which controls every prediction, is
+convention-robust). The electromagnetic current decomposition (isoscalar baryon
+current, isovector third iso-Noether current) is the standard ANW one, imported as the
+Skyrme-term form was imported in \S\ref{sec:skyrme}---the \emph{profile} is the
+lattice's, and reproducing ANW's numbers from it validates the integrands. No absolute
+mass in GeV is claimed.
+
+\section{The soliton sources gravity}\label{sec:sourcesgravity}
+
+This is the result that unites the two halves of the paper. Sections~\ref{sec:gravity}
+and~\ref{sec:soliton} are not two independent successes that happen to coexist on the
+same substrate; they are one measurement read twice, because the object whose mass we
+measured in \S\ref{sec:soliton} is precisely a localised source for the field of
+\S\ref{sec:gravity}.
+
+The logic is a composition of measured laws. The soliton of \S\ref{sec:soliton} is a
+conserved, finite-energy, spatially localised lump of integrated weight equal to its
+mass $M$. The gravitational sector of \S\ref{sec:gravity} responds to \emph{any} such
+localised weight $w$ with a field whose exterior form is $1/r$ for every source shape
+(the shape-independent harmonic exterior, $\nabla^2\theta=J$) and whose amplitude is
+strictly linear in $w$: the effective coupling $G_{\rm net}=A/w$ was measured constant
+in the source weight (log--log slope $-0.000$, coefficient of variation zero), in the
+density, and in the box. Identifying the source weight with the soliton mass, $w=M$,
+the Skyrmion therefore sources
+\begin{equation}
+\boxed{\;\theta(r)=\frac{G_{\rm net}\,M}{r}\;}
+\label{eq:sourcesgravity}
+\end{equation}
+the \emph{same} $1/r$ field established in \S\ref{sec:gravity}, with an amplitude set
+by the \emph{same} mass measured in \S\ref{sec:soliton}, and growing linearly with it
+(two solitons source twice the amplitude, by the exact superposition of
+\S\ref{sec:gravity}). Matter and its gravitation are thus a single derived relation:
+the topological charge that makes the particle stable is, through its energy density,
+the source weight that sets the depth of the gravitational well it sits in.
+
+\subsection{Direct measurement: the soliton's own profile as the source}
+The argument just given composes two separately measured laws. We have also performed
+the direct measurement it anticipates, feeding the soliton's \emph{own} relaxed
+energy-density profile $\varepsilon(r)=\mathcal{E}_2(r)+\mathcal{E}_4(r)$---not a
+generic localised weight---as the literal source $s_i$ into the same static BD relaxer,
+Eq.~\eqref{eq:BDenergy}. The genuine numerical risk is specific: the soliton's
+concentrated, compact profile (unlike the smooth extended shapes of
+\S\ref{sec:gravity}) could corrupt the Poisson exterior through grid discreteness, the
+conservation offset, and core compactness. It does not. Across the soliton family
+($M=175$ to $218$ in lattice units, spanned by varying the external Skyrme weight), the
+exterior exponent is $-0.992$ (target $-1$), the well amplitude per unit mass
+$G_{\rm net}=A/M=0.9307$ is constant to five digits (coefficient of variation
+$5\times10^{-5}$), and it equals the $G_{\rm net}$ of a top-hat source of identical mass
+to $0.02\%$. A validation gate first confirmed that the exact relaxer reproduces the
+Metropolis BD minimum of \S\ref{sec:gravity}. Equation~\eqref{eq:sourcesgravity} is
+therefore a single direct measurement, not an inference: the object whose mass we
+measured in \S\ref{sec:soliton} sources the field of \S\ref{sec:gravity} with precisely
+that mass.
+
+\emph{Status, stated in the same breath.} The \emph{form}---$\theta\propto M/r$, with
+amplitude linear in the mass---is \Sderiv{}, now by direct measurement: the
+shape-independent Poisson exterior, the linearity of $G_{\rm net}$ in the source weight,
+and the soliton's own profile-as-source all measured. The \emph{absolute}
+proportionality constant is \Sext{}: the coupling is $G_{\rm net}\propto1/K$ with $K$
+the external action normalisation (\S\ref{sec:gravity}), so
+Eq.~\eqref{eq:sourcesgravity} fixes the gravitational \emph{response per unit mass} only
+up to that one granularity scale, and the soliton mass itself is in lattice units
+(\S\ref{sec:soliton}). One caveat we state plainly: the near-exact $A\propto M$ and the
+top-hat agreement are, in part, Gauss's law---the harmonic exterior depends only on the
+total enclosed charge---which is precisely why the shape-independence over four extended
+profiles held in \S\ref{sec:gravity}; the direct measurement confirms it holds for the
+soliton too \emph{and} that the compact profile does not corrupt the exponent. The
+radial reduction used here is exact for the embedded $B=1$ hedgehog. As an intermediate
+check we have since sourced the soliton energy density on a full \emph{three-dimensional
+Cartesian} Poisson grid (no imposed radial symmetry) and solved $-K\nabla^2\theta={}$source
+directly: the exterior exponent is $-0.991$ and $G_{\rm net}=A/M$ is constant to
+$\mathrm{CV}=0\%$ across four soliton masses ($M=175$--$218$), confirming
+$\theta=G_{\rm net}M/r$ is not an artefact of radial symmetry (A5,
+\texttt{RESIDUOS\_A5/}). The remaining step---an actual irregular causal sprinkling into
+a $3$D BD relaxer---meets the same non-locality obstruction documented for the gauge
+sector and is left as an optional larger campaign, the radial and $3$D-Cartesian
+compositions being the faithful objects for the present claim.
+
+\emph{A falsifiable prediction.} One non-trivial consequence of this section is the
+exact proportionality $G_{\rm net}=A/w_M$, measured constant across the source weight,
+the density, and the box size (log--log slopes $-0.000$, $+0.007$, $+0.003$;
+\S\ref{sec:gravity}). This rules out a non-Poisson law and establishes that the
+gravitational coupling is linear in the source weight with no anomalous dimension---a
+result that is \emph{not} guaranteed by the quadratic action alone. It is a concrete,
+testable prediction of the construction: any modification that introduced a
+non-linearity in the source weight (an amplitude scaling as $w_M^{1+\delta}$ with
+$\delta\neq0$) would falsify this sector. The measured $\delta=0$ to three decimals is
+thus a parameter-free output the framework stakes itself on.
+
+\section{What is, and is not, established}\label{sec:claim}
+
+\emph{Established by measurement.}
+(a)~A localised source in the causal-density field relaxes, under the BD action with
+no imposed profile, to a Newtonian $1/r$ potential; the law is Poisson and linear for
+every source shape, and a chain-counting measurement reproduces the Schwarzschild
+dilation to $0.2\%$ (\S\ref{sec:gravity}).
+(b)~Stable, conserved, point-like matter forces the internal group to $\su2$ by
+elimination, $U(1)$ being excluded by $\pi_2(S^1)=0$ both by theorem and on the
+network (\S\ref{sec:group}).
+(c)~The Skyrme stabiliser cannot dominate spontaneously ($K\le\tfrac23 S$, $10^6$
+adversarial configurations) and is an external input by theorem (\S\ref{sec:skyrme}).
+(d)~The $\su2$ soliton exists with $B=1$, has virial mass $M\approx146$--$207$ in
+lattice units, and is a measured spin-$\tfrac12$ fermion (\S\ref{sec:soliton}).
+(e)~Quantising its collective rotation with the full ($\sigma$+Skyrme) inertia, a
+single calibration (the $N$--$\Delta$ splitting) fixes the one coupling to $e=5.39$
+($1\%$ from ANW), after which the magnetic-moment ratio $\mu_p/\mu_n=-1.51$ (experiment
+$-1.46$), the isoscalar radius $0.65$~fm and the multiplet degeneracies $[4,16,36]$ are
+parameter-free: the dimensionless baryon structure is derived (\S\ref{sec:baryon}).
+(f)~Feeding the soliton's \emph{own} energy-density profile as the literal source into
+the relaxer of~(a) yields $\theta=G_{\rm net}M/r$ directly---exterior exponent $-0.992$,
+$G_{\rm net}$ constant to five digits across the soliton mass, identical to a top-hat of
+equal mass to $0.02\%$ (\S\ref{sec:sourcesgravity}).
+
+\emph{Not established; external or identified.} The Skyrmion--baryon correspondence is
+\Sderiv{} for the \emph{dimensionless} structure (degeneracies, ratios,
+magnetic-moment ratio; \S\ref{sec:baryon}) but the absolute mass scale remains \Sext{}:
+$f_\pi$, and hence every mass in GeV, is an external input, exactly as $G$ and the
+lattice scale are. The electromagnetic currents are the standard ANW operators,
+imported; $g_A$ inherits the $\sim10$--$30\%$ accuracy of the minimal Skyrme action. The
+absolute value of Newton's constant ($G_{\rm net}\propto
+1/K$) and the lattice scale are \Sext{}; the spatial dimension $d=3$ entering the
+shell measure is geometric input. The gravitational sector here is the linear
+(Newtonian/weak-field) one; the full $\sqrt{1-2M/r}$ strong field requires the
+nonlinear completion and is not claimed. The wave excitation of the orientation field
+is treated separately and is a pair of relativistic internal \emph{scalars}
+\cite{GoldstonePRD}, not a gauge vector; no electromagnetic or photonic result is
+claimed anywhere in this paper. Finally, this paper is deliberately bounded to the
+$\su2$ matter-and-gravity sector: $\su3$ colour and confinement, galactic-scale
+dynamics, and dark matter are out of scope and are the subjects of separate companion
+papers.
+
+\section{Conclusions}\label{sec:conclusions}
+
+Equipping a causal set with a single internal orientation field, and analysing it
+under a guard that forbids inserting relativity, we have established by measurement
+that the substrate produces both halves of a matter--gravity pair from one
+construction. On the gravitational side, a localised source relaxes to a Newtonian
+$1/r$ potential obeying a linear Poisson law for every source shape, with the
+Schwarzschild dilation recovered to $0.2\%$ by chain counting and the coupling form
+derived (its absolute value external). On the matter side, the requirement of stable
+point-like topological charge forces $\su2$, the soliton's stabiliser is external by a
+Cauchy--Schwarz theorem, and the resulting $\su2$ Skyrmion is a $B=1$,
+spin-$\tfrac12$ fermion with measured exchange statistics that is, quantitatively, a
+baryon: with the full ($\sigma$+Skyrme) inertia a single calibration fixes the one
+coupling, and the magnetic-moment ratio, radius, and multiplet degeneracies then follow
+parameter-free, matching Adkins--Nappi--Witten to $\le10\%$ (only the GeV scale
+external). The two halves meet in a single \emph{direct} measurement: the soliton's own
+energy-density profile, fed as the literal source into the network's gravitational
+relaxer, produces $\theta=G_{\rm net}M/r$ with exterior exponent $-0.99$ and amplitude
+equal to its own mass. Within its declared external scales, a pure causal substrate with
+one internal field yields stable matter that gravitates---matter and gravity as one
+measurement, not two coincidences.
+
+\begin{acknowledgments}
+This work uses only the author's own simulations; the anti-circularity guard, the
+validation gates, and the pre-registered decision criteria are part of the build.
+\end{acknowledgments}
+
+\bibliographystyle{apsrev4-2}
+\bibliography{TEIC_CONSOLIDATED}
+
+\end{document}
