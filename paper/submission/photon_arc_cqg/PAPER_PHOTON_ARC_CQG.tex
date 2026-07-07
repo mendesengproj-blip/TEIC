@@ -1,5 +1,11 @@
-% PAPER_PHOTON_ARC_CQG --- standalone article targeting Classical and Quantum
-% Gravity (informative-negative result, the venue's stated remit).
+% PAPER_PHOTON_ARC_CQG --- standalone article. Originally targeted Classical and
+% Quantum Gravity (CQG-116545, desk-rejected 07jul26 without review); revised and
+% retargeted to General Relativity and Gravitation (Springer). Revision (jul/2026,
+% post desk-rejection, wen_complement precedent): title now leads with the positive
+% contributions (operator + H^2 law + map); the Campbell-Mecke valency sketch of
+% sec:cst is promoted to a formal Proposition with proof sketch (source:
+% docs/campaigns/IMPOSSIBILIDADE_PARCIAL/RESULTADO.md sec 3.1); abstract and intro
+% reframed to lead with what the paper delivers. No number or claim changed.
 %
 % This is the "photon arc" paper: not a failure, a map. The TEIC programme asked
 % repeatedly whether a photon (a massless transverse gauge vector, Coulomb phase)
@@ -36,7 +42,7 @@
 %
 % Self-contained. Compiles with pdflatex+bibtex (revtex4-2 + apsrev4-2.bst)
 % against TEIC_CONSOLIDATED.bib (copied into this folder). At submission this
-% converts to the iopart (CQG) class; the revtex build here is for review/length.
+% converts to the Springer class; the revtex build here is for review/length.
 %
 % Reframe (jul/2026, PLANO_REENQUADRAMENTO): intro positions the paper as the
 % delimiting half of the CST matter-sector line (cites MatterGravityPRD + SU3PRD);
@@ -52,10 +58,14 @@
 \newcommand{\Rhat}{\hat R}
 \newcommand{\fracB}{f_{\!B}}
 
+\newtheorem{proposition}{Proposition}
+\newenvironment{proofsketch}{\par\noindent\emph{Proof sketch.}\ }{\hfill$\square$\par}
+
 \begin{document}
 
-\title{Where, and why, a photon is hard to emerge in causal set theory:\\
-a systematic map and an indefinite-signature gauge operator}
+\title{An indefinite-signature Benincasa--Dowker gauge operator for causal sets:\\
+electric causal diamonds, an $H^2$ curvature law, and the obstruction map\\
+for an emergent photon}
 
 \author{Miqueias Alves Mendes}
 \email{mikalvesm@gmail.com}
@@ -63,36 +73,39 @@ a systematic map and an indefinite-signature gauge operator}
 \date{\today}
 
 \begin{abstract}
-A recurring hope in emergent-spacetime programmes is that the photon---a massless
-transverse gauge vector with a Coulomb phase---should arise from the substrate rather
-than be postulated. We report a systematic, pre-registered search for such a photon on
-a causal set (a Poisson sprinkling with its causal order), and the result is an
-informative negative: a map of exactly where and why the photon is hard, ending at a
-precisely stated open construction. Six measured links. (i)~The Goldstone modes of an
-internal orientation order are two degenerate internal \emph{scalars}, not a gauge
-vector: their polarisation does not lock to the wavevector (permutation $p=0.23$); a
-$0$-form Goldstone of a global internal symmetry is structurally scalar. (ii)~We
-relocate the question to the gauge-connection (link $U(1)$) sector, where the engine is
-validated but the bare connection inherits the causal set's non-locality, and the
-confinement/Coulomb phase shows a lattice-like crossover near $\beta\simeq1$ (Coulomb
-not certified). (iii)~We construct an indefinite-signature ($E^2-B^2$)
-Benincasa--Dowker gauge operator---absent from the causal-set literature, which carries
-the d'Alembertian only on scalars---which is gauge-invariant to $5.7\times10^{-16}$ and
-reproduces free Maxwell on a $4$D lattice ($\omega=ck$, $c=1.05$); but on the causet it
-fails, because causal diamonds are $100\%$ electric (magnetic-cell fraction
-$\fracB=0.0000$): the magnetic sector is structurally empty. (iv)~Diamond \emph{height}
-does not supply the missing spacelike cell (tail $\sim0.25\%$, non-growing).
-(v)~Spatial \emph{curvature} does: $\fracB$ rises monotonically and crosses $0.01$ at de
-Sitter radius $\Rhat=2$. (vi)~Coupling the ordered ferromagnet to the gauge field does
-not amplify it (the rise is disorder, not order). Extrapolating the one positive lever,
-$\Delta\fracB\propto(1/\Rhat)^{1.73}\approx H^2$ ($R^2=0.997$), an $O(10\%)$ magnetic
-sector requires $\Rhat\approx0.5$--$0.6$---\emph{sub-Planckian}. The photon mechanism is
-therefore real but Planck-scale, and does not explain the photons of the
-observable low-curvature universe. (vii)~Two further low-curvature levers---future-cone
-cells and a genuine Bianchi-I anisotropy on the causal \emph{order}---are exhausted as well
-(the former gauge-trivial and off the Hasse-link substrate, the latter redistributing but
-not magnetising), closing the low-curvature map. We state the remaining obstruction exactly:
-a Lorentz-invariant spacelike $2$-cell on the causal order at low curvature.
+Causal set theory possesses a smeared, Lorentz-invariant d'Alembertian for \emph{scalar}
+fields, but no analogous operator for a gauge field. We construct one: an
+indefinite-signature ($E^2-B^2$) Benincasa--Dowker gauge operator, in which each
+causal-diamond plaquette enters the quadratic form with a sign set by its area bivector
+(timelike/electric versus spacelike/magnetic). The operator is gauge-invariant to
+$5.7\times10^{-16}$ and reproduces free Maxwell on a $4$D lattice ($\omega=ck$ with
+fitted $c=1.05$; $c$ is never input). Applied to the Poisson causal set it returns a
+sharp structural verdict: causal diamonds are $100\%$ electric (magnetic-cell fraction
+$\fracB=0.0000$ exactly, one-sided Wilson bound $6\times10^{-5}$, stable for
+$N=200$--$2000$)---the magnetic sector a Lorentzian signature requires is structurally
+empty. With this tool we map, in a pre-registered elimination, where and why a photon is
+hard to emerge on the causal set. (i)~The Goldstone modes of an internal orientation
+order are two degenerate internal \emph{scalars}, not a gauge vector: their polarisation
+does not lock to the wavevector (permutation $p=0.23$). (ii)~The gauge-connection (link
+$U(1)$) sector is validated and not permanently confining (lattice-like crossover near
+$\beta\simeq1$), but its bare connection inherits the causal set's non-locality (Coulomb
+not certified)---and we prove this non-locality is a theorem, not an accident: by a
+Campbell--Mecke (Palm) argument, \emph{every} Poincar\'e-invariant connection rule on
+the sprinkling, pairwise or not, has divergent expected valency, because the boost orbit
+at fixed proper time is the non-compact hyperboloid. (iii)~Diamond \emph{height} does
+not supply the missing spacelike cell (tail $\sim0.25\%$, non-growing). (iv)~Spatial
+\emph{curvature} does: $\fracB$ rises monotonically and crosses $0.01$ at de Sitter
+radius $\Rhat=2$, and the curvature-added fraction obeys a clean law,
+$\Delta\fracB\propto(1/\Rhat)^{1.73}\approx H^2$ ($R^2=0.997$). An $O(10\%)$ magnetic
+sector then requires $\Rhat\approx0.5$--$0.6$---\emph{sub-Planckian}: the photon
+mechanism is real but Planck-scale, and does not explain the photons of the observable
+low-curvature universe. (v)~Coupling the ordered ferromagnet to the gauge field does not
+amplify it (the rise is disorder, not order). (vi)~Two further low-curvature
+levers---future-cone cells and a genuine Bianchi-I anisotropy on the causal
+\emph{order}---are exhausted as well (the former gauge-trivial and off the Hasse-link
+substrate, the latter redistributing but not magnetising), closing the low-curvature
+map. The remaining obstruction is stated exactly: a Lorentz-invariant spacelike $2$-cell
+on the causal order at low curvature.
 \end{abstract}
 
 \maketitle
@@ -117,9 +130,18 @@ scalar-curvature (d'Alembertian) operator from the order alone
 established and add nothing to them; we ask only whether a \emph{photon} can be made to
 emerge on the same substrate.
 
-This paper is deliberately a negative result, in the sense \emph{Classical and Quantum
-Gravity} explicitly welcomes: a clear map of where a natural construction fails and why,
-ending at an open problem stated precisely enough to be attacked. It is also the
+The paper's contribution is threefold. First, a new \emph{operator}: an
+indefinite-signature Benincasa--Dowker gauge operator---to our knowledge the first
+BD-type operator for a gauge $1$-form, and the first gated against free Maxwell on a
+lattice before any causet reading (\S\ref{sec:operator}). Second, a
+\emph{proposition}: the non-locality that obstructs every bare connection on the
+sprinkling is forced by the non-compactness of the Lorentz group
+(Proposition~\ref{prop:valency}, \S\ref{sec:theorem})---the measured obstructions of
+\S\ref{sec:link} are instances of a theorem, not accidents of a construction. Third, a
+\emph{map}: a pre-registered chain of measurements that relocates the obstruction to an
+emergent photon step by step, ending at an open problem stated precisely enough to be
+attacked. No photon is claimed anywhere; the negative is reported as carefully as the
+positives, in the tradition of informative no-go results. The paper is also the
 delimiting half of a matter-sector programme on the same substrate: companion
 measurements derive an ordered vacuum with relativistic scalar Goldstone modes
 \cite{GoldstonePRD}, a spin-$\tfrac12$ topological baryon that sources its own
@@ -143,8 +165,9 @@ mechanism real but Planck-scale (\S\ref{sec:frontier}); we test the two further
 low-curvature levers---future-cone cells and a genuine Bianchi-I anisotropy on the causal
 order---and find both exhausted, closing the low-curvature map (\S\ref{sec:further});
 discuss what this means for the
-CST literature (\S\ref{sec:cst}), and delimit precisely what is and is not established
-(\S\ref{sec:claim}).
+CST literature and prove that the non-locality met throughout is structural
+(\S\ref{sec:cst}--\S\ref{sec:theorem}), and delimit precisely what is and is not
+established (\S\ref{sec:claim}).
 
 \section{Substrate and protocol}\label{sec:protocol}
 
@@ -216,7 +239,9 @@ surrogate fails its own validation control. The root cause is the documented non
 of causal-set operators \cite{Sorkin2007,BenincasaDowker2010}: the mean graph degree
 grows without bound (empirically $\propto L^{2.9}$), and the region
 $\{$future$,\ \tau\le\tau_{\max}\}$ has infinite volume in Minkowski, so there is no
-finite-volume Lorentz-invariant local neighbourhood. The bare connection inherits this;
+finite-volume Lorentz-invariant local neighbourhood (\S\ref{sec:theorem} proves this is
+forced for every invariant rule, not particular to the covering relation). The bare
+connection inherits this;
 a smeared operator is needed, exactly as the scalar sector needed the smeared
 Benincasa--Dowker d'Alembertian.
 
@@ -489,18 +514,66 @@ off the Hasse-link substrate, the latter redistributes magnetic content without 
 fraction. The one genuinely open direction that remains is an \emph{inhomogeneous} geometry,
 or a spacelike $2$-cell construction not yet conceived.
 
-The non-locality that blocks the bare connection (\S\ref{sec:link}) is, moreover,
-not an accident of this construction. For \emph{any} connection rule on the
-sprinkling that is a Lorentz-invariant function of pair (or neighbourhood)
-invariants, the expected valency diverges: by a Campbell--Mecke argument the
-marginal connection probability can depend only on the proper time $\Delta\tau$, so
-the integral over neighbours factorises through the orbit at fixed
-$\Delta\tau$---the boost hyperboloid, whose volume is infinite because the Lorentz
-group is non-compact. For the covering relation this is the familiar non-locality of
-causal-set links; the observation here is that it is not specific to links but
-follows for every invariant rule. The smeared character of every workable causal-set
-operator---including the gauge operator of \S\ref{sec:operator}---is the price of
-that structural fact, not a technical choice.
+\section{The non-locality is a theorem}\label{sec:theorem}
+
+The non-locality that blocks the bare connection (\S\ref{sec:link}) is, moreover, not an
+accident of this construction. It is forced, for \emph{every} invariant connection rule
+on the sprinkling, by the non-compactness of the Lorentz group. We state this precisely,
+because it upgrades the measured obstructions of \S\ref{sec:link} from properties of one
+construction to a structural fact about the substrate.
+
+\begin{proposition}[invariant connection rules have divergent valency]\label{prop:valency}
+Let $\Phi$ be a Poisson sprinkling of density $\rho$ in $d$-dimensional Minkowski space,
+and let a connection rule join causally related events $i\prec j$ with a probability
+that is a Poincar\'e-invariant measurable functional of $\Phi$ (pairwise, or depending
+on any invariantly defined neighbourhood configuration). Then the expected valency of a
+typical event is
+\begin{equation}
+\langle z\rangle \;=\; \rho\,\mathrm{Vol}\!\left(H^{d-1}\right)
+\int_0^\infty \Delta\tau^{\,d-1}\, q(\Delta\tau)\,\mathrm{d}\Delta\tau ,
+\label{eq:valency}
+\end{equation}
+where $q(\Delta\tau)$ is the connection probability marginalised over the rest of the
+process (a function of the proper time $\Delta\tau$ alone, by invariance) and $H^{d-1}$
+is the unit hyperboloid, the Lorentz orbit at fixed $\Delta\tau$. Since
+$\mathrm{Vol}(H^{d-1})=\infty$, $\langle z\rangle=\infty$ unless $q\equiv0$ almost
+everywhere (the trivially sparse regime, with no connections).
+\end{proposition}
+
+\begin{proofsketch}
+By the Campbell--Mecke (Palm) formula for the Poisson process,
+$\langle z\rangle=\rho\int_{J^+}h(i,x)\,\mathrm{d}^dx$, where
+$h(i,x)=\mathbb{E}_\Phi\!\left[\mathbf 1(i,x\ \mathrm{connected})\right]$ is the
+marginal connection probability. Both the sprinkling law and the rule are
+Poincar\'e-invariant, so $h(g\cdot i,\,g\cdot x)=h(i,x)$ for every $g$ in the group;
+hence $h$ depends only on the pair invariant $\Delta\tau$---including for rules that
+depend on the whole neighbourhood configuration, whose $k$-point dependence is absorbed
+into the marginal $h$. Decomposing the future-cone measure as
+$\mathrm{d}^dx=\Delta\tau^{\,d-1}\,\mathrm{d}\Delta\tau\,\mathrm{d}\mu_{H^{d-1}}$ and
+using that $h$ is constant on each hyperboloid (dependence on the position in $H^{d-1}$
+would be frame dependence), the integral factorises and the infinite hyperbolic volume
+exits as a prefactor.
+\end{proofsketch}
+
+Three remarks fix the scope. (a)~The covering relation itself is the best-known
+instance: $q_{\rm cover}(\Delta\tau)=e^{-\rho c_d\Delta\tau^d}>0$, so links have
+infinite expected valency in infinite Minkowski---the familiar non-locality of
+causal-set links \cite{Sorkin2007,BenincasaDowker2010}; the content of
+Proposition~\ref{prop:valency} is that this is not specific to links but holds for
+every invariant rule, pairwise or not. (b)~In a finite box $\mathrm{Vol}(H^{d-1})$ is
+regularised but grows with the system size (the accessible rapidity range grows), so
+$\langle z\rangle$ diverges with $N$---exactly the $\propto L^{2.9}$ degree growth
+measured in \S\ref{sec:link}. (c)~The nearest candidate exception, the
+Alexandrov-interval abundance $N(i,j)$, carries no new spatial information: the interval
+volume is fixed by $\Delta\tau$ itself, $V=c_d\Delta\tau^d$, so
+$N(i,j)\sim\mathrm{Poisson}(\rho c_d\Delta\tau^d)$ and
+$\mathbb{E}[N\,|\,\Delta\tau]=\rho c_d\Delta\tau^d$ is a monotone bijection---the same
+variable in disguise (verified numerically, $\mathbb{E}[N]\propto\Delta\tau^3$ in
+$2{+}1$D); every pairwise combinatorial quantity (longest-chain length, common-neighbour
+counts) is likewise a function of $V\propto\Delta\tau^d$ and falls to the same
+non-compactness. The smeared character of every workable causal-set
+operator---including the gauge operator of \S\ref{sec:operator}---is the price of this
+structural fact, not a technical choice.
 
 \section{What is, and is not, established}\label{sec:claim}
 
@@ -530,6 +603,15 @@ the Hasse-link substrate ($30.8\%$ of sides are links at $N=800$, falling with $
 genuine Bianchi-I anisotropy on the causal order redistributes magnetic content between
 spatial planes without raising $\fracB$ above $\sim0.003$ (\S\ref{sec:further}).
 
+\emph{Established analytically.} Every Poincar\'e-invariant connection rule on the
+Poisson sprinkling---pairwise or depending on any invariantly defined neighbourhood
+configuration---has divergent expected valency, because the Lorentz orbit at fixed
+proper time is the non-compact hyperboloid (Proposition~\ref{prop:valency}); the
+non-locality met in \S\ref{sec:link} is structural to the substrate, not an artefact of
+the constructions tested. The proposition's hypotheses are explicit (the invariant
+Poisson measure, rules using only the order and invariant counts); it does not
+constrain non-Poisson or dynamically grown measures.
+
 \emph{Not established.} No photon is obtained: there is no causet regime, in any lever
 tested, with an $O(1)$ transverse magnetic sector at the low curvature of the observable
 universe, hence no emergent Maxwell field, no Coulomb phase certified, and no electric
@@ -558,11 +640,14 @@ sub-Planckian curvature, so the mechanism, though real, does not produce the pho
 the low-curvature universe we inhabit. Two further low-curvature constructions---future-cone
 cells and a genuine Bianchi-I anisotropy on the causal order---are then exhausted as well,
 the first gauge-trivial and off the link substrate, the second redistributing magnetic
-content without magnetising; the low-curvature map is closed. The contribution is not a photon but a map: a new
-gauge operator, a chain of pre-registered measurements that relocate the obstruction step
-by step, and a single, concrete open construction---a Lorentz-invariant spacelike
-$2$-cell on the causal order at low curvature---on which an emergent photon in this
-framework now demonstrably depends.
+content without magnetising; the low-curvature map is closed. The contribution is not a photon but three portable
+objects: a new gauge operator, validated where Maxwell is known; a proposition locating
+the substrate's non-locality in the non-compactness of the Lorentz group, so that the
+obstructions measured here are structural rather than constructional; and a chain of
+pre-registered measurements that relocate the obstruction step by step to a single,
+concrete open construction---a Lorentz-invariant spacelike $2$-cell on the causal order
+at low curvature---on which an emergent photon in this framework now demonstrably
+depends.
 
 \begin{acknowledgments}
 This work uses only the author's own simulations; the anti-circularity guard, the

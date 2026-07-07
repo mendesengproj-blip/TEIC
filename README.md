@@ -22,7 +22,7 @@ than hidden).
 | `goldstone_prd` | Spontaneous orientational order + relativistic scalar Goldstone modes (photon = Goldstone excluded by measurement) | Phys. Rev. D | Submission-ready |
 | `matter_gravity_prd` | Topological matter (SU(2) Skyrmion) + emergent Newtonian gravity; a soliton that sources its own field | Phys. Rev. D | Submission-ready |
 | `su3_prd` | SU(3) colour ferromagnetism: confinement, the meson octet, and the order of the transition | Phys. Rev. D | Submission-ready |
-| `photon_arc_cqg` | Systematic map of *where and why a photon is hard* in CST + a new indefinite-signature gauge operator (informative negative) | Class. Quantum Grav. | Submission-ready |
+| `photon_arc_cqg` | Indefinite-signature BD gauge operator (new to CST) + divergent-valency proposition + the obstruction map for an emergent photon | Gen. Relativ. Gravit. | Submission-ready (revised jul/2026) |
 | `ferromagneto_prl` | Dimensionless structure across four domains: forms derive, absolute scales do not | Phys. Rev. Lett. | Submission-ready |
 
 Each folder is self-contained (`.tex` + bibliography + figures + cover letter) and
