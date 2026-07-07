@@ -58,7 +58,9 @@
 \newcommand{\Rhat}{\hat R}
 \newcommand{\fracB}{f_{\!B}}
 
-\newtheorem{proposition}{Proposition}
+\newcounter{proposition}
+\newenvironment{proposition}[1]{\par\medskip\noindent\refstepcounter{proposition}%
+\textbf{Proposition~\theproposition}\ (\emph{#1})\textbf{.}\ \itshape}{\par\medskip}
 \newenvironment{proofsketch}{\par\noindent\emph{Proof sketch.}\ }{\hfill$\square$\par}
 
 \begin{document}
@@ -522,7 +524,7 @@ on the sprinkling, by the non-compactness of the Lorentz group. We state this pr
 because it upgrades the measured obstructions of \S\ref{sec:link} from properties of one
 construction to a structural fact about the substrate.
 
-\begin{proposition}[invariant connection rules have divergent valency]\label{prop:valency}
+\begin{proposition}{invariant connection rules have divergent valency}\label{prop:valency}
 Let $\Phi$ be a Poisson sprinkling of density $\rho$ in $d$-dimensional Minkowski space,
 and let a connection rule join causally related events $i\prec j$ with a probability
 that is a Poincar\'e-invariant measurable functional of $\Phi$ (pairwise, or depending
